@@ -3,9 +3,9 @@ title: "Open data"
 author: "Santiago Mota"
 date: "8 de diciembre de 2017"
 output:
-  word_document: default
-  pdf_document: default
   html_document: default
+  pdf_document: default
+  word_document: default
 license: by-nc-sa
 ---
 
