@@ -1,0 +1,123 @@
+---
+title: "Open data"
+author: "Santiago Mota"
+date: "8 de diciembre de 2017"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+license: by-nc-sa
+---
+
+Santiago Mota
+santiago_mota@yahoo.es
+https://www.linkedin.com/in/santiagomota/
+
+## Fuentes de datos abiertos y APIs
+
+* [Datos en paquetes de R](http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/00Index.html)
+* [Kaggle datasets](https://www.kaggle.com/datasets)
+* [Revolution Analytics datasets](https://mran.revolutionanalytics.com/documents/data/)
+* [Machine Learning Repository](http://archive.ics.uci.edu/ml/)
+* [DH Network](http://opendhn.dhnetwork.opendata.arcgis.com/)
+* [Datasets para sistemas de recomendación](http://www.lab41.org/nine-datasets-for-investigating-recommender-systems/?utm_campaign=Data%2BElixir&utm_medium=email&utm_source=Data_Elixir_71)
+* [Helsinki Open Data](http://www.hri.fi/en/)
+* [Datasets numericos](https://www.quandl.com/help/getting-started)
+* [Amazon](http://aws.amazon.com/es/datasets/) y [este](https://aws.amazon.com/es/public-data-sets/)
+* [Gobierno Estados Unidos](http://www.data.gov/)
+* [Datos abiertos de la Unión Europea](http://open-data.europa.eu/es/data/)
+* [Datasets en Githubs](http://www.datasciencecentral.com/profiles/blogs/great-github-list-of-public-data-sets)
+* [API de GitHub](https://developer.github.com/v3/)
+* [API de Facebook](https://developers.facebook.com/docs/graph-api)
+* [Blog. 100 recursos sobre Big Data y Data Science](http://todobi.blogspot.com.es/2015/02/mas-de-100-recursos-sobre-big-data-y.html)
+* [NASDAQ](https://indexes.nasdaqomx.com/Index/History/NQASPA8600AUD)
+* [Google finanzas](ttp://www.google.com/finance/historical?q=BVMF%3AHOME34&startdate=Jan+1%2C+1990&output=csv)
+* [Banco de Santander](Santander: http://datos.santander.es/)
+* [CaixaBank Research](http://www.caixabankresearch.com/es/home)
+* [Satélite Landsat](https://aws.amazon.com/public-data-sets/landsat/)
+* [OCDE](https://data.oecd.org/)
+* [19 Free Public Data Sets For Your First Data Science Project](https://www.mysliderule.com/blog/free-public-data-sets-data-science-project/?__s=atijywgwsusv7a2xfbee)
+* [Open data EMT](http://opendata.emtmadrid.es/)
+* [Datos abiertos del gobierno de España](http://datos.gob.es/)
+* [Datos abiertos del Ayuntamiento de Madrid](http://datos.madrid.es/)
+* [Datos abiertos de la Generalitat de Cataluña](http://dadesobertes.gencat.cat/es/)
+* [Datos abiertos Junta de Andalucía](http://www.juntadeandalucia.es/datosabiertos/portal.html)
+* [Natural Earth](http://www.naturalearthdata.com/)
+* [Fuentes de datos espaciales](http://www.diva-gis.org/Data)
+* [Opendata del CERN](http://opendata.cern.ch/)
+* [R datasets](http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/00Index.html)
+* [Catálogo federado del Ministerio de Industria y Energía](http://datos.gob.es/content/ministerio-de-industria-energia-turismo-federa-su-catalogo-con-datosgobes)
+* [46 museos y bibliotecas que han digitalizado todo su conocimiento y lo ofrecen gratis en internet](http://www.xataka.com/otros/46-museos-y-bibliotecas-que-han-digitalizado-todo-su-conocimiento-humano)
+* [Infraestructura de Datos Espaciales de España](http://idee.es/web/guest/centros-de-descarga?p_p_id=NewCentrosDescarga_WAR_NewCentrosDescargaportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_NewCentrosDescarga_WAR_NewCentrosDescargaportlet_tipoAmbito=LOCAL)
+* [Infraestructura de Datos Espacilaes de la Comunidad de Madrid](http://www.madrid.org/cartografia/idem/html/web/index.htm)
+* [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services/)
+* [Microsoft Project Oxford](https://www.projectoxford.ai/)
+* [Google Cloud Vision API](https://cloud.google.com/vision/)
+* [Análisis de 1.100 millones de trayectos de taxis y uber en NYC](https://github.com/toddwschneider/nyc-taxi-data)
+* [European Data Portal](http://www.europeandataportal.eu/)
+* [Propublica](https://www.propublica.org/data/)
+* [NOAA. Agencia de meteo. USA.](http://www.nesdis.noaa.gov/index.html)
+* [Datosclima. Base de datos meteo](http://datosclima.es/Aemet2013/DescargaDatos.html)
+* [DGT](https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/inicio.faces)
+* [National Historical Geographic Information System (NHGIS)](https://www.nhgis.org/)
+* [Datos de todos los vuelos en USA entre 1987 y 2008 (datos originales)](http://stat-computing.org/dataexpo/2009/the-data.html)
+* [Datos de todos los vuelos en USA entre 1987 y 2008 (otra fuente y ejemplos de uso en H2O). 120G](https://github.com/h2oai/h2o-2/wiki/Hacking-Airline-DataSet-with-H2O)
+* [Conferencia internacional de datos abiertos en Madrid](http://opendatacon.org/)
+* [Open Data Inception. 1.600 portales abiertos](http://wwwhatsnew.com/2016/03/19/open-data-inception-recopilacion-de-1600-portales-de-datos-abiertos/?utm_content=buffer4e4d4&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
+* [Yahoo Flickr Creative Commons 100 Million (YFCC100m) dataset](http://yfcc100m.appspot.com/)
+* [ImageNet database](http://www.image-net.org/)
+* [Deep Learning datastsets](http://deeplearning.net/datasets/)
+* [API TomTom. Tráfico en ciudades](http://developer.tomtom.com/products/onlinenavigation/onlinetraffic/onlinetrafficflow)
+* [Finding Data on the Internet](http://www.inside-r.org/howto/finding-data-internet)
+* [Mapas de Open Street Maps](http://download.geofabrik.de/)
+* [Digitalización de algunos museos y bibliotecas](http://www.xataka.com/otros/46-museos-y-bibliotecas-que-han-digitalizado-todo-su-conocimiento-humano)
+* [European Data Portal](https://www.europeandataportal.eu/)
+* [https://datafloq.com/read/20-awesome-websites-for-collecting-big-data/2737?utm_source=Datafloq%20newsletter&utm_campaign=979b1fada5-EMAIL_CAMPAIGN_2017_03_13&utm_medium=email&utm_term=0_655692fdfd-979b1fada5-90449429](https://datafloq.com/read/20-awesome-websites-for-collecting-big-data/2737?utm_source=Datafloq%20newsletter&utm_campaign=979b1fada5-EMAIL_CAMPAIGN_2017_03_13&utm_medium=email&utm_term=0_655692fdfd-979b1fada5-90449429)
+* [Climate Data Online](https://www.ncdc.noaa.gov/cdo-web/)
+* [Public APIs](https://github.com/toddmotto/public-apis)
+* [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
+* [Recopilación de datasets de BigML](https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/)
+
+
+---
+## Otras referencias interesantes
+
+* [Chuleta general](https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf)
+* [R Learning Path: From beginner to expert in R in 7 steps](http://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html)
+* [Tutorial de R Markdown](http://www.sfs.uni-tuebingen.de/~jvanrij/Tutorial/tutorialMarkdown.html)
+* [R Markdown cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+* [R Markdown referencia](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+* [Información de Rmarkdown en R Studio](http://rmarkdown.rstudio.com/)
+* [Template para documentos científicos con Rmarkdown](http://www.petrkeil.com/?p=2401)
+* [Formatos a medida para R Markdown](http://www.r-bloggers.com/r-markdown-custom-formats/)
+* [Utilizando Sweave y Knitr](https://support.rstudio.com/hc/en-us/articles/200552056-Using-Sweave-and-knitr)
+* [Soporte técnico de RStudio](https://support.rstudio.com/hc/en-us)
+* [100 Active Blogs on Analytics, Big Data, Data Mining, Data Science, Machine Learning](http://www.kdnuggets.com/2016/03/100-active-blogs-analytics-big-data-science-machine-learning.html#.VvqjkSV5Tio.linkedin)
+* [Plataforma H2O](https://github.com/h2oai)
+* [Computer vision](https://github.com/kjw0612/awesome-deep-vision)
+* [Pautas de Google para dar formato al código programando en R](https://google.github.io/styleguide/Rguide.xml)
+* [Documentacion de R](https://www.rdocumentation.org/)
+* [Chuleta de expresiones regulares](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
+* [Writing an R package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
+* [16 Cursos](https://www.analyticsvidhya.com/blog/2016/10/16-new-must-watch-tutorials-courses-on-machine-learning/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29)
+* [Galerias de graficos](http://www.r-graph-gallery.com/)
+* [Aprender ciencia de datos. Fuentes para Python y R](https://www.datacamp.com/community/tutorials/learn-data-science-resources-for-python-r)
+* [Curso Caltech. Learning from data](https://work.caltech.edu/telecourse.html)
+* [Usar git](https://try.github.io/levels/1/challenges/1)
+* [Blogs con github](http://jmcglone.com/guides/github-pages/) y  [Blogs con github y RStudio](http://andysouth.github.io/blog-setup/)
+* [Ejemplos de Shiny](http://zevross.com/blog/2016/04/19/r-powered-web-applications-with-shiny-a-tutorial-and-cheat-sheet-with-40-example-apps/)
+* [UK government using R to modernize reporting of official statistics](https://www.r-bloggers.com/uk-government-using-r-to-modernize-reporting-of-official-statistics/)
+* [Great R packages for data import, wrangling and visualization](http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html?idg_eid=96342b7ab1a902d39d1237b81a92554b&email_SHA1_lc=&cid=cw_nlt_computerworld_enterprise_apps_2017-06-23&utm_source=Sailthru&utm_medium=email&utm_campaign=Computerworld%20Enterprise%20Apps%202017-06-23&utm_term=computerworld_enterprise_apps)
+* [Ggplot](http://socviz.co/)
+* Sistemas de Coordenadas. [Aqui](http://rspatial.org/spatial/rst/6-crs.html) y [aqui](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf)
+* [Codificación](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+
+
+## Libros
+
+* [R intro](https://cran.r-project.org/doc/manuals/R-intro.pdf)
+* [R for everyone](https://www.jaredlander.com/r-for-everyone/)
+* [R in action](https://www.manning.com/books/r-in-action-second-edition)
+* [R Programming for Data Science. Roger D. Peng.](https://leanpub.com/rprogramming)
+* [R para principiantes](https://cran.r-project.org/doc/contrib/rdebuts_es.pdf)
+* [Introducción a R](https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf)
