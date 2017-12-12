@@ -1,7 +1,7 @@
 ---
 title: "Open data"
 author: "Santiago Mota"
-date: "8 de diciembre de 2017"
+date: "12 de diciembre de 2017"
 output:
   html_document: default
   pdf_document: default
@@ -9,12 +9,13 @@ output:
 license: by-nc-sa
 ---
 
-Santiago Mota
 santiago_mota@yahoo.es
+
 https://www.linkedin.com/in/santiagomota/
 
 ## Fuentes de datos abiertos y APIs
 
+* [CRAN Task View OpenData](https://github.com/ropensci/opendata)
 * [Datos en paquetes de R](http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/00Index.html)
 * [Kaggle datasets](https://www.kaggle.com/datasets)
 * [Revolution Analytics datasets](https://mran.revolutionanalytics.com/documents/data/)
