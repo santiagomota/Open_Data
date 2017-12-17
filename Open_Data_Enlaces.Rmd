@@ -1,7 +1,7 @@
 ---
 title: "Open data"
 author: "Santiago Mota"
-date: "12 de diciembre de 2017"
+date: "17 de diciembre de 2017"
 output:
   html_document: default
   pdf_document: default
@@ -78,6 +78,7 @@ https://www.linkedin.com/in/santiagomota/
 * [Public APIs](https://github.com/toddmotto/public-apis)
 * [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
 * [Recopilación de datasets de BigML](https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/)
+* [IBM Watson Analytics Guide to Sample Data Sets](https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/)
 
 
 ---
