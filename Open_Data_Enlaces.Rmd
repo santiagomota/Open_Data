@@ -81,7 +81,6 @@ https://www.linkedin.com/in/santiagomota/
 * [IBM Watson Analytics Guide to Sample Data Sets](https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/)
 
 
----
 ## Otras referencias interesantes
 
 * [Chuleta general](https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf)
@@ -113,6 +112,7 @@ https://www.linkedin.com/in/santiagomota/
 * [Ggplot](http://socviz.co/)
 * Sistemas de Coordenadas. [Aqui](http://rspatial.org/spatial/rst/6-crs.html) y [aqui](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf)
 * [Codificación](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+* [El planeta Tierra en AWS](https://aws.amazon.com/es/earth/)
 
 
 ## Libros
@@ -123,3 +123,5 @@ https://www.linkedin.com/in/santiagomota/
 * [R Programming for Data Science. Roger D. Peng.](https://leanpub.com/rprogramming)
 * [R para principiantes](https://cran.r-project.org/doc/contrib/rdebuts_es.pdf)
 * [Introducción a R](https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf)
+* [Data Science Live Book](https://livebook.datascienceheroes.com/)
+* [10 great books about R](https://www.datasciencecentral.com/profiles/blogs/10-great-books-about-r-1)
