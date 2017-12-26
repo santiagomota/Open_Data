@@ -1,7 +1,7 @@
 ---
 title: "Open data"
 author: "Santiago Mota"
-date: "17 de diciembre de 2017"
+date: "26 de diciembre de 2017"
 output:
   html_document: default
   pdf_document: default
@@ -86,6 +86,7 @@ https://www.linkedin.com/in/santiagomota/
 * [Chuleta general](https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf)
 * [R Learning Path: From beginner to expert in R in 7 steps](http://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html)
 * [Tutorial de R Markdown](http://www.sfs.uni-tuebingen.de/~jvanrij/Tutorial/tutorialMarkdown.html)
+* [Rstudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/?utm_content=buffer1b56a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 * [R Markdown cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 * [R Markdown referencia](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 * [Información de Rmarkdown en R Studio](http://rmarkdown.rstudio.com/)
