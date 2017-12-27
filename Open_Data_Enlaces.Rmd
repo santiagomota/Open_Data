@@ -1,7 +1,7 @@
 ---
 title: "Open data"
 author: "Santiago Mota"
-date: "26 de diciembre de 2017"
+date: "27 de diciembre de 2017"
 output:
   html_document: default
   pdf_document: default
@@ -79,6 +79,7 @@ https://www.linkedin.com/in/santiagomota/
 * [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
 * [Recopilación de datasets de BigML](https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/)
 * [IBM Watson Analytics Guide to Sample Data Sets](https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/)
+* [70 amazing and free data sources for data visualization](http://bigdata-madesimple.com/70-amazing-and-free-data-sources-for-data-visualization/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BAJsccljrTlK%2BpMAMcPD6Yw%3D%3D)
 
 
 ## Otras referencias interesantes
