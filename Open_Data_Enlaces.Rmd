@@ -115,6 +115,7 @@ https://www.linkedin.com/in/santiagomota/
 * Sistemas de Coordenadas. [Aqui](http://rspatial.org/spatial/rst/6-crs.html) y [aqui](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf)
 * [Codificación](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 * [El planeta Tierra en AWS](https://aws.amazon.com/es/earth/)
+* [Tutorials for learning R](https://www.r-bloggers.com/how-to-learn-r-2/)
 
 
 ## Libros
