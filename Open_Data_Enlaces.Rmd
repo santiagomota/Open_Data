@@ -80,6 +80,7 @@ https://www.linkedin.com/in/santiagomota/
 * [Recopilación de datasets de BigML](https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/)
 * [IBM Watson Analytics Guide to Sample Data Sets](https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/)
 * [70 amazing and free data sources for data visualization](http://bigdata-madesimple.com/70-amazing-and-free-data-sources-for-data-visualization/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BAJsccljrTlK%2BpMAMcPD6Yw%3D%3D)
+* [Some datasets for teaching data science](https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BaLl4moGVT%2BS65o19ly%2F%2FaQ%3D%3D)
 
 
 ## Otras referencias interesantes
@@ -132,3 +133,4 @@ https://www.linkedin.com/in/santiagomota/
 * [Data Science Live Book](https://livebook.datascienceheroes.com/)
 * [10 great books about R](https://www.datasciencecentral.com/profiles/blogs/10-great-books-about-r-1)
 * [10 Free Must-Read Books for Machine Learning and Data Science](https://www.kdnuggets.com/2017/04/10-free-must-read-books-machine-learning-data-science.html?utm_content=bufferc386f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+* [Introduction to Data Science](https://rafalab.github.io/dsbook/)
