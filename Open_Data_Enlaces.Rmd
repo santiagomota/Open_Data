@@ -1,7 +1,7 @@
 ---
 title: "Open data"
 author: "Santiago Mota"
-date: "27 de diciembre de 2017"
+date: "24 de enero de 2018"
 output:
   html_document: default
   pdf_document: default
@@ -116,6 +116,9 @@ https://www.linkedin.com/in/santiagomota/
 * [Codificación](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 * [El planeta Tierra en AWS](https://aws.amazon.com/es/earth/)
 * [Tutorials for learning R](https://www.r-bloggers.com/how-to-learn-r-2/)
+* [Awesome R](https://github.com/qinwf/awesome-R)
+* [R Data Science Tutorials](https://github.com/ujjwalkarn/DataScienceR)
+* [useR! Machine Learning Tutorial](https://github.com/ledell/useR-machine-learning-tutorial)
 
 
 ## Libros
