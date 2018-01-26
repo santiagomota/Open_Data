@@ -80,6 +80,9 @@ https://www.linkedin.com/in/santiagomota/
 * [Some datasets for teaching data science](https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BaLl4moGVT%2BS65o19ly%2F%2FaQ%3D%3D)
 * [El planeta Tierra en AWS](https://aws.amazon.com/es/earth/)
 * [Tráfico en el Reino Unido](https://www.dft.gov.uk/traffic-counts/)
+* [European Banking Authority (EBA)](http://www.eba.europa.eu/risk-analysis-and-data;jsessionid=9D39E5DC46932D2C76C572A1D1B1B5BA)
+* [World Bank Open Data](https://data.worldbank.org/)
+* [Fondo Monetario Internacional](http://www.imf.org/en/data)
 
 
 ## Otras referencias interesantes
