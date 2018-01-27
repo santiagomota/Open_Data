@@ -1,7 +1,7 @@
 ---
 title: "Open data"
 author: "Santiago Mota"
-date: "26 de enero de 2018"
+date: "`r Sys.Date()`"
 output:
   html_document: default
   pdf_document: default
@@ -96,10 +96,12 @@ https://github.com/santiagomota
 * [Rstudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/?utm_content=buffer1b56a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 * [R Markdown cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 * [R Markdown referencia](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+* [A dive into R Markdown](http://cfss.uchicago.edu/program_rmarkdown.html)
 * [Información de Rmarkdown en R Studio](http://rmarkdown.rstudio.com/)
 * [Template para documentos científicos con Rmarkdown](http://www.petrkeil.com/?p=2401)
 * [Formatos a medida para R Markdown](http://www.r-bloggers.com/r-markdown-custom-formats/)
 * [Utilizando Sweave y Knitr](https://support.rstudio.com/hc/en-us/articles/200552056-Using-Sweave-and-knitr)
+* [Pandoc User’s Guide](http://pandoc.org/MANUAL.html#templates)
 * [Soporte técnico de RStudio](https://support.rstudio.com/hc/en-us)
 * [100 Active Blogs on Analytics, Big Data, Data Mining, Data Science, Machine Learning](http://www.kdnuggets.com/2016/03/100-active-blogs-analytics-big-data-science-machine-learning.html#.VvqjkSV5Tio.linkedin)
 * [Plataforma H2O](https://github.com/h2oai)
