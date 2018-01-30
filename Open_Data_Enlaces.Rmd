@@ -86,6 +86,7 @@ https://github.com/santiagomota
 * [European Banking Authority (EBA)](http://www.eba.europa.eu/risk-analysis-and-data;jsessionid=9D39E5DC46932D2C76C572A1D1B1B5BA)
 * [World Bank Open Data](https://data.worldbank.org/)
 * [Fondo Monetario Internacional](http://www.imf.org/en/data)
+* [Lista de algunos datatsets dentro de paquetes de R](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
 
 
 ## Otras referencias interesantes
