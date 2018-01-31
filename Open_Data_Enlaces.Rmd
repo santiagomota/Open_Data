@@ -101,6 +101,7 @@ https://github.com/santiagomota
 * [Información de Rmarkdown en R Studio](http://rmarkdown.rstudio.com/)
 * [Template para documentos científicos con Rmarkdown](http://www.petrkeil.com/?p=2401)
 * [Formatos a medida para R Markdown](http://www.r-bloggers.com/r-markdown-custom-formats/)
+* [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/)
 * [Utilizando Sweave y Knitr](https://support.rstudio.com/hc/en-us/articles/200552056-Using-Sweave-and-knitr)
 * [Pandoc User’s Guide](http://pandoc.org/MANUAL.html#templates)
 * [Soporte técnico de RStudio](https://support.rstudio.com/hc/en-us)
