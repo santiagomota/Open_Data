@@ -11,9 +11,9 @@ license: by-nc-sa
 
 santiago_mota@yahoo.es
 
-https://www.linkedin.com/in/santiagomota/
+[https://www.linkedin.com/in/santiagomota/](https://www.linkedin.com/in/santiagomota/)
 
-https://github.com/santiagomota
+[https://github.com/santiagomota](https://github.com/santiagomota)
 
 
 ## Fuentes de datos abiertos y APIs
