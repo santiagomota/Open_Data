@@ -131,6 +131,7 @@ santiago_mota@yahoo.es
 * [Paquetes de R interesantes](https://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html?utm_content=bufferf197d&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
 * [Otra lista de recursos variados en Github](https://github.com/Shujian2015/FreeML)
 * [Tipos de licencias de software](https://choosealicense.com/licenses/)
+* [Glosario de Machine Learning de Google](https://developers.google.com/machine-learning/glossary/)
 
 
 ## Libros
