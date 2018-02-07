@@ -147,3 +147,4 @@ santiago_mota@yahoo.es
 * Introduction to Data Science [Libro](https://rafalab.github.io/dsbook/) y [Código](https://github.com/rafalab/dsbook)
 * Fundamentals of Data Visualization [Libro](http://serialmentor.com/dataviz/?utm_content=buffer7a991&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer) y [Código](https://github.com/clauswilke/dataviz)
 * Data Science Live Book [Libro](https://livebook.datascienceheroes.com/) y [Código](https://github.com/pablo14/data-science-live-book)
+* R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
