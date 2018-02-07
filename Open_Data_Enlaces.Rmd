@@ -108,7 +108,7 @@ santiago_mota@yahoo.es
 * [100 Active Blogs on Analytics, Big Data, Data Mining, Data Science, Machine Learning](http://www.kdnuggets.com/2016/03/100-active-blogs-analytics-big-data-science-machine-learning.html#.VvqjkSV5Tio.linkedin)
 * [Plataforma H2O](https://github.com/h2oai)
 * [Computer vision](https://github.com/kjw0612/awesome-deep-vision)
-* [Pautas de Google para dar formato al código programando en R](https://google.github.io/styleguide/Rguide.xml)
+* Pautas para dar formato al código programando en R: [Google](https://google.github.io/styleguide/Rguide.xml) y [Hadley Wickham (RStudio)](http://adv-r.had.co.nz/Style.html)
 * [Documentacion de R](https://www.rdocumentation.org/)
 * [Chuleta de expresiones regulares](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
 * [Writing an R package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
