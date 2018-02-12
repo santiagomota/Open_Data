@@ -134,6 +134,7 @@ santiago_mota@yahoo.es
 * [Otra lista de recursos variados en Github](https://github.com/Shujian2015/FreeML)
 * [Tipos de licencias de software](https://choosealicense.com/licenses/)
 * [Glosario de Machine Learning de Google](https://developers.google.com/machine-learning/glossary/)
+* [Google Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 
 
 ## Libros
