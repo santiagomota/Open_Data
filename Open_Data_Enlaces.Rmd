@@ -135,6 +135,7 @@ santiago_mota@yahoo.es
 * [Tipos de licencias de software](https://choosealicense.com/licenses/)
 * [Glosario de Machine Learning de Google](https://developers.google.com/machine-learning/glossary/)
 * [Google Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
+* Statistical Learning de Stanford  [Curso](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about), [Libro](https://web.stanford.edu/~hastie/ElemStatLearn/), [Código](https://github.com/khanhnamle1994/statistical-learning) y [Transparencias](https://github.com/khanhnamle1994/statistical-learning/tree/master/Lecture-Slides)
 
 
 ## Libros
@@ -152,3 +153,4 @@ santiago_mota@yahoo.es
 * Data Science Live Book [Libro](https://livebook.datascienceheroes.com/) y [Código](https://github.com/pablo14/data-science-live-book)
 * R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 * Applied Statistics with R [Libro](https://daviddalpiaz.github.io/appliedstats/) y [Código](https://github.com/daviddalpiaz/appliedstats)
+
