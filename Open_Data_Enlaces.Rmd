@@ -92,6 +92,7 @@ santiago_mota@yahoo.es
 * [Lista de algunos datatsets dentro de paquetes de R](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
 * [10.000 airports, train stations and ferry terminals spanning the globe](https://openflights.org/data.html)
 * [30 Amazing (And Free) Big Data And AI Public Data Sources For 2018](https://www.linkedin.com/pulse/30-amazing-free-big-data-ai-public-sources-2018-bernard-marr/?trackingId=nkTXcNLieYPDBqZuB3KIsw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B9KuSD9KfQ6ie%2BALso3gwvw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-object)
+* [Awesome Public Datasets](https://github.com/dipanjanS/awesome-public-datasets)
 
 
 ## Otras referencias interesantes
