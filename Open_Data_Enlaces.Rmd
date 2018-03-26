@@ -141,6 +141,7 @@ santiago_mota@yahoo.es
 * [Google Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 * Statistical Learning de Stanford  [Curso](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about), [Libro](https://web.stanford.edu/~hastie/ElemStatLearn/), [Código](https://github.com/khanhnamle1994/statistical-learning) y [Transparencias](https://github.com/khanhnamle1994/statistical-learning/tree/master/Lecture-Slides)
 * [100 Free Tutorials for Learning R](https://www.listendata.com/p/r-programming-tutorials.html)
+* [NLP Datasets](https://github.com/niderhoff/nlp-datasets/blob/master/README.md)
 
 
 ## Libros
