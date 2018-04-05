@@ -152,6 +152,7 @@ santiago_mota@yahoo.es
 * [R Programming for Data Science. Roger D. Peng.](https://leanpub.com/rprogramming)
 * [R para principiantes](https://cran.r-project.org/doc/contrib/rdebuts_es.pdf)
 * [Introducción a R](https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf)
+* [R para profesionales de los datos: una introducción](https://www.datanalytics.com/libro_r/)
 * [10 great books about R](https://www.datasciencecentral.com/profiles/blogs/10-great-books-about-r-1)
 * [10 Free Must-Read Books for Machine Learning and Data Science](https://www.kdnuggets.com/2017/04/10-free-must-read-books-machine-learning-data-science.html?utm_content=bufferc386f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 * Introduction to Data Science [Libro](https://rafalab.github.io/dsbook/) y [Código](https://github.com/rafalab/dsbook)
