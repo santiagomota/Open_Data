@@ -97,6 +97,7 @@ santiago_mota@yahoo.es
 
 ## Otras referencias interesantes
 
+* [Data Science Blogs](https://github.com/rushter/data-science-blogs)
 * [Chuleta general de R](https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf)
 * [R Learning Path: From beginner to expert in R in 7 steps](http://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html)
 * [Tutorial de R Markdown](http://www.sfs.uni-tuebingen.de/~jvanrij/Tutorial/tutorialMarkdown.html)
