@@ -119,6 +119,7 @@ santiago_mota@yahoo.es
 * [Documentacion de R](https://www.rdocumentation.org/)
 * [Chuleta de expresiones regulares](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
 * [Regular Expressions Every R programmer Should Know](https://www.r-bloggers.com/regular-expressions-every-r-programmer-should-know/)
+* [Regular Expression Language - Quick Reference](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference)
 * [Writing an R package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
 * [16 Cursos](https://www.analyticsvidhya.com/blog/2016/10/16-new-must-watch-tutorials-courses-on-machine-learning/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29)
 * [Galerias de graficos](http://www.r-graph-gallery.com/)
