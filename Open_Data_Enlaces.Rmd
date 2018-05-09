@@ -1,6 +1,6 @@
 ---
 title:  "Open data"
-author: "Santiago Mota"
+author: "Santiago Mota (santiago_mota@yahoo.es)"
 date:   "`r Sys.Date()`"
 output:
   pdf_document: default
@@ -91,10 +91,7 @@ urlcolor: blue
 * [Awesome Public Datasets](https://github.com/dipanjanS/awesome-public-datasets)
 * [25 Open Datasets for Deep Learning Every Data Scientist Must Work With](https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/)
 * [NOAA Daily Global Historical Climatology Network - Kaggle dataset](https://www.kaggle.com/noaa/ghcn-d)
-<<<<<<< HEAD
-=======
 
->>>>>>> e978b3813275faf09a038eb96699243eea1d1e04
 
 ## Otras referencias interesantes
 
