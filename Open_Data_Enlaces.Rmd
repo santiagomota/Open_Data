@@ -1,10 +1,11 @@
 ---
 title:  "Open data"
-author: "Santiago Mota (santiago_mota@yahoo.es)"
+author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota </h3> </a> \newline santiago_mota@yahoo.es
+# author: "Santiago Mota (santiago_mota@yahoo.es)"
 date:   "`r Sys.Date()`"
 output:
   pdf_document: default
-  html_document: 
+  html_document:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     encoding:  "UTF-8"
