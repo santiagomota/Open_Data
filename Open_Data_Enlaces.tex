@@ -1,0 +1,528 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
+\hypersetup{unicode=true,
+            pdftitle={Open data},
+            colorlinks=true,
+            linkcolor=Maroon,
+            citecolor=Blue,
+            urlcolor=blue,
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Open data}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Santiago Mota
+
+
+\newline \href{mailto:santiago_mota@yahoo.es}{\nolinkurl{santiago\_mota@yahoo.es}}}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{2018-09-29}
+
+
+\begin{document}
+\maketitle
+
+\href{https://github.com/santiagomota/Open_Data}{Enlace Github}
+
+\subsection{Fuentes de datos abiertos y
+APIs}\label{fuentes-de-datos-abiertos-y-apis}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://github.com/ropensci/opendata}{CRAN Task View OpenData}
+\item
+  \href{http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/00Index.html}{Datos
+  en paquetes de R}
+\item
+  \href{https://www.kaggle.com/datasets}{Kaggle datasets}
+\item
+  \href{https://mran.revolutionanalytics.com/documents/data/}{Revolution
+  Analytics datasets (Microsoft R)}
+\item
+  \href{http://archive.ics.uci.edu/ml/}{UCI Machine Learning Repository}
+\item
+  \href{http://opendhn.dhnetwork.opendata.arcgis.com/}{DH Network}
+\item
+  \href{http://www.lab41.org/nine-datasets-for-investigating-recommender-systems/?utm_campaign=Data\%2BElixir\&utm_medium=email\&utm_source=Data_Elixir_71}{9
+  Datasets para sistemas de recomendación}
+\item
+  \href{http://www.hri.fi/en/}{Helsinki Open Data}
+\item
+  \href{https://www.quandl.com/search?query=}{Datasets de Quandl}
+\item
+  Amazon AWS: \href{http://aws.amazon.com/es/datasets/}{este} y
+  \href{https://aws.amazon.com/es/public-data-sets/}{este}
+\item
+  \href{http://www.data.gov/}{Gobierno Estados Unidos}
+\item
+  \href{http://open-data.europa.eu/es/data/}{Datos abiertos de la Unión
+  Europea}
+\item
+  \href{http://www.datasciencecentral.com/profiles/blogs/great-github-list-of-public-data-sets}{Recopilatorio
+  de datasets en Githubs}
+\item
+  \href{https://developer.github.com/v3/}{API de GitHub}
+\item
+  \href{https://developers.facebook.com/docs/graph-api}{API de Facebook}
+\item
+  \href{http://todobi.blogspot.com.es/2015/02/mas-de-100-recursos-sobre-big-data-y.html}{Blog.
+  100 recursos sobre Big Data y Data Science}
+\item
+  \href{https://indexes.nasdaqomx.com/Index/History/NQASPA8600AUD}{NASDAQ}
+\item
+  \href{http://www.google.com/finance/}{Google finanzas}
+\item
+  \href{http://www.caixabankresearch.com/es/home}{CaixaBank Research}
+\item
+  \href{https://aws.amazon.com/public-data-sets/landsat/}{Satélite
+  Landsat}
+\item
+  \href{https://data.oecd.org/}{OCDE}
+\item
+  \href{https://www.mysliderule.com/blog/free-public-data-sets-data-science-project/?__s=atijywgwsusv7a2xfbee}{19
+  Free Public Data Sets For Your First Data Science Project}
+\item
+  \href{http://opendata.emtmadrid.es/}{Open data EMT}
+\item
+  \href{http://datos.gob.es/}{Datos abiertos del gobierno de España}
+\item
+  \href{http://datos.madrid.es/}{Datos abiertos del Ayuntamiento de
+  Madrid}
+\item
+  \href{http://dadesobertes.gencat.cat/es/}{Datos abiertos de la
+  Generalitat de Cataluña}
+\item
+  \href{http://www.juntadeandalucia.es/datosabiertos/portal.html}{Datos
+  abiertos Junta de Andalucía}
+\item
+  \href{http://datos.santander.es/}{Datos abiertos de Santander}
+\item
+  \href{http://www.naturalearthdata.com/}{Natural Earth}
+\item
+  \href{http://www.diva-gis.org/Data}{Fuentes de datos espaciales}
+\item
+  \href{http://opendata.cern.ch/}{Opendata del CERN}
+\item
+  \href{http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/00Index.html}{Paquete
+  de R `datasets'}
+\item
+  \href{http://www.xataka.com/otros/46-museos-y-bibliotecas-que-han-digitalizado-todo-su-conocimiento-humano}{46
+  museos y bibliotecas que han digitalizado todo su conocimiento y lo
+  ofrecen gratis en internet}
+\item
+  \href{http://idee.es/web/guest/centros-de-descarga?p_p_id=NewCentrosDescarga_WAR_NewCentrosDescargaportlet\&p_p_lifecycle=1\&p_p_state=normal\&p_p_mode=view\&p_p_col_id=column-1\&p_p_col_count=1\&_NewCentrosDescarga_WAR_NewCentrosDescargaportlet_tipoAmbito=LOCAL}{Infraestructura
+  de Datos Espaciales de España}
+\item
+  \href{http://www.madrid.org/cartografia/idem/html/web/index.htm}{Infraestructura
+  de Datos Espaciales de la Comunidad de Madrid}
+\item
+  \href{https://www.microsoft.com/cognitive-services/}{Microsoft
+  Cognitive Services}
+\item
+  \href{https://www.projectoxford.ai/}{Microsoft Project Oxford}
+\item
+  \href{https://cloud.google.com/vision/}{Google Cloud Vision API}
+\item
+  \href{https://github.com/toddwschneider/nyc-taxi-data}{Análisis de
+  1.100 millones de trayectos de taxis y uber en NYC}
+\item
+  \href{http://www.europeandataportal.eu/}{European Data Portal}
+\item
+  \href{https://www.propublica.org/data/}{Propublica}
+\item
+  \href{http://www.nesdis.noaa.gov/index.html}{NOAA. Agencia de meteo.
+  USA.}
+\item
+  \href{http://datosclima.es/Aemet2013/DescargaDatos.html}{Datosclima.
+  Base de datos meteo}
+\item
+  \href{https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/inicio.faces}{Dirección
+  General de Tráfico (DGT)}
+\item
+  \href{https://www.nhgis.org/}{National Historical Geographic
+  Information System (NHGIS)}
+\item
+  \href{http://stat-computing.org/dataexpo/2009/the-data.html}{Datos de
+  todos los vuelos en USA entre 1987 y 2008 (datos originales)}
+\item
+  \href{https://github.com/h2oai/h2o-2/wiki/Hacking-Airline-DataSet-with-H2O}{Datos
+  de todos los vuelos en USA entre 1987 y 2008 (otra fuente y ejemplos
+  de uso en H2O). 120G}
+\item
+  \href{http://opendatacon.org/}{Conferencia internacional de datos
+  abiertos en Madrid}
+\item
+  \href{http://wwwhatsnew.com/2016/03/19/open-data-inception-recopilacion-de-1600-portales-de-datos-abiertos/?utm_content=buffer4e4d4\&utm_medium=social\&utm_source=linkedin.com\&utm_campaign=buffer}{Open
+  Data Inception. 1.600 portales abiertos}
+\item
+  \href{http://yfcc100m.appspot.com/}{Yahoo Flickr Creative Commons 100
+  Million (YFCC100m) dataset}
+\item
+  \href{http://www.image-net.org/}{ImageNet database}
+\item
+  \href{http://deeplearning.net/datasets/}{Deep Learning datastsets}
+\item
+  \href{http://developer.tomtom.com/products/onlinenavigation/onlinetraffic/onlinetrafficflow}{API
+  TomTom. Tráfico en ciudades}
+\item
+  \href{http://download.geofabrik.de/}{Mapas de Open Street Maps}
+\item
+  \href{https://www.europeandataportal.eu/}{European Data Portal}
+\item
+  \href{https://datafloq.com/read/20-awesome-websites-for-collecting-big-data/2737?utm_source=Datafloq\%20newsletter\&utm_campaign=979b1fada5-EMAIL_CAMPAIGN_2017_03_13\&utm_medium=email\&utm_term=0_655692fdfd-979b1fada5-90449429}{20
+  Awesome Websites For Collecting Big Data}
+\item
+  \href{https://www.ncdc.noaa.gov/cdo-web/}{Climate Data Online}
+\item
+  \href{https://github.com/toddmotto/public-apis}{Una recopilación de
+  APIs públicas}
+\item
+  \href{https://github.com/caesar0301/awesome-public-datasets}{Una
+  recopilación de datasets públicos}
+\item
+  \href{https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/}{Recopilación
+  de datasets de BigML}
+\item
+  \href{https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/}{Datasets
+  de ejemplo de IBM Watson Analytics}
+\item
+  \href{http://bigdata-madesimple.com/70-amazing-and-free-data-sources-for-data-visualization/?lipi=urn\%3Ali\%3Apage\%3Ad_flagship3_feed\%3BAJsccljrTlK\%2BpMAMcPD6Yw\%3D\%3D}{70
+  amazing and free data sources for data visualization}
+\item
+  \href{https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/?lipi=urn\%3Ali\%3Apage\%3Ad_flagship3_feed\%3BaLl4moGVT\%2BS65o19ly\%2F\%2FaQ\%3D\%3D}{Some
+  datasets for teaching data science}
+\item
+  \href{https://aws.amazon.com/es/earth/}{El planeta Tierra en AWS}
+\item
+  \href{https://www.dft.gov.uk/traffic-counts/}{Tráfico en el Reino
+  Unido}
+\item
+  \href{http://www.eba.europa.eu/risk-analysis-and-data;jsessionid=9D39E5DC46932D2C76C572A1D1B1B5BA}{European
+  Banking Authority (EBA)}
+\item
+  \href{https://data.worldbank.org/}{World Bank Open Data}
+\item
+  \href{http://www.imf.org/en/data}{Fondo Monetario Internacional}
+\item
+  \href{https://vincentarelbundock.github.io/Rdatasets/datasets.html}{Lista
+  de algunos datatsets dentro de paquetes de R}
+\item
+  \href{https://openflights.org/data.html}{10.000 airports, train
+  stations and ferry terminals spanning the globe}
+\item
+  \href{https://www.linkedin.com/pulse/30-amazing-free-big-data-ai-public-sources-2018-bernard-marr/?trackingId=nkTXcNLieYPDBqZuB3KIsw\%3D\%3D\&lipi=urn\%3Ali\%3Apage\%3Ad_flagship3_feed\%3B9KuSD9KfQ6ie\%2BALso3gwvw\%3D\%3D\&licu=urn\%3Ali\%3Acontrol\%3Ad_flagship3_feed-object}{30
+  Amazing (And Free) Big Data And AI Public Data Sources For 2018}
+\item
+  \href{https://github.com/dipanjanS/awesome-public-datasets}{Awesome
+  Public Datasets}
+\item
+  \href{https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/}{25
+  Open Datasets for Deep Learning Every Data Scientist Must Work With}
+\item
+  \href{https://www.kaggle.com/noaa/ghcn-d}{NOAA Daily Global Historical
+  Climatology Network - Kaggle dataset}
+\item
+  \href{https://data.police.uk/}{Crimen en UK}
+\item
+  \href{http://gobiernoabierto.valencia.es/es/data/}{Datos abiertos
+  Ayuntamiento de Valencia}
+\item
+  \href{https://msropendata.com/}{Microsoft Research Open Data}
+\item
+  \href{https://www.kaggle.com/general/37924\#post354114}{Kaggle Weekly
+  Kernels Award Winner Announcements}
+\end{itemize}
+
+\subsection{Otras referencias
+interesantes}\label{otras-referencias-interesantes}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://github.com/rushter/data-science-blogs}{Data Science
+  Blogs}
+\item
+  \href{https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf}{Chuleta
+  general de R}
+\item
+  \href{http://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html}{R
+  Learning Path: From beginner to expert in R in 7 steps}
+\item
+  \href{http://www.sfs.uni-tuebingen.de/~jvanrij/Tutorial/tutorialMarkdown.html}{Tutorial
+  de R Markdown}
+\item
+  \href{https://www.rstudio.com/resources/cheatsheets/?utm_content=buffer1b56a\&utm_medium=social\&utm_source=twitter.com\&utm_campaign=buffer}{Rstudio
+  cheatsheets}
+\item
+  \href{https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf}{R
+  Markdown cheatsheet}
+\item
+  \href{https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf}{R
+  Markdown referencia}
+\item
+  \href{http://cfss.uchicago.edu/program_rmarkdown.html}{A dive into R
+  Markdown}
+\item
+  \href{http://rmarkdown.rstudio.com/}{Información de Rmarkdown en R
+  Studio}
+\item
+  \href{http://www.petrkeil.com/?p=2401}{Template para documentos
+  científicos con Rmarkdown}
+\item
+  \href{http://www.r-bloggers.com/r-markdown-custom-formats/}{Formatos a
+  medida para R Markdown}
+\item
+  \href{https://bookdown.org/yihui/blogdown/}{blogdown: Creating
+  Websites with R Markdown}
+\item
+  \href{https://support.rstudio.com/hc/en-us/articles/200552056-Using-Sweave-and-knitr}{Utilizando
+  Sweave y Knitr}
+\item
+  \href{http://pandoc.org/MANUAL.html\#templates}{Pandoc User's Guide}
+\item
+  \href{https://support.rstudio.com/hc/en-us}{Soporte técnico de
+  RStudio}
+\item
+  \href{http://www.kdnuggets.com/2016/03/100-active-blogs-analytics-big-data-science-machine-learning.html\#.VvqjkSV5Tio.linkedin}{100
+  Active Blogs on Analytics, Big Data, Data Mining, Data Science,
+  Machine Learning}
+\item
+  \href{https://github.com/h2oai}{Plataforma H2O}
+\item
+  \href{https://github.com/kjw0612/awesome-deep-vision}{Computer vision}
+\item
+  Pautas para dar formato al código programando en R:
+  \href{https://google.github.io/styleguide/Rguide.xml}{Google} y
+  \href{http://adv-r.had.co.nz/Style.html}{Hadley Wickham (RStudio)}
+\item
+  \href{https://www.rdocumentation.org/}{Documentacion de R}
+\item
+  \href{https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf}{Chuleta
+  de expresiones regulares}
+\item
+  \href{https://www.r-bloggers.com/regular-expressions-every-r-programmer-should-know/}{Regular
+  Expressions Every R programmer Should Know}
+\item
+  \href{https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference}{Regular
+  Expression Language - Quick Reference}
+\item
+  \href{https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/}{Writing
+  an R package from scratch}
+\item
+  \href{https://www.analyticsvidhya.com/blog/2016/10/16-new-must-watch-tutorials-courses-on-machine-learning/?utm_source=feedburner\&utm_medium=email\&utm_campaign=Feed\%3A+AnalyticsVidhya+\%28Analytics+Vidhya\%29}{16
+  Cursos}
+\item
+  \href{http://www.r-graph-gallery.com/}{Galerias de graficos}
+\item
+  \href{https://www.datacamp.com/community/tutorials/learn-data-science-resources-for-python-r}{Aprender
+  ciencia de datos. Fuentes para Python y R}
+\item
+  \href{https://work.caltech.edu/telecourse.html}{Curso Caltech.
+  Learning from data}
+\item
+  \href{https://try.github.io/levels/1/challenges/1}{Usar git}
+\item
+  \href{http://jmcglone.com/guides/github-pages/}{Blogs con github} y
+  \href{http://andysouth.github.io/blog-setup/}{Blogs con github y
+  RStudio}
+\item
+  \href{http://zevross.com/blog/2016/04/19/r-powered-web-applications-with-shiny-a-tutorial-and-cheat-sheet-with-40-example-apps/}{Ejemplos
+  de Shiny}
+\item
+  \href{https://www.r-bloggers.com/uk-government-using-r-to-modernize-reporting-of-official-statistics/}{UK
+  government using R to modernize reporting of official statistics}
+\item
+  \href{http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html?idg_eid=96342b7ab1a902d39d1237b81a92554b\&email_SHA1_lc=\&cid=cw_nlt_computerworld_enterprise_apps_2017-06-23\&utm_source=Sailthru\&utm_medium=email\&utm_campaign=Computerworld\%20Enterprise\%20Apps\%202017-06-23\&utm_term=computerworld_enterprise_apps}{Great
+  R packages for data import, wrangling and visualization}
+\item
+  \href{http://socviz.co/}{Ggplot}
+\item
+  Sistemas de Coordenadas.
+  \href{http://rspatial.org/spatial/rst/6-crs.html}{Aqui} y
+  \href{https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf}{aqui}
+\item
+  \href{https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/}{Codificación
+  de caracteres}
+\item
+  \href{https://www.r-bloggers.com/how-to-learn-r-2/}{Tutorials for
+  learning R}
+\item
+  \href{https://github.com/qinwf/awesome-R}{Awesome R}
+\item
+  \href{https://github.com/ujjwalkarn/DataScienceR}{R Data Science
+  Tutorials}
+\item
+  \href{https://github.com/ledell/useR-machine-learning-tutorial}{useR!
+  Machine Learning Tutorial}
+\item
+  \href{https://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html?utm_content=bufferf197d\&utm_medium=social\&utm_source=linkedin.com\&utm_campaign=buffer}{Paquetes
+  de R interesantes}
+\item
+  \href{https://github.com/Shujian2015/FreeML}{Otra lista de recursos
+  variados en Github}
+\item
+  \href{https://choosealicense.com/licenses/}{Tipos de licencias de
+  software}
+\item
+  \href{https://developers.google.com/machine-learning/glossary/}{Glosario
+  de Machine Learning de Google}
+\item
+  \href{http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf}{Google
+  Rules of Machine Learning: Best Practices for ML Engineering}
+\item
+  Statistical Learning de Stanford
+  \href{https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about}{Curso},
+  \href{https://web.stanford.edu/~hastie/ElemStatLearn/}{Libro},
+  \href{https://github.com/khanhnamle1994/statistical-learning}{Código}
+  y
+  \href{https://github.com/khanhnamle1994/statistical-learning/tree/master/Lecture-Slides}{Transparencias}
+\item
+  \href{https://www.listendata.com/p/r-programming-tutorials.html}{100
+  Free Tutorials for Learning R}
+\item
+  \href{https://github.com/niderhoff/nlp-datasets/blob/master/README.md}{NLP
+  Datasets}
+\item
+  \href{https://developers.google.com/machine-learning/guides/rules-of-ml/}{Google's
+  best practices in machine learning}
+\item
+  \href{https://towardsdatascience.com/scraping-tripadvisor-text-mining-and-sentiment-analysis-for-hotel-reviews-cc4e20aef333}{Web
+  Scraping TripAdvisor, Text Mining and Sentiment Analysis for Hotel
+  Reviews}
+\end{itemize}
+
+\subsection{Libros}\label{libros}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://cran.r-project.org/doc/manuals/R-intro.pdf}{R intro}
+\item
+  \href{https://www.jaredlander.com/r-for-everyone/}{R for everyone}
+\item
+  \href{https://www.manning.com/books/r-in-action-second-edition}{R in
+  action}
+\item
+  \href{https://leanpub.com/rprogramming}{R Programming for Data
+  Science. Roger D. Peng.}
+\item
+  \href{https://cran.r-project.org/doc/contrib/rdebuts_es.pdf}{R para
+  principiantes}
+\item
+  \href{https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf}{Introducción
+  a R}
+\item
+  \href{https://www.datanalytics.com/libro_r/}{R para profesionales de
+  los datos: una introducción}
+\item
+  \href{https://www.datasciencecentral.com/profiles/blogs/10-great-books-about-r-1}{10
+  great books about R}
+\item
+  \href{https://www.kdnuggets.com/2017/04/10-free-must-read-books-machine-learning-data-science.html?utm_content=bufferc386f\&utm_medium=social\&utm_source=twitter.com\&utm_campaign=buffer}{10
+  Free Must-Read Books for Machine Learning and Data Science}
+\item
+  Introduction to Data Science
+  \href{https://rafalab.github.io/dsbook/}{Libro} y
+  \href{https://github.com/rafalab/dsbook}{Código}
+\item
+  Fundamentals of Data Visualization
+  \href{http://serialmentor.com/dataviz/?utm_content=buffer7a991\&utm_medium=social\&utm_source=linkedin.com\&utm_campaign=buffer}{Libro}
+  y \href{https://github.com/clauswilke/dataviz}{Código}
+\item
+  Data Science Live Book
+  \href{https://livebook.datascienceheroes.com/}{Libro} y
+  \href{https://github.com/pablo14/data-science-live-book}{Código}
+\item
+  R for Statistical Learning
+  \href{https://daviddalpiaz.github.io/r4sl/}{Libro} y
+  \href{https://github.com/daviddalpiaz/r4sl}{Código}
+\item
+  Applied Statistics with R
+  \href{https://daviddalpiaz.github.io/appliedstats/}{Libro} y
+  \href{https://github.com/daviddalpiaz/appliedstats}{Código}
+\item
+  Geocomputation with R
+  \href{https://geocompr.robinlovelace.net/}{Libro} y
+  \href{https://github.com/Robinlovelace/geocompr/}{Código}
+\item
+  \href{http://www.gastonsanchez.com/r4strings/}{Handling Strings with
+  R}
+\item
+  \href{https://www.tidytextmining.com/}{Text Mining with R}
+\end{itemize}
+
+
+\end{document}

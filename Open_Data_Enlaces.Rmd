@@ -4,12 +4,12 @@ author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota 
 # author: "Santiago Mota (santiago_mota@yahoo.es)"
 date:   "`r Sys.Date()`"
 output:
-  pdf_document: default
   html_document:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     encoding:  "UTF-8"
   word_document: default
+  pdf_document: default
 license: by-nc-sa
 urlcolor: blue
 ---
@@ -149,6 +149,7 @@ urlcolor: blue
 * [100 Free Tutorials for Learning R](https://www.listendata.com/p/r-programming-tutorials.html)
 * [NLP Datasets](https://github.com/niderhoff/nlp-datasets/blob/master/README.md)
 * [Google's best practices in machine learning](https://developers.google.com/machine-learning/guides/rules-of-ml/)
+* [Web Scraping TripAdvisor, Text Mining and Sentiment Analysis for Hotel Reviews](https://towardsdatascience.com/scraping-tripadvisor-text-mining-and-sentiment-analysis-for-hotel-reviews-cc4e20aef333)
 
 
 ## Libros
@@ -169,3 +170,4 @@ urlcolor: blue
 * Applied Statistics with R [Libro](https://daviddalpiaz.github.io/appliedstats/) y [Código](https://github.com/daviddalpiaz/appliedstats)
 * Geocomputation with R [Libro](https://geocompr.robinlovelace.net/) y [Código](https://github.com/Robinlovelace/geocompr/)
 * [Handling Strings with R](http://www.gastonsanchez.com/r4strings/)
+* [Text Mining with R](https://www.tidytextmining.com/)
