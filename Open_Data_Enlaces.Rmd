@@ -8,8 +8,8 @@ output:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     encoding:  "UTF-8"
-  word_document: default
   pdf_document: default
+  word_document: default
 license: by-nc-sa
 urlcolor: blue
 ---
@@ -119,6 +119,8 @@ urlcolor: blue
 * [Plataforma H2O](https://github.com/h2oai)
 * [Computer vision](https://github.com/kjw0612/awesome-deep-vision)
 * Pautas para dar formato al código programando en R: [Google](https://google.github.io/styleguide/Rguide.xml) y [Hadley Wickham (RStudio)](http://adv-r.had.co.nz/Style.html)
+* [R Code – Best practices](https://www.r-bloggers.com/r-code-best-practices/)
+* [The State of Naming Conventions in R](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Baaaath.pdf)
 * [Documentacion de R](https://www.rdocumentation.org/)
 * [Chuleta de expresiones regulares](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
 * [Regular Expressions Every R programmer Should Know](https://www.r-bloggers.com/regular-expressions-every-r-programmer-should-know/)
@@ -171,3 +173,4 @@ urlcolor: blue
 * Geocomputation with R [Libro](https://geocompr.robinlovelace.net/) y [Código](https://github.com/Robinlovelace/geocompr/)
 * [Handling Strings with R](http://www.gastonsanchez.com/r4strings/)
 * [Text Mining with R](https://www.tidytextmining.com/)
+* [Efficient R programming](https://csgillespie.github.io/efficientR/)
