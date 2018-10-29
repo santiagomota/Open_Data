@@ -8,8 +8,8 @@ output:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     encoding:  "UTF-8"
-  pdf_document: default
   word_document: default
+  pdf_document: default
 license: by-nc-sa
 urlcolor: blue
 ---
@@ -30,7 +30,7 @@ urlcolor: blue
 * Amazon AWS: [este](http://aws.amazon.com/es/datasets/) y [este](https://aws.amazon.com/es/public-data-sets/)
 * [Gobierno Estados Unidos](http://www.data.gov/)
 * [Datos abiertos de la Unión Europea](http://open-data.europa.eu/es/data/)
-* [Recopilatorio de datasets en Githubs](http://www.datasciencecentral.com/profiles/blogs/great-github-list-of-public-data-sets)
+* [Recopilatorio de datasets en Github](http://www.datasciencecentral.com/profiles/blogs/great-github-list-of-public-data-sets)
 * [API de GitHub](https://developer.github.com/v3/)
 * [API de Facebook](https://developers.facebook.com/docs/graph-api)
 * [Blog. 100 recursos sobre Big Data y Data Science](http://todobi.blogspot.com.es/2015/02/mas-de-100-recursos-sobre-big-data-y.html)
