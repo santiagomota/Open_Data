@@ -5,11 +5,11 @@ author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota 
 date:   "`r Sys.Date()`"
 output:
   word_document: default
+  pdf_document: default
   html_document:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     encoding:  "UTF-8"
-  pdf_document: default
 license: by-nc-sa
 urlcolor: blue
 ---
@@ -176,3 +176,4 @@ urlcolor: blue
 * [Handling Strings with R](http://www.gastonsanchez.com/r4strings/)
 * [Text Mining with R](https://www.tidytextmining.com/)
 * [Efficient R programming](https://csgillespie.github.io/efficientR/)
+* [BBC Visual and Data Journalism cookbook for R graphics](https://bbc.github.io/rcookbook/)
