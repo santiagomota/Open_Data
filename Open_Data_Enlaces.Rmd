@@ -5,11 +5,11 @@ author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota 
 date:   "`r Sys.Date()`"
 output:
   word_document: default
-  pdf_document: default
   html_document:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     encoding:  "UTF-8"
+  pdf_document: default
 license: by-nc-sa
 urlcolor: blue
 ---
@@ -97,6 +97,7 @@ urlcolor: blue
 * [Datos abiertos Ayuntamiento de Valencia](http://gobiernoabierto.valencia.es/es/data/)
 * [Microsoft Research Open Data](https://msropendata.com/)
 * [Kaggle Weekly Kernels Award Winner Announcements](https://www.kaggle.com/general/37924#post354114)
+* [Open Data Renfe](http://data.renfe.com/)
 
 
 ## Otras referencias interesantes
