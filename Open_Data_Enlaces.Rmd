@@ -5,11 +5,11 @@ author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota 
 date:   "`r Sys.Date()`"
 output:
   word_document: default
+  pdf_document: default
   html_document:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     encoding:  "UTF-8"
-  pdf_document: default
 license: by-nc-sa
 urlcolor: blue
 ---
@@ -98,6 +98,11 @@ urlcolor: blue
 * [Microsoft Research Open Data](https://msropendata.com/)
 * [Kaggle Weekly Kernels Award Winner Announcements](https://www.kaggle.com/general/37924#post354114)
 * [Open Data Renfe](http://data.renfe.com/)
+* [Open Data Barometer](https://opendatabarometer.org/?_year=2017&indicator=ODB)
+* [CIS. Centro de Investigaciones Sociológicas](http://www.cis.es/cis/opencms/ES/index.html)
+* [Fivethirtyeight](https://data.fivethirtyeight.com/)
+* [Reddit datasets](https://www.reddit.com/r/datasets/)
+* [Data World](https://data.world/)
 
 
 ## Otras referencias interesantes
