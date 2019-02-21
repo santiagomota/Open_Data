@@ -4,12 +4,12 @@ author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota 
 # author: "Santiago Mota (santiago_mota@yahoo.es)"
 date:   "`r Sys.Date()`"
 output:
-  word_document: default
-  pdf_document: default
   html_document:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     encoding:  "UTF-8"
+  pdf_document: default
+  word_document: default
 license: by-nc-sa
 urlcolor: blue
 ---
@@ -160,6 +160,7 @@ urlcolor: blue
 * [NLP Datasets](https://github.com/niderhoff/nlp-datasets/blob/master/README.md)
 * [Google's best practices in machine learning](https://developers.google.com/machine-learning/guides/rules-of-ml/)
 * [Web Scraping TripAdvisor, Text Mining and Sentiment Analysis for Hotel Reviews](https://towardsdatascience.com/scraping-tripadvisor-text-mining-and-sentiment-analysis-for-hotel-reviews-cc4e20aef333)
+* [Common Probability Distributions: The Data Scientist’s Crib Sheet](https://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/?utm_content=buffer49e9f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
 
 
 ## Libros
