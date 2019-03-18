@@ -1,15 +1,15 @@
 ---
-title:  "Open data"
+title:  "Open Data"
 author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota </h3> </a> \newline santiago_mota@yahoo.es
 # author: "Santiago Mota (santiago_mota@yahoo.es)"
 date:   "`r Sys.Date()`"
 output:
+  pdf_document: default
+  word_document: default
   html_document:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     encoding:  "UTF-8"
-  pdf_document: default
-  word_document: default
 license: by-nc-sa
 urlcolor: blue
 ---
@@ -103,6 +103,7 @@ urlcolor: blue
 * [Fivethirtyeight](https://data.fivethirtyeight.com/)
 * [Reddit datasets](https://www.reddit.com/r/datasets/)
 * [Data World](https://data.world/)
+* [The world’s economic database](https://db.nomics.world/)
 
 
 ## Otras referencias interesantes
