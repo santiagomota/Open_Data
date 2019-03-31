@@ -4,8 +4,8 @@ author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota 
 # author: "Santiago Mota (santiago_mota@yahoo.es)"
 date:   "`r Sys.Date()`"
 output:
-  pdf_document: default
   word_document: default
+  pdf_document: default
   html_document:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -104,6 +104,7 @@ urlcolor: blue
 * [Reddit datasets](https://www.reddit.com/r/datasets/)
 * [Data World](https://data.world/)
 * [The world’s economic database](https://db.nomics.world/)
+* [25 Open Datasets for Deep Learning Every Data Scientist Must Work With](https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/?utm_source=linkedin.com&utm_medium=social)
 
 
 ## Otras referencias interesantes
@@ -185,3 +186,4 @@ urlcolor: blue
 * [Text Mining with R](https://www.tidytextmining.com/)
 * [Efficient R programming](https://csgillespie.github.io/efficientR/)
 * [BBC Visual and Data Journalism cookbook for R graphics](https://bbc.github.io/rcookbook/)
+* [Databases using R by RStudio](https://db.rstudio.com/getting-started/)
