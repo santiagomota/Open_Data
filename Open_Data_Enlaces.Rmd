@@ -5,11 +5,11 @@ author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota 
 date:   "`r Sys.Date()`"
 output:
   pdf_document: default
+  word_document: default
   html_document:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     encoding:  "UTF-8"
-  word_document: default
 license: by-nc-sa
 urlcolor: blue
 ---
@@ -106,6 +106,7 @@ urlcolor: blue
 * [The world’s economic database](https://db.nomics.world/)
 * [25 Open Datasets for Deep Learning Every Data Scientist Must Work With](https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/?utm_source=linkedin.com&utm_medium=social)
 * [Paquete pasra acceder al API del Instituto de Canario de Estadística](https://github.com/rOpenSpain/istacbaser)
+* [Datos estadísticos DGT](https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/)
 
 
 ## Otras referencias interesantes
