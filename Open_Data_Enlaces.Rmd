@@ -1,7 +1,7 @@
 ---
 title:  "Open Data"
-author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota </h3> </a> \newline santiago_mota@yahoo.es
-# author: "Santiago Mota (santiago_mota@yahoo.es)"
+# author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota </h3> </a> \newline santiago_mota@yahoo.es
+author: "Santiago Mota (santiago_mota@yahoo.es)"
 date:   "`r Sys.Date()`"
 output:
   pdf_document: default
@@ -165,6 +165,7 @@ urlcolor: blue
 * [Google's best practices in machine learning](https://developers.google.com/machine-learning/guides/rules-of-ml/)
 * [Web Scraping TripAdvisor, Text Mining and Sentiment Analysis for Hotel Reviews](https://towardsdatascience.com/scraping-tripadvisor-text-mining-and-sentiment-analysis-for-hotel-reviews-cc4e20aef333)
 * [Common Probability Distributions: The Data Scientist’s Crib Sheet](https://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/?utm_content=buffer49e9f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
+* [RDocumentation](https://www.rdocumentation.org/)
 
 
 ## Libros
