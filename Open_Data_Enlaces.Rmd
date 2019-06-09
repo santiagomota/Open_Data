@@ -1,7 +1,7 @@
 ---
 title:  "Open Data"
-# author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota </h3> </a> \newline santiago_mota@yahoo.es
-author: "Santiago Mota (santiago_mota@yahoo.es)"
+author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota </h3> </a> \newline santiago_mota@yahoo.es
+# author: "Santiago Mota (santiago_mota@yahoo.es)"
 date:   "`r Sys.Date()`"
 output:
   pdf_document: default
@@ -192,3 +192,6 @@ urlcolor: blue
 * [Databases using R by RStudio](https://db.rstudio.com/getting-started/)
 * [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
 * [Forecasting: Principles and Practice](https://otexts.com/fpp2/)
+* [Bioinformática Estadística. Análisis estadístico de datos Ómicos](https://www.uv.es/ayala/docencia/tami/tami13.pdf)
+* [Estadística básica](https://www.uv.es/ayala/docencia/nmr/nmr13.pdf)
+* [Análisis de datos con R](https://www.uv.es/ayala/docencia/ad/ad13.pdf)
