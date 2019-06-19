@@ -5,11 +5,11 @@ author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota 
 date:   "`r Sys.Date()`"
 output:
   pdf_document: default
-  word_document: default
   html_document:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     encoding:  "UTF-8"
+  word_document: default
 license: by-nc-sa
 urlcolor: blue
 ---
@@ -195,3 +195,4 @@ urlcolor: blue
 * [Bioinformática Estadística. Análisis estadístico de datos Ómicos](https://www.uv.es/ayala/docencia/tami/tami13.pdf)
 * [Estadística básica](https://www.uv.es/ayala/docencia/nmr/nmr13.pdf)
 * [Análisis de datos con R](https://www.uv.es/ayala/docencia/ad/ad13.pdf)
+* [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
