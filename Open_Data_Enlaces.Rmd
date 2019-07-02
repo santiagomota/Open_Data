@@ -108,6 +108,7 @@ urlcolor: blue
 * [Paquete pasra acceder al API del Instituto de Canario de Estadística](https://github.com/rOpenSpain/istacbaser)
 * [Datos estadísticos DGT](https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/)
 * [Yelp Dataset](https://www.yelp.com/dataset)
+* [Awesome Sentinel. Copernicus Sentinel Satellites resources](https://github.com/Fernerkundung/awesome-sentinel)
 
 
 ## Otras referencias interesantes
@@ -167,6 +168,7 @@ urlcolor: blue
 * [Web Scraping TripAdvisor, Text Mining and Sentiment Analysis for Hotel Reviews](https://towardsdatascience.com/scraping-tripadvisor-text-mining-and-sentiment-analysis-for-hotel-reviews-cc4e20aef333)
 * [Common Probability Distributions: The Data Scientist’s Crib Sheet](https://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/?utm_content=buffer49e9f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
 * [RDocumentation](https://www.rdocumentation.org/)
+* [ArcGIS to R spatial cheat sheet](http://www.seascapemodels.org/data/ArcGIS_to_R_Spatial_CheatSheet.pdf)
 
 
 ## Libros
@@ -197,3 +199,4 @@ urlcolor: blue
 * [Estadística básica](https://www.uv.es/ayala/docencia/nmr/nmr13.pdf)
 * [Análisis de datos con R](https://www.uv.es/ayala/docencia/ad/ad13.pdf)
 * [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
+* [Exploratory Data Analysis with R - Roger D. Peng](https://bookdown.org/rdpeng/exdata/)
