@@ -4,12 +4,12 @@ author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota 
 # author: "Santiago Mota (santiago_mota@yahoo.es)"
 date:   "`r Sys.Date()`"
 output:
-  pdf_document: default
-  word_document: default
   html_document:
     theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     encoding:  "UTF-8"
+  pdf_document: default
+  word_document: default
 license: by-nc-sa
 urlcolor: blue
 ---
@@ -109,6 +109,7 @@ urlcolor: blue
 * [Datos estadísticos DGT](https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/)
 * [Yelp Dataset](https://www.yelp.com/dataset)
 * [Awesome Sentinel. Copernicus Sentinel Satellites resources](https://github.com/Fernerkundung/awesome-sentinel)
+* [Ultimos datos de Open Street Map. Spain](https://download.geofabrik.de/europe/spain.html)
 
 
 ## Otras referencias interesantes
@@ -169,6 +170,7 @@ urlcolor: blue
 * [Common Probability Distributions: The Data Scientist’s Crib Sheet](https://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/?utm_content=buffer49e9f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
 * [RDocumentation](https://www.rdocumentation.org/)
 * [ArcGIS to R spatial cheat sheet](http://www.seascapemodels.org/data/ArcGIS_to_R_Spatial_CheatSheet.pdf)
+* [Hand-curated, high quality resources for doing data journalism with R](https://rddj.info/)
 
 
 ## Libros
@@ -200,3 +202,4 @@ urlcolor: blue
 * [Análisis de datos con R](https://www.uv.es/ayala/docencia/ad/ad13.pdf)
 * [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
 * [Exploratory Data Analysis with R - Roger D. Peng](https://bookdown.org/rdpeng/exdata/)
+* [What They Forgot to Teach You About R](https://whattheyforgot.org/)
