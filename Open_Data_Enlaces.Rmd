@@ -1,20 +1,34 @@
 ---
-title:  "Open Data"
-author: <a href="https://www.linkedin.com/in/santiagomota/"> <h3> Santiago Mota </h3> </a> \newline santiago_mota@yahoo.es
-# author: "Santiago Mota (santiago_mota@yahoo.es)"
-date:   "`r Sys.Date()`"
-output:
-  html_document:
-    theme:     cosmo  # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
-    highlight: tango  # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
-    encoding:  "UTF-8"
-  pdf_document: default
-  word_document: default
-license: by-nc-sa
+title:    "Open Data"
+author:   "by [Santiago Mota](https://www.linkedin.com/in/santiagomota/)"
+mail:     "santiago_mota@yahoo.es"
+linkedin: "santiagomota"
+twitter:  "mota_santiago"
+github:   "santiagomota"
+date:     "`r Sys.Date()`"
+# logo:     "./figs/logo3.png"
+license:  by-nc-sa
 urlcolor: blue
+output:
+  epuRate::epurate:
+    toc:             TRUE
+    number_sections: FALSE
+    code_folding:    "show"
+  html_document: 
+    theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
+    highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
+    toc:          true
+    toc_float:    true
+    code_folding: show
+    includes:
+      after_body: footer.html
+  word_document:  default
+  pdf_document:   default
 ---
 
+
 [Enlace Github](https://github.com/santiagomota/Open_Data)
+
 
 ## Fuentes de datos abiertos y APIs
 
@@ -109,6 +123,15 @@ urlcolor: blue
 * [Datos estadísticos DGT](https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/)
 * [Yelp Dataset](https://www.yelp.com/dataset)
 * [Awesome Sentinel. Copernicus Sentinel Satellites resources](https://github.com/Fernerkundung/awesome-sentinel)
+* [Datos Abiertos del Consorcio Regional de Transportes de Madrid](https://datos.crtm.es/)
+* [Idealista labs](https://www.idealista.com/labs/)
+* [Ayuntamiento de Madrid. Censo de locales, sus actividades y terrazas de hostelería y restauración](https://datos.gob.es/es/catalogo/l01280796-censo-de-locales-sus-actividades-y-terrazas-de-hosteleria-y-restauracion)
+* [Agencia Tributaria. Estadísticas](https://www.agenciatributaria.es/AEAT.internet/Inicio/La_Agencia_Tributaria/Memorias_y_estadisticas_tributarias/Estadisticas/Estadisticas.shtml)
+* [UK Office for National Statistics](https://www.ons.gov.uk/)
+* [UK Open Geography Portal](https://geoportal.statistics.gov.uk/)
+* [Open Trade Statistics](https://tradestatistics.io/)
+* Facebook Neural-Code-Search-Evaluation-Dataset [dataset]](https://github.com/facebookresearch/Neural-Code-Search-Evaluation-Dataset) y [noticia](https://venturebeat.com/2019/10/03/facebook-open-sources-data-set-for-code-search-ai-benchmark/)
+* Github semantic code search [page](https://experiments.github.com/semantic-code-search) y [noticia](https://venturebeat.com/2018/10/17/github-wants-ai-to-help-developers-code/)
 * [Ultimos datos de Open Street Map. Spain](https://download.geofabrik.de/europe/spain.html)
 
 
@@ -133,13 +156,15 @@ urlcolor: blue
 * [Plataforma H2O](https://github.com/h2oai)
 * [Computer vision](https://github.com/kjw0612/awesome-deep-vision)
 * Pautas para dar formato al código programando en R: [Google](https://google.github.io/styleguide/Rguide.xml) y [Hadley Wickham (RStudio)](http://adv-r.had.co.nz/Style.html)
+* [The State of Naming Conventions in R](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Baaaath.pdf)
 * [R Code – Best practices](https://www.r-bloggers.com/r-code-best-practices/)
 * [R Coding Style Guide](https://irudnyts.github.io//r-coding-style-guide/)
-* [The State of Naming Conventions in R](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Baaaath.pdf)
+* [Naming files](https://speakerd.s3.amazonaws.com/presentations/5e4b07f0d9a94f8e9a29b902bad6ed0b/naming-slides.pdf)
 * [Documentacion de R](https://www.rdocumentation.org/)
 * [Chuleta de expresiones regulares](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
 * [Regular Expressions Every R programmer Should Know](https://www.r-bloggers.com/regular-expressions-every-r-programmer-should-know/)
 * [Regular Expression Language - Quick Reference](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference)
+* [Dealing with Regular Expressions](http://uc-r.github.io/regex)
 * [Writing an R package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
 * [16 Cursos](https://www.analyticsvidhya.com/blog/2016/10/16-new-must-watch-tutorials-courses-on-machine-learning/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29)
 * [Galerias de graficos](http://www.r-graph-gallery.com/)
