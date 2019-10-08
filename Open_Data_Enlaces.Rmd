@@ -10,10 +10,7 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
-  epuRate::epurate:
-    toc:             TRUE
-    number_sections: FALSE
-    code_folding:    "show"
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,8 +19,11 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
+  epuRate::epurate:
+    toc:             TRUE
+    number_sections: FALSE
+    code_folding:    "show"
   word_document:  default
-  pdf_document:   default
 ---
 
 
@@ -133,6 +133,7 @@ output:
 * Facebook Neural-Code-Search-Evaluation-Dataset [dataset]](https://github.com/facebookresearch/Neural-Code-Search-Evaluation-Dataset) y [noticia](https://venturebeat.com/2019/10/03/facebook-open-sources-data-set-for-code-search-ai-benchmark/)
 * Github semantic code search [page](https://experiments.github.com/semantic-code-search) y [noticia](https://venturebeat.com/2018/10/17/github-wants-ai-to-help-developers-code/)
 * [Ultimos datos de Open Street Map. Spain](https://download.geofabrik.de/europe/spain.html)
+* [NLP Datasets](https://github.com/niderhoff/nlp-datasets/blob/master/README.md)
 
 
 ## Otras referencias interesantes
@@ -189,13 +190,13 @@ output:
 * [Google Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 * Statistical Learning de Stanford  [Curso](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about), [Libro](https://web.stanford.edu/~hastie/ElemStatLearn/), [Código](https://github.com/khanhnamle1994/statistical-learning) y [Transparencias](https://github.com/khanhnamle1994/statistical-learning/tree/master/Lecture-Slides)
 * [100 Free Tutorials for Learning R](https://www.listendata.com/p/r-programming-tutorials.html)
-* [NLP Datasets](https://github.com/niderhoff/nlp-datasets/blob/master/README.md)
 * [Google's best practices in machine learning](https://developers.google.com/machine-learning/guides/rules-of-ml/)
 * [Web Scraping TripAdvisor, Text Mining and Sentiment Analysis for Hotel Reviews](https://towardsdatascience.com/scraping-tripadvisor-text-mining-and-sentiment-analysis-for-hotel-reviews-cc4e20aef333)
 * [Common Probability Distributions: The Data Scientist’s Crib Sheet](https://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/?utm_content=buffer49e9f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
 * [RDocumentation](https://www.rdocumentation.org/)
 * [ArcGIS to R spatial cheat sheet](http://www.seascapemodels.org/data/ArcGIS_to_R_Spatial_CheatSheet.pdf)
 * [Hand-curated, high quality resources for doing data journalism with R](https://rddj.info/)
+* [RMarkdown Driven Development (RmdDD)](https://emilyriederer.netlify.com/post/rmarkdown-driven-development/)
 
 
 ## Libros
