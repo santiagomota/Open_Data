@@ -10,7 +10,7 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
-  pdf_document:   default
+  word_document:  default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -23,7 +23,7 @@ output:
     toc:             TRUE
     number_sections: FALSE
     code_folding:    "show"
-  word_document:  default
+  pdf_document:   default
 ---
 
 
@@ -229,3 +229,4 @@ output:
 * [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
 * [Exploratory Data Analysis with R - Roger D. Peng](https://bookdown.org/rdpeng/exdata/)
 * [What They Forgot to Teach You About R](https://whattheyforgot.org/)
+* Mastering Apache Spark with R [Libro](https://therinspark.com/intro.html) y [Código](https://github.com/r-spark/the-r-in-spark)
