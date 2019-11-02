@@ -134,6 +134,9 @@ output:
 * Github semantic code search [page](https://experiments.github.com/semantic-code-search) y [noticia](https://venturebeat.com/2018/10/17/github-wants-ai-to-help-developers-code/)
 * [Ultimos datos de Open Street Map. Spain](https://download.geofabrik.de/europe/spain.html)
 * [NLP Datasets](https://github.com/niderhoff/nlp-datasets/blob/master/README.md)
+* [United Nations World Urbanization Prospects](https://population.un.org/wup/)
+* [GHSL - Global Human Settlement Layer](https://ghslsys.jrc.ec.europa.eu/)
+* [Socioeconomic Data and Applications Center (sedac)](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse)
 
 
 ## Otras referencias interesantes
@@ -199,6 +202,7 @@ output:
 * [RMarkdown Driven Development (RmdDD)](https://emilyriederer.netlify.com/post/rmarkdown-driven-development/)
 * [Is Web Scraping Legal? : The Definitive Guide [2019 update]](https://www.prowebscraper.com/blog/is-web-scraping-legal/)
 * [Web Scraping: ¿legal o ilegal? (2017)](https://ecija.com/web-scraping-legal-ilegal/)
+* [United Nations World Urbanization Prospects](https://population.un.org/wup/)
 
 
 ## Libros
