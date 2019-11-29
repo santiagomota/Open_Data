@@ -10,7 +10,7 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
-  pdf_document:   default
+  word_document:  default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -23,7 +23,7 @@ output:
     toc:             TRUE
     number_sections: FALSE
     code_folding:    "show"
-  word_document:  default
+  pdf_document:   default
 ---
 
 
@@ -137,6 +137,8 @@ output:
 * [United Nations World Urbanization Prospects](https://population.un.org/wup/)
 * [GHSL - Global Human Settlement Layer](https://ghslsys.jrc.ec.europa.eu/)
 * [Socioeconomic Data and Applications Center (sedac)](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse)
+* [Cómo los datos abiertos pueden ayudar en la crisis de los refugiados](https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes)
+* [Open Spatial Demographic Data](https://www.worldpop.org/)
 
 
 ## Otras referencias interesantes
@@ -203,6 +205,10 @@ output:
 * [Is Web Scraping Legal? : The Definitive Guide [2019 update]](https://www.prowebscraper.com/blog/is-web-scraping-legal/)
 * [Web Scraping: ¿legal o ilegal? (2017)](https://ecija.com/web-scraping-legal-ilegal/)
 * [United Nations World Urbanization Prospects](https://population.un.org/wup/)
+* [htmlwidgets for R - gallery](http://gallery.htmlwidgets.org/)
+* [Free R Reading Material](https://committedtotape.shinyapps.io/freeR/)
+* [The Chartmaker Directory](chartmaker.visualisingdata.com)
+* [Kaggle Winning Solutions](http://kagglesolutions.com/)
 
 
 ## Libros
@@ -236,3 +242,4 @@ output:
 * [Exploratory Data Analysis with R - Roger D. Peng](https://bookdown.org/rdpeng/exdata/)
 * [What They Forgot to Teach You About R](https://whattheyforgot.org/)
 * Mastering Apache Spark with R [Libro](https://therinspark.com/intro.html) y [Código](https://github.com/r-spark/the-r-in-spark)
+* [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/)
