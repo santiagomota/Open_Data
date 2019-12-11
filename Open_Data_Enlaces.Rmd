@@ -10,7 +10,7 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
-  word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -23,7 +23,7 @@ output:
     toc:             TRUE
     number_sections: FALSE
     code_folding:    "show"
-  pdf_document:   default
+  word_document:  default
 ---
 
 
@@ -243,3 +243,4 @@ output:
 * [What They Forgot to Teach You About R](https://whattheyforgot.org/)
 * Mastering Apache Spark with R [Libro](https://therinspark.com/intro.html) y [Código](https://github.com/r-spark/the-r-in-spark)
 * [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/)
+* [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
