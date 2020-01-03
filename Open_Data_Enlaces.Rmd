@@ -10,7 +10,7 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
-  pdf_document:   default
+  word_document:  default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -23,7 +23,7 @@ output:
     toc:             TRUE
     number_sections: FALSE
     code_folding:    "show"
-  word_document:  default
+  pdf_document:   default
 ---
 
 
@@ -209,6 +209,7 @@ output:
 * [Free R Reading Material](https://committedtotape.shinyapps.io/freeR/)
 * [The Chartmaker Directory](chartmaker.visualisingdata.com)
 * [Kaggle Winning Solutions](http://kagglesolutions.com/)
+* [Simplifying the ROC and AUC metrics](https://towardsdatascience.com/understanding-the-roc-and-auc-curves-a05b68550b69)
 
 
 ## Libros
