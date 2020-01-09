@@ -10,7 +10,11 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
-  word_document:  default
+  pdf_document:   default
+  epuRate::epurate:
+    toc:             TRUE
+    number_sections: FALSE
+    code_folding:    "show"
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -19,11 +23,7 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  epuRate::epurate:
-    toc:             TRUE
-    number_sections: FALSE
-    code_folding:    "show"
-  pdf_document:   default
+  word_document:  default
 ---
 
 
@@ -210,6 +210,7 @@ output:
 * [The Chartmaker Directory](chartmaker.visualisingdata.com)
 * [Kaggle Winning Solutions](http://kagglesolutions.com/)
 * [Simplifying the ROC and AUC metrics](https://towardsdatascience.com/understanding-the-roc-and-auc-curves-a05b68550b69)
+* [Feature Engineering for Machine Learning](https://www.trainindata.com/post/feature-engineering-comprehensive-overview)
 
 
 ## Libros
