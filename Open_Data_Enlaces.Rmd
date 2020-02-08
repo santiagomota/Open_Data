@@ -10,7 +10,7 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
-  word_document:  default
+  pdf_document:   default
   epuRate::epurate:
     toc:             TRUE
     number_sections: FALSE
@@ -23,7 +23,7 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  pdf_document:   default
+  word_document:  default
 ---
 
 
@@ -44,6 +44,8 @@ output:
 * Amazon AWS: [este](http://aws.amazon.com/es/datasets/) y [este](https://aws.amazon.com/es/public-data-sets/)
 * [Gobierno Estados Unidos](http://www.data.gov/)
 * [Datos abiertos de la Unión Europea](http://open-data.europa.eu/es/data/)
+* [Canada Open Government Portal](https://open.canada.ca/data/en/dataset?q=education)
+* [UK Open Data](https://data.gov.uk/search)
 * [Recopilatorio de datasets en Github](http://www.datasciencecentral.com/profiles/blogs/great-github-list-of-public-data-sets)
 * [API de GitHub](https://developer.github.com/v3/)
 * [API de Facebook](https://developers.facebook.com/docs/graph-api)
@@ -98,7 +100,7 @@ output:
 * [El planeta Tierra en AWS](https://aws.amazon.com/es/earth/)
 * [Tráfico en el Reino Unido](https://www.dft.gov.uk/traffic-counts/)
 * [European Banking Authority (EBA)](http://www.eba.europa.eu/risk-analysis-and-data;jsessionid=9D39E5DC46932D2C76C572A1D1B1B5BA)
-* [World Bank Open Data](https://data.worldbank.org/)
+* World Bank Open Data [1](https://data.worldbank.org/) y [2](https://datacatalog.worldbank.org/)
 * [Fondo Monetario Internacional](http://www.imf.org/en/data)
 * [Lista de algunos datatsets dentro de paquetes de R](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
 * [10.000 airports, train stations and ferry terminals spanning the globe](https://openflights.org/data.html)
@@ -139,6 +141,20 @@ output:
 * [Socioeconomic Data and Applications Center (sedac)](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse)
 * [Cómo los datos abiertos pueden ayudar en la crisis de los refugiados](https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes)
 * [Open Spatial Demographic Data](https://www.worldpop.org/)
+* [Center for Disease Control](https://wonder.cdc.gov/)
+* [NASA](https://nssdc.gsfc.nasa.gov/)
+* [World Economic Forum](https://www.weforum.org/reports)
+* [Universidad de Harvard](https://dataverse.harvard.edu/)
+* MIT [1](http://web.mit.edu/towtank/www/vivdr/datasets.html) y [2](https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/datasets/)
+* [Indiana University Click Dataset](http://cnets.indiana.edu/groups/nan/webtraffic/click-dataset/)
+* [Pew Research Center](https://www.pewresearch.org/download-datasets/)
+* [Gapminder](https://www.gapminder.org/data/)
+* [Reddit datasets](https://www.reddit.com/r/datasets/)
+* [Center for Applied Internet Data Analysis](https://www.caida.org/data/overview/)
+* [Google Books Ngram Viewe](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
+* [Free GIS Data](http://freegisdata.rtwilson.com/)
+* [Google Public Data](https://www.google.com/publicdata/directory)
+* [Google Datset Search](https://datasetsearch.research.google.com/)
 
 
 ## Otras referencias interesantes
