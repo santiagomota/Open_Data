@@ -10,7 +10,7 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
-  pdf_document:   default
+  word_document:  default
   epuRate::epurate:
     toc:             TRUE
     number_sections: FALSE
@@ -23,7 +23,7 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  word_document:  default
+  pdf_document:   default
 ---
 
 
@@ -246,3 +246,4 @@ output:
 * Mastering Apache Spark with R [Libro](https://therinspark.com/intro.html) y [Código](https://github.com/r-spark/the-r-in-spark)
 * [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/)
 * [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
+* [Mastering Spark with R](https://therinspark.com/)
