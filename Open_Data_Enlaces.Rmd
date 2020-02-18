@@ -155,6 +155,7 @@ output:
 * [Free GIS Data](http://freegisdata.rtwilson.com/)
 * [Google Public Data](https://www.google.com/publicdata/directory)
 * [Google Datset Search](https://datasetsearch.research.google.com/)
+* [Open Data Sources Database](https://anthonyhuntley.com/data-science-databases/#DataSourceDatabase)
 
 
 ## Otras referencias interesantes
@@ -263,3 +264,4 @@ output:
 * [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/)
 * [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
 * [Mastering Spark with R](https://therinspark.com/)
+* [The 20 Best Data Science Books Available online in 2020](https://www.ubuntupit.com/best-data-science-books-available-online/)
