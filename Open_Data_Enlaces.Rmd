@@ -10,7 +10,7 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
-  word_document:  default
+  pdf_document:   default
   epuRate::epurate:
     toc:             TRUE
     number_sections: FALSE
@@ -23,7 +23,7 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  pdf_document:   default
+  word_document:  default
 ---
 
 
@@ -156,6 +156,9 @@ output:
 * [Google Public Data](https://www.google.com/publicdata/directory)
 * [Google Datset Search](https://datasetsearch.research.google.com/)
 * [Open Data Sources Database](https://anthonyhuntley.com/data-science-databases/#DataSourceDatabase)
+* [Síntesis de Indicadores e Informes Macroeconómicos](http://serviciosede.mineco.gob.es/indeco/)
+* [Base de datos de Series de Indicadores de Coyuntura Económica (BDSICE)](http://serviciosede.mineco.gob.es/Indeco/BDSICE/HomeBDSICE.aspx)
+* [Tematicas.org Recopilación de series e índices](https://tematicas.org/)
 
 
 ## Otras referencias interesantes
