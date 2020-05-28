@@ -10,7 +10,7 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
-  pdf_document:   default
+  word_document:  default
   epuRate::epurate:
     toc:             TRUE
     number_sections: FALSE
@@ -23,7 +23,7 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  word_document:  default
+  pdf_document:   default
 ---
 
 
@@ -271,4 +271,5 @@ output:
 * [Creating APIs in R with Plumber](https://www.rplumber.io/docs/index.html)
 * [Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](http://www.paulamoraga.com/book-geospatial/)
 * [Estilometría, análisis de textos en R para filólogos](http://www.aic.uva.es/cuentapalabras/presentacion.html)
+* [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
 
