@@ -11,7 +11,7 @@
 
 <meta name="author" content="by Santiago Mota" />
 
-<meta name="date" content="2020-05-28" />
+<meta name="date" content="2020-07-28" />
 
 <title>Open Data</title>
 
@@ -1301,13 +1301,13 @@ window.initializeCodeFolding = function(show) {
   var currentIndex = 1;
 
   // select all R code blocks
-  var rCodeBlocks = $('pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan, pre.julia');
+  var rCodeBlocks = $('pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan, pre.julia, pre.foldable');
   rCodeBlocks.each(function() {
 
     // create a collapsable div to wrap the code in
     var div = $('<div class="collapse r-code-collapse"></div>');
-    if (show || $(this)[0].classList.contains('fold-show'))
-      div.addClass('in');
+    show = (show || $(this).hasClass('fold-show')) && !$(this).hasClass('fold-hide');
+    if (show) div.addClass('in');
     var id = 'rcode-643E0F36' + currentIndex++;
     div.attr('id', id);
     $(this).before(div);
@@ -1341,6 +1341,22 @@ window.initializeCodeFolding = function(show) {
   });
 
 }
+</script>
+<script>// Hide empty <a> tag within highlighted CodeBlock for screen reader accessibility (see https://github.com/jgm/pandoc/issues/6352#issuecomment-626106786) -->
+// v0.0.1
+// Written by JooYoung Seo (jooyoung@psu.edu) and Atsushi Yasumoto on June 1st, 2020.
+
+document.addEventListener('DOMContentLoaded', function() {
+  const codeList = document.getElementsByClassName("sourceCode");
+  for (var i = 0; i < codeList.length; i++) {
+    var linkList = codeList[i].getElementsByTagName('a');
+    for (var j = 0; j < linkList.length; j++) {
+      if (linkList[j].innerHTML === "") {
+        linkList[j].setAttribute('aria-hidden', 'true');
+      }
+    }
+  }
+});
 </script>
 
 
@@ -1567,7 +1583,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Open Data</h1>
 <h4 class="author">by <a href="https://www.linkedin.com/in/santiagomota/">Santiago Mota</a></h4>
-<h4 class="date">2020-05-28</h4>
+<h4 class="date">2020-07-28</h4>
 
 </div>
 
@@ -1703,6 +1719,8 @@ div.tocify {
 <li><a href="http://serviciosede.mineco.gob.es/indeco/">Síntesis de Indicadores e Informes Macroeconómicos</a></li>
 <li><a href="http://serviciosede.mineco.gob.es/Indeco/BDSICE/HomeBDSICE.aspx">Base de datos de Series de Indicadores de Coyuntura Económica (BDSICE)</a></li>
 <li><a href="https://tematicas.org/">Tematicas.org Recopilación de series e índices</a></li>
+<li><a href="http://jmcauley.ucsd.edu/data/amazon/">Amazon product data 2014</a></li>
+<li><a href="https://nijianmo.github.io/amazon/index.html">Amazon product data 2018</a></li>
 </ul>
 </div>
 <div id="otras-referencias-interesantes" class="section level2">
@@ -1776,6 +1794,11 @@ div.tocify {
 <li><a href="http://kagglesolutions.com/">Kaggle Winning Solutions</a></li>
 <li><a href="https://towardsdatascience.com/understanding-the-roc-and-auc-curves-a05b68550b69">Simplifying the ROC and AUC metrics</a></li>
 <li><a href="https://www.trainindata.com/post/feature-engineering-comprehensive-overview">Feature Engineering for Machine Learning</a></li>
+<li><a href="https://github.com/academic/awesome-datascience">Awesome Data Science</a></li>
+<li><a href="https://github.com/MrMimic/data-scientist-roadmap">Data Scientist Roadmap</a></li>
+<li><a href="https://github.com/tirthajyoti/Data-science-best-resources">Data Science Collected Resources</a></li>
+<li><a href="https://github.com/FavioVazquez/ds-cheatsheets">Data Science Cheatsheets</a></li>
+<li><a href="https://github.com/jonathan-bower/DataScienceResources">Data Science Resources</a></li>
 </ul>
 </div>
 <div id="libros" class="section level2">
@@ -1818,6 +1841,7 @@ div.tocify {
 <li><a href="http://www.paulamoraga.com/book-geospatial/">Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny</a></li>
 <li><a href="http://www.aic.uva.es/cuentapalabras/presentacion.html">Estilometría, análisis de textos en R para filólogos</a></li>
 <li><a href="https://engineering-shiny.org/">Engineering Production-Grade Shiny Apps</a></li>
+<li><a href="https://becarioprecario.bitbucket.io/inla-gitbook/index.html">Bayesian inference with INLA</a></li>
 </ul>
 </div>
 
@@ -1893,7 +1917,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

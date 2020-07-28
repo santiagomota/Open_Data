@@ -15,6 +15,7 @@ output:
     toc:             TRUE
     number_sections: FALSE
     code_folding:    "show"
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -23,7 +24,6 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 
@@ -159,6 +159,8 @@ output:
 * [Síntesis de Indicadores e Informes Macroeconómicos](http://serviciosede.mineco.gob.es/indeco/)
 * [Base de datos de Series de Indicadores de Coyuntura Económica (BDSICE)](http://serviciosede.mineco.gob.es/Indeco/BDSICE/HomeBDSICE.aspx)
 * [Tematicas.org Recopilación de series e índices](https://tematicas.org/)
+* [Amazon product data 2014](http://jmcauley.ucsd.edu/data/amazon/)
+* [Amazon product data 2018](https://nijianmo.github.io/amazon/index.html)
 
 
 ## Otras referencias interesantes
@@ -231,6 +233,11 @@ output:
 * [Kaggle Winning Solutions](http://kagglesolutions.com/)
 * [Simplifying the ROC and AUC metrics](https://towardsdatascience.com/understanding-the-roc-and-auc-curves-a05b68550b69)
 * [Feature Engineering for Machine Learning](https://www.trainindata.com/post/feature-engineering-comprehensive-overview)
+* [Awesome Data Science](https://github.com/academic/awesome-datascience)
+* [Data Scientist Roadmap](https://github.com/MrMimic/data-scientist-roadmap)
+* [Data Science Collected Resources](https://github.com/tirthajyoti/Data-science-best-resources)
+* [Data Science Cheatsheets](https://github.com/FavioVazquez/ds-cheatsheets)
+* [Data Science Resources](https://github.com/jonathan-bower/DataScienceResources)
 
 
 ## Libros
@@ -272,4 +279,5 @@ output:
 * [Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](http://www.paulamoraga.com/book-geospatial/)
 * [Estilometría, análisis de textos en R para filólogos](http://www.aic.uva.es/cuentapalabras/presentacion.html)
 * [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
+* [Bayesian inference with INLA](https://becarioprecario.bitbucket.io/inla-gitbook/index.html)
 
