@@ -15,7 +15,6 @@ output:
     toc:             TRUE
     number_sections: FALSE
     code_folding:    "show"
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -24,6 +23,7 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 
@@ -161,6 +161,7 @@ output:
 * [Tematicas.org Recopilación de series e índices](https://tematicas.org/)
 * [Amazon product data 2014](http://jmcauley.ucsd.edu/data/amazon/)
 * [Amazon product data 2018](https://nijianmo.github.io/amazon/index.html)
+* [The Big Bad NLP Database](https://datasets.quantumstat.com/)
 
 
 ## Otras referencias interesantes
