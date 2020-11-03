@@ -11,7 +11,7 @@
 
 <meta name="author" content="by Santiago Mota" />
 
-<meta name="date" content="2020-10-08" />
+<meta name="date" content="2020-11-03" />
 
 <title>Open Data</title>
 
@@ -1358,6 +1358,45 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
+<style type="text/css">
+a.anchor-section {margin-left: 10px; visibility: hidden; color: inherit;}
+a.anchor-section::before {content: '#';}
+.hasAnchor:hover a.anchor-section {visibility: visible;}
+</style>
+<script>// Anchor sections v1.0 written by Atsushi Yasumoto on Oct 3rd, 2020.
+document.addEventListener('DOMContentLoaded', function() {
+  // Do nothing if AnchorJS is used
+  if (typeof window.anchors === 'object' && anchors.hasOwnProperty('hasAnchorJSLink')) {
+    return;
+  }
+
+  const h = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+  // Do nothing if sections are already anchored
+  if (Array.from(h).some(x => x.classList.contains('hasAnchor'))) {
+    return null;
+  }
+
+  // Use section id when pandoc runs with --section-divs
+  const section_id = function(x) {
+    return ((x.classList.contains('section') || (x.tagName === 'SECTION'))
+            ? x.id : '');
+  };
+
+  // Add anchors
+  h.forEach(function(x) {
+    const id = x.id || section_id(x.parentElement);
+    if (id === '') {
+      return null;
+    }
+    let anchor = document.createElement('a');
+    anchor.href = '#' + id;
+    anchor.classList = ['anchor-section'];
+    x.classList.add('hasAnchor');
+    x.appendChild(anchor);
+  });
+});
+</script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -1366,7 +1405,7 @@ document.addEventListener('DOMContentLoaded', function() {
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+    </style>
 
 
 
@@ -1592,7 +1631,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Open Data</h1>
 <h4 class="author">by <a href="https://www.linkedin.com/in/santiagomota/">Santiago Mota</a></h4>
-<h4 class="date">2020-10-08</h4>
+<h4 class="date">2020-11-03</h4>
 
 </div>
 
@@ -1845,14 +1884,15 @@ div.tocify {
 <li>Mastering Apache Spark with R <a href="https://therinspark.com/intro.html">Libro</a> y <a href="https://github.com/r-spark/the-r-in-spark">Código</a></li>
 <li><a href="https://bradleyboehmke.github.io/HOML/">Hands-On Machine Learning with R</a></li>
 <li><a href="https://rstudio-education.github.io/hopr/">Hands-On Programming with R</a></li>
-<li><a href="https://therinspark.com/">Mastering Spark with R</a></li>
 <li><a href="https://www.ubuntupit.com/best-data-science-books-available-online/">The 20 Best Data Science Books Available online in 2020</a></li>
 <li><a href="https://www.rplumber.io/docs/index.html">Creating APIs in R with Plumber</a></li>
 <li><a href="http://www.paulamoraga.com/book-geospatial/">Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny</a></li>
+<li><a href="https://becarioprecario.bitbucket.io/spde-gitbook/">Advanced Spatial Modeling with Stochastic Partial Differential Equations Using R and INLA</a></li>
 <li><a href="http://www.aic.uva.es/cuentapalabras/presentacion.html">Estilometría, análisis de textos en R para filólogos</a></li>
 <li><a href="https://engineering-shiny.org/">Engineering Production-Grade Shiny Apps</a></li>
 <li><a href="https://becarioprecario.bitbucket.io/inla-gitbook/index.html">Bayesian inference with INLA</a></li>
 <li><a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a></li>
+<li>R for Data Science. <a href="https://es.r4ds.hadley.nz/">Inglés</a> y <a href="https://es.r4ds.hadley.nz/">Castellano</a></li>
 </ul>
 </div>
 
@@ -1884,7 +1924,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
