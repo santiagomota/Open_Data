@@ -10,7 +10,10 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
+<<<<<<< HEAD
   word_document:  default
+=======
+>>>>>>> cf837050e2c760fb084cc1fa1e10a8ced5c492a0
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -24,6 +27,7 @@ output:
     number_sections: FALSE
     code_folding:    "show"
   pdf_document:   default
+  word_document:  default
 ---
 
 
@@ -286,4 +290,8 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Happy Git and GitHub for the useR](https://happygitwithr.com/)
 * R for Data Science. [Inglés](https://es.r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 * [Data Visualization with R](https://rkabacoff.github.io/datavis/)
+<<<<<<< HEAD
 * [Big Book of R](https://www.bigbookofr.com/index.html)
+=======
+
+>>>>>>> cf837050e2c760fb084cc1fa1e10a8ced5c492a0
