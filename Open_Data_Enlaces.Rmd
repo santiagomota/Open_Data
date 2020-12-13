@@ -288,3 +288,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Data Visualization with R](https://rkabacoff.github.io/datavis/)
 * [Big Book of R](https://www.bigbookofr.com/index.html)
 * [JavaScript for R](https://book.javascript-for-r.com/)
+* [Hands-On Data Visualization](https://handsondataviz.org/)
