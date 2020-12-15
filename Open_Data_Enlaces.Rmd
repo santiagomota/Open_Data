@@ -289,3 +289,5 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Big Book of R](https://www.bigbookofr.com/index.html)
 * [JavaScript for R](https://book.javascript-for-r.com/)
 * [Hands-On Data Visualization](https://handsondataviz.org/)
+* [Fundamentals of Data Visualization](https://github.com/clauswilke/dataviz)
+
