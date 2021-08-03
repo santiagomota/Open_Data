@@ -11,6 +11,11 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
+  pdf_document:   default
+  epuRate::epurate:
+    toc:             TRUE
+    number_sections: FALSE
+    code_folding:    "show"
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -19,11 +24,6 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  epuRate::epurate:
-    toc:             TRUE
-    number_sections: FALSE
-    code_folding:    "show"
-  pdf_document:   default
 ---
 
 
@@ -163,6 +163,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Amazon product data 2014](http://jmcauley.ucsd.edu/data/amazon/)
 * [Amazon product data 2018](https://nijianmo.github.io/amazon/index.html)
 * [The Big Bad NLP Database](https://datasets.quantumstat.com/)
+* [openaddresses](https://openaddresses.io/)
 
 
 
@@ -241,6 +242,11 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Data Science Collected Resources](https://github.com/tirthajyoti/Data-science-best-resources)
 * [Data Science Cheatsheets](https://github.com/FavioVazquez/ds-cheatsheets)
 * [Data Science Resources](https://github.com/jonathan-bower/DataScienceResources)
+* [R for Water Resources Data Science](https://www.r4wrds.com/)
+* [GIS and mapping](https://nowosad.github.io/SIGR2021/workshop1/workshop1_jn.html#1)
+* [R package primer](https://kbroman.org/pkg_primer/)
+* [Using Geospatial Data in R](https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/geospatial-data/)
+* [Cómo crear una API en Python](https://anderfernandez.com/blog/como-crear-api-en-python/)
 
 
 ## Libros
@@ -290,6 +296,12 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [JavaScript for R](https://book.javascript-for-r.com/)
 * [Hands-On Data Visualization](https://handsondataviz.org/)
 * [Fundamentals of Data Visualization](https://github.com/clauswilke/dataviz)
-* [Twitter for R programmers](https://www.t4rstats.com/)
-* [Applied deep learning with torch from R](https://mlverse.github.io/torchbook/)
-
+* [Supervised Machine Learning for Text Analysis in R](https://smltar.com/)
+* [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/)
+* [Spatial Microsimulation with R](https://spatial-microsim-book.robinlovelace.net/index.html)
+* [R Advanced Spatial Lessons](https://bbest.github.io/R-adv-spatial-lessons/)
+* [R Packages](https://r-pkgs.org/)
+* [R Graphics Cookbook](https://r-graphics.org/index.html)
+* [Advanced R](https://adv-r.hadley.nz/index.html)
+* [rstudio4edu](https://rstudio4edu.github.io/rstudio4edu-book/)
+* [R for Health Data Science](https://argoshare.is.ed.ac.uk/healthyr_book/)
