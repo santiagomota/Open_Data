@@ -306,3 +306,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [rstudio4edu](https://rstudio4edu.github.io/rstudio4edu-book/)
 * [R for Health Data Science](https://argoshare.is.ed.ac.uk/healthyr_book/)
 * [Linear Algebra for Data Science](https://shainarace.github.io/LinearAlgebra/index.html)
+
