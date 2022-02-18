@@ -11,11 +11,6 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
-  pdf_document:   default
-  epuRate::epurate:
-    toc:             TRUE
-    number_sections: FALSE
-    code_folding:    "show"
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -24,6 +19,11 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
+  epuRate::epurate:
+    toc:             TRUE
+    number_sections: FALSE
+    code_folding:    "show"
+  pdf_document:   default
 ---
 
 
@@ -250,10 +250,12 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Cómo crear una API en Python](https://anderfernandez.com/blog/como-crear-api-en-python/)
 * [Cursos para aprender más sobre R](https://datos.gob.es/es/noticia/cursos-para-aprender-mas-sobre-r)
 * [Estadística con R](https://www.cienciadedatos.net/estadistica-con-r.html)
+* [Practical Introduction to Web Scraping in R](https://blog.rsquaredacademy.com/web-scraping/)
 
 
 ## Libros
 
+* [Todos los libros en bookdown](https://bookdown.org/home/archive/)
 * [R intro](https://cran.r-project.org/doc/manuals/R-intro.pdf)
 * [R for everyone](https://www.jaredlander.com/r-for-everyone/)
 * [R in action](https://www.manning.com/books/r-in-action-second-edition)
@@ -317,3 +319,10 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [The caret Package](http://topepo.github.io/caret/index.html)
 * [Elegant and informative maps with tmap](https://r-tmap.github.io/tmap-book/)
 * [Spatial Modelling for Data Scientists](https://gdsl-ul.github.io/san/)
+* [Command Line Basics for R Users](https://bash-intro.rsquaredacademy.com/)
+* [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
+* [Outstanding User Interfaces with Shiny](https://unleash-shiny.rinterface.com/)
+* [The Shiny AWS Book](https://business-science.github.io/shiny-production-with-aws-book/)
+* [Big Book of R](https://www.bigbookofr.com/index.html)
+
+
