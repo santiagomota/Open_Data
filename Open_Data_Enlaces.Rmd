@@ -324,5 +324,5 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Outstanding User Interfaces with Shiny](https://unleash-shiny.rinterface.com/)
 * [The Shiny AWS Book](https://business-science.github.io/shiny-production-with-aws-book/)
 * [Twitter for R programmers](https://www.t4rstats.com/)
-
+* [Spatial Data Science](https://keen-swartz-3146c4.netlify.app/)
 
