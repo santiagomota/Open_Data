@@ -11,6 +11,11 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
+  pdf_document:   default
+  epuRate::epurate:
+    toc:             TRUE
+    number_sections: FALSE
+    code_folding:    "show"
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -19,11 +24,6 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  epuRate::epurate:
-    toc:             TRUE
-    number_sections: FALSE
-    code_folding:    "show"
-  pdf_document:   default
 ---
 
 
@@ -323,6 +323,6 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
 * [Outstanding User Interfaces with Shiny](https://unleash-shiny.rinterface.com/)
 * [The Shiny AWS Book](https://business-science.github.io/shiny-production-with-aws-book/)
-* [Big Book of R](https://www.bigbookofr.com/index.html)
+* [Twitter for R programmers](https://www.t4rstats.com/)
 
 
