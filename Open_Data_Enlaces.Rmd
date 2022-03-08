@@ -326,4 +326,11 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Twitter for R programmers](https://www.t4rstats.com/)
 * [Spatial Data Science](https://keen-swartz-3146c4.netlify.app/)
 * [Handbook of Graphs and Networks in People Analytics](https://ona-book.org/)
+* [Officeverse R & Office](https://ardata-fr.github.io/officeverse/index.html)
+* [Spatial Analysis With R](http://gis.humboldt.edu/OLM/r/Spatial%20Analysis%20With%20R.pdf)
+* [R Programming for Data Science](https://www.cs.upc.edu/~robert/teaching/estadistica/rprogramming.pdf)
+* [The R Book](https://www.cs.upc.edu/~robert/teaching/estadistica/TheRBook.pdf)
+* [R Notes for Professionals](https://books.goalkicker.com/RBook/)
+* [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
+* [A Practical Guide to Geostatistical Mapping](http://spatial-analyst.net/book/system/files/Hengl_2009_GEOSTATe2c1w.pdf)
 
