@@ -135,7 +135,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Amazon product data 2018](https://nijianmo.github.io/amazon/index.html)
 * [The Big Bad NLP Database](https://datasets.quantumstat.com/)
 * [openaddresses](https://openaddresses.io/)
-* [Awesome Geospatia](https://github.com/sacridini/Awesome-Geospatial)
+* [Awesome Geospatial](https://github.com/sacridini/Awesome-Geospatial)
 
 
 
