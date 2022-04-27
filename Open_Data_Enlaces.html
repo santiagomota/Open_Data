@@ -11,7 +11,7 @@
 
 <meta name="author" content="by Santiago Mota" />
 
-<meta name="date" content="2022-04-07" />
+<meta name="date" content="2022-04-27" />
 
 <title>Open Data</title>
 
@@ -1322,6 +1322,8 @@ window.initializeCodeFolding = function(show) {
   // select all R code blocks
   var rCodeBlocks = $('pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan, pre.julia, pre.foldable');
   rCodeBlocks.each(function() {
+    // skip if the block has fold-none class
+    if ($(this).hasClass('fold-none')) return;
 
     // create a collapsable div to wrap the code in
     var div = $('<div class="collapse r-code-collapse"></div>');
@@ -1587,7 +1589,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Open Data</h1>
 <h4 class="author">by <a href="https://www.linkedin.com/in/santiagomota/">Santiago Mota</a></h4>
-<h4 class="date">2022-04-07</h4>
+<h4 class="date">2022-04-27</h4>
 
 </div>
 
@@ -2007,6 +2009,8 @@ para aprender más sobre R</a></li>
 con R</a></li>
 <li><a href="https://blog.rsquaredacademy.com/web-scraping/">Practical
 Introduction to Web Scraping in R</a></li>
+<li><a href="https://www.r4wrds.com/">R for Water Resources Data
+Science</a></li>
 </ul>
 </div>
 <div id="libros" class="section level2">
@@ -2162,6 +2166,18 @@ Introduction to Spatial Data Analysis and Visualisation in R</a></li>
 Practical Guide to Geostatistical Mapping</a></li>
 <li><a href="https://greenteapress.com/wp/think-bayes/">Think Bayes
 2e</a></li>
+<li><a href="http://qpolr.com/">Quantitative Politics with R</a></li>
+<li><a href="https://datascienceineducation.com/">Data Science in
+Education Using R</a></li>
+<li><a href="https://psyteachr.github.io/msc-data-skills/">Data Skills
+for Reproducible Science</a></li>
+<li><a href="https://peopleanalytics-regression-book.org/">Handbook of
+Regression Modeling in People Analytics</a></li>
+<li><a href="https://ona-book.org/">Handbook of Graphs and Networks in
+People Analytics With Examples in R and Python</a></li>
+<li><a href="https://www.sds.pub/index.html">Social Data Science with
+R</a></li>
+<li><a href="https://tidy-finance.org/">Tidy Finance with R</a></li>
 </ul>
 </div>
 

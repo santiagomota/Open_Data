@@ -11,6 +11,11 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
+  pdf_document:   default
+  epuRate::epurate:
+    toc:             TRUE
+    number_sections: FALSE
+    code_folding:    "show"
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -19,11 +24,6 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  epuRate::epurate:
-    toc:             TRUE
-    number_sections: FALSE
-    code_folding:    "show"
-  pdf_document:   default
 ---
 
 
@@ -251,6 +251,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Cursos para aprender más sobre R](https://datos.gob.es/es/noticia/cursos-para-aprender-mas-sobre-r)
 * [Estadística con R](https://www.cienciadedatos.net/estadistica-con-r.html)
 * [Practical Introduction to Web Scraping in R](https://blog.rsquaredacademy.com/web-scraping/)
+* [R for Water Resources Data Science](https://www.r4wrds.com/)
 
 
 ## Libros
@@ -334,3 +335,11 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
 * [A Practical Guide to Geostatistical Mapping](http://spatial-analyst.net/book/system/files/Hengl_2009_GEOSTATe2c1w.pdf)
 * [Think Bayes 2e](https://greenteapress.com/wp/think-bayes/)
+* [Quantitative Politics with R](http://qpolr.com/)
+* [Data Science in Education Using R](https://datascienceineducation.com/)
+* [Data Skills for Reproducible Science](https://psyteachr.github.io/msc-data-skills/)
+* [Handbook of Regression Modeling in People Analytics](https://peopleanalytics-regression-book.org/)
+* [Handbook of Graphs and Networks in People Analytics With Examples in R and Python](https://ona-book.org/)
+* [Social Data Science with R](https://www.sds.pub/index.html)
+* [Tidy Finance with R](https://tidy-finance.org/)
+
