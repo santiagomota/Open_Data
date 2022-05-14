@@ -11,11 +11,6 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
-  pdf_document:   default
-  epuRate::epurate:
-    toc:             TRUE
-    number_sections: FALSE
-    code_folding:    "show"
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -24,6 +19,11 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
+  epuRate::epurate:
+    toc:             TRUE
+    number_sections: FALSE
+    code_folding:    "show"
+  pdf_document:   default
 ---
 
 
@@ -188,7 +188,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [100 Active Blogs on Analytics, Big Data, Data Mining, Data Science, Machine Learning](http://www.kdnuggets.com/2016/03/100-active-blogs-analytics-big-data-science-machine-learning.html#.VvqjkSV5Tio.linkedin)
 * [Plataforma H2O](https://github.com/h2oai)
 * [Computer vision](https://github.com/kjw0612/awesome-deep-vision)
-* Pautas para dar formato al código programando en R: [Google](https://google.github.io/styleguide/Rguide.xml) y [Hadley Wickham (RStudio)](http://adv-r.had.co.nz/Style.html)
+* Pautas para dar formato al código programando en R: [Google](https://google.github.io/styleguide/Rguide.xml), [Hadley Wickham (RStudio)](http://adv-r.had.co.nz/Style.html) y [Coding Club](https://ourcodingclub.github.io/2017/04/25/etiquette.html#syntax)
 * [The State of Naming Conventions in R](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Baaaath.pdf)
 * [R Code – Best practices](https://www.r-bloggers.com/r-code-best-practices/)
 * [R Coding Style Guide](https://irudnyts.github.io//r-coding-style-guide/)
