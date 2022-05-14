@@ -11,6 +11,11 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
+  pdf_document:   default
+  epuRate::epurate:
+    toc:             TRUE
+    number_sections: FALSE
+    code_folding:    "show"
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -19,11 +24,6 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  epuRate::epurate:
-    toc:             TRUE
-    number_sections: FALSE
-    code_folding:    "show"
-  pdf_document:   default
 ---
 
 
@@ -252,6 +252,8 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Estadística con R](https://www.cienciadedatos.net/estadistica-con-r.html)
 * [Practical Introduction to Web Scraping in R](https://blog.rsquaredacademy.com/web-scraping/)
 * [R for Water Resources Data Science](https://www.r4wrds.com/)
+* [A ggplot2 Tutorial for Beautiful Plotting in R](https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
+* [Bivariate Choropleth Maps: A How-to Guide](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/)
 
 
 ## Libros
@@ -343,3 +345,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Social Data Science with R](https://www.sds.pub/index.html)
 * [Tidy Finance with R](https://tidy-finance.org/)
 * [Predictive Soil Mapping with R](https://soilmapper.org/)
+* [Deep Learning](https://srdas.github.io/DLBook/)
+* [Technical Foundations of Informatics](https://info201.github.io/)
+* [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/)
+
