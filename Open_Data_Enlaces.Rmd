@@ -11,11 +11,6 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
-  pdf_document:   default
-  epuRate::epurate:
-    toc:             TRUE
-    number_sections: FALSE
-    code_folding:    "show"
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -24,6 +19,11 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
+  epuRate::epurate:
+    toc:             TRUE
+    number_sections: FALSE
+    code_folding:    "show"
+  pdf_document:   default
 ---
 
 
@@ -352,3 +352,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [An R companion to Statistics: data analysis and modelling](https://mspeekenbrink.github.io/sdam-r-companion/index.html)
 * [Learning Statistics with R](https://learningstatisticswithr.com/)
 * [Happy Git and GitHub for the useR](https://happygitwithr.com/index.html)
+* [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
