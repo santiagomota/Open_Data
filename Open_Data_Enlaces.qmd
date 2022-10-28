@@ -165,7 +165,6 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Satellite imagery datasets containing ships](https://github.com/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships)
 
 
-
 ## Otras referencias interesantes
 
 * [Data Science Blogs](https://github.com/rushter/data-science-blogs)
@@ -252,6 +251,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [R for Water Resources Data Science](https://www.r4wrds.com/)
 * [A ggplot2 Tutorial for Beautiful Plotting in R](https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
 * [Bivariate Choropleth Maps: A How-to Guide](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/)
+* [Tipos de licencias open data (minicurso de data.europa.edu)](https://data.europa.eu/en/academy/open-data-licensing)
 
 
 ## Libros
