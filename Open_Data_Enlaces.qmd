@@ -163,6 +163,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [openaddresses](https://openaddresses.io/)
 * [Awesome Geospatial](https://github.com/sacridini/Awesome-Geospatial)
 * [Satellite imagery datasets containing ships](https://github.com/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships)
+* [AI for Copernicus - a data repository by CALLISTO](https://github.com/Agri-Hub/Callisto-Dataset-Collection)
 
 
 ## Otras referencias interesantes
