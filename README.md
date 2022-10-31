@@ -138,6 +138,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Awesome Geospatial](https://github.com/sacridini/Awesome-Geospatial)
 * [Satellite imagery datasets containing ships](https://github.com/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships)
 * [AI for Copernicus - a data repository by CALLISTO](https://github.com/Agri-Hub/Callisto-Dataset-Collection)
+* [ESA WorldCover 2021. Global land cover product at 10 m for 2021 based on Sentinel-1 and 2 data](https://worldcover2021.esa.int/)
 
 
 ## Otras referencias interesantes
