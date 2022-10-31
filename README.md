@@ -136,7 +136,8 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [The Big Bad NLP Database](https://datasets.quantumstat.com/)
 * [openaddresses](https://openaddresses.io/)
 * [Awesome Geospatial](https://github.com/sacridini/Awesome-Geospatial)
-
+* [Satellite imagery datasets containing ships](https://github.com/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships)
+* [AI for Copernicus - a data repository by CALLISTO](https://github.com/Agri-Hub/Callisto-Dataset-Collection)
 
 
 ## Otras referencias interesantes
@@ -159,7 +160,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [100 Active Blogs on Analytics, Big Data, Data Mining, Data Science, Machine Learning](http://www.kdnuggets.com/2016/03/100-active-blogs-analytics-big-data-science-machine-learning.html#.VvqjkSV5Tio.linkedin)
 * [Plataforma H2O](https://github.com/h2oai)
 * [Computer vision](https://github.com/kjw0612/awesome-deep-vision)
-* Pautas para dar formato al código programando en R: [Google](https://google.github.io/styleguide/Rguide.xml) y [Hadley Wickham (RStudio)](http://adv-r.had.co.nz/Style.html)
+* Pautas para dar formato al código programando en R: [Google](https://google.github.io/styleguide/Rguide.xml), [Hadley Wickham (RStudio)](http://adv-r.had.co.nz/Style.html) y [Coding Club](https://ourcodingclub.github.io/2017/04/25/etiquette.html#syntax)
 * [The State of Naming Conventions in R](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Baaaath.pdf)
 * [R Code – Best practices](https://www.r-bloggers.com/r-code-best-practices/)
 * [R Coding Style Guide](https://irudnyts.github.io//r-coding-style-guide/)
@@ -222,10 +223,17 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Cursos para aprender más sobre R](https://datos.gob.es/es/noticia/cursos-para-aprender-mas-sobre-r)
 * [Estadística con R](https://www.cienciadedatos.net/estadistica-con-r.html)
 * [Practical Introduction to Web Scraping in R](https://blog.rsquaredacademy.com/web-scraping/)
+* [R for Water Resources Data Science](https://www.r4wrds.com/)
+* [A ggplot2 Tutorial for Beautiful Plotting in R](https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
+* [Bivariate Choropleth Maps: A How-to Guide](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/)
+* [Tipos de licencias open data (minicurso de data.europa.edu)](https://data.europa.eu/en/academy/open-data-licensing)
+* Legadidad Web sraping: [Is Web Scraping Legal? : The Definitive Guide](https://prowebscraper.com/blog/is-web-scraping-legal/) y [Web Scraping: ¿legal o ilegal?](https://ecija.com/web-scraping-legal-ilegal/)
 
 
 ## Libros
 
+* [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 * [Todos los libros en bookdown](https://bookdown.org/home/archive/)
 * [R intro](https://cran.r-project.org/doc/manuals/R-intro.pdf)
 * [R for everyone](https://www.jaredlander.com/r-for-everyone/)
@@ -305,3 +313,21 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
 * [A Practical Guide to Geostatistical Mapping](http://spatial-analyst.net/book/system/files/Hengl_2009_GEOSTATe2c1w.pdf)
 * [Think Bayes 2e](https://greenteapress.com/wp/think-bayes/)
+* [Quantitative Politics with R](http://qpolr.com/)
+* [Data Science in Education Using R](https://datascienceineducation.com/)
+* [Data Skills for Reproducible Science](https://psyteachr.github.io/msc-data-skills/)
+* [Handbook of Regression Modeling in People Analytics](https://peopleanalytics-regression-book.org/)
+* [Handbook of Graphs and Networks in People Analytics With Examples in R and Python](https://ona-book.org/)
+* [Social Data Science with R](https://www.sds.pub/index.html)
+* [Tidy Finance with R](https://tidy-finance.org/)
+* [Predictive Soil Mapping with R](https://soilmapper.org/)
+* [Deep Learning](https://srdas.github.io/DLBook/)
+* [Technical Foundations of Informatics](https://info201.github.io/)
+* [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/)
+* [An R companion to Statistics: data analysis and modelling](https://mspeekenbrink.github.io/sdam-r-companion/index.html)
+* [Learning Statistics with R](https://learningstatisticswithr.com/)
+* [Happy Git and GitHub for the useR](https://happygitwithr.com/index.html)
+* [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
+* [R4JournalismBook](https://smach.github.io/R4JournalismBook/)
+* [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+* [Libro Vivo de Ciencia de Datos](https://librovivodecienciadedatos.ai/)
