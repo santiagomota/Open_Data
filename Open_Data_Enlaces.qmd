@@ -235,7 +235,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [The Chartmaker Directory](chartmaker.visualisingdata.com)
 * [Kaggle Winning Solutions](http://kagglesolutions.com/)
 * [Simplifying the ROC and AUC metrics](https://towardsdatascience.com/understanding-the-roc-and-auc-curves-a05b68550b69)
-* [Feature Engineering for Machine Learning](https://www.trainindata.com/post/feature-engineering-comprehensive-overview)
+* [Feature Engineering for Machine Learning](https://trainindata.medium.com/feature-engineering-for-machine-learning-a-comprehensive-overview-a7ad04c896f8)
 * [Awesome Data Science](https://github.com/academic/awesome-datascience)
 * [Data Scientist Roadmap](https://github.com/MrMimic/data-scientist-roadmap)
 * [Data Science Collected Resources](https://github.com/tirthajyoti/Data-science-best-resources)
