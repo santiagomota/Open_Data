@@ -229,6 +229,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Bivariate Choropleth Maps: A How-to Guide](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/)
 * [Tipos de licencias open data (minicurso de data.europa.edu)](https://data.europa.eu/en/academy/open-data-licensing)
 * Legalidad Web sraping: [Is Web Scraping Legal? : The Definitive Guide](https://prowebscraper.com/blog/is-web-scraping-legal/) y [Web Scraping: ¿legal o ilegal?](https://ecija.com/web-scraping-legal-ilegal/)
+* [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
 
 
 ## Libros
