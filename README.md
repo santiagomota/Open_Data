@@ -230,6 +230,9 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Tipos de licencias open data (minicurso de data.europa.edu)](https://data.europa.eu/en/academy/open-data-licensing)
 * Legalidad Web sraping: [Is Web Scraping Legal? : The Definitive Guide](https://prowebscraper.com/blog/is-web-scraping-legal/) y [Web Scraping: ¿legal o ilegal?](https://ecija.com/web-scraping-legal-ilegal/)
 * [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
+* [Financial-Times / chart-doctor](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary)
+* [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
+* [From Data to Viz](https://www.data-to-viz.com/)
 
 
 ## Libros

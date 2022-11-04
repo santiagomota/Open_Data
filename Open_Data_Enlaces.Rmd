@@ -10,6 +10,7 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
+  word_document:  default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -18,12 +19,11 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  pdf_document:   default
   epuRate::epurate:
     toc:             TRUE
     number_sections: FALSE
     code_folding:    "show"
-  word_document:  default
+  pdf_document:   default
 ---
 
 
@@ -260,6 +260,9 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Tipos de licencias open data (minicurso de data.europa.edu)](https://data.europa.eu/en/academy/open-data-licensing)
 * Legalidad Web sraping: [Is Web Scraping Legal? : The Definitive Guide](https://prowebscraper.com/blog/is-web-scraping-legal/) y [Web Scraping: ¿legal o ilegal?](https://ecija.com/web-scraping-legal-ilegal/)
 * [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
+* [Financial-Times / chart-doctor](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary)
+* [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
+* [From Data to Viz](https://www.data-to-viz.com/)
 
 
 ## Libros
