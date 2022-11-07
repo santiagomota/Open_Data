@@ -363,3 +363,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
 * [Libro Vivo de Ciencia de Datos](https://librovivodecienciadedatos.ai/)
 * [Introduction to Probability for Data Science](https://probability4datascience.com/index.html)
+* [Spatial Data Science with applications in R](https://r-spatial.org/book/)
