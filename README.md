@@ -336,3 +336,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [R4JournalismBook](https://smach.github.io/R4JournalismBook/)
 * [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
 * [Libro Vivo de Ciencia de Datos](https://librovivodecienciadedatos.ai/)
+* [Introduction to Probability for Data Science](https://probability4datascience.com/index.html)
