@@ -338,3 +338,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Libro Vivo de Ciencia de Datos](https://librovivodecienciadedatos.ai/)
 * [Introduction to Probability for Data Science](https://probability4datascience.com/index.html)
 * [Spatial Data Science with applications in R](https://r-spatial.org/book/)
+* [R for Data Analysis](https://trevorfrench.github.io/R-for-Data-Analysis/)
+

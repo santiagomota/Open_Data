@@ -11,7 +11,6 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -20,6 +19,7 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 
@@ -364,3 +364,5 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Libro Vivo de Ciencia de Datos](https://librovivodecienciadedatos.ai/)
 * [Introduction to Probability for Data Science](https://probability4datascience.com/index.html)
 * [Spatial Data Science with applications in R](https://r-spatial.org/book/)
+* [R for Data Analysis](https://trevorfrench.github.io/R-for-Data-Analysis/)
+
