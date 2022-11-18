@@ -339,4 +339,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Introduction to Probability for Data Science](https://probability4datascience.com/index.html)
 * [Spatial Data Science with applications in R](https://r-spatial.org/book/)
 * [R for Data Analysis](https://trevorfrench.github.io/R-for-Data-Analysis/)
-
+* [Data Analysis and Prediction Algorithms with R](http://rafalab.dfci.harvard.edu/dsbook/)
+* [Análisis de datos y algoritmos de predicción con R](http://rafalab.dfci.harvard.edu/dslibro/)
