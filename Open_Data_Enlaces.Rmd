@@ -11,6 +11,7 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -19,7 +20,6 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 
@@ -369,3 +369,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Análisis de datos y algoritmos de predicción con R](http://rafalab.dfci.harvard.edu/dslibro/)
 * [The Art of Data Science](https://bookdown.org/rdpeng/artofdatascience/)
 * [R for data science: tidyverse and beyond](https://bookdown.org/Maxine/r4ds/)
+* [Statistical Inference via Data Science](https://moderndive.com/index.html)
