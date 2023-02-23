@@ -1,25 +1,43 @@
 ---
 title:    "Open Data"
-author:   "by [Santiago Mota](https://www.linkedin.com/in/santiagomota/)"
-mail:     "santiago_mota@yahoo.es"
-linkedin: "santiagomota"
-twitter:  "mota_santiago"
-github:   "santiagomota"
-date:     "`r Sys.Date()`"
-# logo:     "./figs/logo3.png"
+subtitle: "Enlaces"
+description: "Listado de enlaces y recursos relacionados con open data"
+author: "Santiago Mota"
+mail: "santiago_mota@yahoo.es"
+linkedin: "https://www.linkedin.com/in/santiagomota/"
+twitter: "https://mobile.twitter.com/mota_santiago"
+github: "https://github.com/santiagomota"
+date: "`r Sys.Date()`"
+# logo:     "./figs/logo1.png"
 license:  by-nc-sa
 urlcolor: blue
-output:
-  word_document:  default
-  pdf_document:   default
-  html_document: 
-    theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
-    highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
-    toc:          true
-    toc_float:    true
-    code_folding: show
-    includes:
-      after_body: footer.html
+params:
+  calculate_centroids: FALSE
+  active: FALSE
+  municipio: "28079"
+  tipo_inmueble: "vivienda"
+  tipo_operacion: "sale"
+  nombre_plataforma: "fotocasa"
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 6
+    theme: flatly   # cosmo, sandstone, yeti bootswatch theme
+    number-sections: true
+    page-layout: full # article full
+    max-width: 3000px
+    title-block-banner: true
+    code-fold: true
+    code-summary: "" # Show the code"  
+    code-tools: true
+    grid:
+        body-width: 2600px
+        sidebar-width: 200px
+        margin-width: 200px
+    include-after-body: footer.html
+  pdf: default    
+
 ---
 
 
