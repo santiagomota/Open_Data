@@ -341,3 +341,6 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [R for Data Analysis](https://trevorfrench.github.io/R-for-Data-Analysis/)
 * [Data Analysis and Prediction Algorithms with R](http://rafalab.dfci.harvard.edu/dsbook/)
 * [Análisis de datos y algoritmos de predicción con R](http://rafalab.dfci.harvard.edu/dslibro/)
+* [The Art of Data Science](https://bookdown.org/rdpeng/artofdatascience/)
+* [R for data science: tidyverse and beyond](https://bookdown.org/Maxine/r4ds/)
+* [Statistical Inference via Data Science](https://moderndive.com/index.html)
