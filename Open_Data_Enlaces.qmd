@@ -388,3 +388,5 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [The Art of Data Science](https://bookdown.org/rdpeng/artofdatascience/)
 * [R for data science: tidyverse and beyond](https://bookdown.org/Maxine/r4ds/)
 * [Statistical Inference via Data Science](https://moderndive.com/index.html)
+
+
