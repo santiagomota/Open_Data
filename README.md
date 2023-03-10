@@ -344,3 +344,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [The Art of Data Science](https://bookdown.org/rdpeng/artofdatascience/)
 * [R for data science: tidyverse and beyond](https://bookdown.org/Maxine/r4ds/)
 * [Statistical Inference via Data Science](https://moderndive.com/index.html)
+* [Introduction to urban accessibility](https://ipeagit.github.io/intro_access_book/en/index.en.html)
