@@ -345,3 +345,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [R for data science: tidyverse and beyond](https://bookdown.org/Maxine/r4ds/)
 * [Statistical Inference via Data Science](https://moderndive.com/index.html)
 * [Introduction to urban accessibility](https://ipeagit.github.io/intro_access_book/en/index.en.html)
+* [Tidy Finance](https://www.tidy-finance.org/)
