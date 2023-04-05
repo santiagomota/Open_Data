@@ -346,3 +346,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Statistical Inference via Data Science](https://moderndive.com/index.html)
 * [Introduction to urban accessibility](https://ipeagit.github.io/intro_access_book/en/index.en.html)
 * [Tidy Finance](https://www.tidy-finance.org/)
+* [Deep Learning and Scientific Computing with R torch](https://skeydan.github.io/Deep-Learning-and-Scientific-Computing-with-R-torch/)
+
