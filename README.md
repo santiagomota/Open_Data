@@ -349,3 +349,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Tidy Finance](https://www.tidy-finance.org/)
 * [Deep Learning and Scientific Computing with R torch](https://skeydan.github.io/Deep-Learning-and-Scientific-Computing-with-R-torch/)
 * [Econometrics with the Tidyverse](https://colleen.quarto.pub/the-tidy-econometrics-workbook/)
+* [Building reproducible analytical pipelines with R](https://raps-with-r.dev/)
