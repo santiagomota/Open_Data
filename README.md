@@ -317,6 +317,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Outstanding User Interfaces with Shiny](https://unleash-shiny.rinterface.com/)
 * [The Shiny AWS Book](https://business-science.github.io/shiny-production-with-aws-book/)
 * [Twitter for R programmers](https://www.t4rstats.com/)
+* [Twitter for Scientists](https://t4scientists.com/)
 * [Spatial Data Science](https://keen-swartz-3146c4.netlify.app/)
 * [Handbook of Graphs and Networks in People Analytics](https://ona-book.org/)
 * [Officeverse R & Office](https://ardata-fr.github.io/officeverse/index.html)
