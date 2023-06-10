@@ -359,4 +359,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Deep Learning and Scientific Computing with R torch](https://skeydan.github.io/Deep-Learning-and-Scientific-Computing-with-R-torch/)
 * [Econometrics with the Tidyverse](https://colleen.quarto.pub/the-tidy-econometrics-workbook/)
 * [Building reproducible analytical pipelines with R](https://raps-with-r.dev/)
-
+* [Satellite Image Time Series Analysis on Earth Observation Data Cubes](https://e-sensing.github.io/sitsbook/)
