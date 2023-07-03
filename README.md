@@ -360,3 +360,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Econometrics with the Tidyverse](https://colleen.quarto.pub/the-tidy-econometrics-workbook/)
 * [Building reproducible analytical pipelines with R](https://raps-with-r.dev/)
 * [Satellite Image Time Series Analysis on Earth Observation Data Cubes](https://e-sensing.github.io/sitsbook/)
+* [Spatial Statistics for Data Science: Theory and Practice with R](https://www.paulamoraga.com/book-spatial/index.html)
+
