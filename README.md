@@ -361,4 +361,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Building reproducible analytical pipelines with R](https://raps-with-r.dev/)
 * [Satellite Image Time Series Analysis on Earth Observation Data Cubes](https://e-sensing.github.io/sitsbook/)
 * [Spatial Statistics for Data Science: Theory and Practice with R](https://www.paulamoraga.com/book-spatial/index.html)
+* [Geographic Data Science with R: Visualizing and Analyzing Environmental Change](https://bookdown.org/mcwimberly/gdswr-book/)
 
