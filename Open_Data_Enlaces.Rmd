@@ -11,6 +11,7 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -19,7 +20,6 @@ output:
     code_folding: show
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 
@@ -388,3 +388,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Satellite Image Time Series Analysis on Earth Observation Data Cubes](https://e-sensing.github.io/sitsbook/)
 * [Spatial Statistics for Data Science: Theory and Practice with R](https://www.paulamoraga.com/book-spatial/index.html)
 * [Geographic Data Science with R: Visualizing and Analyzing Environmental Change](https://bookdown.org/mcwimberly/gdswr-book/)
+* [Apache Arrow R Cookbook](https://arrow.apache.org/cookbook/r/)
