@@ -363,3 +363,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Spatial Statistics for Data Science: Theory and Practice with R](https://www.paulamoraga.com/book-spatial/index.html)
 * [Geographic Data Science with R: Visualizing and Analyzing Environmental Change](https://bookdown.org/mcwimberly/gdswr-book/)
 * [Apache Arrow R Cookbook](https://arrow.apache.org/cookbook/r/)
+* [An Introduction to R and Python For Data Analysis: A Side By Side Approach](https://randpythonbook.netlify.app/)
