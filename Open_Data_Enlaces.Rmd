@@ -11,6 +11,7 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -20,7 +21,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 
@@ -315,7 +315,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
 * [Bayesian inference with INLA](https://becarioprecario.bitbucket.io/inla-gitbook/index.html)
 * [Happy Git and GitHub for the useR](https://happygitwithr.com/)
-* R for Data Science. [Inglés](https://es.r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
+* R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 * [Data Visualization with R](https://rkabacoff.github.io/datavis/)
 * [Big Book of R](https://www.bigbookofr.com/index.html)
 * [JavaScript for R](https://book.javascript-for-r.com/)

@@ -288,7 +288,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
 * [Bayesian inference with INLA](https://becarioprecario.bitbucket.io/inla-gitbook/index.html)
 * [Happy Git and GitHub for the useR](https://happygitwithr.com/)
-* R for Data Science. [Inglés](https://es.r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
+* R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 * [Data Visualization with R](https://rkabacoff.github.io/datavis/)
 * [Big Book of R](https://www.bigbookofr.com/index.html)
 * [JavaScript for R](https://book.javascript-for-r.com/)
