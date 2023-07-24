@@ -414,3 +414,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Apache Arrow R Cookbook](https://arrow.apache.org/cookbook/r/)
 * [An Introduction to R and Python For Data Analysis: A Side By Side Approach](https://randpythonbook.netlify.app/)
 * [Using the flextable R package](https://ardata-fr.github.io/flextable-book/index.html)
+* [Spatial sampling with R](https://dickbrus.github.io/SpatialSamplingwithR/)

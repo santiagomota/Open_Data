@@ -365,3 +365,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Apache Arrow R Cookbook](https://arrow.apache.org/cookbook/r/)
 * [An Introduction to R and Python For Data Analysis: A Side By Side Approach](https://randpythonbook.netlify.app/)
 * [Using the flextable R package](https://ardata-fr.github.io/flextable-book/index.html)
+* [Spatial sampling with R](https://dickbrus.github.io/SpatialSamplingwithR/)
