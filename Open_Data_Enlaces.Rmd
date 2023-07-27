@@ -10,7 +10,6 @@ date:     "`r Sys.Date()`"
 license:  by-nc-sa
 urlcolor: blue
 output:
-  word_document:  default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,6 +20,7 @@ output:
     includes:
       after_body: footer.html
   pdf_document:   default
+  word_document:  default
 ---
 
 
@@ -393,3 +393,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [An Introduction to R and Python For Data Analysis: A Side By Side Approach](https://randpythonbook.netlify.app/)
 * [Using the flextable R package](https://ardata-fr.github.io/flextable-book/index.html)
 * [Spatial sampling with R](https://dickbrus.github.io/SpatialSamplingwithR/)
+* [Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/)

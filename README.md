@@ -366,3 +366,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [An Introduction to R and Python For Data Analysis: A Side By Side Approach](https://randpythonbook.netlify.app/)
 * [Using the flextable R package](https://ardata-fr.github.io/flextable-book/index.html)
 * [Spatial sampling with R](https://dickbrus.github.io/SpatialSamplingwithR/)
+* [Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/)
+
