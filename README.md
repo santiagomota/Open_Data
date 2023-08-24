@@ -369,4 +369,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/)
 * [Modern Data Science with R](https://mdsr-book.github.io/mdsr3e/)
 * [Quarto for Scientists](https://qmd4sci.njtierney.com/)
-
+* [Introduction to Environmental Data Science](https://bookdown.org/igisc/EnvDataSci/)
+* [Manual de R](https://fhernanb.github.io/Manual-de-R/)

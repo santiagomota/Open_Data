@@ -11,6 +11,7 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -20,7 +21,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 
@@ -396,4 +396,6 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/)
 * [Modern Data Science with R](https://mdsr-book.github.io/mdsr3e/)
 * [Quarto for Scientists](https://qmd4sci.njtierney.com/)
+* [Introduction to Environmental Data Science](https://bookdown.org/igisc/EnvDataSci/)
+* [Manual de R](https://fhernanb.github.io/Manual-de-R/)
 
