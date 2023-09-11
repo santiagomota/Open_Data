@@ -373,3 +373,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Manual de R](https://fhernanb.github.io/Manual-de-R/)
 * [Modern R with the tidyverse](https://modern-rstats.eu/)
 * [Tidy Modeling with R](https://www.tmwr.org/)
+* [Data Analysis in Medicine and Health using R](https://bookdown.org/drki_musa/dataanalysis/)
