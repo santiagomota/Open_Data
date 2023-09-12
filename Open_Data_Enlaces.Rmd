@@ -11,6 +11,7 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -20,7 +21,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 
@@ -180,7 +180,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [R Learning Path: From beginner to expert in R in 7 steps](http://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html)
 * [Tutorial de R Markdown](http://www.sfs.uni-tuebingen.de/~jvanrij/Tutorial/tutorialMarkdown.html)
 * [Rstudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/?utm_content=buffer1b56a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
-* [R Markdown cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+* [R Markdown cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf)
 * [R Markdown referencia](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 * [A dive into R Markdown](http://cfss.uchicago.edu/program_rmarkdown.html)
 * [Información de Rmarkdown en R Studio](http://rmarkdown.rstudio.com/)
