@@ -11,7 +11,6 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,6 +20,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 
@@ -401,4 +401,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Modern R with the tidyverse](https://modern-rstats.eu/)
 * [Tidy Modeling with R](https://www.tmwr.org/)
 * [Data Analysis in Medicine and Health using R](https://bookdown.org/drki_musa/dataanalysis/)
-
+* [Crime by the Numbers: A Criminologist’s Guide to R](https://crimebythenumbers.com/)

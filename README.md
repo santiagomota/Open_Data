@@ -374,3 +374,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Modern R with the tidyverse](https://modern-rstats.eu/)
 * [Tidy Modeling with R](https://www.tmwr.org/)
 * [Data Analysis in Medicine and Health using R](https://bookdown.org/drki_musa/dataanalysis/)
+* [Crime by the Numbers: A Criminologist’s Guide to R](https://crimebythenumbers.com/)
+
