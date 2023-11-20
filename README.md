@@ -379,4 +379,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Data transformation with R](https://pyoflife.com/data-transformation-with-r-pdf/)
 * [Data Visualization and Exploration with R](https://pyoflife.com/data-visualization-and-exploration-with-r-pdf/)
 * [Introduction to Probability and Statistics Using R](https://pyoflife.com/introduction-to-probability-and-statistics-using-r/)
+* [Fundamentos de ciencia de datos con R](https://cdr-book.github.io/)
 
