@@ -380,4 +380,6 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Data Visualization and Exploration with R](https://pyoflife.com/data-visualization-and-exploration-with-r-pdf/)
 * [Introduction to Probability and Statistics Using R](https://pyoflife.com/introduction-to-probability-and-statistics-using-r/)
 * [Fundamentos de ciencia de datos con R](https://cdr-book.github.io/)
+* [Financial Risk Modelling and Portfolio Optimization with R](https://pyoflife.com/financial-risk-modelling-and-portfolio-optimization-with-r/)
+* [R in Finance: Introduction to R and Its Applications in Finance](https://pyoflife.com/r-in-finance-introduction-to-r-and-its-applications-in-finance/)
 

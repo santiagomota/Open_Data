@@ -11,6 +11,7 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -20,7 +21,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 
@@ -407,3 +407,5 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Data Visualization and Exploration with R](https://pyoflife.com/data-visualization-and-exploration-with-r-pdf/)
 * [Introduction to Probability and Statistics Using R](https://pyoflife.com/introduction-to-probability-and-statistics-using-r/)
 * [Fundamentos de ciencia de datos con R](https://cdr-book.github.io/)
+* [Financial Risk Modelling and Portfolio Optimization with R](https://pyoflife.com/financial-risk-modelling-and-portfolio-optimization-with-r/)
+* [R in Finance: Introduction to R and Its Applications in Finance](https://pyoflife.com/r-in-finance-introduction-to-r-and-its-applications-in-finance/)
