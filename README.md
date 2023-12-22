@@ -383,4 +383,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Financial Risk Modelling and Portfolio Optimization with R](https://pyoflife.com/financial-risk-modelling-and-portfolio-optimization-with-r/)
 * [R in Finance: Introduction to R and Its Applications in Finance](https://pyoflife.com/r-in-finance-introduction-to-r-and-its-applications-in-finance/)
 * [Deep R Programming](https://deepr.gagolewski.com/)
+* [Beyond Multiple Linear Regression](https://bookdown.org/roback/bookdown-BeyondMLR/)
 
