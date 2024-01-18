@@ -384,4 +384,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [R in Finance: Introduction to R and Its Applications in Finance](https://pyoflife.com/r-in-finance-introduction-to-r-and-its-applications-in-finance/)
 * [Deep R Programming](https://deepr.gagolewski.com/)
 * [Beyond Multiple Linear Regression](https://bookdown.org/roback/bookdown-BeyondMLR/)
-
+* [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/index.html)
