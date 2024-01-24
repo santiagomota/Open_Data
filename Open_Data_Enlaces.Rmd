@@ -11,7 +11,6 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,6 +20,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 
@@ -170,7 +170,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [25 Satellite Maps To See Earth in New Ways](https://gisgeography.com/satellite-maps/)
 * [Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/)
 * [Sentinel Hub NoR Sponsored Accounts and Data Collections](https://www.sentinel-hub.com/Network-of-Resources/)
-
+* [rspatialdata is a collection of data sources and tutorials on visualising spatial data using R](https://rspatialdata.github.io/)
 
 
 ## Otras referencias interesantes

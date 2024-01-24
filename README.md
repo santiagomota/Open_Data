@@ -143,7 +143,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [25 Satellite Maps To See Earth in New Ways](https://gisgeography.com/satellite-maps/)
 * [Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/)
 * [Sentinel Hub NoR Sponsored Accounts and Data Collections](https://www.sentinel-hub.com/Network-of-Resources/)
-
+* [rspatialdata is a collection of data sources and tutorials on visualising spatial data using R](https://rspatialdata.github.io/)
 
 
 ## Otras referencias interesantes
