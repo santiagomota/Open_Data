@@ -434,5 +434,6 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Deep R Programming](https://deepr.gagolewski.com/)
 * [Beyond Multiple Linear Regression](https://bookdown.org/roback/bookdown-BeyondMLR/)
 * [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/index.html)
+* [Psychometrics in Exercises using R and RStudio](https://bookdown.org/annabrown/psychometricsR/)
 
 <span style="color:white">{{< fa brands github >}}</span>

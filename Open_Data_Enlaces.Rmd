@@ -11,6 +11,7 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -20,7 +21,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 
@@ -412,3 +412,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Deep R Programming](https://deepr.gagolewski.com/)
 * [Beyond Multiple Linear Regression](https://bookdown.org/roback/bookdown-BeyondMLR/)
 * [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/index.html)
+* [Psychometrics in Exercises using R and RStudio](https://bookdown.org/annabrown/psychometricsR/)
