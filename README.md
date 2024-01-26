@@ -199,6 +199,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Glosario de Machine Learning de Google](https://developers.google.com/machine-learning/glossary/)
 * [Google Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 * Statistical Learning de Stanford  [Curso](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about), [Libro](https://web.stanford.edu/~hastie/ElemStatLearn/), [Código](https://github.com/khanhnamle1994/statistical-learning) y [Transparencias](https://github.com/khanhnamle1994/statistical-learning/tree/master/Lecture-Slides)
+* [An Introduction to Statistical Learning - Web R & Python](https://www.statlearning.com/)
 * [100 Free Tutorials for Learning R](https://www.listendata.com/p/r-programming-tutorials.html)
 * [Google's best practices in machine learning](https://developers.google.com/machine-learning/guides/rules-of-ml/)
 * [Web Scraping TripAdvisor, Text Mining and Sentiment Analysis for Hotel Reviews](https://towardsdatascience.com/scraping-tripadvisor-text-mining-and-sentiment-analysis-for-hotel-reviews-cc4e20aef333)
