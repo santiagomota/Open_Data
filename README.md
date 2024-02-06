@@ -387,3 +387,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Beyond Multiple Linear Regression](https://bookdown.org/roback/bookdown-BeyondMLR/)
 * [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/index.html)
 * [Psychometrics in Exercises using R and RStudio](https://bookdown.org/annabrown/psychometricsR/)
+* [Introduction to NFL Analytics with R](https://bradcongelio.com/nfl-analytics-with-r-book/)
+
