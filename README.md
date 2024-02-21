@@ -388,4 +388,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/index.html)
 * [Psychometrics in Exercises using R and RStudio](https://bookdown.org/annabrown/psychometricsR/)
 * [Introduction to NFL Analytics with R](https://bradcongelio.com/nfl-analytics-with-r-book/)
+* [Feature Engineering and Selection: A Practical Approach for Predictive Models](https://bookdown.org/max/FES/)
 
