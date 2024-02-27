@@ -389,4 +389,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Psychometrics in Exercises using R and RStudio](https://bookdown.org/annabrown/psychometricsR/)
 * [Introduction to NFL Analytics with R](https://bradcongelio.com/nfl-analytics-with-r-book/)
 * [Feature Engineering and Selection: A Practical Approach for Predictive Models](https://bookdown.org/max/FES/)
-
+* [Applied Machine Learning Using mlr3 in R](https://mlr3book.mlr-org.com/)
