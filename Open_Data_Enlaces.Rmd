@@ -11,7 +11,6 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,6 +20,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 
@@ -417,3 +417,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Introduction to NFL Analytics with R](https://bradcongelio.com/nfl-analytics-with-r-book/)
 * [Feature Engineering and Selection: A Practical Approach for Predictive Models](https://bookdown.org/max/FES/)
 * [Applied Machine Learning Using mlr3 in R](https://mlr3book.mlr-org.com/)
+* [Behavior Analysis with Machine Learning Using R](https://enriquegit.github.io/behavior-free/index.html)
