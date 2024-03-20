@@ -391,3 +391,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Feature Engineering and Selection: A Practical Approach for Predictive Models](https://bookdown.org/max/FES/)
 * [Applied Machine Learning Using mlr3 in R](https://mlr3book.mlr-org.com/)
 * [Behavior Analysis with Machine Learning Using R](https://enriquegit.github.io/behavior-free/index.html)
+* [Data Analytics: A Small Data Approach](https://dataanalyticsbook.info/)
+

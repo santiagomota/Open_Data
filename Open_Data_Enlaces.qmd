@@ -440,5 +440,6 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Feature Engineering and Selection: A Practical Approach for Predictive Models](https://bookdown.org/max/FES/)
 * [Applied Machine Learning Using mlr3 in R](https://mlr3book.mlr-org.com/)
 * [Behavior Analysis with Machine Learning Using R](https://enriquegit.github.io/behavior-free/index.html)
+* [Data Analytics: A Small Data Approach](https://dataanalyticsbook.info/)
 
 <span style="color:white">{{< fa brands github >}}</span>
