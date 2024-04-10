@@ -392,4 +392,6 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Applied Machine Learning Using mlr3 in R](https://mlr3book.mlr-org.com/)
 * [Behavior Analysis with Machine Learning Using R](https://enriquegit.github.io/behavior-free/index.html)
 * [Data Analytics: A Small Data Approach](https://dataanalyticsbook.info/)
+* [R for Social Network Analysis](https://schochastics.github.io/R4SNA/)
+* [Cookbook Polars for R](https://ddotta.github.io/cookbook-rpolars/)
 
