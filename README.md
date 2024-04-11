@@ -394,4 +394,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 * [Data Analytics: A Small Data Approach](https://dataanalyticsbook.info/)
 * [R for Social Network Analysis](https://schochastics.github.io/R4SNA/)
 * [Cookbook Polars for R](https://ddotta.github.io/cookbook-rpolars/)
+* [DIY API with Make and {plumber}](https://www.andrewheiss.com/blog/2024/01/12/diy-api-plumber-quarto-ojs/_book/)
 

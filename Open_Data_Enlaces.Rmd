@@ -11,6 +11,7 @@ license:  by-nc-sa
 urlcolor: blue
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -20,7 +21,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 
@@ -421,3 +421,5 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 * [Data Analytics: A Small Data Approach](https://dataanalyticsbook.info/)
 * [R for Social Network Analysis](https://schochastics.github.io/R4SNA/)
 * [Cookbook Polars for R](https://ddotta.github.io/cookbook-rpolars/)
+* [DIY API with Make and {plumber}](https://www.andrewheiss.com/blog/2024/01/12/diy-api-plumber-quarto-ojs/_book/)
+
