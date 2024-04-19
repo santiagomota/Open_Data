@@ -399,4 +399,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [R for the Rest of Us: A Statistics-Free Introduction](https://book.rfortherestofus.com/)
 - [Un Recorrido por los Métodos Cuantitativos en Ciencias Sociales a bordo de R](https://estadisticacienciassocialesr.rbind.io/)
 - [What They Forgot to Teach You About R](https://rstats.wtf/)
-
+- [Tidyverse Skills for Data Science](https://jhudatascience.org/tidyversecourse/)
