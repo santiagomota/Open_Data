@@ -397,3 +397,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [DIY API with Make and {plumber}](https://www.andrewheiss.com/blog/2024/01/12/diy-api-plumber-quarto-ojs/_book/)
 - [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/)
 - [R for the Rest of Us: A Statistics-Free Introduction](https://book.rfortherestofus.com/)
+- [Un Recorrido por los Métodos Cuantitativos en Ciencias Sociales a bordo de R](https://estadisticacienciassocialesr.rbind.io/)
+
