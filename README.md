@@ -400,3 +400,6 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Un Recorrido por los Métodos Cuantitativos en Ciencias Sociales a bordo de R](https://estadisticacienciassocialesr.rbind.io/)
 - [What They Forgot to Teach You About R](https://rstats.wtf/)
 - [Tidyverse Skills for Data Science](https://jhudatascience.org/tidyversecourse/)
+- [A Business Analyst’s Introduction to Business Analytics](https://www.causact.com/#welcome)
+- [Telling Stories with Data](https://tellingstorieswithdata.com/)
+

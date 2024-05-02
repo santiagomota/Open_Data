@@ -11,8 +11,6 @@ license:  by-nc-sa
 urlcolor: blue
 always_allow_html: true
 output:
-  word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +20,8 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  word_document:  default
+  pdf_document:   default
 ---
 
 ```{r}
@@ -435,3 +435,6 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Un Recorrido por los Métodos Cuantitativos en Ciencias Sociales a bordo de R](https://estadisticacienciassocialesr.rbind.io/)
 - [What They Forgot to Teach You About R](https://rstats.wtf/)
 - [Tidyverse Skills for Data Science](https://jhudatascience.org/tidyversecourse/)
+- [A Business Analyst’s Introduction to Business Analytics](https://www.causact.com/#welcome)
+- [Telling Stories with Data](https://tellingstorieswithdata.com/)
+
