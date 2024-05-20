@@ -402,4 +402,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Tidyverse Skills for Data Science](https://jhudatascience.org/tidyversecourse/)
 - [A Business Analyst’s Introduction to Business Analytics](https://www.causact.com/#welcome)
 - [Telling Stories with Data](https://tellingstorieswithdata.com/)
+- [The tidyverse style guide](https://style.tidyverse.org/)
 

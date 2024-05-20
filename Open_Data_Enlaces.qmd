@@ -443,6 +443,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Tidyverse Skills for Data Science](https://jhudatascience.org/tidyversecourse/)
 - [A Business Analyst’s Introduction to Business Analytics](https://www.causact.com/#welcome)
 - [Telling Stories with Data](https://tellingstorieswithdata.com/)
+- [The tidyverse style guide](https://style.tidyverse.org/)
 
 
 <span style="color:white">{{< fa brands github >}}</span>
