@@ -403,4 +403,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [A Business Analyst’s Introduction to Business Analytics](https://www.causact.com/#welcome)
 - [Telling Stories with Data](https://tellingstorieswithdata.com/)
 - [The tidyverse style guide](https://style.tidyverse.org/)
-
+- [Empirical Research in Accounting: Tools and Methods](https://iangow.github.io/far_book/)
