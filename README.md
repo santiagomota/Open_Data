@@ -146,6 +146,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [rspatialdata is a collection of data sources and tutorials on visualising spatial data using R](https://rspatialdata.github.io/)
 - [awesome-gee-community-datasets](https://github.com/samapriya/awesome-gee-community-datasets)
 - [gee-community-catalog](https://gee-community-catalog.org/)
+- [The World Bank Open Knowledge Repository](https://openknowledge.worldbank.org)
 
 
 ## Otras referencias interesantes

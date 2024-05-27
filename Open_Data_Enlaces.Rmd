@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -181,6 +181,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [rspatialdata is a collection of data sources and tutorials on visualising spatial data using R](https://rspatialdata.github.io/)
 - [awesome-gee-community-datasets](https://github.com/samapriya/awesome-gee-community-datasets)
 - [gee-community-catalog](https://gee-community-catalog.org/)
+- [The World Bank Open Knowledge Repository](https://openknowledge.worldbank.org)
 
 
 ## Otras referencias interesantes
