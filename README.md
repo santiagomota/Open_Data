@@ -147,6 +147,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [awesome-gee-community-datasets](https://github.com/samapriya/awesome-gee-community-datasets)
 - [gee-community-catalog](https://gee-community-catalog.org/)
 - [The World Bank Open Knowledge Repository](https://openknowledge.worldbank.org)
+- [The Government Finance Database](https://willamette.edu/mba/research-impact/public-datasets/index.html)
 
 
 ## Otras referencias interesantes
