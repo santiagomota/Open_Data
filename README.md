@@ -409,4 +409,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [The tidyverse style guide](https://style.tidyverse.org/)
 - [Empirical Research in Accounting: Tools and Methods](https://iangow.github.io/far_book/)
 - [Data Visualization with R](https://datavizs23.classes.andrewheiss.com/example/)
-
+- [Introduction to MySQL with R](https://programminghistorian.org/en/lessons/getting-started-with-mysql-using-r)
