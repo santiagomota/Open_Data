@@ -198,8 +198,6 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [ArcGIS to R spatial cheat sheet](http://www.seascapemodels.org/data/ArcGIS_to_R_Spatial_CheatSheet.pdf)
 - [Hand-curated, high quality resources for doing data journalism with R](https://rddj.info/)
 - [RMarkdown Driven Development (RmdDD)](https://emilyriederer.netlify.app/post/rmarkdown-driven-development/)
-- [Is Web Scraping Legal? : The Definitive Guide [2019 update](https://prowebscraper.com/blog/is-web-scraping-legal/)
-- [Web Scraping: ¿legal o ilegal? (2017)](https://ecija.com/web-scraping-legal-ilegal/)
 - [htmlwidgets for R - gallery](http://gallery.htmlwidgets.org/)
 - [Free R Reading Material](https://committedtotape.shinyapps.io/freeR/)
 - [The Chartmaker Directory](chartmaker.visualisingdata.com)

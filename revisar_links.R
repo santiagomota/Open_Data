@@ -9,7 +9,11 @@ library(stringr)
 library(usethis)
 
 # Definir la URL del repositorio y el archivo README.md
-repo_url <- "https://raw.githubusercontent.com/santiagomota/Open_Data/73b1a582cb5c908d00b914e0e541b8bf81605c9c/README.md"
+# repo_url <- "https://raw.githubusercontent.com/santiagomota/Open_Data/main/README.md"
+# repo_url <- "https://github.com/santiagomota/Open_Data/blob/master/README.md"
+# repo_url <- "https://raw.githubusercontent.com/santiagomota/Open_Data/73b1a582cb5c908d00b914e0e541b8bf81605c9c/README.md"
+repo_url <- "https://raw.githubusercontent.com/santiagomota/Open_Data/master/README.md"
+
 
 # Leer el contenido del archivo README.md
 readme_content <- readLines(repo_url, warn = FALSE)
