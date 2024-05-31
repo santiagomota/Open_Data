@@ -328,7 +328,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [An R companion to Statistics: data analysis and modelling](https://mspeekenbrink.github.io/sdam-r-companion/index.html)
 - [Learning Statistics with R](https://learningstatisticswithr.com/)
 - [Happy Git and GitHub for the useR](https://happygitwithr.com/index.html)
-- [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
+- [Introduction to Econometrics with R](https://www.econometrics-with-r.org/)
 - [R4JournalismBook](https://smach.github.io/R4JournalismBook/)
 - [Libro Vivo de Ciencia de Datos](https://librovivodecienciadedatos.ai/)
 - [Introduction to Probability for Data Science](https://probability4datascience.com/index.html)
