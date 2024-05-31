@@ -137,6 +137,8 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [gee-community-catalog](https://gee-community-catalog.org/)
 - [The World Bank Open Knowledge Repository](https://openknowledge.worldbank.org)
 - [The Government Finance Database](https://willamette.edu/mba/research-impact/public-datasets/index.html)
+- [Microsoft - A Planetary Computer for a Sustainable Future](https://planetarycomputer.microsoft.com/)
+- HREA: High Resolution Electricity Access. [Universidad de Michigan](https://hrea.isr.umich.edu/index.html) y [Microsoft](https://planetarycomputer.microsoft.com/dataset/hrea#overview)
 
 
 ## Otras referencias interesantes
@@ -230,6 +232,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [overpass turbo - Herremaienta de filtrado para OSM](https://overpass-turbo.eu/)
 - [Remote Sensing for OSINT](https://bellingcat.github.io/RS4OSINT/)
 - [Investigative Journalism with Satellite Images](https://bourgoing.com/en/linvestigation-par-satellite/)
+- [CAMIS - A PHUSE DVOST Working Group](https://psiaims.github.io/CAMIS/). The repository below provides examples of statistical methodology in different software and languages, along with a comparison of the results obtained and description of any discrepancies.
 
 
 ## Libros
@@ -390,3 +393,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Empirical Research in Accounting: Tools and Methods](https://iangow.github.io/far_book/)
 - [Data Visualization with R](https://datavizs23.classes.andrewheiss.com/example/)
 - [Introduction to MySQL with R](https://programminghistorian.org/en/lessons/getting-started-with-mysql-using-r)
+- [Physical Oceanography Distributed Active Archive Center totorials](https://podaac.github.io/tutorials/)
