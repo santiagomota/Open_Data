@@ -139,6 +139,10 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [The Government Finance Database](https://willamette.edu/mba/research-impact/public-datasets/index.html)
 - [Microsoft - A Planetary Computer for a Sustainable Future](https://planetarycomputer.microsoft.com/)
 - HREA: High Resolution Electricity Access. [Universidad de Michigan](https://hrea.isr.umich.edu/index.html) y [Microsoft](https://planetarycomputer.microsoft.com/dataset/hrea#overview)
+- [geoBoundaries](https://www.geoboundaries.org/)
+- [FAO Map Catalog](https://data.apps.fao.org/map/catalog/srv/eng/catalog.search?id=12691#/metadata/9c35ba10-5649-41c8-bdfc-eb78e9e65654)
+- [IPUMS GIS Boundary Files](https://international.ipums.org/international/gis.shtml)
+- [geodata.state.gov](https://geodata.state.gov/geonetwork/srv/spa/catalog.search#/home)
 
 
 ## Otras referencias interesantes
