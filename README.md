@@ -143,7 +143,8 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [FAO Map Catalog](https://data.apps.fao.org/map/catalog/srv/eng/catalog.search?id=12691#/metadata/9c35ba10-5649-41c8-bdfc-eb78e9e65654)
 - [IPUMS GIS Boundary Files](https://international.ipums.org/international/gis.shtml)
 - [geodata.state.gov](https://geodata.state.gov/geonetwork/srv/spa/catalog.search#/home)
-- Natural Earth Vector. [github](https://github.com/nvkelso/natural-earth-vector) y [Web](https://www.naturalearthdata.com/)
+- Natural Earth Vector. [Github](https://github.com/nvkelso/natural-earth-vector) y [Web](https://www.naturalearthdata.com/)
+- [Geoportal Registradores](https://geoportal.registradores.org/)
 
 
 ## Otras referencias interesantes
