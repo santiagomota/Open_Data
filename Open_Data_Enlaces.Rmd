@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -125,7 +125,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Yelp Dataset](https://www.yelp.com/dataset)
 - [Awesome Sentinel. Copernicus Sentinel Satellites resources](https://github.com/Fernerkundung/awesome-sentinel)
 - [Datos Abiertos del Consorcio Regional de Transportes de Madrid](https://datos.crtm.es/)
-- [Idealista labs](https://www.idealista.com/labs/blog/)
+- [Idealista ux&tech](https://www.idealista.com/labs/blog/)
 - [Ayuntamiento de Madrid. Censo de locales, sus actividades y terrazas de hostelería y restauración](https://datos.gob.es/es/catalogo/l01280796-censo-de-locales-sus-actividades-y-terrazas-de-hosteleria-y-restauracion-historico1)
 - [Agencia Tributaria. Estadísticas](https://www.agenciatributaria.es/AEAT.internet/Inicio/La_Agencia_Tributaria/Memorias_y_estadisticas_tributarias/Estadisticas/Estadisticas.shtml)
 - [UK Office for National Statistics](https://www.ons.gov.uk/)
@@ -264,7 +264,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [A ggplot2 Tutorial for Beautiful Plotting in R](https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
 - [Bivariate Choropleth Maps: A How-to Guide](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/)
 - [Tipos de licencias open data (minicurso de data.europa.edu)](https://data.europa.eu/en/academy/open-data-licensing)
-- Legalidad Web sraping: [Is Web Scraping Legal? : The Definitive Guide](https://prowebscraper.com/blog/is-web-scraping-legal/) y [Web Scraping: ¿legal o ilegal?](https://ecija.com/web-scraping-legal-ilegal/)
+- Legalidad Web sraping: [Is Web Scraping Legal? : The Definitive Guide (2024 update)](https://prowebscraper.com/blog/is-web-scraping-legal/) y [Web Scraping: ¿legal o ilegal?](https://ecija.com/web-scraping-legal-ilegal/)
 - [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
 - [Financial-Times / chart-doctor](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary)
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
