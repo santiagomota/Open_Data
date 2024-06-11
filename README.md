@@ -2,6 +2,7 @@
 
 Recopilación de información sobre Open Data. Links, libros, blogs y otra información interesante.
 
+
 ## Fuentes de datos abiertos y APIs
 
 - [CRAN Task View OpenData](https://github.com/ropensci/opendata)
@@ -103,7 +104,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [GHSL - Global Human Settlement Layer](https://ghslsys.jrc.ec.europa.eu/)
 - [Socioeconomic Data and Applications Center (sedac)](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse)
 - [Cómo los datos abiertos pueden ayudar en la crisis de los refugiados](https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes)
-- [Open Spatial Demographic Data](https://www.worldpop.org/)
+- [Worldpop - Open Spatial Demographic Data](https://www.worldpop.org/) y [Worldpop Hub](https://hub.worldpop.org/)
 - [Center for Disease Control](https://wonder.cdc.gov/)
 - [NASA](https://nssdc.gsfc.nasa.gov/)
 - [World Economic Forum](https://www.weforum.org/publications/)
