@@ -151,6 +151,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [M3LEO: A Multi-Modal Multi-Label Earth Observation Dataset](https://huggingface.co/M3LEO)
 - [SARDet-100K: large-scale multi-class SAR object detection dataset](https://eod-grss-ieee.com/dataset-detail/U1dJZE1BY1RwclAvOFFJQmlKR1Btdz09)
 - [Sen2Like](https://docs.openeo.cloud/usecases/ard/sen2like/#_1-sen2like-for-rgb)
+- [Google Patents Public Data](https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/google-patents-public-data)
 
 
 ## Otras referencias interesantes
