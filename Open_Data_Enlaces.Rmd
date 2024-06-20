@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -280,6 +280,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Remote Sensing for OSINT](https://bellingcat.github.io/RS4OSINT/)
 - [Investigative Journalism with Satellite Images](https://bourgoing.com/en/linvestigation-par-satellite/)
 - [CAMIS - A PHUSE DVOST Working Group](https://psiaims.github.io/CAMIS/). The repository below provides examples of statistical methodology in different software and languages, along with a comparison of the results obtained and description of any discrepancies.
+- [Microsoft Presidio - Data Protection and De-identification SDK](https://microsoft.github.io/presidio/)
 
 
 ## Libros
