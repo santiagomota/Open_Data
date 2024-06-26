@@ -153,6 +153,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Sen2Like](https://docs.openeo.cloud/usecases/ard/sen2like/#_1-sen2like-for-rgb)
 - [Google Patents Public Data](https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/google-patents-public-data)
 - [Digital Earth Africa (DE Africa) Map](https://www.digitalearthafrica.org/platform-resources/platform)
+- [idealista18 - 2018 real estate listings in Spain. 3 cities](https://github.com/paezha/idealista18)
 
 
 ## Otras referencias interesantes

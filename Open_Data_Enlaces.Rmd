@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -187,6 +187,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Sen2Like](https://docs.openeo.cloud/usecases/ard/sen2like/#_1-sen2like-for-rgb)
 - [Google Patents Public Data](https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/google-patents-public-data)
 - [Digital Earth Africa (DE Africa) Map](https://www.digitalearthafrica.org/platform-resources/platform)
+- [idealista18 - 2018 real estate listings in Spain. 3 cities](https://github.com/paezha/idealista18)
 
 
 ## Otras referencias interesantes
