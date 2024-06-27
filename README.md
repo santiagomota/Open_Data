@@ -249,6 +249,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Investigative Journalism with Satellite Images](https://bourgoing.com/en/linvestigation-par-satellite/)
 - [CAMIS - A PHUSE DVOST Working Group](https://psiaims.github.io/CAMIS/). The repository below provides examples of statistical methodology in different software and languages, along with a comparison of the results obtained and description of any discrepancies.
 - [Microsoft Presidio - Data Protection and De-identification SDK](https://microsoft.github.io/presidio/)
+- [GIS formats](https://atlas.co/formats/)
 
 
 ## Libros
