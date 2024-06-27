@@ -334,7 +334,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [R Notes for Professionals](https://books.goalkicker.com/RBook/)
 - [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
 - [A Practical Guide to Geostatistical Mapping](http://spatial-analyst.net/book/system/files/Hengl_2009_GEOSTATe2c1w.pdf)
-- [Think Bayes 2e](https://greenteapress.com/wp/think-bayes/)
+- [Think Bayes 2e](https://github.com/AllenDowney/ThinkBayes2)
 - [Quantitative Politics with R](http://qpolr.com/)
 - [Data Science in Education Using R](https://datascienceineducation.com/)
 - [Data Skills for Reproducible Science](https://psyteachr.github.io/msc-data-skills/)

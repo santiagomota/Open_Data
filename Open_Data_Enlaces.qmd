@@ -374,7 +374,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [R Notes for Professionals](https://books.goalkicker.com/RBook/)
 - [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
 - [A Practical Guide to Geostatistical Mapping](http://spatial-analyst.net/book/system/files/Hengl_2009_GEOSTATe2c1w.pdf)
-- [Think Bayes 2e](https://greenteapress.com/wp/think-bayes/)
+- [Think Bayes 2e](https://github.com/AllenDowney/ThinkBayes2)
 - [Quantitative Politics with R](http://qpolr.com/)
 - [Data Science in Education Using R](https://datascienceineducation.com/)
 - [Data Skills for Reproducible Science](https://psyteachr.github.io/msc-data-skills/)
@@ -451,7 +451,6 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Data Visualization with R](https://datavizs23.classes.andrewheiss.com/example/)
 - [Introduction to MySQL with R](https://programminghistorian.org/en/lessons/getting-started-with-mysql-using-r)
 - [Physical Oceanography Distributed Active Archive Center totorials](https://podaac.github.io/tutorials/)
-
 
 
 <span style="color:white">{{< fa brands github >}}</span>
