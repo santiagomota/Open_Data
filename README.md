@@ -277,7 +277,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [BBC Visual and Data Journalism cookbook for R graphics](https://bbc.github.io/rcookbook/)
 - [Databases using R by RStudio](https://db.rstudio.com/getting-started/)
 - [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
-- [Forecasting: Principles and Practice](https://otexts.com/fpp2/)
+- [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
 - [Bioinformática Estadística. Análisis estadístico de datos Ómicos](https://www.uv.es/ayala/docencia/tami/tami13.pdf)
 - [Estadística básica](https://www.uv.es/ayala/docencia/nmr/nmr13.pdf)
 - [Probabilidad básica](https://www.uv.es/ayala/docencia/probabilidad/prob.pdf)
