@@ -154,6 +154,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Google Patents Public Data](https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/google-patents-public-data)
 - [Digital Earth Africa (DE Africa) Map](https://www.digitalearthafrica.org/platform-resources/platform)
 - [idealista18 - 2018 real estate listings in Spain. 3 cities](https://github.com/paezha/idealista18)
+- [British Ordnance Survey Data Hub](https://osdatahub.os.uk/)
 
 
 ## Otras referencias interesantes
@@ -250,6 +251,11 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [CAMIS - A PHUSE DVOST Working Group](https://psiaims.github.io/CAMIS/). The repository below provides examples of statistical methodology in different software and languages, along with a comparison of the results obtained and description of any discrepancies.
 - [Microsoft Presidio - Data Protection and De-identification SDK](https://microsoft.github.io/presidio/)
 - [GIS formats](https://atlas.co/formats/)
+- [Data Viz Catalogue](https://graphica.app/catalogue)
+- [Dataviz Project](https://datavizproject.com/)
+- [Periodic Table Of Visualization Methods](https://www.visual-literacy.org/periodic_table/periodic_table.html)
+- [The TimeViz Browser 2.0](https://browser.timeviz.net/)
+- [The R Graph Gallery](https://r-graph-gallery.com/)
 
 
 ## Libros
