@@ -419,3 +419,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Introduction to MySQL with R](https://programminghistorian.org/en/lessons/getting-started-with-mysql-using-r)
 - [Physical Oceanography Distributed Active Archive Center totorials](https://podaac.github.io/tutorials/)
 - [The SAR Handbook](https://gis1.servirglobal.net/TrainingMaterials/SAR/SARHB_FullRes.pdf)
+- [Advanced International Trade in R](https://pacha.dev/advanced-international-trade-in-r/)

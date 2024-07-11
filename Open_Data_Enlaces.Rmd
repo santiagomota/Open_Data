@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -453,3 +453,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Introduction to MySQL with R](https://programminghistorian.org/en/lessons/getting-started-with-mysql-using-r)
 - [Physical Oceanography Distributed Active Archive Center totorials](https://podaac.github.io/tutorials/)
 - [The SAR Handbook](https://gis1.servirglobal.net/TrainingMaterials/SAR/SARHB_FullRes.pdf)
+- [Advanced International Trade in R](https://pacha.dev/advanced-international-trade-in-r/)
