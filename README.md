@@ -256,6 +256,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Periodic Table Of Visualization Methods](https://www.visual-literacy.org/periodic_table/periodic_table.html)
 - [The TimeViz Browser 2.0](https://browser.timeviz.net/)
 - [The R Graph Gallery](https://r-graph-gallery.com/)
+- [HOT - Drone Tasking Manager](https://github.com/hotosm/Drone-TM)
 
 
 ## Libros
