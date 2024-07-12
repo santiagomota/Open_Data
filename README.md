@@ -257,6 +257,8 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [The TimeViz Browser 2.0](https://browser.timeviz.net/)
 - [The R Graph Gallery](https://r-graph-gallery.com/)
 - [HOT - Drone Tasking Manager](https://github.com/hotosm/Drone-TM)
+- [Remote sensing image retrieval](https://github.com/IBM/remote-sensing-image-retrieval)
+- [BigEarthNet A Large-Scale Sentinel Benchmark Archive](https://bigearth.net/)
 
 
 ## Libros
@@ -420,3 +422,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Physical Oceanography Distributed Active Archive Center totorials](https://podaac.github.io/tutorials/)
 - [The SAR Handbook](https://gis1.servirglobal.net/TrainingMaterials/SAR/SARHB_FullRes.pdf)
 - [Advanced International Trade in R](https://pacha.dev/advanced-international-trade-in-r/)
+- [The Orange Book of Machine Learning](https://github.com/Carl-McBride-Ellis/TOBoML)
+
