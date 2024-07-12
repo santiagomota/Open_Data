@@ -155,6 +155,11 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Digital Earth Africa (DE Africa) Map](https://www.digitalearthafrica.org/platform-resources/platform)
 - [idealista18 - 2018 real estate listings in Spain. 3 cities](https://github.com/paezha/idealista18)
 - [British Ordnance Survey Data Hub](https://osdatahub.os.uk/)
+- [Freshwater Ecoregions of the World](https://www.worldwildlife.org/pages/freshwater-ecoregions-of-the-world--2)
+- [FAO's Global Information System on Water and Agriculture](https://www.fao.org/aquastat/en/geospatial-information/wapor)
+- [Data on CO2 and Greenhouse Gas Emissions by Our World in Data](https://github.com/owid/co2-data/tree/master)
+- [Open Africa dataset](https://open.africa/dataset)
+- [OSM Landuse](https://osmlanduse.org/)
 
 
 ## Otras referencias interesantes
@@ -423,4 +428,5 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [The SAR Handbook](https://gis1.servirglobal.net/TrainingMaterials/SAR/SARHB_FullRes.pdf)
 - [Advanced International Trade in R](https://pacha.dev/advanced-international-trade-in-r/)
 - [The Orange Book of Machine Learning](https://github.com/Carl-McBride-Ellis/TOBoML)
+
 
