@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -265,7 +265,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Tipos de licencias de software](https://choosealicense.com/licenses/)
 - [Glosario de Machine Learning de Google](https://developers.google.com/machine-learning/glossary/)
 - [Google Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
-- Statistical Learning de Stanford  [Curso](https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning), [Libro](https://web.stanford.edu/~hastie/ElemStatLearn/), [Código](https://github.com/khanhnamle1994/statistical-learning) y [Transparencias](https://github.com/khanhnamle1994/statistical-learning/tree/master/Lecture-Slides)
+- Statistical Learning de Stanford with R [Curso](https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning-r), [Libro](https://hastie.su.domains/ElemStatLearn/), [Código](https://github.com/khanhnamle1994/statistical-learning) y [Transparencias](https://github.com/khanhnamle1994/statistical-learning/tree/master/Lecture-Slides)
 - [An Introduction to Statistical Learning - Web R & Python](https://www.statlearning.com/)
 - [100 Free Tutorials for Learning R](https://www.listendata.com/p/r-programming-tutorials.html)
 - [Google's best practices in machine learning](https://developers.google.com/machine-learning/guides/rules-of-ml/)
@@ -403,7 +403,6 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [The R Book](https://www.cs.upc.edu/~robert/teaching/estadistica/TheRBook.pdf)
 - [R Notes for Professionals](https://books.goalkicker.com/RBook/)
 - [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
-- [A Practical Guide to Geostatistical Mapping](http://spatial-analyst.net/book/system/files/Hengl_2009_GEOSTATe2c1w.pdf)
 - [Think Bayes 2e](https://github.com/AllenDowney/ThinkBayes2)
 - [Quantitative Politics with R](http://qpolr.com/)
 - [Data Science in Education Using R](https://datascienceineducation.com/)
