@@ -160,6 +160,11 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Data on CO2 and Greenhouse Gas Emissions by Our World in Data](https://github.com/owid/co2-data/tree/master)
 - [Open Africa dataset](https://open.africa/dataset)
 - [OSM Landuse](https://osmlanduse.org/)
+- [One versus One - European football statistics](https://one-versus-one.com/en)
+- [StatsBomb sports data](https://statsbomb.com/what-we-do/hub/free-data/)
+- [Data Kicks](https://data-kicks.com/index.php/blog/)
+- [FBREF - Estadísticas e Historia del Fútbol](https://fbref.com/es/)
+- [Understat](https://understat.com/)
 
 
 ## Otras referencias interesantes
@@ -430,5 +435,3 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [The SAR Handbook](https://gis1.servirglobal.net/TrainingMaterials/SAR/SARHB_FullRes.pdf)
 - [Advanced International Trade in R](https://pacha.dev/advanced-international-trade-in-r/)
 - [The Orange Book of Machine Learning](https://github.com/Carl-McBride-Ellis/TOBoML)
-
-
