@@ -165,7 +165,15 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Data Kicks](https://data-kicks.com/index.php/blog/)
 - [FBREF - Estadísticas e Historia del Fútbol](https://fbref.com/es/)
 - [Understat](https://understat.com/)
-
+- [Geospatial Data Catalogs](https://github.com/opengeos/geospatial-data-catalogs)
+- [AWS Open Data](https://github.com/opengeos/aws-open-data)
+- [AWS Open Data Geo](https://github.com/opengeos/aws-open-data-geo)
+- [AWS Open Data SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/aws-open-data-stac)
+- [Google Earth Engine Catalog](https://github.com/opengeos/Earth-Engine-Catalog)
+- [NASA Common Metadata Repository (CMR) SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/aws-open-data-stac)
+- [STAC Index SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/stac-index-catalogs)
+- [Maxar Open Data](https://github.com/opengeos/maxar-open-data)
+- [OpenGEOS data](https://github.com/opengeos/data)
 
 ## Otras referencias interesantes
 

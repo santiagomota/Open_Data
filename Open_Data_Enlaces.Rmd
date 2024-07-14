@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -199,7 +199,15 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Data Kicks](https://data-kicks.com/index.php/blog/)
 - [FBREF - Estadísticas e Historia del Fútbol](https://fbref.com/es/)
 - [Understat](https://understat.com/)
-
+- [Geospatial Data Catalogs](https://github.com/opengeos/geospatial-data-catalogs)
+- [AWS Open Data](https://github.com/opengeos/aws-open-data)
+- [AWS Open Data Geo](https://github.com/opengeos/aws-open-data-geo)
+- [AWS Open Data SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/aws-open-data-stac)
+- [Google Earth Engine Catalog](https://github.com/opengeos/Earth-Engine-Catalog)
+- [NASA Common Metadata Repository (CMR) SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/aws-open-data-stac)
+- [STAC Index SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/stac-index-catalogs)
+- [Maxar Open Data](https://github.com/opengeos/maxar-open-data)
+- [OpenGEOS data](https://github.com/opengeos/data)
 
 ## Otras referencias interesantes
 
