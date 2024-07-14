@@ -174,6 +174,13 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [STAC Index SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/stac-index-catalogs)
 - [Maxar Open Data](https://github.com/opengeos/maxar-open-data)
 - [OpenGEOS data](https://github.com/opengeos/data)
+- [Hugging Face Datasets](https://huggingface.co/datasets)
+- [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/datasets)
+- [Mendeley Data](https://data.mendeley.com/)
+- [Nature Scientific Data](https://www.nature.com/sdata/)
+- [AWS Datasets](https://registry.opendata.aws/)
+- [Data.World Datasets](https://data.world/datasets/data)
+
 
 ## Otras referencias interesantes
 
