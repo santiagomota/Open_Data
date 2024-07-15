@@ -221,6 +221,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [AWS Datasets](https://registry.opendata.aws/)
 - [Data.World Datasets](https://data.world/datasets/data)
 - [USGS 3DEP LiDAR Point Clouds](https://registry.opendata.aws/usgs-lidar/)
+- [Datos de la Eurocopa 2024](https://github.com/Jelagmil/Euro2024_data)
 
 
 ## Otras referencias interesantes
@@ -491,8 +492,6 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Advanced International Trade in R](https://pacha.dev/advanced-international-trade-in-r/)
 - [The Orange Book of Machine Learning](https://github.com/Carl-McBride-Ellis/TOBoML)
 - [Data Management in Large-Scale Education Research](https://datamgmtinedresearch.com/)
-
-
 
 
 <span style="color:white">{{< fa brands github >}}</span>

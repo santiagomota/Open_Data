@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -215,6 +215,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [AWS Datasets](https://registry.opendata.aws/)
 - [Data.World Datasets](https://data.world/datasets/data)
 - [USGS 3DEP LiDAR Point Clouds](https://registry.opendata.aws/usgs-lidar/)
+- [Datos de la Eurocopa 2024](https://github.com/Jelagmil/Euro2024_data)
 
 
 ## Otras referencias interesantes
