@@ -182,6 +182,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Data.World Datasets](https://data.world/datasets/data)
 - [USGS 3DEP LiDAR Point Clouds](https://registry.opendata.aws/usgs-lidar/)
 - [Datos de la Eurocopa 2024](https://github.com/Jelagmil/Euro2024_data)
+- Open Charge Map. Global Open Data registry of electric vehicle charging locations. [Export](https://github.com/openchargemap/ocm-export) y [Ejemplo](https://tech.marksblogg.com/open-charge-map-global-ev-charging-point-dataset.html)
 
 
 ## Otras referencias interesantes
