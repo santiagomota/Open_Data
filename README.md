@@ -172,7 +172,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Google Earth Engine Catalog](https://github.com/opengeos/Earth-Engine-Catalog)
 - [NASA Common Metadata Repository (CMR) SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/aws-open-data-stac)
 - [STAC Index SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/stac-index-catalogs)
-- [Maxar Open Data](https://github.com/opengeos/maxar-open-data)
+- Maxar Open Data: [Aquí](https://github.com/opengeos/maxar-open-data) y [aquí](https://radiantearth.github.io/stac-browser/#/external/maxar-opendata.s3.amazonaws.com/events/catalog.json?.language=es)
 - [OpenGEOS data](https://github.com/opengeos/data)
 - [Hugging Face Datasets](https://huggingface.co/datasets)
 - [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/datasets)
@@ -180,6 +180,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Nature Scientific Data](https://www.nature.com/sdata/)
 - [AWS Datasets](https://registry.opendata.aws/)
 - [Data.World Datasets](https://data.world/datasets/data)
+- [USGS 3DEP LiDAR Point Clouds](https://registry.opendata.aws/usgs-lidar/)
 
 
 ## Otras referencias interesantes
@@ -449,3 +450,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [The SAR Handbook](https://gis1.servirglobal.net/TrainingMaterials/SAR/SARHB_FullRes.pdf)
 - [Advanced International Trade in R](https://pacha.dev/advanced-international-trade-in-r/)
 - [The Orange Book of Machine Learning](https://github.com/Carl-McBride-Ellis/TOBoML)
+- [Data Management in Large-Scale Education Research](https://datamgmtinedresearch.com/)
