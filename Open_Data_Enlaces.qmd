@@ -493,6 +493,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Advanced International Trade in R](https://pacha.dev/advanced-international-trade-in-r/)
 - [The Orange Book of Machine Learning](https://github.com/Carl-McBride-Ellis/TOBoML)
 - [Data Management in Large-Scale Education Research](https://datamgmtinedresearch.com/)
+- [R for Non-Programmers: A Guide for Social Scientists](https://bookdown.org/daniel_dauber_io/r4np_book/)
 
 
 <span style="color:white">{{< fa brands github >}}</span>
