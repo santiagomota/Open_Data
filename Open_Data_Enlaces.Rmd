@@ -11,8 +11,6 @@ license:  by-nc-sa
 urlcolor: blue
 always_allow_html: true
 output:
-  word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +20,8 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
+  word_document:  default
 ---
 
 ```{r}
@@ -217,6 +217,18 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [USGS 3DEP LiDAR Point Clouds](https://registry.opendata.aws/usgs-lidar/)
 - [Datos de la Eurocopa 2024](https://github.com/Jelagmil/Euro2024_data)
 - Open Charge Map. Global Open Data registry of electric vehicle charging locations. [Export](https://github.com/openchargemap/ocm-export) y [Ejemplo](https://tech.marksblogg.com/open-charge-map-global-ev-charging-point-dataset.html)
+- [NAIP: National Agriculture Imagery Program](https://developers.google.com/earth-engine/datasets/catalog/USDA_NAIP_DOQQ)
+- [Planet SkySat Public Ortho Imagery, Multispectral](https://developers.google.com/earth-engine/datasets/catalog/SKYSAT_GEN-A_PUBLIC_ORTHO_MULTISPECTRAL)
+- [Functional Map of the World (fMoW) Dataset](https://github.com/fMoW/dataset)
+- [UC Merced Land Use Dataset](http://weegee.vision.ucmerced.edu/datasets/landuse.html)
+- [The SpaceNet Datasets](https://spacenet.ai/datasets/)
+- [AID: A Benchmark Dataset for Performance Evaluation of Aerial Scene Classification](https://captain-whu.github.io/AID/)
+- [Open High-Resolution Satellite Imagery: The WorldStrat Dataset -- With Application to Super-Resolution](https://arxiv.org/abs/2207.06418)
+- [WHU-RS19 is a set of satellite images exported from Google Earth](https://paperswithcode.com/dataset/whu-rs19)
+- [SkySat missions](https://earth.esa.int/eogateway/missions/skysat)
+- [EarthView dataset](https://huggingface.co/datasets/satellogic/EarthView)
+- [ESA Third Party Missions (TPM)](https://earth.esa.int/eogateway/missions/third-party-missions)
+- [SkyFi Geospatial Hub](https://skyfi.com/)
 
 
 ## Otras referencias interesantes
