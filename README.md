@@ -102,7 +102,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [NLP Datasets](https://github.com/niderhoff/nlp-datasets/blob/master/README.md)
 - [United Nations World Urbanization Prospects](https://population.un.org/wup/)
 - [GHSL - Global Human Settlement Layer](https://ghslsys.jrc.ec.europa.eu/)
-- [Socioeconomic Data and Applications Center (sedac)](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse)
+- [Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse)
 - [Cómo los datos abiertos pueden ayudar en la crisis de los refugiados](https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes)
 - [Worldpop - Open Spatial Demographic Data](https://www.worldpop.org/) y [Worldpop Hub](https://hub.worldpop.org/)
 - [Center for Disease Control](https://wonder.cdc.gov/)
@@ -141,7 +141,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Microsoft - A Planetary Computer for a Sustainable Future](https://planetarycomputer.microsoft.com/)
 - HREA: High Resolution Electricity Access. [Universidad de Michigan](https://hrea.isr.umich.edu/index.html) y [Microsoft](https://planetarycomputer.microsoft.com/dataset/hrea#overview)
 - [geoBoundaries](https://www.geoboundaries.org/)
-- [FAO Map Catalog](https://data.apps.fao.org/map/catalog/srv/eng/catalog.search?id=12691#/metadata/9c35ba10-5649-41c8-bdfc-eb78e9e65654)
+- [FAO Map Catalog](http://www.fao.org/geonetwork)
 - [IPUMS GIS Boundary Files](https://international.ipums.org/international/gis.shtml)
 - [geodata.state.gov](https://geodata.state.gov/geonetwork/srv/spa/catalog.search#/home)
 - Natural Earth Vector. [Github](https://github.com/nvkelso/natural-earth-vector) y [Web](https://www.naturalearthdata.com/)
@@ -195,6 +195,15 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [EarthView dataset](https://huggingface.co/datasets/satellogic/EarthView)
 - [ESA Third Party Missions (TPM)](https://earth.esa.int/eogateway/missions/third-party-missions)
 - [SkyFi Geospatial Hub](https://skyfi.com/)
+- [Natural Earth Data](https://www.naturalearthdata.com/downloads/)
+- [USGS Earth Explorer](https://earthexplorer.usgs.gov/)
+- [Esri Open Data Hub](https://hub.arcgis.com/search)
+- [UNEP Environmental Data Explorer](https://www.unep.org/publications-data)
+- [NASA Earth Observations (NEO)](https://neo.gsfc.nasa.gov/)
+- [Sentinel Satellite Data](https://browser.dataspace.copernicus.eu)
+- [Open Topography](https://opentopography.org/)
+- [Terra Populus](https://terra.ipums.org/)
+- [ISCGM Global Map](https://globalmaps.github.io/)
 
 
 ## Otras referencias interesantes
@@ -467,5 +476,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [The Orange Book of Machine Learning](https://github.com/Carl-McBride-Ellis/TOBoML)
 - [Data Management in Large-Scale Education Research](https://datamgmtinedresearch.com/)
 - [R for Non-Programmers: A Guide for Social Scientists](https://bookdown.org/daniel_dauber_io/r4np_book/)
-
 
