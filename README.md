@@ -204,6 +204,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Open Topography](https://opentopography.org/)
 - [Terra Populus](https://terra.ipums.org/)
 - [ISCGM Global Map](https://globalmaps.github.io/)
+- IPUMS provides census and survey data from around the world [Web](https://www.ipums.org/) y [paquete ipumsr](https://tech.popdata.org/ipumsr/)
 
 
 ## Otras referencias interesantes
