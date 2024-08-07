@@ -205,7 +205,13 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Terra Populus](https://terra.ipums.org/)
 - [ISCGM Global Map](https://globalmaps.github.io/)
 - IPUMS provides census and survey data from around the world [Web](https://www.ipums.org/) y [paquete ipumsr](https://tech.popdata.org/ipumsr/)
-
+- [EDGAR - Emissions Database for Global Atmospheric Research](https://edgar.jrc.ec.europa.eu/emissions_data_and_maps)
+- [Copernicus Atmosphere Monitoring Service (CAMS) Global Near-Real-Time](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT)
+- [Sentinel-5P](https://developers.google.com/earth-engine/datasets/catalog/sentinel-5p)
+- [ERA5 Daily Aggregates - Latest Climate Reanalysis Produced by ECMWF / Copernicus Climate Change Service](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY)
+- [Global Flood Database v1 (2000-2018)](https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1)
+- [ISIMIP3b bias-adjusted atmospheric climate input data](https://data.isimip.org/datasets/24cb1007-3c96-4b59-a0dc-42d94a8cff8c/)
+- [Dynamic World V1 Land Use](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1) 
 
 ## Otras referencias interesantes
 
@@ -477,4 +483,3 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [The Orange Book of Machine Learning](https://github.com/Carl-McBride-Ellis/TOBoML)
 - [Data Management in Large-Scale Education Research](https://datamgmtinedresearch.com/)
 - [R for Non-Programmers: A Guide for Social Scientists](https://bookdown.org/daniel_dauber_io/r4np_book/)
-
