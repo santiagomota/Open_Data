@@ -270,7 +270,6 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Common Probability Distributions: The Data Scientist’s Crib Sheet](https://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/?utm_content=buffer49e9f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
 - [RDocumentation](https://www.rdocumentation.org/)
 - [ArcGIS to R spatial cheat sheet](http://www.seascapemodels.org/data/ArcGIS_to_R_Spatial_CheatSheet.pdf)
-- [Hand-curated, high quality resources for doing data journalism with R](https://rddj.info/)
 - [RMarkdown Driven Development (RmdDD)](https://emilyriederer.netlify.app/post/rmarkdown-driven-development/)
 - [htmlwidgets for R - gallery](http://gallery.htmlwidgets.org/)
 - [Free R Reading Material](https://committedtotape.shinyapps.io/freeR/)
