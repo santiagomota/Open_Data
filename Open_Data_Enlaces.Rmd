@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -249,6 +249,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [España. Estadísticas de mercado de trabajo](https://www.mites.gob.es/es/estadisticas/mercado_trabajo/index.htm)
 - [España. Seguridad Social. Estadísticas](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas)
 - [España. Inmigración. Estadísticas](https://www.inclusion.gob.es/web/opi/estadisticas)
+- [Alaska Satellite Facility](https://asf.alaska.edu/getstarted/)
 
 
 ## Otras referencias interesantes

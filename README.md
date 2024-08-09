@@ -215,6 +215,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [España. Estadísticas de mercado de trabajo](https://www.mites.gob.es/es/estadisticas/mercado_trabajo/index.htm)
 - [España. Seguridad Social. Estadísticas](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas)
 - [España. Inmigración. Estadísticas](https://www.inclusion.gob.es/web/opi/estadisticas)
+- [Alaska Satellite Facility](https://asf.alaska.edu/getstarted/)
 
 
 ## Otras referencias interesantes
