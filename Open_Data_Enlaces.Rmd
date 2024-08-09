@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -246,6 +246,10 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Global Flood Database v1 (2000-2018)](https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1)
 - [ISIMIP3b bias-adjusted atmospheric climate input data](https://data.isimip.org/datasets/24cb1007-3c96-4b59-a0dc-42d94a8cff8c/)
 - [Dynamic World V1 Land Use](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1) 
+- [España. Estadísticas de mercado de trabajo](https://www.mites.gob.es/es/estadisticas/mercado_trabajo/index.htm)
+- [España. Seguridad Social. Estadísticas](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas)
+- [España. Inmigración. Estadísticas](https://www.inclusion.gob.es/web/opi/estadisticas)
+
 
 ## Otras referencias interesantes
 
