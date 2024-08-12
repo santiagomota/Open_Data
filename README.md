@@ -101,7 +101,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Ultimos datos de Open Street Map. Spain](https://download.geofabrik.de/europe/spain.html)
 - [NLP Datasets](https://github.com/niderhoff/nlp-datasets/blob/master/README.md)
 - [United Nations World Urbanization Prospects](https://population.un.org/wup/)
-- [GHSL - Global Human Settlement Layer](https://ghslsys.jrc.ec.europa.eu/)
+- [GHSL - Global Human Settlement Layer](https://human-settlement.emergency.copernicus.eu/download.php?ds=bu)
 - [Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse)
 - [Cómo los datos abiertos pueden ayudar en la crisis de los refugiados](https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes)
 - [Worldpop - Open Spatial Demographic Data](https://www.worldpop.org/) y [Worldpop Hub](https://hub.worldpop.org/)
@@ -216,6 +216,9 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [España. Seguridad Social. Estadísticas](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas)
 - [España. Inmigración. Estadísticas](https://www.inclusion.gob.es/web/opi/estadisticas)
 - [Alaska Satellite Facility](https://asf.alaska.edu/getstarted/)
+- [Naciones Unidas. Datos detallados de comercio global](https://comtradeplus.un.org/)
+- [Geonames Cities with population > 5000](https://documentation-resources.opendatasoft.com/explore/dataset/doc-geonames-cities-5000/table/)
+- [Opendatasoft](https://documentation-resources.opendatasoft.com/explore/?sort=modified)
 
 
 ## Otras referencias interesantes
