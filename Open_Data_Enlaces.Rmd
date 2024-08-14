@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -525,3 +525,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [The Orange Book of Machine Learning](https://github.com/Carl-McBride-Ellis/TOBoML)
 - [Data Management in Large-Scale Education Research](https://datamgmtinedresearch.com/)
 - [R for Non-Programmers: A Guide for Social Scientists](https://bookdown.org/daniel_dauber_io/r4np_book/)
+- [Scaling Up With R and Arrow](https://arrowrbook.com/)
