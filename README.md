@@ -326,6 +326,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [rseek.org - rstats search engine](https://rseek.org/)
 - [Information is beautiful](https://informationisbeautiful.net/)
 - [HDRIs Images](- [HDRIs](https://polyhaven.com/hdris))
+- [Study finds 94% of business spreadsheets have critical errors](https://phys.org/news/2024-08-business-spreadsheets-critical-errors.html)
 
 
 ## Libros

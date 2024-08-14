@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -360,6 +360,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [rseek.org - rstats search engine](https://rseek.org/)
 - [Information is beautiful](https://informationisbeautiful.net/)
 - [HDRIs Images](- [HDRIs](https://polyhaven.com/hdris))
+- [Study finds 94% of business spreadsheets have critical errors](https://phys.org/news/2024-08-business-spreadsheets-critical-errors.html)
 
 
 ## Libros
