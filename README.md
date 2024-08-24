@@ -493,4 +493,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Data Management in Large-Scale Education Research](https://datamgmtinedresearch.com/)
 - [R for Non-Programmers: A Guide for Social Scientists](https://bookdown.org/daniel_dauber_io/r4np_book/)
 - [Scaling Up With R and Arrow](https://arrowrbook.com/)
-
+- [Best Books on Generative AI](https://datasciencetut.com/best-books-on-generative-ai/)
