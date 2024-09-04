@@ -11,8 +11,8 @@ license:  by-nc-sa
 urlcolor: blue
 always_allow_html: true
 output:
-  pdf_document:   default
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -253,6 +253,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Naciones Unidas. Datos detallados de comercio global](https://comtradeplus.un.org/)
 - [Geonames Cities with population > 5000](https://documentation-resources.opendatasoft.com/explore/dataset/doc-geonames-cities-5000/table/)
 - [Opendatasoft](https://documentation-resources.opendatasoft.com/explore/?sort=modified)
+- [Legacy Aircraft Noise and Performance (ANP) data](https://www.easa.europa.eu/en/domains/environment/policy-support-and-research/aircraft-noise-and-performance-anp-data/anp-legacy-data)
 
 
 ## Otras referencias interesantes
