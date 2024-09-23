@@ -496,3 +496,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Scaling Up With R and Arrow](https://arrowrbook.com/)
 - [Best Books on Generative AI](https://datasciencetut.com/best-books-on-generative-ai/)
 - [R in Production](https://r-in-production.org/)
+- [Improving Your Statistical Inferences](https://lakens.github.io/statistical_inferences/)
