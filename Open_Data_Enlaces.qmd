@@ -534,3 +534,5 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [R for Non-Programmers: A Guide for Social Scientists](https://bookdown.org/daniel_dauber_io/r4np_book/)
 - [Scaling Up With R and Arrow](https://arrowrbook.com/)
 - [Best Books on Generative AI](https://datasciencetut.com/best-books-on-generative-ai/)
+- [R in Production](https://r-in-production.org/)
+- [Improving Your Statistical Inferences](https://lakens.github.io/statistical_inferences/)
