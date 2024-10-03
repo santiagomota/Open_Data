@@ -226,6 +226,10 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Multi-Temporal Crop Classification with HLS Imagery across CONUS](https://beta.source.coop/repositories/clarkcga/multi-temporal-crop-classification/description/)
 - [Fields of The World (FTW)](https://beta.source.coop/repositories/kerner-lab/fields-of-the-world/description/)
 - [Source Cooperative Featured Repositories](https://beta.source.coop/)
+- [AENA - Estadísticas de tráfico aéreo](https://www.aena.es/es/estadisticas/inicio.html)
+- [Red Eléctrica Española (REE) - API](https://www.ree.es/es/apidatos)
+- [LinkedIn - Data for Impact](https://economicgraph.linkedin.com/data-for-impact)
+- [AWS Data Exchange](https://docs.aws.amazon.com/data-exchange/)
 
 
 ## Otras referencias interesantes
