@@ -259,6 +259,12 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Geonames Cities with population > 5000](https://documentation-resources.opendatasoft.com/explore/dataset/doc-geonames-cities-5000/table/)
 - [Opendatasoft](https://documentation-resources.opendatasoft.com/explore/?sort=modified)
 - [Legacy Aircraft Noise and Performance (ANP) data](https://www.easa.europa.eu/en/domains/environment/policy-support-and-research/aircraft-noise-and-performance-anp-data/anp-legacy-data)
+- [RapidAI4EO: A Corpus of Dense Time Series Satellite Imagery](https://beta.source.coop/repositories/planet/rapidai4eo/description/)
+- [Overture - Fused-partitioned](https://beta.source.coop/repositories/fused/overture/description/)
+- [Google-Microsoft-OSM Open Buildings - combined by VIDA](https://beta.source.coop/repositories/vida/google-microsoft-osm-open-buildings/description/)
+- [Multi-Temporal Crop Classification with HLS Imagery across CONUS](https://beta.source.coop/repositories/clarkcga/multi-temporal-crop-classification/description/)
+- [Fields of The World (FTW)](https://beta.source.coop/repositories/kerner-lab/fields-of-the-world/description/)
+- [Source Cooperative Featured Repositories](https://beta.source.coop/)
 
 
 ## Otras referencias interesantes
