@@ -547,3 +547,4 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [R in Production](https://r-in-production.org/)
 - [Improving Your Statistical Inferences](https://lakens.github.io/statistical_inferences/)
 - [Introduction to Web Mapping](https://geobgu.xyz/web-mapping2/)
+- [Analítica predictiva avanzada](https://libromumade.github.io/libroMUMADE/)
