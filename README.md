@@ -509,3 +509,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Improving Your Statistical Inferences](https://lakens.github.io/statistical_inferences/)
 - [Introduction to Web Mapping](https://geobgu.xyz/web-mapping2/)
 - [Analítica predictiva avanzada](https://libromumade.github.io/libroMUMADE/)
+- [DevOps for Data Science](https://do4ds.com/)
