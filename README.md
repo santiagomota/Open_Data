@@ -231,6 +231,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [LinkedIn - Data for Impact](https://economicgraph.linkedin.com/data-for-impact)
 - [AWS Data Exchange](https://docs.aws.amazon.com/data-exchange/)
 - [US Homeland Infrastructure Foundation-Level Data](https://hifld-geoplatform.hub.arcgis.com/)
+- [Red Natura 2000](https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/rednatura2000_descargas.html)
 
 
 ## Otras referencias interesantes
