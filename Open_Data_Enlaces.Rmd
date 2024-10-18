@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -267,6 +267,16 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [US Homeland Infrastructure Foundation-Level Data](https://hifld-geoplatform.hub.arcgis.com/)
 - [Red Natura 2000](https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/rednatura2000_descargas.html)
 - [Marine Regions](https://marineregions.org/downloads.php)
+- [OpenWeatherMap](https://openweathermap.org/api)
+- [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home)
+- [Global Health Observatory (GHO) API](https://www.who.int/data/gho/info/gho-odata-api)
+- [TidyRainbow](https://github.com/r-lgbtq/tidyrainbow)
+- [UK Data Service](https://ukdataservice.ac.uk/)
+- [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
+- [Teaching of Statistics in the Health Sciences](https://causeweb.org/tshs/)
+- [Rdatasets](https://vincentarelbundock.github.io/Rdatasets/articles/data.html)
+- [NHSR datasets](https://github.com/nhs-r-community/NHSRdatasets)
+- [NHS Digital](digital.nhs.uk/data-and-information/statistical-publications-open-data-and-data-products)
 
 
 ## Otras referencias interesantes
@@ -351,6 +361,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Bivariate Choropleth Maps: A How-to Guide](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/)
 - [Tipos de licencias open data (minicurso de data.europa.edu)](https://data.europa.eu/en/academy/open-data-licensing)
 - Legalidad Web sraping: [Is Web Scraping Legal? : The Definitive Guide (2024 update)](https://prowebscraper.com/blog/is-web-scraping-legal/) y [Web Scraping: ¿legal o ilegal?](https://ecija.com/web-scraping-legal-ilegal/)
+- [Information is Beautiful](informationisbeautiful.net/data)
 - [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
 - [Financial-Times / chart-doctor](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary)
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
@@ -375,6 +386,8 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Information is beautiful](https://informationisbeautiful.net/)
 - [HDRIs Images](- [HDRIs](https://polyhaven.com/hdris))
 - [Study finds 94% of business spreadsheets have critical errors](https://phys.org/news/2024-08-business-spreadsheets-critical-errors.html)
+- [Google Dataset Search](datasetsearch.research.google.com)
+
 
 
 ## Libros
