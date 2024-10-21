@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -277,6 +277,12 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Rdatasets](https://vincentarelbundock.github.io/Rdatasets/articles/data.html)
 - [NHSR datasets](https://github.com/nhs-r-community/NHSRdatasets)
 - [NHS Digital](digital.nhs.uk/data-and-information/statistical-publications-open-data-and-data-products)
+- [ERA DATASET. Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos](https://lcmou.github.io/ERA_Dataset/)
+- [SEN12MS-CR. 22,218 patch triplets of corresponding Sentinel-1 dual-pol SAR data, Sentinel-2 multi-spectral images, and cloud-covered Sentinel-2 multi-spectral images](https://mediatum.ub.tum.de/1554803)
+- [Multimodal Remote Sensing Benchmark Datasets for Land Cover Classification](https://github.com/danfenghong/ISPRS_S2FL)
+- EarthNets for Earth Observation [Page](https://earthnets.nicepage.io/) [Github](https://github.com/EarthNets)
+- [Zhu Lab - Data Science in Earth Observation](https://github.com/zhu-xlab)
+- SSL4EO-S12 dataset. Large-scale multimodal multitemporal dataset for unsupervised/self-supervised pre-training in Earth observation [Paper](https://arxiv.org/abs/2211.07044) [Github](https://github.com/zhu-xlab/SSL4EO-S12)
 
 
 ## Otras referencias interesantes
@@ -387,7 +393,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [HDRIs Images](- [HDRIs](https://polyhaven.com/hdris))
 - [Study finds 94% of business spreadsheets have critical errors](https://phys.org/news/2024-08-business-spreadsheets-critical-errors.html)
 - [Google Dataset Search](datasetsearch.research.google.com)
-
+- [Interactive 4D LiDAR Segmentation](https://ilya-fradlin.github.io/Interactive4D/)
 
 
 ## Libros
