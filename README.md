@@ -360,6 +360,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Study finds 94% of business spreadsheets have critical errors](https://phys.org/news/2024-08-business-spreadsheets-critical-errors.html)
 - [Google Dataset Search](datasetsearch.research.google.com)
 - [Interactive 4D LiDAR Segmentation](https://ilya-fradlin.github.io/Interactive4D/)
+- [AiTLAS: Benchmark Arena -- Open-source benchmark suite for evaluating deep learning approaches for image classification in Earth Observation (EO)](https://github.com/biasvariancelabs/aitlas-arena)
 
 
 ## Libros
@@ -532,3 +533,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Introduction to Web Mapping](https://geobgu.xyz/web-mapping2/)
 - [Analítica predictiva avanzada](https://libromumade.github.io/libroMUMADE/)
 - [DevOps for Data Science](https://do4ds.com/)
+

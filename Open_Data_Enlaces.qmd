@@ -399,6 +399,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Study finds 94% of business spreadsheets have critical errors](https://phys.org/news/2024-08-business-spreadsheets-critical-errors.html)
 - [Google Dataset Search](datasetsearch.research.google.com)
 - [Interactive 4D LiDAR Segmentation](https://ilya-fradlin.github.io/Interactive4D/)
+- [AiTLAS: Benchmark Arena -- Open-source benchmark suite for evaluating deep learning approaches for image classification in Earth Observation (EO)](https://github.com/biasvariancelabs/aitlas-arena)
 
 
 ## Libros
