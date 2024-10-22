@@ -357,11 +357,12 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - Global Fishing Watch. AI and satellite imagery to reveal the expanding footprint of human activity at sea. [Post](https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/?utm_source=GFW+subscribers&utm_campaign=9363c93195-EMAIL_CAMPAIGN_JAN_2024_CURRENT_ENGLISH&utm_medium=email&utm_term=0_-9363c93195-%5BLIST_EMAIL_ID%5D). [Github](https://github.com/GlobalFishingWatch/paper-industrial-activity/tree/main). [Train data](https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_training_data/24309469). [Analysis data](https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_analysis_data/24309475) and [Vessel detection from Sentinel-1 SAR](https://globalfishingwatch.org/data-download/datasets/public-sar-vessel-detections:v20231026)
 - [rseek.org - rstats search engine](https://rseek.org/)
 - [Information is beautiful](https://informationisbeautiful.net/)
-- [HDRIs Images](- [HDRIs](https://polyhaven.com/hdris))
+- [HDRIs Images (HDRIs)](https://polyhaven.com/hdris))
 - [Study finds 94% of business spreadsheets have critical errors](https://phys.org/news/2024-08-business-spreadsheets-critical-errors.html)
 - [Google Dataset Search](datasetsearch.research.google.com)
 - [Interactive 4D LiDAR Segmentation](https://ilya-fradlin.github.io/Interactive4D/)
 - [AiTLAS: Benchmark Arena -- Open-source benchmark suite for evaluating deep learning approaches for image classification in Earth Observation (EO)](https://github.com/biasvariancelabs/aitlas-arena)
+- [IDEAtlas. Developing AI-based methods to map and characterize informal settlements from Earth Observation data](https://ideatlas.eu/)
 
 
 ## Libros
@@ -534,4 +535,3 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Introduction to Web Mapping](https://geobgu.xyz/web-mapping2/)
 - [Analítica predictiva avanzada](https://libromumade.github.io/libroMUMADE/)
 - [DevOps for Data Science](https://do4ds.com/)
-
