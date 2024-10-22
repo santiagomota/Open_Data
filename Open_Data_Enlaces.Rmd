@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -283,13 +283,14 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - EarthNets for Earth Observation [Page](https://earthnets.nicepage.io/) [Github](https://github.com/EarthNets)
 - [Zhu Lab - Data Science in Earth Observation](https://github.com/zhu-xlab)
 - SSL4EO-S12 dataset. Large-scale multimodal multitemporal dataset for unsupervised/self-supervised pre-training in Earth observation [Paper](https://arxiv.org/abs/2211.07044) [Github](https://github.com/zhu-xlab/SSL4EO-S12)
+- [United Nations Platform for Space-based Information for Disaster Management and Emergency Response (un-spider.org) data sources](https://un-spider.org/links-and-resources/data-sources)
 
 
 ## Otras referencias interesantes
 
 - [Data Science Blogs](https://github.com/rushter/data-science-blogs)
 - [Chuleta general de R](https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf)
-- [R Learning Path: From beginner to expert in R in 7 steps](http://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html)
+- [R Learning Path: From beginner to expert in R in 7 steps](https://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html)
 - [Rstudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/?utm_content=buffer1b56a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 - [R Markdown cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf)
 - [R Markdown referencia](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
@@ -301,7 +302,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Utilizando Sweave y Knitr](https://support.posit.co/hc/en-us/articles/200552056-Using-Sweave-and-knitr)
 - [Pandoc User’s Guide](http://pandoc.org/MANUAL.html#templates)
 - [Soporte técnico de RStudio](https://support.posit.co/hc/en-us)
-- [100 Active Blogs on Analytics, Big Data, Data Mining, Data Science, Machine Learning](http://www.kdnuggets.com/2016/03/100-active-blogs-analytics-big-data-science-machine-learning.html#.VvqjkSV5Tio.linkedin)
+- [100 Active Blogs on Analytics, Big Data, Data Mining, Data Science, Machine Learning](https://www.kdnuggets.com/2016/03/100-active-blogs-analytics-big-data-science-machine-learning.html#.VvqjkSV5Tio.linkedin)
 - [Plataforma H2O](https://github.com/h2oai)
 - [Computer vision](https://github.com/kjw0612/awesome-deep-vision)
 - Pautas para dar formato al código programando en R: [Google](https://google.github.io/styleguide/Rguide.xml), [Hadley Wickham (RStudio)](http://adv-r.had.co.nz/Style.html) y [Coding Club](https://ourcodingclub.github.io/2017/04/25/etiquette.html#syntax)
