@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -48,6 +48,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [AENA - Estadísticas de tráfico aéreo](https://www.aena.es/es/estadisticas/inicio.html)
 - [Agencia Tributaria. Estadísticas](https://www.agenciatributaria.es/AEAT.internet/Inicio/La_Agencia_Tributaria/Memorias_y_estadisticas_tributarias/Estadisticas/Estadisticas.shtml)
 - [AI for Copernicus - a data repository by CALLISTO](https://github.com/Agri-Hub/Callisto-Dataset-Collection)
+- [AI4SmallFarms: A Data Set for Crop Field Delineation in Southeast Asian Smallholder Farms](https://phys-techsciences.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/dans-xy6-ngg6)
 - [AID: A Benchmark Dataset for Performance Evaluation of Aerial Scene Classification](https://captain-whu.github.io/AID/)
 - [Alaska Satellite Facility](https://asf.alaska.edu/getstarted/)
 - [Amazon product data 2014](http://jmcauley.ucsd.edu/data/amazon/)
@@ -70,6 +71,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Ayuntamiento de Madrid. Censo de locales, sus actividades y terrazas de hostelería y restauración](https://datos.gob.es/es/catalogo/l01280796-censo-de-locales-sus-actividades-y-terrazas-de-hosteleria-y-restauracion-historico1)
 - [Blog. 100 recursos sobre Big Data y Data Science](https://www.todobi.com/mas-de-100-recursos-sobre-big-data-y/)
 - [British Ordnance Survey Data Hub](https://osdatahub.os.uk/)
+- [BUILDING OUTLINE EXTRACTION OF ENSCHEDE, THE NETHERLANDS USING AERIAL IMAGES AND DIGITAL SURFACE MODELS](https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:257588)
 - [CaixaBank Research](https://www.caixabankresearch.com/es)
 - [Canada Open Government Portal](https://open.canada.ca/data/en/dataset?q=education)
 - [Center for Applied Internet Data Analysis](https://www.caida.org/data/overview/)
@@ -81,6 +83,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home)
 - [CRAN Task View OpenData](https://github.com/ropensci/opendata)
 - [Crimen en UK](https://data.police.uk/)
+- [DANS Data Station Physical and Technical Sciences](https://phys-techsciences.datastations.nl/)
 - [Data Derived from OpenStreetMap for Download](https://osmdata.openstreetmap.de/)
 - [Data Kicks](https://data-kicks.com/index.php/blog/)
 - [Data on CO2 and Greenhouse Gas Emissions by Our World in Data](https://github.com/owid/co2-data/tree/master)
@@ -88,6 +91,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Data.World Datasets](https://data.world/datasets/data)
 - [Datasets de ejemplo de IBM Watson Analytics](https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/)
 - [Datasets de Quandl](https://www.quandl.com/search?query=)
+- [Dataset4EO](https://github.com/EarthNets/Dataset4EO)
 - [Datos abiertos Ayuntamiento de Valencia](https://www.valencia.es/cas/ayuntamiento/gobierno-abierto)
 - [Datos abiertos de la Generalitat de Cataluña](http://dadesobertes.gencat.cat/es/)
 - [Datos abiertos de la Unión Europea](https://data.europa.eu/es)
@@ -230,6 +234,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Sentinel Hub NoR Sponsored Accounts and Data Collections](https://www.sentinel-hub.com/Network-of-Resources/)
 - [Sentinel Satellite Data](https://browser.dataspace.copernicus.eu)
 - [Sentinel-5P](https://developers.google.com/earth-engine/datasets/catalog/sentinel-5p)
+- [Sentinel-2 data set for the delineation of agricultural field boundaries in Flevoland, The Netherlands](https://phys-techsciences.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/dans-x8d-p6zm)
 - [Síntesis de Indicadores e Informes Macroeconómicos](https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx)
 - [SkyFi Geospatial Hub](https://skyfi.com/)
 - [SkySat missions](https://earth.esa.int/eogateway/missions/skysat)
