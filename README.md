@@ -179,6 +179,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [OpenWeatherMap](https://openweathermap.org/api)
 - [OSM Landuse](https://osmlanduse.org/)
 - [Overture - Fused-partitioned](https://beta.source.coop/repositories/fused/overture/description/)
+- [Overture Maps](https://github.com/OvertureMaps/data)
 - [Paquete de R 'datasets'](http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/00Index.html)
 - [Paquete pasra acceder al API del Instituto de Canario de Estadística](https://github.com/rOpenSpain/istacbaser)
 - [Pew Research Center](https://www.pewresearch.org/download-datasets/)

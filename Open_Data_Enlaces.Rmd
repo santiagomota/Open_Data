@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -213,6 +213,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [OpenWeatherMap](https://openweathermap.org/api)
 - [OSM Landuse](https://osmlanduse.org/)
 - [Overture - Fused-partitioned](https://beta.source.coop/repositories/fused/overture/description/)
+- [Overture Maps](https://github.com/OvertureMaps/data)
 - [Paquete de R 'datasets'](http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/00Index.html)
 - [Paquete pasra acceder al API del Instituto de Canario de Estadística](https://github.com/rOpenSpain/istacbaser)
 - [Pew Research Center](https://www.pewresearch.org/download-datasets/)
