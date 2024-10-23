@@ -109,6 +109,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Geoportal Registradores](https://geoportal.registradores.org/)
 - [Geospatial Data Catalogs](https://github.com/opengeos/geospatial-data-catalogs)
 - [GHSL - Global Human Settlement Layer](https://human-settlement.emergency.copernicus.eu/download.php?ds=bu)
+- [Global Forest Change 2000-2023](https://storage.googleapis.com/earthenginepartners-hansen/GFC-2023-v1.11/download.html)
 - [Global Flood Database v1 (2000-2018)](https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1)
 - [Global Health Observatory (GHO) API](https://www.who.int/data/gho/info/gho-odata-api)
 - [Gobierno Estados Unidos](http://www.data.gov/)
