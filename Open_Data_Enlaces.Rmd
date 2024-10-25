@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -152,6 +152,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Google Datset Search](https://datasetsearch.research.google.com/)
 - [Google Earth Engine Catalog](https://github.com/opengeos/Earth-Engine-Catalog)
 - [Google finanzas](http://www.google.com/finance/)
+- [Google Open Buildings](https://sites.research.google/gr/open-buildings/)
 - [Google Patents Public Data](https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/google-patents-public-data)
 - [Google Public Data](https://www.google.com/publicdata/directory)
 - [Google-Microsoft-OSM Open Buildings - combined by VIDA](https://beta.source.coop/repositories/vida/google-microsoft-osm-open-buildings/description/)
@@ -276,6 +277,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [USGS Earth Explorer](https://earthexplorer.usgs.gov/)
 - [WHU-RS19 is a set of satellite images exported from Google Earth](https://paperswithcode.com/dataset/whu-rs19)
 - [World Economic Forum](https://www.weforum.org/publications/)
+- WorldCereal open global harmonized reference data repository [Data]](https://zenodo.org/records/7609500) [Github](https://github.com/WorldCereal/worldcereal-classification)
 - [Worldpop - Open Spatial Demographic Data](https://www.worldpop.org/) y [Worldpop Hub](https://hub.worldpop.org/)
 - [Yelp Dataset](https://www.yelp.com/dataset)
 - [Zhu Lab - Data Science in Earth Observation](https://github.com/zhu-xlab)
