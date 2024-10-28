@@ -424,6 +424,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Learning Statistics with R](https://learningstatisticswithr.com/)
 - [Libro Vivo de Ciencia de Datos](https://librovivodecienciadedatos.ai/)
 - [Linear Algebra for Data Science](https://shainarace.github.io/LinearAlgebra/index.html)
+- [Model to Meaning](https://marginaleffects.com/)
 - [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/)
 - [Officeverse R & Office](https://ardata-fr.github.io/officeverse/index.html)
 - [Outstanding User Interfaces with Shiny](https://unleash-shiny.rinterface.com/)
@@ -478,3 +479,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - Mastering Apache Spark with R [Libro](https://therinspark.com/intro.html) y [Código](https://github.com/r-spark/the-r-in-spark)
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
+
