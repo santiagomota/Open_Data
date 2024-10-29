@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -438,6 +438,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
 - [Estadística básica](https://www.uv.es/ayala/docencia/nmr/nmr13.pdf)
 - [Estilometría, análisis de textos en R para filólogos](http://www.aic.uva.es/cuentapalabras/presentacion.html)
+- [Exploring Complex Survey Data Analysis Using R](https://tidy-survey-r.github.io/tidy-survey-book/)
 - [Exploratory Data Analysis with R - Roger D. Peng](https://bookdown.org/rdpeng/exdata/)
 - [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
 - [Fundamentals of Data Visualization](https://github.com/clauswilke/dataviz)

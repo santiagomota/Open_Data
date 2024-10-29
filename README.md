@@ -404,6 +404,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
 - [Estadística básica](https://www.uv.es/ayala/docencia/nmr/nmr13.pdf)
 - [Estilometría, análisis de textos en R para filólogos](http://www.aic.uva.es/cuentapalabras/presentacion.html)
+- [Exploring Complex Survey Data Analysis Using R](https://tidy-survey-r.github.io/tidy-survey-book/)
 - [Exploratory Data Analysis with R - Roger D. Peng](https://bookdown.org/rdpeng/exdata/)
 - [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
 - [Fundamentals of Data Visualization](https://github.com/clauswilke/dataviz)
