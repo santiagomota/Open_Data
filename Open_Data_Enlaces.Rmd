@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -434,6 +434,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Deep Learning](https://srdas.github.io/DLBook/)
 - [Econometrics with the Tidyverse](https://colleen.quarto.pub/the-tidy-econometrics-workbook/)
 - [Efficient R programming](https://csgillespie.github.io/efficientR/)
+- [Efficient Machine Learning with R](https://emlwr.org/)
 - [Elegant and informative maps with tmap](https://r-tmap.github.io/tmap-book/)
 - [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
 - [Estadística básica](https://www.uv.es/ayala/docencia/nmr/nmr13.pdf)
@@ -463,6 +464,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Model to Meaning](https://marginaleffects.com/)
 - [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/)
 - [Officeverse R & Office](https://ardata-fr.github.io/officeverse/index.html)
+- [Open Source Technology in Clinical Data Analysis](https://phuse-org.github.io/OSTCDA/)
 - [Outstanding User Interfaces with Shiny](https://unleash-shiny.rinterface.com/)
 - [Predictive Soil Mapping with R](https://soilmapper.org/)
 - [Probabilidad básica](https://www.uv.es/ayala/docencia/probabilidad/prob.pdf)
