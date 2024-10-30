@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -32,9 +32,18 @@ output:
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
-
 Este fichero es copia de uno alojado en Github, en este [link](https://github.com/santiagomota/Open_Data) y que se actualiza periódicamente.
 
+```{r}
+#| eval: false
+
+# Creo el link con: 
+# usethis::create_download_url("https://github.com/santiagomota/Open_Data")
+
+# Si me quiero bajar el repositorio completo en el directorio actual
+usethis::use_course(
+    "https://github.com/santiagomota/Open_Data/zipball/HEAD", destdir = ".")
+```
 
 
 ## Fuentes de datos abiertos y APIs
