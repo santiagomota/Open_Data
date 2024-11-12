@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -20,8 +21,7 @@ output:
     code_folding: show
     always_allow_html: true
     includes:
-      after_body: footer.html
-  pdf_document:   default
+      after_body: footer_V2.html
 ---
 
 ```{r}

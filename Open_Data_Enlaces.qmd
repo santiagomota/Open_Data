@@ -19,7 +19,7 @@ output:
     code_folding: show
     always_allow_html: true
     includes:
-      after_body: footer.html
+      after_body: footer_V2.html
   pdf:
     toc: true
     number-sections: true
