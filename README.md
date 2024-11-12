@@ -112,6 +112,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Global Forest Change 2000-2023](https://storage.googleapis.com/earthenginepartners-hansen/GFC-2023-v1.11/download.html)
 - [Global Flood Database v1 (2000-2018)](https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1)
 - [Global Health Observatory (GHO) API](https://www.who.int/data/gho/info/gho-odata-api)
+- GLOPOP-S. A global dataset of 7 billion individuals with socio-economic characteristics (sintetic) [Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KJC3RH) [Github](https://github.com/VU-IVM/GLOPOP-S) [Paper](https://www.nature.com/articles/s41597-024-03864-2)
 - [Gobierno Estados Unidos](http://www.data.gov/)
 - [Google Books Ngram Viewe](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
 - [Google Cloud Vision API](https://cloud.google.com/vision/)
