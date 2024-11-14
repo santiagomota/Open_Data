@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -168,6 +168,7 @@ usethis::use_course(
 - [Google-Microsoft-OSM Open Buildings - combined by VIDA](https://beta.source.coop/repositories/vida/google-microsoft-osm-open-buildings/description/)
 - [Helsinki Open Data](http://www.hri.fi/en/)
 - [Hugging Face Datasets](https://huggingface.co/datasets)
+- [HydroRIVERS](https://www.hydrosheds.org/products/hydrorivers)
 - [Idealista ux&tech](https://www.idealista.com/labs/blog/)
 - [idealista18 - 2018 real estate listings in Spain. 3 cities](https://github.com/paezha/idealista18)
 - [ImageNet database](http://www.image-net.org/)
@@ -473,6 +474,7 @@ usethis::use_course(
 - [Linear Algebra for Data Science](https://shainarace.github.io/LinearAlgebra/index.html)
 - [Model to Meaning](https://marginaleffects.com/)
 - [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/)
+- [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 - [Officeverse R & Office](https://ardata-fr.github.io/officeverse/index.html)
 - [Open Source Technology in Clinical Data Analysis](https://phuse-org.github.io/OSTCDA/)
 - [Outstanding User Interfaces with Shiny](https://unleash-shiny.rinterface.com/)
@@ -527,4 +529,3 @@ usethis::use_course(
 - Mastering Apache Spark with R [Libro](https://therinspark.com/intro.html) y [Código](https://github.com/r-spark/the-r-in-spark)
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
-
