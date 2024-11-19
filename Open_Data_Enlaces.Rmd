@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -185,6 +185,7 @@ usethis::use_course(
 - [M3LEO: A Multi-Modal Multi-Label Earth Observation Dataset](https://huggingface.co/M3LEO)
 - [Mapas de Open Street Maps](http://download.geofabrik.de/)
 - [Marine Regions](https://marineregions.org/downloads.php)
+- [Marine Cadastre (AIS)](https://hub.marinecadastre.gov/)
 - [Mendeley Data](https://data.mendeley.com/)
 - [Microsoft - A Planetary Computer for a Sustainable Future](https://planetarycomputer.microsoft.com/)
 - [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services/)

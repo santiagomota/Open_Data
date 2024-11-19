@@ -142,6 +142,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [M3LEO: A Multi-Modal Multi-Label Earth Observation Dataset](https://huggingface.co/M3LEO)
 - [Mapas de Open Street Maps](http://download.geofabrik.de/)
 - [Marine Regions](https://marineregions.org/downloads.php)
+- [Marine Cadastre (AIS)](https://hub.marinecadastre.gov/)
 - [Mendeley Data](https://data.mendeley.com/)
 - [Microsoft - A Planetary Computer for a Sustainable Future](https://planetarycomputer.microsoft.com/)
 - [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services/)
@@ -486,3 +487,4 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - Mastering Apache Spark with R [Libro](https://therinspark.com/intro.html) y [Código](https://github.com/r-spark/the-r-in-spark)
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
+
