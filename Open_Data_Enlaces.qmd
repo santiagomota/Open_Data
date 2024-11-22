@@ -226,6 +226,7 @@ usethis::use_course(
 - [Open Topography](https://opentopography.org/)
 - [Open Trade Statistics](https://tradestatistics.io/)
 - [openaddresses](https://openaddresses.io/)
+- [OpenCelliD - Open Database of Cell Towers](https://www.opencellid.org/downloads.php)
 - [Opendata del CERN](http://opendata.cern.ch/)
 - [Opendatasoft](https://documentation-resources.opendatasoft.com/explore/?sort=modified)
 - [openflights.org/](https://openflights.org/)

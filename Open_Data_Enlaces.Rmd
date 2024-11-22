@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -220,6 +220,7 @@ usethis::use_course(
 - [Open Topography](https://opentopography.org/)
 - [Open Trade Statistics](https://tradestatistics.io/)
 - [openaddresses](https://openaddresses.io/)
+- [OpenCelliD - Open Database of Cell Towers](https://www.opencellid.org/downloads.php)
 - [Opendata del CERN](http://opendata.cern.ch/)
 - [Opendatasoft](https://documentation-resources.opendatasoft.com/explore/?sort=modified)
 - [openflights.org/](https://openflights.org/)

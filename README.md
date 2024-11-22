@@ -177,6 +177,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Open Topography](https://opentopography.org/)
 - [Open Trade Statistics](https://tradestatistics.io/)
 - [openaddresses](https://openaddresses.io/)
+- [OpenCelliD - Open Database of Cell Towers](https://www.opencellid.org/downloads.php)
 - [Opendata del CERN](http://opendata.cern.ch/)
 - [Opendatasoft](https://documentation-resources.opendatasoft.com/explore/?sort=modified)
 - [openflights.org/](https://openflights.org/)
@@ -487,4 +488,3 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - Mastering Apache Spark with R [Libro](https://therinspark.com/intro.html) y [Código](https://github.com/r-spark/the-r-in-spark)
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
-
