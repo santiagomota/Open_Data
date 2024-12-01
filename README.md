@@ -77,6 +77,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Dirección General de Tráfico (DGT)](https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/inicio.faces)
 - [Dynamic World V1 Land Use](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1) 
 - [EarthView dataset](https://huggingface.co/datasets/satellogic/EarthView)
+- [EM-DAT - The international disaster database](https://www.emdat.be/)
 - [EDGAR - Emissions Database for Global Atmospheric Research](https://edgar.jrc.ec.europa.eu/emissions_data_and_maps)
 - [EnMAP. The German Spaceborne Imaging Spectrometer Mission](https://www.enmap.org/)
 - [El planeta Tierra en AWS](https://aws.amazon.com/es/earth/)
