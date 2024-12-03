@@ -11,6 +11,7 @@ license:  by-nc-sa
 urlcolor: blue
 always_allow_html: true
 output:
+  word_document:  default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     includes:
       after_body: footer_V2.html
   pdf_document:   default
-  word_document:  default
 ---
 
 ```{r}
@@ -427,6 +427,7 @@ usethis::use_course(
 - [10 Free Must-Read Books for Machine Learning and Data Science](https://www.kdnuggets.com/2017/04/10-free-must-read-books-machine-learning-data-science.html?utm_content=bufferc386f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 - [Advanced R](https://adv-r.hadley.nz/index.html)
 - [Advanced Spatial Modeling with Stochastic Partial Differential Equations Using R and INLA](https://becarioprecario.bitbucket.io/spde-gitbook/)
+- [An Introduction to R](https://intro2r.com/)
 - [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
 - [An R companion to Statistics: data analysis and modelling](https://mspeekenbrink.github.io/sdam-r-companion/index.html)
 - [Análisis de datos y algoritmos de predicción con R](http://rafalab.dfci.harvard.edu/dslibro/)
