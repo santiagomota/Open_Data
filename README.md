@@ -47,6 +47,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [Center for Disease Control](https://wonder.cdc.gov/)
 - [CIS. Centro de Investigaciones Sociológicas](https://www.cis.es/inicio)
 - [Climate Data Online](https://www.ncdc.noaa.gov/cdo-web/)
+- [Climate TRACE](https://climatetrace.org/data)
 - [Cómo los datos abiertos pueden ayudar en la crisis de los refugiados](https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes)
 - [Copernicus Atmosphere Monitoring Service (CAMS) Global Near-Real-Time](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT)
 - [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home)
@@ -195,6 +196,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [OpenGEOS data](https://github.com/opengeos/data)
 - [OpenWeatherMap](https://openweathermap.org/api)
 - [OSM Landuse](https://osmlanduse.org/)
+- OSM-Building-Classification [Data](https://osf.io/utgae/) [Code](https://github.com/gmuggs/OSM-Building-Classification) [Paper](https://www.nature.com/articles/s41597-024-04046-w) - Classification of 67,705,475 buildings across the United States into residential and non-residential
 - [Overture - Fused-partitioned](https://beta.source.coop/repositories/fused/overture/description/)
 - [Overture Maps](https://github.com/OvertureMaps/data)
 - [Paquete de R 'datasets'](http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/00Index.html)

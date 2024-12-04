@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -90,6 +90,7 @@ usethis::use_course(
 - [Center for Disease Control](https://wonder.cdc.gov/)
 - [CIS. Centro de Investigaciones Sociológicas](https://www.cis.es/inicio)
 - [Climate Data Online](https://www.ncdc.noaa.gov/cdo-web/)
+- [Climate TRACE](https://climatetrace.org/data)
 - [Cómo los datos abiertos pueden ayudar en la crisis de los refugiados](https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes)
 - [Copernicus Atmosphere Monitoring Service (CAMS) Global Near-Real-Time](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT)
 - [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home)
@@ -238,6 +239,7 @@ usethis::use_course(
 - [OpenGEOS data](https://github.com/opengeos/data)
 - [OpenWeatherMap](https://openweathermap.org/api)
 - [OSM Landuse](https://osmlanduse.org/)
+- OSM-Building-Classification [Data](https://osf.io/utgae/) [Code](https://github.com/gmuggs/OSM-Building-Classification) [Paper](https://www.nature.com/articles/s41597-024-04046-w) - Classification of 67,705,475 buildings across the United States into residential and non-residential
 - [Overture - Fused-partitioned](https://beta.source.coop/repositories/fused/overture/description/)
 - [Overture Maps](https://github.com/OvertureMaps/data)
 - [Paquete de R 'datasets'](http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/00Index.html)
