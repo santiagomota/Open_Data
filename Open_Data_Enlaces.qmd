@@ -73,6 +73,8 @@ usethis::use_course(
 - [API de GitHub](https://developer.github.com/v3/)
 - [API TomTom. Tráfico en ciudades](http://developer.tomtom.com/products/onlinenavigation/onlinetraffic/onlinetrafficflow)
 - [Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/)
+- [ASTER Global DEM (GDEM)](https://lpdaac.usgs.gov/products/astgtmv003/) - ASTER Global Digital Elevation Model 1 arc second
+- [ArcticDEM](https://www.pgc.umn.edu/data/arcticdem/) - High-resolution DEM for the Arctic region
 - [Awesome Geospatial](https://github.com/sacridini/Awesome-Geospatial)
 - [Awesome Public Datasets 1](https://github.com/dipanjanS/awesome-public-datasets)
 - [Awesome Public Datasets 2](https://github.com/awesomedata/awesome-public-datasets)
@@ -88,6 +90,7 @@ usethis::use_course(
 - [British Ordnance Survey Data Hub](https://osdatahub.os.uk/)
 - [BUILDING OUTLINE EXTRACTION OF ENSCHEDE, THE NETHERLANDS USING AERIAL IMAGES AND DIGITAL SURFACE MODELS](https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:257588)
 - [CaixaBank Research](https://www.caixabankresearch.com/es)
+- [CGIAR-CSI SRTM](https://csidotinfo.wordpress.com/data/srtm-90m-digital-elevation-database-v4-1/) - SRTM 90m Digital Elevation Database v4.1
 - [Canada Open Government Portal](https://open.canada.ca/data/en/dataset?q=education)
 - [Center for Applied Internet Data Analysis](https://www.caida.org/data/overview/)
 - [Center for Disease Control](https://wonder.cdc.gov/)
@@ -96,6 +99,7 @@ usethis::use_course(
 - [Cómo los datos abiertos pueden ayudar en la crisis de los refugiados](https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes)
 - [Copernicus Atmosphere Monitoring Service (CAMS) Global Near-Real-Time](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT)
 - [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home)
+- [Copernicus DEM](https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model) - European Digital Elevation Model (EU-DEM)
 - [CRAN Task View OpenData](https://github.com/ropensci/opendata)
 - [Crimen en UK](https://data.police.uk/)
 - [DANS Data Station Physical and Technical Sciences](https://phys-techsciences.datastations.nl/)
@@ -125,6 +129,7 @@ usethis::use_course(
 - [Digital Earth Africa (DE Africa) Map](https://www.digitalearthafrica.org/platform-resources/platform)
 - [Dirección General de Tráfico (DGT)](https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/inicio.faces)
 - [Dynamic World V1 Land Use](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1) 
+- [EarthEnv-DEM90 digital elevation model](https://www.earthenv.org/DEM) - Global DEM created from multiple datasets
 - [EarthView dataset](https://huggingface.co/datasets/satellogic/EarthView)
 - [EM-DAT - The international disaster database](https://www.emdat.be/)
 - [EDGAR - Emissions Database for Global Atmospheric Research](https://edgar.jrc.ec.europa.eu/emissions_data_and_maps)
@@ -155,6 +160,7 @@ usethis::use_course(
 - [gee-community-catalog](https://gee-community-catalog.org/)
 - [geoBoundaries](https://www.geoboundaries.org/)
 - [geodata.state.gov](https://geodata.state.gov/geonetwork/srv/spa/catalog.search#/home)
+- [GEBCO (General Bathymetric Chart of the Oceans)](https://www.gebco.net/) - Bathymetric DEM for ocean floors
 - [Geonames Cities with population > 5000](https://documentation-resources.opendatasoft.com/explore/dataset/doc-geonames-cities-5000/table/)
 - [Geoportal Registradores](https://geoportal.registradores.org/)
 - [Geospatial Data Catalogs](https://github.com/opengeos/geospatial-data-catalogs)
@@ -184,6 +190,7 @@ usethis::use_course(
 - [IPUMS GIS Boundary Files](https://international.ipums.org/international/gis.shtml)
 - [ISCGM Global Map](https://globalmaps.github.io/)
 - [ISIMIP3b bias-adjusted atmospheric climate input data](https://data.isimip.org/datasets/24cb1007-3c96-4b59-a0dc-42d94a8cff8c/)
+- [JAXA’s Global ALOS 3D World (AW3D30)](https://www.eorc.jaxa.jp/ALOS/en/dataset/aw3d30/aw3d30_e.htm) - ALOS Global Digital Surface Model "ALOS World 3D - 30m (AW3D30)"
 - [Kaggle datasets](https://www.kaggle.com/datasets)
 - [Kaggle Weekly Kernels Award Winner Announcements](https://www.kaggle.com/general/37924#post354114)
 - [Land Information New Zealand (LINZ) Data Service](https://data.linz.govt.nz/)
@@ -206,8 +213,10 @@ usethis::use_course(
 - [NASA Common Metadata Repository (CMR) SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/aws-open-data-stac)
 - [NASA Earth Observations (NEO)](https://neo.gsfc.nasa.gov/)
 - [NASA](https://nssdc.gsfc.nasa.gov/)
+- [NASA Earthdata](https://earthdata.nasa.gov/) - Shuttle Radar Topography Mission (SRTM)
 - [NASDAQ](https://indexes.nasdaqomx.com/Index/History/NQASPA8600AUD)
 - [National Historical Geographic Information System (NHGIS)](https://www.nhgis.org/)
+- [National Map (USGS)](https://nationalmap.gov/) - National Elevation Dataset (NED), LiDAR, and more
 - [Natural Earth Data](https://www.naturalearthdata.com/downloads/)
 - [Natural Earth](http://www.naturalearthdata.com/)
 - [Nature Scientific Data](https://www.nature.com/sdata/)
@@ -225,7 +234,7 @@ usethis::use_course(
 - [Open Data Renfe](http://data.renfe.com/)
 - [Open Data Sources Database](https://anthonyhuntley.com/data-science-databases/#DataSourceDatabase)
 - [Open High-Resolution Satellite Imagery: The WorldStrat Dataset -- With Application to Super-Resolution](https://arxiv.org/abs/2207.06418)
-- [Open Topography](https://opentopography.org/)
+- [Open Topography](https://opentopography.org/) - Various high-resolution DEM datasets from LiDAR and other sources
 - [Open Trade Statistics](https://tradestatistics.io/)
 - [openaddresses](https://openaddresses.io/)
 - [OpenCelliD - Open Database of Cell Towers](https://www.opencellid.org/downloads.php)
@@ -262,11 +271,12 @@ usethis::use_course(
 - [Síntesis de Indicadores e Informes Macroeconómicos](https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx)
 - [SkyFi Geospatial Hub](https://skyfi.com/)
 - [SkySat missions](https://earth.esa.int/eogateway/missions/skysat)
-- [Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse)
+- Socioeconomic Data and Applications Center (SEDAC)[Link1](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse) y [Link2](https://earthdata.nasa.gov/centers/sedac-daac)
 - [Some datasets for teaching data science](https://simplystatistics.org/posts/2018-01-22-the-dslabs-package-provides-datasets-for-teaching-data-science/)
 - [Source Cooperative Featured Repositories](https://beta.source.coop/)
 - [STAC Index SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/stac-index-catalogs)
 - [StatsBomb sports data](https://statsbomb.com/what-we-do/hub/free-data/)
+- [TanDEM-X 90m DEM (DLR)](https://download.geoservice.dlr.de/TDM90/) - Global DEM generated from radar data
 - [Teaching of Statistics in the Health Sciences](https://causeweb.org/tshs/)
 - [Tematicas.org Recopilación de series e índices](https://tematicas.org/)
 - [Terra Populus](https://terra.ipums.org/)
@@ -295,7 +305,8 @@ usethis::use_course(
 - [Universidad de Harvard](https://dataverse.harvard.edu/)
 - [US Homeland Infrastructure Foundation-Level Data](https://hifld-geoplatform.hub.arcgis.com/)
 - [USGS 3DEP LiDAR Point Clouds](https://registry.opendata.aws/usgs-lidar/)
-- [USGS Earth Explorer](https://earthexplorer.usgs.gov/)
+- [USGS Earth Explorer](https://earthexplorer.usgs.gov/) - SRTM, ASTER GDEM, ALOS, and more
+- [Viewfinder Panoramas](https://viewfinderpanoramas.org/) - High-quality DEM for remote regions
 - [WHU-RS19 is a set of satellite images exported from Google Earth](https://paperswithcode.com/dataset/whu-rs19)
 - [World Economic Forum](https://www.weforum.org/publications/)
 - WorldCereal open global harmonized reference data repository [Data]](https://zenodo.org/records/7609500) [Github](https://github.com/WorldCereal/worldcereal-classification)
