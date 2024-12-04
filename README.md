@@ -137,6 +137,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [ISIMIP3b bias-adjusted atmospheric climate input data](https://data.isimip.org/datasets/24cb1007-3c96-4b59-a0dc-42d94a8cff8c/)
 - [Kaggle datasets](https://www.kaggle.com/datasets)
 - [Kaggle Weekly Kernels Award Winner Announcements](https://www.kaggle.com/general/37924#post354114)
+- [Land Information New Zealand (LINZ) Data Service](https://data.linz.govt.nz/)
 - [Legacy Aircraft Noise and Performance (ANP) data](https://www.easa.europa.eu/en/domains/environment/policy-support-and-research/aircraft-noise-and-performance-anp-data/anp-legacy-data)
 - [LinkedIn - Data for Impact](https://economicgraph.linkedin.com/data-for-impact)
 - [Lista de algunos datatsets dentro de paquetes de R](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
