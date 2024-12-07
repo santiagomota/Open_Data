@@ -61,7 +61,7 @@ usethis::use_course(
 - [30 Amazing (And Free) Big Data And AI Public Data Sources For 2018](https://www.linkedin.com/pulse/30-amazing-free-big-data-ai-public-sources-2018-bernard-marr/?trackingId=nkTXcNLieYPDBqZuB3KIsw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B9KuSD9KfQ6ie%2BALso3gwvw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-object)
 - [46 museos y bibliotecas que han digitalizado todo su conocimiento y lo ofrecen gratis en internet](http://www.xataka.com/otros/46-museos-y-bibliotecas-que-han-digitalizado-todo-su-conocimiento-humano)
 - [AENA - Estadísticas de tráfico aéreo](https://www.aena.es/es/estadisticas/inicio.html)
-- [Agencia Tributaria. Estadísticas](https://www.agenciatributaria.es/AEAT.internet/Inicio/La_Agencia_Tributaria/Memorias_y_estadisticas_tributarias/Estadisticas/Estadisticas.shtml)
+- [Agencia Tributaria. Estadísticas](https://sede.agenciatributaria.gob.es/Sede/estadisticas.html)
 - [AI for Copernicus - a data repository by CALLISTO](https://github.com/Agri-Hub/Callisto-Dataset-Collection)
 - [AI4SmallFarms: A Data Set for Crop Field Delineation in Southeast Asian Smallholder Farms](https://phys-techsciences.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/dans-xy6-ngg6)
 - [AID: A Benchmark Dataset for Performance Evaluation of Aerial Scene Classification](https://captain-whu.github.io/AID/)
@@ -71,6 +71,7 @@ usethis::use_course(
 - [Análisis de 1.100 millones de trayectos de taxis y uber en NYC](https://github.com/toddwschneider/nyc-taxi-data)
 - [API de Facebook](https://developers.facebook.com/docs/graph-api)
 - [API de GitHub](https://developer.github.com/v3/)
+- [Argo Floats](https://argo.ucsd.edu/) - Global ocean observations of temperature, salinity, and pressure.
 - [API TomTom. Tráfico en ciudades](http://developer.tomtom.com/products/onlinenavigation/onlinetraffic/onlinetrafficflow)
 - [Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/)
 - [ASTER Global DEM (GDEM)](https://lpdaac.usgs.gov/products/astgtmv003/) - ASTER Global Digital Elevation Model 1 arc second
@@ -83,9 +84,9 @@ usethis::use_course(
 - [AWS Data Exchange](https://docs.aws.amazon.com/data-exchange/)
 - [AWS Datasets](https://registry.opendata.aws/)
 - [AWS Open Data Geo](https://github.com/opengeos/aws-open-data-geo)
-- [AWS Open Data SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/aws-open-data-stac)
 - [AWS Open Data](https://github.com/opengeos/aws-open-data)
 - [Ayuntamiento de Madrid. Censo de locales, sus actividades y terrazas de hostelería y restauración](https://datos.gob.es/es/catalogo/l01280796-censo-de-locales-sus-actividades-y-terrazas-de-hosteleria-y-restauracion-historico1)
+- [Berkeley Earth](https://berkeleyearth.org/data/) - Global land temperature and air pollution datasets.
 - [Blog. 100 recursos sobre Big Data y Data Science](https://www.todobi.com/mas-de-100-recursos-sobre-big-data-y/)
 - [British Ordnance Survey Data Hub](https://osdatahub.os.uk/)
 - [BUILDING OUTLINE EXTRACTION OF ENSCHEDE, THE NETHERLANDS USING AERIAL IMAGES AND DIGITAL SURFACE MODELS](https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:257588)
@@ -94,13 +95,16 @@ usethis::use_course(
 - [Canada Open Government Portal](https://open.canada.ca/data/en/dataset?q=education)
 - [Center for Applied Internet Data Analysis](https://www.caida.org/data/overview/)
 - [Center for Disease Control](https://wonder.cdc.gov/)
+- [CHIRPS: Rainfall Estimates from Rain Gauge and Satellite Observations](https://www.chc.ucsb.edu/data/chirps) - High-resolution precipitation data.
 - [CIS. Centro de Investigaciones Sociológicas](https://www.cis.es/inicio)
 - [Climate Data Online](https://www.ncdc.noaa.gov/cdo-web/)
+- [Climate Change Knowledge Porta](https://climateknowledgeportal.worldbank.org/) - Country-specific climate risks, data, and projections.
 - [Climate TRACE](https://climatetrace.org/data)
 - [Cómo los datos abiertos pueden ayudar en la crisis de los refugiados](https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes)
 - [Copernicus Atmosphere Monitoring Service (CAMS) Global Near-Real-Time](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT)
 - [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home)
 - [Copernicus DEM](https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model) - European Digital Elevation Model (EU-DEM)
+- [Copernicus Marine Environment Monitoring Service (CMEMS)](https://marine.copernicus.eu/) - Ocean monitoring for sea surface temperature, sea level, and salinity.
 - [CRAN Task View OpenData](https://github.com/ropensci/opendata)
 - [Crimen en UK](https://data.police.uk/)
 - [DANS Data Station Physical and Technical Sciences](https://phys-techsciences.datastations.nl/)
@@ -108,7 +112,6 @@ usethis::use_course(
 - [Data Kicks](https://data-kicks.com/index.php/blog/)
 - [Data on CO2 and Greenhouse Gas Emissions by Our World in Data](https://github.com/owid/co2-data/tree/master)
 - [Data World](https://data.world/)
-- [Data.World Datasets](https://data.world/datasets/data)
 - [Datasets de ejemplo de IBM Watson Analytics](https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/)
 - [Datasets de Quandl](https://www.quandl.com/search?query=)
 - [Dataset4EO](https://github.com/EarthNets/Dataset4EO)
@@ -123,7 +126,6 @@ usethis::use_course(
 - [Datos de la Eurocopa 2024](https://github.com/Jelagmil/Euro2024_data)
 - [Datos de todos los vuelos en USA entre 1987 y 2008 (datos originales)](http://stat-computing.org/dataexpo/2009/the-data.html)
 - [Datos de todos los vuelos en USA entre 1987 y 2008 (otra fuente y ejemplos de uso en H2O). 120G](https://github.com/h2oai/h2o-2/wiki/Hacking-Airline-DataSet-with-H2O)
-- [Datos en paquetes de R](http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/00Index.html)
 - [Datos estadísticos DGT](https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/)
 - [Datosclima. Base de datos meteo](http://datosclima.es/Aemet2013/DescargaDatos.html)
 - [DH Network](http://opendhn.dhnetwork.opendata.arcgis.com/)
@@ -132,6 +134,7 @@ usethis::use_course(
 - [Dynamic World V1 Land Use](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1) 
 - [EarthEnv-DEM90 digital elevation model](https://www.earthenv.org/DEM) - Global DEM created from multiple datasets
 - [EarthView dataset](https://huggingface.co/datasets/satellogic/EarthView)
+- [ECMWF ERA5](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5) - Hourly reanalysis climate data (temperature, precipitation, wind, etc.).
 - [EM-DAT - The international disaster database](https://www.emdat.be/)
 - [EDGAR - Emissions Database for Global Atmospheric Research](https://edgar.jrc.ec.europa.eu/emissions_data_and_maps)
 - [EnMAP. The German Spaceborne Imaging Spectrometer Mission](https://www.enmap.org/)
@@ -152,6 +155,7 @@ usethis::use_course(
 - [FBREF - Estadísticas e Historia del Fútbol](https://fbref.com/es/)
 - [Fields of The World (FTW)](https://beta.source.coop/repositories/kerner-lab/fields-of-the-world/description/)
 - [Fivethirtyeight](https://data.fivethirtyeight.com/)
+- [FLUXNET](https://fluxnet.org/) - Data from flux towers for carbon, water, and energy exchange monitoring.
 - [Fondo Monetario Internacional](http://www.imf.org/en/data)
 - [Free GIS Data](http://freegisdata.rtwilson.com/)
 - [Freshwater Ecoregions of the World](https://www.worldwildlife.org/pages/freshwater-ecoregions-of-the-world--2)
@@ -170,6 +174,7 @@ usethis::use_course(
 - [Global Flood Database v1 (2000-2018)](https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1)
 - [Global Health Observatory (GHO) API](https://www.who.int/data/gho/info/gho-odata-api)
 - GLOPOP-S. A global dataset of 7 billion individuals with socio-economic characteristics (sintetic) [Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KJC3RH) [Github](https://github.com/VU-IVM/GLOPOP-S) [Paper](https://www.nature.com/articles/s41597-024-03864-2)
+- [Global Historical Climatology Network (GHCN)](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily) - Weather station data for precipitation, temperature, and more.
 - [Gobierno Estados Unidos](http://www.data.gov/)
 - [Google Books Ngram Viewe](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
 - [Google Cloud Vision API](https://cloud.google.com/vision/)
@@ -214,10 +219,12 @@ usethis::use_course(
 - [NASA Common Metadata Repository (CMR) SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/aws-open-data-stac)
 - [NASA Earth Observations (NEO)](https://neo.gsfc.nasa.gov/)
 - [NASA](https://nssdc.gsfc.nasa.gov/)
+- [NASA Fire Information for Resource Management System (FIRMS)](https://firms.modaps.eosdis.nasa.gov/) - Near real-time data on wildfires from MODIS and VIIRS satellites.
 - [NASA Earthdata](https://earthdata.nasa.gov/) - Shuttle Radar Topography Mission (SRTM)
+- [NASA POWER (Prediction of Worldwide Energy Resources)](https://power.larc.nasa.gov/) - Provides global weather and solar radiation data for energy, agriculture, and environmental sectors.
 - [NASDAQ](https://indexes.nasdaqomx.com/Index/History/NQASPA8600AUD)
 - [National Historical Geographic Information System (NHGIS)](https://www.nhgis.org/)
-- [National Map (USGS)](https://nationalmap.gov/) - National Elevation Dataset (NED), LiDAR, and more
+- [National Map (USGS)](https://www.usgs.gov/programs/national-geospatial-program/national-map) - National Elevation Dataset (NED), LiDAR, and more
 - [Natural Earth Data](https://www.naturalearthdata.com/downloads/)
 - [Natural Earth](http://www.naturalearthdata.com/)
 - [Nature Scientific Data](https://www.nature.com/sdata/)
@@ -226,6 +233,7 @@ usethis::use_course(
 - [NLP Datasets](https://github.com/niderhoff/nlp-datasets/blob/master/README.md)
 - [NOAA Daily Global Historical Climatology Network - Kaggle dataset](https://www.kaggle.com/noaa/ghcn-d)
 - [NOAA. Agencia de meteo. USA.](http://www.nesdis.noaa.gov/index.html)
+- [NOAA Global Forecast System (GFS)](https://www.ncei.noaa.gov/) - Weather forecasts for temperature, precipitation, and wind.
 - [OCDE](https://data.oecd.org/)
 - [One versus One - European football statistics](https://one-versus-one.com/en)
 - [Open Africa dataset](https://open.africa/dataset)
@@ -362,7 +370,6 @@ usethis::use_course(
 - [Data Viz Catalogue](https://graphica.app/catalogue)
 - [Dataviz Project](https://datavizproject.com/)
 - [Dealing with Regular Expressions](http://uc-r.github.io/regex)
-- [Documentacion de R](https://www.rdocumentation.org/)
 - [Ejemplos de Shiny](http://zevross.com/blog/2016/04/19/r-powered-web-applications-with-shiny-a-tutorial-and-cheat-sheet-with-40-example-apps/)
 - [Estadística con R](https://www.cienciadedatos.net/estadistica-con-r.html)
 - [EUMETSAT science studies](https://www.eumetsat.int/science-studies)
@@ -401,7 +408,6 @@ usethis::use_course(
 - [R Code – Best practices](https://www.r-bloggers.com/r-code-best-practices/)
 - [R Coding Style Guide](https://irudnyts.github.io//r-coding-style-guide/)
 - [R Data Science Tutorials](https://github.com/ujjwalkarn/DataScienceR)
-- [R for Water Resources Data Science](https://www.r4wrds.com/)
 - [R for Water Resources Data Science](https://www.r4wrds.com/)
 - [R Learning Path: From beginner to expert in R in 7 steps](https://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html)
 - [R Markdown cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf)
@@ -477,10 +483,8 @@ usethis::use_course(
 - [Exploring Complex Survey Data Analysis Using R](https://tidy-survey-r.github.io/tidy-survey-book/)
 - [Exploratory Data Analysis with R - Roger D. Peng](https://bookdown.org/rdpeng/exdata/)
 - [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
-- [Fundamentals of Data Visualization](https://github.com/clauswilke/dataviz)
 - [Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](http://www.paulamoraga.com/book-geospatial/)
 - [Handbook of Graphs and Networks in People Analytics With Examples in R and Python](https://ona-book.org/)
-- [Handbook of Graphs and Networks in People Analytics](https://ona-book.org/)
 - [Handbook of Regression Modeling in People Analytics](https://peopleanalytics-regression-book.org/)
 - [Handling Strings with R](http://www.gastonsanchez.com/r4strings/)
 - [Hands-On Data Visualization](https://handsondataviz.org/)
@@ -554,4 +558,5 @@ usethis::use_course(
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 - sits: Satellite Image Time Series Analysis on Earth Observation Data Cubes [Libro](https://e-sensing.github.io/sitsbook/index.html) y [Kaggle](https://www.kaggle.com/esensing/code)
+
 
