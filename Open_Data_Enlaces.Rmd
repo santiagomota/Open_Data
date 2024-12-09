@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -163,12 +163,14 @@ usethis::use_course(
 - [Geonames Cities with population > 5000](https://documentation-resources.opendatasoft.com/explore/dataset/doc-geonames-cities-5000/table/)
 - [Geoportal Registradores](https://geoportal.registradores.org/)
 - [Geospatial Data Catalogs](https://github.com/opengeos/geospatial-data-catalogs)
+- [Geospatial Data Abstraction Library (GDAL) links](https://gdal.org/en/stable/) - Provides links to raster datasets from various organizations.
 - [GHSL - Global Human Settlement Layer](https://human-settlement.emergency.copernicus.eu/download.php?ds=bu)
 - [Global Forest Change 2000-2023](https://storage.googleapis.com/earthenginepartners-hansen/GFC-2023-v1.11/download.html)
 - [Global Flood Database v1 (2000-2018)](https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1)
 - [Global Health Observatory (GHO) API](https://www.who.int/data/gho/info/gho-odata-api)
 - GLOPOP-S. A global dataset of 7 billion individuals with socio-economic characteristics (sintetic) [Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KJC3RH) [Github](https://github.com/VU-IVM/GLOPOP-S) [Paper](https://www.nature.com/articles/s41597-024-03864-2)
 - [Global Historical Climatology Network (GHCN)](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily) - Weather station data for precipitation, temperature, and more.
+- [Global Land Cover Facility](https://www.un-spider.org/links-and-resources/data-sources/global-land-cover-facility-university-maryland-nasa-gofc-gold) - Land cover and vegetation datasets.
 - [Gobierno Estados Unidos](http://www.data.gov/)
 - [Google Books Ngram Viewe](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
 - [Google Cloud Vision API](https://cloud.google.com/vision/)
@@ -219,7 +221,7 @@ usethis::use_course(
 - [NASDAQ](https://indexes.nasdaqomx.com/Index/History/NQASPA8600AUD)
 - [National Historical Geographic Information System (NHGIS)](https://www.nhgis.org/)
 - [National Map (USGS)](https://www.usgs.gov/programs/national-geospatial-program/national-map) - National Elevation Dataset (NED), LiDAR, and more
-- [Natural Earth Data](https://www.naturalearthdata.com/downloads/)
+- [Natural Earth Data](https://www.naturalearthdata.com/downloads/) - Raster data for relief and shaded relief imagery.
 - [Natural Earth](http://www.naturalearthdata.com/)
 - [Nature Scientific Data](https://www.nature.com/sdata/)
 - [NHS Digital](digital.nhs.uk/data-and-information/statistical-publications-open-data-and-data-products)
@@ -230,6 +232,7 @@ usethis::use_course(
 - [NOAA Global Forecast System (GFS)](https://www.ncei.noaa.gov/) - Weather forecasts for temperature, precipitation, and wind.
 - [OCDE](https://data.oecd.org/)
 - [One versus One - European football statistics](https://one-versus-one.com/en)
+- [Openaerialmap](https://openaerialmap.org/) - Aerial imagery collected by individuals and organizations.
 - [Open Africa dataset](https://open.africa/dataset)
 - [Open Data Barometer](https://opendatabarometer.org/?_year=2017&indicator=ODB)
 - [Open data EMT](http://opendata.emtmadrid.es/)
@@ -284,6 +287,7 @@ usethis::use_course(
 - [Teaching of Statistics in the Health Sciences](https://causeweb.org/tshs/)
 - [Tematicas.org Recopilación de series e índices](https://tematicas.org/)
 - [Terra Populus](https://terra.ipums.org/)
+- [Terraclimate](https://www.climatologylab.org/terraclimate.html) - Monthly climate and hydrology data at a global scale.
 - [The Big Bad NLP Database](https://datasets.quantumstat.com/)
 - [The Government Finance Database](https://willamette.edu/mba/research-impact/public-datasets/index.html)
 - [The SpaceNet Datasets](https://spacenet.ai/datasets/)
