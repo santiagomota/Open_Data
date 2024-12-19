@@ -221,7 +221,7 @@ usethis::use_course(
 - [NASA Common Metadata Repository (CMR) SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/aws-open-data-stac)
 - [NASA Earth Observations (NEO)](https://neo.gsfc.nasa.gov/)
 - [NASA](https://nssdc.gsfc.nasa.gov/)
-- [NASA Fire Information for Resource Management System (FIRMS)](https://firms.modaps.eosdis.nasa.gov/) - Near real-time data on wildfires from MODIS and VIIRS satellites.
+- NASA Fire Information for Resource Management System (FIRMS) [Link1](https://firms.modaps.eosdis.nasa.gov/) [Link2](https://www.earthdata.nasa.gov/data/tools/firms) - Near real-time data on wildfires from MODIS and VIIRS satellites.
 - [NASA Earthdata](https://earthdata.nasa.gov/) - Shuttle Radar Topography Mission (SRTM)
 - [NASA POWER (Prediction of Worldwide Energy Resources)](https://power.larc.nasa.gov/) - Provides global weather and solar radiation data for energy, agriculture, and environmental sectors.
 - [NASDAQ](https://indexes.nasdaqomx.com/Index/History/NQASPA8600AUD)
