@@ -495,6 +495,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [The 20 Best Data Science Books Available online in 2020](https://www.ubuntupit.com/best-data-science-books-available-online/)
 - [The Art of Data Science](https://bookdown.org/rdpeng/artofdatascience/)
 - [The caret Package](http://topepo.github.io/caret/index.html)
+- [The Epidemiologist R Handbook](https://epirhandbook.com/en/)
 - [The R Book](https://www.cs.upc.edu/~robert/teaching/estadistica/TheRBook.pdf)
 - [The Shiny AWS Book](https://business-science.github.io/shiny-production-with-aws-book/)
 - [Think Bayes 2e](https://github.com/AllenDowney/ThinkBayes2)
