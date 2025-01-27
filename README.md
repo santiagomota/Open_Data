@@ -408,6 +408,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [10 Free Must-Read Books for Machine Learning and Data Science](https://www.kdnuggets.com/2017/04/10-free-must-read-books-machine-learning-data-science.html?utm_content=bufferc386f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 - [Advanced R](https://adv-r.hadley.nz/index.html)
 - [Advanced Spatial Modeling with Stochastic Partial Differential Equations Using R and INLA](https://becarioprecario.bitbucket.io/spde-gitbook/)
+- [AI With R](https://air.albert-rapp.de/)
 - [An Introduction to R](https://intro2r.com/)
 - [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
 - [An R companion to Statistics: data analysis and modelling](https://mspeekenbrink.github.io/sdam-r-companion/index.html)
