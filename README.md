@@ -273,6 +273,7 @@ Recopilación de información sobre Open Data. Links, libros, blogs y otra infor
 - [USGS Earth Explorer](https://earthexplorer.usgs.gov/) - SRTM, ASTER GDEM, ALOS, and more
 - [Viewfinder Panoramas](https://viewfinderpanoramas.org/) - High-quality DEM for remote regions
 - [WHU-RS19 is a set of satellite images exported from Google Earth](https://paperswithcode.com/dataset/whu-rs19)
+- [Wyvern Open Data Program](https://wyvern.space/open-data/)
 - [World Economic Forum](https://www.weforum.org/publications/)
 - WorldCereal open global harmonized reference data repository [Data]](https://zenodo.org/records/7609500) [Github](https://github.com/WorldCereal/worldcereal-classification)
 - [Worldpop - Open Spatial Demographic Data](https://www.worldpop.org/) y [Worldpop Hub](https://hub.worldpop.org/)
