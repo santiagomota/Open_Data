@@ -472,6 +472,7 @@ usethis::use_course(
 - [Command Line Basics for R Users](https://bash-intro.rsquaredacademy.com/)
 - [Creating APIs in R with Plumber](https://www.rplumber.io/docs/index.html)
 - [Data Analysis and Prediction Algorithms with R](http://rafalab.dfci.harvard.edu/dsbook/)
+- [Data Management in Large-Scale Education Research](https://datamgmtinedresearch.com/)
 - [Data Science in Education Using R](https://datascienceineducation.com/)
 - [Data Skills for Reproducible Science](https://psyteachr.github.io/msc-data-skills/)
 - [Data Visualization with R](https://rkabacoff.github.io/datavis/)
