@@ -12,7 +12,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -128,7 +128,7 @@ usethis::use_course(
 - [Dynamic World V1 Land Use](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1) 
 - [EarthEnv-DEM90 digital elevation model](https://www.earthenv.org/DEM) - Global DEM created from multiple datasets
 - [EarthView dataset](https://huggingface.co/datasets/satellogic/EarthView)
-- [ECMWF ERA5](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5) - Hourly reanalysis climate data (temperature, precipitation, wind, etc.).
+- [ECMWF ERA5](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5) - Hourly reanalysis climate data (temperature, precipitation, wind, etc.).
 - [EM-DAT - The international disaster database](https://www.emdat.be/)
 - [EDGAR - Emissions Database for Global Atmospheric Research](https://edgar.jrc.ec.europa.eu/emissions_data_and_maps)
 - [EnMAP. The German Spaceborne Imaging Spectrometer Mission](https://www.enmap.org/)
@@ -230,7 +230,7 @@ usethis::use_course(
 - [NOAA Daily Global Historical Climatology Network - Kaggle dataset](https://www.kaggle.com/noaa/ghcn-d)
 - [NOAA. Agencia de meteo. USA.](http://www.nesdis.noaa.gov/index.html)
 - [NOAA Global Forecast System (GFS)](https://www.ncei.noaa.gov/) - Weather forecasts for temperature, precipitation, and wind.
-- [OCDE](https://data.oecd.org/)
+- [OCDE Data](https://www.oecd.org/en/data.html)
 - [One versus One - European football statistics](https://one-versus-one.com/en)
 - [Openaerialmap](https://openaerialmap.org/) - Aerial imagery collected by individuals and organizations.
 - [Open Africa dataset](https://open.africa/dataset)
@@ -244,7 +244,7 @@ usethis::use_course(
 - [Open Trade Statistics](https://tradestatistics.io/)
 - [openaddresses](https://openaddresses.io/)
 - [OpenCelliD - Open Database of Cell Towers](https://www.opencellid.org/downloads.php)
-- [Opendata del CERN](http://opendata.cern.ch/)
+- [Opendata del CERN](http://opendata.cern.ch/)  **Error**
 - [Opendatasoft](https://documentation-resources.opendatasoft.com/explore/?sort=modified)
 - [openflights.org/](https://openflights.org/)
 - [OpenGEOS data](https://github.com/opengeos/data)
@@ -320,7 +320,7 @@ usethis::use_course(
 - [World Economic Forum](https://www.weforum.org/publications/)
 - WorldCereal open global harmonized reference data repository [Data]](https://zenodo.org/records/7609500) [Github](https://github.com/WorldCereal/worldcereal-classification)
 - [Worldpop - Open Spatial Demographic Data](https://www.worldpop.org/) y [Worldpop Hub](https://hub.worldpop.org/)
-- [Yelp Dataset](https://www.yelp.com/dataset)
+- [Yelp Dataset](https://business.yelp.com/data/resources/open-dataset/)
 - [Zhu Lab - Data Science in Earth Observation](https://github.com/zhu-xlab)
 - Amazon AWS: [este](http://aws.amazon.com/es/datasets/) y [este](https://aws.amazon.com/es/public-data-sets/)
 - EarthNets for Earth Observation [Page](https://earthnets.nicepage.io/) [Github](https://github.com/EarthNets)
@@ -438,7 +438,6 @@ usethis::use_course(
 - [useR! Machine Learning Tutorial](https://github.com/ledell/useR-machine-learning-tutorial)
 - [Using Geospatial Data in R](https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/geospatial-data/)
 - [Utilizando Sweave y Knitr](https://support.posit.co/hc/en-us/articles/200552056-Using-Sweave-and-knitr)
-- [Web Scraping TripAdvisor, Text Mining and Sentiment Analysis for Hotel Reviews](https://towardsdatascience.com/scraping-tripadvisor-text-mining-and-sentiment-analysis-for-hotel-reviews-cc4e20aef333)
 - [Writing an R package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
 - Global Fishing Watch. AI and satellite imagery to reveal the expanding footprint of human activity at sea. [Post](https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/?utm_source=GFW+subscribers&utm_campaign=9363c93195-EMAIL_CAMPAIGN_JAN_2024_CURRENT_ENGLISH&utm_medium=email&utm_term=0_-9363c93195-%5BLIST_EMAIL_ID%5D). [Github](https://github.com/GlobalFishingWatch/paper-industrial-activity/tree/main). [Train data](https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_training_data/24309469). [Analysis data](https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_analysis_data/24309475) and [Vessel detection from Sentinel-1 SAR](https://globalfishingwatch.org/data-download/datasets/public-sar-vessel-detections:v20231026)
 - Legalidad Web sraping: [Is Web Scraping Legal? : The Definitive Guide (2024 update)](https://prowebscraper.com/blog/is-web-scraping-legal/) y [Web Scraping: ¿legal o ilegal?](https://ecija.com/web-scraping-legal-ilegal/)
