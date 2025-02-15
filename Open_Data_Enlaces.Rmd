@@ -11,7 +11,6 @@ license:  by-nc-sa
 urlcolor: blue
 always_allow_html: true
 output:
-  word_document:  default
   pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
@@ -22,6 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
+  word_document:  default
 ---
 
 ```{r}
@@ -32,7 +32,7 @@ output:
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
-Este fichero es copia de uno alojado en Github, en este [link](https://github.com/santiagomota/Open_Data) y que se actualiza periódicamente.
+Este fichero es copia de uno alojado en Github, en este [link](https://github.com/santiagomota/Open_Data) y que se actualiza periódicamente. Y se ha incluido otra copia en [Kaggle](https://www.kaggle.com/code/santiagomota/open-data-links/).
 
 ```{r}
 #| eval: false
