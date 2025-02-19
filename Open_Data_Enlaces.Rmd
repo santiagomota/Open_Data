@@ -11,7 +11,7 @@ license:  by-nc-sa
 urlcolor: blue
 always_allow_html: true
 output:
-  pdf_document:   default
+  word_document:  default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +21,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
-  word_document:  default
+  pdf_document:   default
 ---
 
 ```{r}
@@ -144,6 +144,7 @@ usethis::use_course(
 - [Esri Open Data Hub](https://hub.arcgis.com/search)
 - [European Banking Authority (EBA)](https://www.eba.europa.eu/risk-and-data-analysis)
 - [European Data Portal](https://www.europeandataportal.eu/)
+- [European Forest Fire Information System (EFFIS)](https://forest-fire.emergency.copernicus.eu/)
 - [FAO Map Catalog](http://www.fao.org/geonetwork)
 - [FAO's Global Information System on Water and Agriculture](https://www.fao.org/aquastat/en/geospatial-information/wapor)
 - [FBREF - Estadísticas e Historia del Fútbol](https://fbref.com/es/)
@@ -171,6 +172,7 @@ usethis::use_course(
 - GLOPOP-S. A global dataset of 7 billion individuals with socio-economic characteristics (sintetic) [Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KJC3RH) [Github](https://github.com/VU-IVM/GLOPOP-S) [Paper](https://www.nature.com/articles/s41597-024-03864-2)
 - [Global Historical Climatology Network (GHCN)](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily) - Weather station data for precipitation, temperature, and more.
 - [Global Land Cover Facility](https://www.un-spider.org/links-and-resources/data-sources/global-land-cover-facility-university-maryland-nasa-gofc-gold) - Land cover and vegetation datasets.
+- [Global Wildfire Information System (GWIS)](https://gwis.jrc.ec.europa.eu/)
 - [Gobierno Estados Unidos](http://www.data.gov/)
 - [Google Books Ngram Viewe](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
 - [Google Cloud Vision API](https://cloud.google.com/vision/)
