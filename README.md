@@ -432,6 +432,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Data Skills for Reproducible Science](https://psyteachr.github.io/msc-data-skills/)
 - [Data Visualization with R](https://rkabacoff.github.io/datavis/)
 - [Databases using R by RStudio](https://db.rstudio.com/getting-started/)
+- [Dendrometria](https://gitlab.com/Puletti/dendrometria_libro)
 - [Deep Learning and Scientific Computing with R torch](https://skeydan.github.io/Deep-Learning-and-Scientific-Computing-with-R-torch/)
 - [Deep Learning](https://srdas.github.io/DLBook/)
 - [Econometrics with the Tidyverse](https://colleen.quarto.pub/the-tidy-econometrics-workbook/)

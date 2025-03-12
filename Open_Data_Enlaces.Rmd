@@ -12,6 +12,7 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -21,7 +22,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
-  pdf_document:   default
 ---
 
 ```{r}
@@ -473,6 +473,7 @@ usethis::use_course(
 - [Data Skills for Reproducible Science](https://psyteachr.github.io/msc-data-skills/)
 - [Data Visualization with R](https://rkabacoff.github.io/datavis/)
 - [Databases using R by RStudio](https://db.rstudio.com/getting-started/)
+- [Dendrometria](https://gitlab.com/Puletti/dendrometria_libro)
 - [Deep Learning and Scientific Computing with R torch](https://skeydan.github.io/Deep-Learning-and-Scientific-Computing-with-R-torch/)
 - [Deep Learning](https://srdas.github.io/DLBook/)
 - [Econometrics with the Tidyverse](https://colleen.quarto.pub/the-tidy-econometrics-workbook/)
