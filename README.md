@@ -460,6 +460,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 - [Introduction to Probability for Data Science](https://probability4datascience.com/index.html)
 - [Introduction to urban accessibility: a practical guide in R](https://github.com/ipeaGIT/intro_access_book)
 - [JavaScript for R](https://book.javascript-for-r.com/)
+- [Large Language Model tools for R](https://luisdva.github.io/llmsr-book/)
 - [Learning Statistics with R](https://learningstatisticswithr.com/)
 - [Libro Vivo de Ciencia de Datos](https://librovivodecienciadedatos.ai/)
 - [Linear Algebra for Data Science](https://shainarace.github.io/LinearAlgebra/index.html)

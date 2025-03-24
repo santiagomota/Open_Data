@@ -11,8 +11,6 @@ license:  by-nc-sa
 urlcolor: blue
 always_allow_html: true
 output:
-  word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -22,6 +20,8 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
+  word_document:  default
+  pdf_document:   default
 ---
 
 ```{r}
@@ -501,6 +501,7 @@ usethis::use_course(
 - [Introduction to Probability for Data Science](https://probability4datascience.com/index.html)
 - [Introduction to urban accessibility: a practical guide in R](https://github.com/ipeaGIT/intro_access_book)
 - [JavaScript for R](https://book.javascript-for-r.com/)
+- [Large Language Model tools for R](https://luisdva.github.io/llmsr-book/)
 - [Learning Statistics with R](https://learningstatisticswithr.com/)
 - [Libro Vivo de Ciencia de Datos](https://librovivodecienciadedatos.ai/)
 - [Linear Algebra for Data Science](https://shainarace.github.io/LinearAlgebra/index.html)
