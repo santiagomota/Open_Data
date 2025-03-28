@@ -10,22 +10,22 @@ Y se aloja en [Github](https://santiagomota.github.io/Open_Data/) y [Netlify](ht
 
 
 <p align="center">
-  <a href="https://santiagomota.github.io/Open_Data/">
-    <img src="./docs/figs/Open_Data_Github.svg" width="30%"><br>
-    https://santiagomota.github.io/Open_Data/
+  <a href="https://github.com/santiagomota/Open_Data">
+    <img src="./docs/figs/Open_Data_Github.png" width="30%"><br>
+    https://github.com/santiagomota/Open_Data
   </a>
 </p>
 
 <p align="center">
   <a href="https://santiagomota.github.io/Open_Data/">
-    <img src="./docs/figs/Open_Data_Web_Github.svg" width="30%"><br>
+    <img src="./docs/figs/Open_Data_Web_Github.png" width="30%"><br>
     https://santiagomota.github.io/Open_Data/
   </a>
 </p>
 
 <p align="center">
   <a href="https://open-data-pages.netlify.app/">
-    <img src="./docs/figs/Open_Data_Web_Netlify.svg" width="30%"><br>
+    <img src="./docs/figs/Open_Data_Web_Netlify.png" width="30%"><br>
     https://open-data-pages.netlify.app/
   </a>
 </p>
