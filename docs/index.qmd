@@ -7,7 +7,10 @@ twitter:  "mota_santiago"
 github:   "santiagomota"
 date:     "`r Sys.Date()`"
 # logo:     "./figs/logo3.png"
-license:  by-nc-sa
+license:
+  type: "MIT"
+  text: "Este proyecto está licenciado bajo la Licencia MIT. Puedes ver los detalles en el siguiente enlace https://opensource.org/licenses/MIT"
+  url:  "https://opensource.org/licenses/MIT"
 urlcolor: blue
 always_allow_html: true
 output:
