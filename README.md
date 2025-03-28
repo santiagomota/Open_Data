@@ -2,11 +2,11 @@
 
 Recopilación de información sobre Open Data. Links, libros, blogs y otra información interesante.
 
-Este fichero es copia de uno alojado en Github, en este [link](https://github.com/santiagomota/Open_Data) y que se actualiza periódicamente. 
+Este fichero es copia de uno alojado en Github, en este [repositorio](https://github.com/santiagomota/Open_Data) y que se actualiza periódicamente. 
 
 Se ha incluido otra copia en [Kaggle](https://www.kaggle.com/code/santiagomota/open-data-links/).
 
-Y se aloja en [Github](https://santiagomota.github.io/Open_Data/) y [Netlify](https://open-data-pages.netlify.app/).
+Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Netlify](https://open-data-pages.netlify.app/).
 
 
 <p align="center">
