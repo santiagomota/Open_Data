@@ -60,6 +60,20 @@ Se ha incluido otra copia en [Kaggle](https://www.kaggle.com/code/santiagomota/o
 
 Y se aloja en [Giithub](https://santiagomota.github.io/Open_Data/) y [Netlify](https://open-data-pages.netlify.app/).
 
+::: {.grid}
+::: {.g-col-4}
+![https://github.com/santiagomota/Open_Data](figs/Open_Data_Github.svg)
+:::
+::: {.g-col-4}
+![https://santiagomota.github.io/Open_Data/](figs/Open_Data_Web_Github.svg)
+:::
+::: {.g-col-4}
+![https://open-data-pages.netlify.app/](figs/Open_Data_Web_Netlify.svg)
+:::
+:::
+
+
+
 ```{r}
 #| eval: false
 
@@ -589,3 +603,46 @@ usethis::use_course(
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 - sits: Satellite Image Time Series Analysis on Earth Observation Data Cubes [Libro](https://e-sensing.github.io/sitsbook/index.html) y [Kaggle](https://www.kaggle.com/esensing/code)
+
+
+## Generar códigos QR
+
+```{r}
+#| fig-align: center
+#| label: generar-QR-Github
+
+
+library(qrcode)
+
+qrcode_open_data <- qrcode::qr_code("https://github.com/santiagomota/Open_Data")
+
+plot(qrcode_open_data)
+
+generate_svg(qrcode_open_data, file = "./figs/Open_Data_Github.svg")
+```
+
+```{r}
+#| fig-align: center
+#| label: generar-QR-Github-Pages
+
+library(qrcode)
+
+qrcode_open_data <- qrcode::qr_code("https://santiagomota.github.io/Open_Data/")
+
+plot(qrcode_open_data)
+
+generate_svg(qrcode_open_data, file = "./figs/Open_Data_Web_Github.svg")
+```
+
+```{r}
+#| fig-align: center
+#| label: generar-QR-Netlify
+
+library(qrcode)
+
+qrcode_open_data <- qrcode::qr_code("https://open-data-pages.netlify.app/")
+
+plot(qrcode_open_data)
+
+generate_svg(qrcode_open_data, file = "./figs/Open_Data_Web_Netlify.svg")
+```
