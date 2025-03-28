@@ -20,6 +20,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
+    self-contained: true  
   pdf:
     toc: true
     number-sections: true
@@ -38,7 +39,9 @@ output:
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
-Este fichero es copia de uno alojado en Github, en este [link](https://github.com/santiagomota/Open_Data) y que se actualiza periódicamente. Y se ha incluido otra copia en [Kaggle](https://www.kaggle.com/code/santiagomota/open-data-links/).
+Este fichero es copia de uno alojado en Github, en este [link](https://github.com/santiagomota/Open_Data) y que se actualiza periódicamente. 
+
+Se ha incluido otra copia en [Kaggle](https://www.kaggle.com/code/santiagomota/open-data-links/).
 
 ```{r}
 #| eval: false
