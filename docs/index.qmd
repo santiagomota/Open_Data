@@ -15,15 +15,27 @@ urlcolor: blue
 always_allow_html: true
 format:
   html:
-    theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
-    highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
-    toc:          true
-    toc_float:    true
-    code_folding: show
-    always_allow_html: true
-    includes:
-      after_body: footer_V2.html
-    self-contained: true  
+    toc: true
+    toc-location: left
+    toc-depth: 6
+    theme: 
+        light: cosmo   # flatly, cosmo, sandstone, yeti bootswatch theme
+        dark: solar
+    number-sections: true
+    page-layout: full # article full
+    # max-width: 3000px
+    title-block-banner: true
+    code-fold: false
+    code-copy: true
+    code-summary: "" # Show the code"
+    # code-tools: true
+    # grid:
+    #     body-width: 2600px
+    #     sidebar-width: 200px
+    #     margin-width: 200px
+    include-after-body: footer_V2.html
+    # include-in-header: github-corner.html
+    self-contained: true
   pdf:
     toc: true
     number-sections: true
