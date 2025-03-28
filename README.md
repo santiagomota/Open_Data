@@ -6,7 +6,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 
 Se ha incluido otra copia en [Kaggle](https://www.kaggle.com/code/santiagomota/open-data-links/).
 
-Y se aloja en [Giithub](https://santiagomota.github.io/Open_Data/) y [Netlify](https://open-data-pages.netlify.app/).
+Y se aloja en [Github](https://santiagomota.github.io/Open_Data/) y [Netlify](https://open-data-pages.netlify.app/).
 
 
 <p align="center">

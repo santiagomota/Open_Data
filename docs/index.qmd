@@ -60,7 +60,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 
 Se ha incluido otra copia en [Kaggle](https://www.kaggle.com/code/santiagomota/open-data-links/).
 
-Y se aloja en [Giithub](https://santiagomota.github.io/Open_Data/) y [Netlify](https://open-data-pages.netlify.app/).
+Y se aloja en [Github](https://santiagomota.github.io/Open_Data/) y [Netlify](https://open-data-pages.netlify.app/).
 
 
 ::: {.grid}
@@ -653,8 +653,10 @@ generate_svg(qrcode_open_data, file = "./figs/Open_Data_Web_Netlify.svg")
 
 
 ```{r}
-#| fig-align: center
 #| label: convertir-imagenes
+#| eval: false
+#| fig-align: center
+#| include: false
 
 # Install needed packages if not already installed
 # install.packages("rsvg")
@@ -665,8 +667,14 @@ library(rsvg)
 library(magick)
 
 # Convert SVG to PNG
-convert_svg_to_png <- function(input_svg, output_png, width = 800, height = 600) {
-  img <- rsvg::rsvg_png(input_svg, file = output_png, width = width, height = height)
+# convert_svg_to_png <- function(input_svg, output_png, width = 800, height = 600) {
+#   img <- rsvg::rsvg_png(input_svg, file = output_png, width = width, height = height)
+#   message("Saved PNG: ", output_png)
+# }
+
+# Convert SVG to PNG
+convert_svg_to_png <- function(input_svg, output_png) {
+  img <- rsvg::rsvg_png(input_svg, file = output_png)
   message("Saved PNG: ", output_png)
 }
 
