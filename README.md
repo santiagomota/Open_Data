@@ -9,6 +9,28 @@ Se ha incluido otra copia en [Kaggle](https://www.kaggle.com/code/santiagomota/o
 Y se aloja en [Giithub](https://santiagomota.github.io/Open_Data/) y [Netlify](https://open-data-pages.netlify.app/).
 
 
+<p align="center">
+  <a href="https://santiagomota.github.io/Open_Data/">
+    <img src="./docs/figs/Open_Data_Github.svg" width="30%"><br>
+    https://santiagomota.github.io/Open_Data/
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://santiagomota.github.io/Open_Data/">
+    <img src="./docs/figs/Open_Data_Web_Github.svg" width="30%"><br>
+    https://santiagomota.github.io/Open_Data/
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://open-data-pages.netlify.app/">
+    <img src="./docs/figs/Open_Data_Web_Netlify.svg" width="30%"><br>
+    https://open-data-pages.netlify.app/
+  </a>
+</p>
+
+
 ## Fuentes de datos abiertos y APIs
 
 - [20 Awesome Websites For Collecting Big Data](https://datafloq.com/read/20-awesome-websites-for-collecting-big-data/2737?utm_source=Datafloq%20newsletter&utm_campaign=979b1fada5-EMAIL_CAMPAIGN_2017_03_13&utm_medium=email&utm_term=0_655692fdfd-979b1fada5-90449429)

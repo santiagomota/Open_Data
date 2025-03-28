@@ -54,6 +54,8 @@ format:
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
+Recopilación de información sobre Open Data. Links, libros, blogs y otra información interesante.
+
 Este fichero es copia de uno alojado en Github, en este [link](https://github.com/santiagomota/Open_Data) y que se actualiza periódicamente. 
 
 Se ha incluido otra copia en [Kaggle](https://www.kaggle.com/code/santiagomota/open-data-links/).
@@ -71,6 +73,7 @@ Y se aloja en [Giithub](https://santiagomota.github.io/Open_Data/) y [Netlify](h
 ![https://open-data-pages.netlify.app/](figs/Open_Data_Web_Netlify.svg)
 :::
 :::
+
 
 
 
@@ -646,3 +649,29 @@ plot(qrcode_open_data)
 
 generate_svg(qrcode_open_data, file = "./figs/Open_Data_Web_Netlify.svg")
 ```
+
+
+```{r}
+#| fig-align: center
+#| label: convertir-imagenes
+
+# Install needed packages if not already installed
+# install.packages("rsvg")
+# install.packages("magick")
+
+# Load the packages
+library(rsvg)
+library(magick)
+
+# Convert SVG to PNG
+convert_svg_to_png <- function(input_svg, output_png, width = 800, height = 600) {
+  img <- rsvg::rsvg_png(input_svg, file = output_png, width = width, height = height)
+  message("Saved PNG: ", output_png)
+}
+
+# Example usage
+convert_svg_to_png("figs/Open_Data_Github.svg", "figs/Open_Data_Github.png")
+convert_svg_to_png("figs/Open_Data_Web_Github.svg", "figs/Open_Data_Web_Github.png")
+convert_svg_to_png("figs/Open_Data_Web_Netlify.svg", "figs/Open_Data_Web_Netlify.png")
+```
+

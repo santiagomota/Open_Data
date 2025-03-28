@@ -43,6 +43,30 @@ Se ha incluido otra copia en [Kaggle](https://www.kaggle.com/code/santiagomota/o
 
 Y se aloja en [Giithub](https://santiagomota.github.io/Open_Data/) y [Netlify](https://open-data-pages.netlify.app/).
 
+
+<p align="center">
+  <a href="https://github.com/santiagomota/Open_Data">
+    <img src="./docs/figs/Open_Data_Github.svg" width="30%"><br>
+    https://github.com/santiagomota/Open_Data
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://santiagomota.github.io/Open_Data/">
+    <img src="./docs/figs/Open_Data_Web_Github.svg" width="30%"><br>
+    https://santiagomota.github.io/Open_Data/
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://open-data-pages.netlify.app/">
+    <img src="./docs/figs/Open_Data_Web_Netlify.svg" width="30%"><br>
+    https://open-data-pages.netlify.app/
+  </a>
+</p>
+
+
+
 ```{r}
 #| eval: false
 
