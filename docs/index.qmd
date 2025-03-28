@@ -13,8 +13,8 @@ license:
   url:  "https://opensource.org/licenses/MIT"
 urlcolor: blue
 always_allow_html: true
-output:
-  html_document: 
+format:
+  html:
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
     toc:          true
@@ -46,7 +46,7 @@ Este fichero es copia de uno alojado en Github, en este [link](https://github.co
 
 Se ha incluido otra copia en [Kaggle](https://www.kaggle.com/code/santiagomota/open-data-links/).
 
-Y se aloja en este [link](https://santiagomota.github.io/Open_Data/).
+Y se aloja en [Giithub](https://santiagomota.github.io/Open_Data/) y [Netlify](https://open-data-pages.netlify.app/).
 
 ```{r}
 #| eval: false

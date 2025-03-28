@@ -23,8 +23,8 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
-  word_document:  default
   pdf_document:   default
+  word_document:  default
 ---
 
 ```{r}
@@ -35,9 +35,13 @@ output:
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
+Recopilación de información sobre Open Data. Links, libros, blogs y otra información interesante.
+
 Este fichero es copia de uno alojado en Github, en este [link](https://github.com/santiagomota/Open_Data) y que se actualiza periódicamente. 
 
 Se ha incluido otra copia en [Kaggle](https://www.kaggle.com/code/santiagomota/open-data-links/).
+
+Y se aloja en [Giithub](https://santiagomota.github.io/Open_Data/) y [Netlify](https://open-data-pages.netlify.app/).
 
 ```{r}
 #| eval: false
