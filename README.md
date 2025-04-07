@@ -548,3 +548,8 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 - sits: Satellite Image Time Series Analysis on Earth Observation Data Cubes [Libro](https://e-sensing.github.io/sitsbook/index.html) y [Kaggle](https://www.kaggle.com/esensing/code)
+
+
+## Revisar los links
+
+Dentro del repositorio, se ha creado un archivo [`revisar_links.R`](revisar_links.R) para revisar si los links son válidos. Para que sea mas fácil su uso, recopila los links del repositorio público de [Open Data](https://github.com/santiagomota/Open_Data) en el fichero [README](https://raw.githubusercontent.com/santiagomota/Open_Data/master/README.md), pero el código se puede modificar con la variable `repo_url`.
