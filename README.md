@@ -87,6 +87,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Crimen en UK](https://data.police.uk/)
 - [DANS Data Station Physical and Technical Sciences](https://phys-techsciences.datastations.nl/)
 - [Data Derived from OpenStreetMap for Download](https://osmdata.openstreetmap.de/)
+- [Data Is Plural](https://www.data-is-plural.com/)
 - [Data Kicks](https://data-kicks.com/index.php/blog/)
 - [Data on CO2 and Greenhouse Gas Emissions by Our World in Data](https://github.com/owid/co2-data/tree/master)
 - [Data World](https://data.world/)
@@ -470,6 +471,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Exploring Complex Survey Data Analysis Using R](https://tidy-survey-r.github.io/tidy-survey-book/)
 - [Exploratory Data Analysis with R - Roger D. Peng](https://bookdown.org/rdpeng/exdata/)
 - [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
+- [Forecasting and Analytics with the Augmented Dynamic Adaptive Model (ADAM)](https://openforecast.org/adam/)
 - [Feature Engineering A-Z](https://feaz-book.com/)
 - [Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](http://www.paulamoraga.com/book-geospatial/)
 - [Handbook of Graphs and Networks in People Analytics With Examples in R and Python](https://ona-book.org/)
@@ -548,7 +550,6 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 - sits: Satellite Image Time Series Analysis on Earth Observation Data Cubes [Libro](https://e-sensing.github.io/sitsbook/index.html) y [Kaggle](https://www.kaggle.com/esensing/code)
-
 
 ## Revisar los links
 
