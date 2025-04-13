@@ -14,8 +14,6 @@ license:
 urlcolor: blue
 always_allow_html: true
 output:
-  word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -25,6 +23,8 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
+  word_document:  default
+  pdf_document:   default
 ---
 
 ```{r}
@@ -313,6 +313,7 @@ usethis::use_course(
 - [SkyFi Geospatial Hub](https://skyfi.com/)
 - [SkySat missions](https://earth.esa.int/eogateway/missions/skysat)
 - Socioeconomic Data and Applications Center (SEDAC)[Link1](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse) y [Link2](https://earthdata.nasa.gov/centers/sedac-daac)
+- [Soil Map of the World FAO/UNESCO](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/faounesco-soil-map-of-the-world/en/)
 - [Some datasets for teaching data science](https://simplystatistics.org/posts/2018-01-22-the-dslabs-package-provides-datasets-for-teaching-data-science/)
 - [Source Cooperative Featured Repositories](https://beta.source.coop/)
 - [STAC Index SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/stac-index-catalogs)

@@ -266,6 +266,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [SkyFi Geospatial Hub](https://skyfi.com/)
 - [SkySat missions](https://earth.esa.int/eogateway/missions/skysat)
 - Socioeconomic Data and Applications Center (SEDAC)[Link1](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse) y [Link2](https://earthdata.nasa.gov/centers/sedac-daac)
+- [Soil Map of the World FAO/UNESCO](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/faounesco-soil-map-of-the-world/en/)
 - [Some datasets for teaching data science](https://simplystatistics.org/posts/2018-01-22-the-dslabs-package-provides-datasets-for-teaching-data-science/)
 - [Source Cooperative Featured Repositories](https://beta.source.coop/)
 - [STAC Index SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/stac-index-catalogs)
@@ -550,6 +551,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 - sits: Satellite Image Time Series Analysis on Earth Observation Data Cubes [Libro](https://e-sensing.github.io/sitsbook/index.html) y [Kaggle](https://www.kaggle.com/esensing/code)
+
 
 ## Revisar los links
 
