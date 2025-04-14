@@ -691,4 +691,3 @@ convert_svg_to_png("figs/Open_Data_Web_Netlify.svg", "figs/Open_Data_Web_Netlify
 ## Revisar los links
 
 Dentro del repositorio, se ha creado un archivo [`revisar_links.R`](../revisar_links.R) para revisar si los links son válidos. Para que sea mas fácil su uso, recopila los links del repositorio público de [Open Data](https://github.com/santiagomota/Open_Data) en el fichero [README](https://raw.githubusercontent.com/santiagomota/Open_Data/master/README.md), pero el código se puede modificar con la variable `repo_url`.
-
