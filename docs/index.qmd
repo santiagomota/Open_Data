@@ -497,6 +497,7 @@ usethis::use_course(
 
 - [10 Free Must-Read Books for Machine Learning and Data Science](https://www.kdnuggets.com/2017/04/10-free-must-read-books-machine-learning-data-science.html?utm_content=bufferc386f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 - [Advanced R](https://adv-r.hadley.nz/index.html)
+- [Advanced Statistical Modeling in R](https://zia207.quarto.pub/advanced-statistical-modeling-in-r/02-00-00-advance-modeling-r.html)
 - [Advanced Spatial Modeling with Stochastic Partial Differential Equations Using R and INLA](https://becarioprecario.bitbucket.io/spde-gitbook/)
 - [AI With R](https://air.albert-rapp.de/)
 - [An Introduction to R](https://intro2r.com/)
@@ -509,6 +510,7 @@ usethis::use_course(
 - [BBC Visual and Data Journalism cookbook for R graphics](https://bbc.github.io/rcookbook/)
 - [Big Book of R](https://www.bigbookofr.com/index.html)
 - [Bioinformática Estadística. Análisis estadístico de datos Ómicos](https://www.uv.es/ayala/docencia/tami/tami13.pdf)
+- [Biological Data Science with R](https://bdsr.stephenturner.us/)
 - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/)
 - [Command Line Basics for R Users](https://bash-intro.rsquaredacademy.com/)
 - [Creating APIs in R with Plumber](https://www.rplumber.io/docs/index.html)
