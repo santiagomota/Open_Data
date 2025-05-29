@@ -474,6 +474,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Exploring Complex Survey Data Analysis Using R](https://tidy-survey-r.github.io/tidy-survey-book/)
 - [Exploratory Data Analysis with R - Roger D. Peng](https://bookdown.org/rdpeng/exdata/)
 - [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
+- [Forecasting: Principles and Practice, the Pythonic Way](https://otexts.com/fpppy/)
 - [Forecasting and Analytics with the Augmented Dynamic Adaptive Model (ADAM)](https://openforecast.org/adam/)
 - [Feature Engineering A-Z](https://feaz-book.com/)
 - [Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](http://www.paulamoraga.com/book-geospatial/)
