@@ -445,6 +445,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
 - [An R companion to Statistics: data analysis and modelling](https://mspeekenbrink.github.io/sdam-r-companion/index.html)
 - [Análisis de datos y algoritmos de predicción con R](http://rafalab.dfci.harvard.edu/dslibro/)
+- [Applied Data Science for Credit Risk](https://github.com/andrija-djurovic/adsfcr)
 - [Aprendiendo R sin morir en el intento](https://aprendiendo-r-intro.netlify.app/)
 - [Aprendizaje Estadístico con R](https://rubenfcasal.github.io/aprendizaje_estadistico/index.html)
 - [Bayesian inference with INLA](https://becarioprecario.bitbucket.io/inla-gitbook/index.html)
@@ -554,7 +555,6 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 - sits: Satellite Image Time Series Analysis on Earth Observation Data Cubes [Libro](https://e-sensing.github.io/sitsbook/index.html) y [Kaggle](https://www.kaggle.com/esensing/code)
-
 
 ## Revisar los links
 
