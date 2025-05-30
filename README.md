@@ -130,7 +130,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [European Banking Authority (EBA)](https://www.eba.europa.eu/risk-and-data-analysis)
 - [European Data Portal](https://www.europeandataportal.eu/)
 - [European Forest Fire Information System (EFFIS)](https://forest-fire.emergency.copernicus.eu/)
-- [FAO Map Catalog](http://www.fao.org/geonetwork)
+- [FAO Map Catalog](https://data.apps.fao.org/catalog/)
 - [FAO's Global Information System on Water and Agriculture](https://www.fao.org/aquastat/en/geospatial-information/wapor)
 - [FBREF - Estadísticas e Historia del Fútbol](https://fbref.com/es/)
 - [Fields of The World (FTW)](https://beta.source.coop/repositories/kerner-lab/fields-of-the-world/description/)
@@ -265,6 +265,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Síntesis de Indicadores e Informes Macroeconómicos](https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx)
 - [SkyFi Geospatial Hub](https://skyfi.com/)
 - [SkySat missions](https://earth.esa.int/eogateway/missions/skysat)
+- [Social Science Data Lab](https://github.com/SocialScienceDataLab/)
 - Socioeconomic Data and Applications Center (SEDAC)[Link1](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse) y [Link2](https://earthdata.nasa.gov/centers/sedac-daac)
 - [Soil Map of the World FAO/UNESCO](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/faounesco-soil-map-of-the-world/en/)
 - [Some datasets for teaching data science](https://simplystatistics.org/posts/2018-01-22-the-dslabs-package-provides-datasets-for-teaching-data-science/)
@@ -276,7 +277,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Tematicas.org Recopilación de series e índices](https://tematicas.org/)
 - [Terra Populus](https://terra.ipums.org/)
 - [Terraclimate](https://www.climatologylab.org/terraclimate.html) - Monthly climate and hydrology data at a global scale.
-- [The Big Bad NLP Database](https://datasets.quantumstat.com/)
+- [The Big Bad NLP Database](https://quantumstat.com/nlp-dataset-library/)
 - [The Government Finance Database](https://willamette.edu/mba/research-impact/public-datasets/index.html)
 - [The SpaceNet Datasets](https://spacenet.ai/datasets/)
 - [The World Bank Open Knowledge Repository](https://openknowledge.worldbank.org)
@@ -424,7 +425,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [UK government using R to modernize reporting of official statistics](https://www.r-bloggers.com/uk-government-using-r-to-modernize-reporting-of-official-statistics/)
 - [Usar git](https://try.github.io/levels/1/challenges/1)
 - [useR! Machine Learning Tutorial](https://github.com/ledell/useR-machine-learning-tutorial)
-- [Using Geospatial Data in R](https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/geospatial-data/)
+- Using Geospatial Data in R [Post](https://www.r-bloggers.com/2021/06/using-geospatial-data-in-r/) & [Github](https://github.com/SocialScienceDataLab/MZES_SSDL_Georeferenced_Survey_Data)
 - [Utilizando Sweave y Knitr](https://support.posit.co/hc/en-us/articles/200552056-Using-Sweave-and-knitr)
 - [Writing an R package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
 - Global Fishing Watch. AI and satellite imagery to reveal the expanding footprint of human activity at sea. [Post](https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/?utm_source=GFW+subscribers&utm_campaign=9363c93195-EMAIL_CAMPAIGN_JAN_2024_CURRENT_ENGLISH&utm_medium=email&utm_term=0_-9363c93195-%5BLIST_EMAIL_ID%5D). [Github](https://github.com/GlobalFishingWatch/paper-industrial-activity/tree/main). [Train data](https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_training_data/24309469). [Analysis data](https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_analysis_data/24309475) and [Vessel detection from Sentinel-1 SAR](https://globalfishingwatch.org/data-download/datasets/public-sar-vessel-detections:v20231026)
@@ -555,6 +556,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 - sits: Satellite Image Time Series Analysis on Earth Observation Data Cubes [Libro](https://e-sensing.github.io/sitsbook/index.html) y [Kaggle](https://www.kaggle.com/esensing/code)
+
 
 ## Revisar los links
 
