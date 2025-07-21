@@ -313,6 +313,7 @@ usethis::use_course(
 - [rspatialdata is a collection of data sources and tutorials on visualising spatial data using R](https://rspatialdata.github.io/)
 - [SARDet-100K: large-scale multi-class SAR object detection dataset](https://eod-grss-ieee.com/dataset-detail/U1dJZE1BY1RwclAvOFFJQmlKR1Btdz09)
 - [Satélite Landsat](https://aws.amazon.com/public-data-sets/landsat/)
+- [Satellite Embedding (Google)](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL?hl=es-419#description)
 - [Satellite imagery datasets containing ships](https://github.com/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships)
 - [SEN12MS-CR. 22,218 patch triplets of corresponding Sentinel-1 dual-pol SAR data, Sentinel-2 multi-spectral images, and cloud-covered Sentinel-2 multi-spectral images](https://mediatum.ub.tum.de/1554803)
 - [Sen2Like](https://docs.openeo.cloud/usecases/ard/sen2like/#_1-sen2like-for-rgb)
@@ -331,6 +332,7 @@ usethis::use_course(
 - [Source Cooperative Featured Repositories](https://beta.source.coop/)
 - [STAC Index SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/stac-index-catalogs)
 - [StatsBomb sports data](https://statsbomb.com/what-we-do/hub/free-data/)
+- [Tanager Core Imagery](https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json?.language=es)
 - [TanDEM-X 90m DEM (DLR)](https://download.geoservice.dlr.de/TDM90/) - Global DEM generated from radar data
 - [Teaching of Statistics in the Health Sciences](https://causeweb.org/tshs/)
 - [Tematicas.org Recopilación de series e índices](https://tematicas.org/)
@@ -615,6 +617,7 @@ usethis::use_course(
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 - sits: Satellite Image Time Series Analysis on Earth Observation Data Cubes [Libro](https://e-sensing.github.io/sitsbook/index.html) y [Kaggle](https://www.kaggle.com/esensing/code)
+
 
 
 ## Generar códigos QR

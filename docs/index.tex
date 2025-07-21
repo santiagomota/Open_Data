@@ -1,0 +1,1847 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{241,243,245}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Open Data},
+  pdfauthor={by Santiago Mota},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Open Data}
+\author{by \href{https://www.linkedin.com/in/santiagomota/}{Santiago
+Mota}}
+\date{2025-07-21}
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+
+Recopilación de información sobre Open Data. Links, libros, blogs y otra
+información interesante.
+
+Este fichero es copia de uno alojado en Github, en este
+\href{https://github.com/santiagomota/Open_Data}{repositorio} y que se
+actualiza periódicamente.
+
+Se ha incluido otra copia en
+\href{https://www.kaggle.com/code/santiagomota/open-data-links/}{Kaggle}.
+
+Y se aloja en las webs
+\href{https://santiagomota.github.io/Open_Data/}{Github} y
+\href{https://open-data-pages.netlify.app/}{Netlify}.
+
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{figs/Open_Data_Github.png}}
+
+}
+
+\caption{https://github.com/santiagomota/Open\_Data}
+
+\end{figure}%
+
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{figs/Open_Data_Web_Github.png}}
+
+}
+
+\caption{https://santiagomota.github.io/Open\_Data/}
+
+\end{figure}%
+
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{figs/Open_Data_Web_Netlify.png}}
+
+}
+
+\caption{https://open-data-pages.netlify.app/}
+
+\end{figure}%
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Creo el link con: }
+\CommentTok{\# usethis::create\_download\_url("https://github.com/santiagomota/Open\_Data")}
+
+\CommentTok{\# Si me quiero bajar el repositorio completo en el directorio actual}
+\NormalTok{usethis}\SpecialCharTok{::}\FunctionTok{use\_course}\NormalTok{(}
+    \StringTok{"https://github.com/santiagomota/Open\_Data/zipball/HEAD"}\NormalTok{, }\AttributeTok{destdir =} \StringTok{"."}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\section{Fuentes de datos abiertos y
+APIs}\label{fuentes-de-datos-abiertos-y-apis}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://datafloq.com/read/20-awesome-websites-for-collecting-big-data/2737?utm_source=Datafloq\%20newsletter&utm_campaign=979b1fada5-EMAIL_CAMPAIGN_2017_03_13&utm_medium=email&utm_term=0_655692fdfd-979b1fada5-90449429}{20
+  Awesome Websites For Collecting Big Data}
+\item
+  \href{https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/}{25
+  Open Datasets for Deep Learning Every Data Scientist Must Work With}
+\item
+  \href{https://gisgeography.com/satellite-maps/}{25 Satellite Maps To
+  See Earth in New Ways}
+\item
+  \href{https://www.linkedin.com/pulse/30-amazing-free-big-data-ai-public-sources-2018-bernard-marr/?trackingId=nkTXcNLieYPDBqZuB3KIsw\%3D\%3D&lipi=urn\%3Ali\%3Apage\%3Ad_flagship3_feed\%3B9KuSD9KfQ6ie\%2BALso3gwvw\%3D\%3D&licu=urn\%3Ali\%3Acontrol\%3Ad_flagship3_feed-object}{30
+  Amazing (And Free) Big Data And AI Public Data Sources For 2018}
+\item
+  \href{http://www.xataka.com/otros/46-museos-y-bibliotecas-que-han-digitalizado-todo-su-conocimiento-humano}{46
+  museos y bibliotecas que han digitalizado todo su conocimiento y lo
+  ofrecen gratis en internet}
+\item
+  \href{https://www.aena.es/es/estadisticas/inicio.html}{AENA -
+  Estadísticas de tráfico aéreo}
+\item
+  \href{https://sede.agenciatributaria.gob.es/Sede/estadisticas.html}{Agencia
+  Tributaria. Estadísticas}
+\item
+  \href{https://github.com/Agri-Hub/Callisto-Dataset-Collection}{AI for
+  Copernicus - a data repository by CALLISTO}
+\item
+  \href{https://phys-techsciences.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/dans-xy6-ngg6}{AI4SmallFarms:
+  A Data Set for Crop Field Delineation in Southeast Asian Smallholder
+  Farms}
+\item
+  \href{https://captain-whu.github.io/AID/}{AID: A Benchmark Dataset for
+  Performance Evaluation of Aerial Scene Classification}
+\item
+  \href{https://asf.alaska.edu/getstarted/}{Alaska Satellite Facility}
+\item
+  \href{http://jmcauley.ucsd.edu/data/amazon/}{Amazon product data 2014}
+\item
+  \href{https://nijianmo.github.io/amazon/index.html}{Amazon product
+  data 2018}
+\item
+  \href{https://github.com/toddwschneider/nyc-taxi-data}{Análisis de
+  1.100 millones de trayectos de taxis y uber en NYC}
+\item
+  \href{https://developers.facebook.com/docs/graph-api}{API de Facebook}
+\item
+  \href{https://developer.github.com/v3/}{API de GitHub}
+\item
+  \href{https://argo.ucsd.edu/}{Argo Floats} - Global ocean observations
+  of temperature, salinity, and pressure.
+\item
+  \href{http://developer.tomtom.com/products/onlinenavigation/onlinetraffic/onlinetrafficflow}{API
+  TomTom. Tráfico en ciudades}
+\item
+  \href{https://acleddata.com/}{Armed Conflict Location \& Event Data
+  Project (ACLED)}
+\item
+  \href{https://lpdaac.usgs.gov/products/astgtmv003/}{ASTER Global DEM
+  (GDEM)} - ASTER Global Digital Elevation Model 1 arc second
+\item
+  \href{https://www.pgc.umn.edu/data/arcticdem/}{ArcticDEM} -
+  High-resolution DEM for the Arctic region
+\item
+  \href{https://github.com/sacridini/Awesome-Geospatial}{Awesome
+  Geospatial}
+\item
+  \href{https://github.com/dipanjanS/awesome-public-datasets}{Awesome
+  Public Datasets 1}
+\item
+  \href{https://github.com/awesomedata/awesome-public-datasets}{Awesome
+  Public Datasets 2}
+\item
+  \href{https://github.com/Fernerkundung/awesome-sentinel}{Awesome
+  Sentinel. Copernicus Sentinel Satellites resources}
+\item
+  \href{https://github.com/samapriya/awesome-gee-community-datasets}{awesome-gee-community-datasets}
+\item
+  \href{https://docs.aws.amazon.com/data-exchange/}{AWS Data Exchange}
+\item
+  \href{https://registry.opendata.aws/}{AWS Datasets}
+\item
+  \href{https://github.com/opengeos/aws-open-data-geo}{AWS Open Data
+  Geo}
+\item
+  \href{https://github.com/opengeos/aws-open-data}{AWS Open Data}
+\item
+  \href{https://datos.gob.es/es/catalogo/l01280796-censo-de-locales-sus-actividades-y-terrazas-de-hosteleria-y-restauracion-historico1}{Ayuntamiento
+  de Madrid. Censo de locales, sus actividades y terrazas de hostelería
+  y restauración}
+\item
+  \href{https://berkeleyearth.org/data/}{Berkeley Earth} - Global land
+  temperature and air pollution datasets.
+\item
+  \href{https://www.todobi.com/mas-de-100-recursos-sobre-big-data-y/}{Blog.
+  100 recursos sobre Big Data y Data Science}
+\item
+  \href{https://osdatahub.os.uk/}{British Ordnance Survey Data Hub}
+\item
+  \href{https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:257588}{BUILDING
+  OUTLINE EXTRACTION OF ENSCHEDE, THE NETHERLANDS USING AERIAL IMAGES
+  AND DIGITAL SURFACE MODELS}
+\item
+  \href{https://www.caixabankresearch.com/es}{CaixaBank Research}
+\item
+  \href{https://csidotinfo.wordpress.com/data/srtm-90m-digital-elevation-database-v4-1/}{CGIAR-CSI
+  SRTM} - SRTM 90m Digital Elevation Database v4.1
+\item
+  \href{https://open.canada.ca/data/en/dataset?q=education}{Canada Open
+  Government Portal}
+\item
+  \href{https://www.caida.org/data/overview/}{Center for Applied
+  Internet Data Analysis}
+\item
+  \href{https://wonder.cdc.gov/}{Center for Disease Control}
+\item
+  \href{https://www.chc.ucsb.edu/data/chirps}{CHIRPS: Rainfall Estimates
+  from Rain Gauge and Satellite Observations} - High-resolution
+  precipitation data.
+\item
+  \href{https://www.cis.es/inicio}{CIS. Centro de Investigaciones
+  Sociológicas}
+\item
+  \href{https://www.ncdc.noaa.gov/cdo-web/}{Climate Data Online}
+\item
+  \href{https://climateknowledgeportal.worldbank.org/}{Climate Change
+  Knowledge Porta} - Country-specific climate risks, data, and
+  projections.
+\item
+  \href{https://climatetrace.org/data}{Climate TRACE}
+\item
+  \href{https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes}{Cómo
+  los datos abiertos pueden ayudar en la crisis de los refugiados}
+\item
+  \href{https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT}{Copernicus
+  Atmosphere Monitoring Service (CAMS) Global Near-Real-Time}
+\item
+  \href{https://scihub.copernicus.eu/dhus/\#/home}{Copernicus Open
+  Access Hub}
+\item
+  \href{https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model}{Copernicus
+  DEM} - European Digital Elevation Model (EU-DEM)
+\item
+  \href{https://marine.copernicus.eu/}{Copernicus Marine Environment
+  Monitoring Service (CMEMS)} - Ocean monitoring for sea surface
+  temperature, sea level, and salinity.
+\item
+  \href{https://github.com/ropensci/opendata}{CRAN Task View OpenData}
+\item
+  \href{https://data.police.uk/}{Crimen en UK}
+\item
+  \href{https://phys-techsciences.datastations.nl/}{DANS Data Station
+  Physical and Technical Sciences}
+\item
+  \href{https://osmdata.openstreetmap.de/}{Data Derived from
+  OpenStreetMap for Download}
+\item
+  \href{https://www.data-is-plural.com/}{Data Is Plural}
+\item
+  \href{https://data-kicks.com/index.php/blog/}{Data Kicks}
+\item
+  \href{https://github.com/owid/co2-data/tree/master}{Data on CO2 and
+  Greenhouse Gas Emissions by Our World in Data}
+\item
+  \href{https://data.world/}{Data World}
+\item
+  \href{https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/}{Datasets
+  de ejemplo de IBM Watson Analytics}
+\item
+  \href{https://www.quandl.com/search?query=}{Datasets de Quandl}
+\item
+  \href{https://github.com/EarthNets/Dataset4EO}{Dataset4EO}
+\item
+  \href{https://www.valencia.es/cas/ayuntamiento/gobierno-abierto}{Datos
+  abiertos Ayuntamiento de Valencia}
+\item
+  \href{http://dadesobertes.gencat.cat/es/}{Datos abiertos de la
+  Generalitat de Cataluña}
+\item
+  \href{https://data.europa.eu/es}{Datos abiertos de la Unión Europea}
+\item
+  \href{http://datos.santander.es/}{Datos abiertos de Santander}
+\item
+  \href{http://datos.madrid.es/}{Datos abiertos del Ayuntamiento de
+  Madrid}
+\item
+  \href{https://datos.crtm.es/}{Datos Abiertos del Consorcio Regional de
+  Transportes de Madrid}
+\item
+  \href{http://datos.gob.es/}{Datos abiertos del gobierno de España}
+\item
+  \href{http://www.juntadeandalucia.es/datosabiertos/portal.html}{Datos
+  abiertos Junta de Andalucía}
+\item
+  \href{https://github.com/Jelagmil/Euro2024_data}{Datos de la Eurocopa
+  2024}
+\item
+  \href{http://stat-computing.org/dataexpo/2009/the-data.html}{Datos de
+  todos los vuelos en USA entre 1987 y 2008 (datos originales)}
+\item
+  \href{https://github.com/h2oai/h2o-2/wiki/Hacking-Airline-DataSet-with-H2O}{Datos
+  de todos los vuelos en USA entre 1987 y 2008 (otra fuente y ejemplos
+  de uso en H2O). 120G}
+\item
+  \href{https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/}{Datos
+  estadísticos DGT}
+\item
+  \href{http://datosclima.es/Aemet2013/DescargaDatos.html}{Datosclima.
+  Base de datos meteo}
+\item
+  \href{http://opendhn.dhnetwork.opendata.arcgis.com/}{DH Network}
+\item
+  \href{https://www.digitalearthafrica.org/platform-resources/platform}{Digital
+  Earth Africa (DE Africa) Map}
+\item
+  \href{https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/inicio.faces}{Dirección
+  General de Tráfico (DGT)}
+\item
+  \href{https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1}{Dynamic
+  World V1 Land Use}
+\item
+  \href{https://www.earthenv.org/DEM}{EarthEnv-DEM90 digital elevation
+  model} - Global DEM created from multiple datasets
+\item
+  \href{https://huggingface.co/datasets/satellogic/EarthView}{EarthView
+  dataset}
+\item
+  \href{https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5}{ECMWF
+  ERA5} - Hourly reanalysis climate data (temperature, precipitation,
+  wind, etc.).
+\item
+  \href{https://www.emdat.be/}{EM-DAT - The international disaster
+  database}
+\item
+  \href{https://edgar.jrc.ec.europa.eu/emissions_data_and_maps}{EDGAR -
+  Emissions Database for Global Atmospheric Research}
+\item
+  \href{https://www.enmap.org/}{EnMAP. The German Spaceborne Imaging
+  Spectrometer Mission}
+\item
+  \href{https://aws.amazon.com/es/earth/}{El planeta Tierra en AWS}
+\item
+  \href{https://lcmou.github.io/ERA_Dataset/}{ERA DATASET. Dataset and
+  Deep Learning Benchmark for Event Recognition in Aerial Videos}
+\item
+  \href{https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY}{ERA5
+  Daily Aggregates - Latest Climate Reanalysis Produced by ECMWF /
+  Copernicus Climate Change Service}
+\item
+  \href{https://isp.uv.es/opensr/}{ESA OpenSR - Robust, accountable
+  super-resolution for Sentinel-2 and beyond}
+\item
+  \href{https://earth.esa.int/eogateway/missions/third-party-missions}{ESA
+  Third Party Missions (TPM)}
+\item
+  \href{https://worldcover2021.esa.int/}{ESA WorldCover 2021. Global
+  land cover product at 10 m for 2021 based on Sentinel-1 and 2 data}
+\item
+  \href{https://www.mites.gob.es/es/estadisticas/mercado_trabajo/index.htm}{España.
+  Estadísticas de mercado de trabajo}
+\item
+  \href{https://www.inclusion.gob.es/web/opi/estadisticas}{España.
+  Inmigración. Estadísticas}
+\item
+  \href{https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas}{España.
+  Seguridad Social. Estadísticas}
+\item
+  \href{https://hub.arcgis.com/search}{Esri Open Data Hub}
+\item
+  \href{https://www.eba.europa.eu/risk-and-data-analysis}{European
+  Banking Authority (EBA)}
+\item
+  \href{https://www.europeandataportal.eu/}{European Data Portal}
+\item
+  \href{https://forest-fire.emergency.copernicus.eu/}{European Forest
+  Fire Information System (EFFIS)}
+\item
+  \href{https://data.apps.fao.org/catalog/}{FAO Map Catalog}
+\item
+  \href{https://www.fao.org/aquastat/en/geospatial-information/wapor}{FAO's
+  Global Information System on Water and Agriculture}
+\item
+  \href{https://fbref.com/es/}{FBREF - Estadísticas e Historia del
+  Fútbol}
+\item
+  \href{https://beta.source.coop/repositories/kerner-lab/fields-of-the-world/description/}{Fields
+  of The World (FTW)}
+\item
+  \href{https://data.fivethirtyeight.com/}{Fivethirtyeight}
+\item
+  \href{https://fluxnet.org/}{FLUXNET} - Data from flux towers for
+  carbon, water, and energy exchange monitoring.
+\item
+  \href{http://www.imf.org/en/data}{Fondo Monetario Internacional}
+\item
+  \href{http://freegisdata.rtwilson.com/}{Free GIS Data}
+\item
+  \href{https://www.worldwildlife.org/pages/freshwater-ecoregions-of-the-world--2}{Freshwater
+  Ecoregions of the World}
+\item
+  \href{https://diva-gis.org/}{Fuentes de datos espaciales (Diva-GIS)}
+\item
+  \href{https://github.com/fMoW/dataset}{Functional Map of the World
+  (fMoW) Dataset}
+\item
+  \href{https://www.gapminder.org/data/}{Gapminder}
+\item
+  \href{https://gee-community-catalog.org/}{gee-community-catalog}
+\item
+  \href{https://www.geoboundaries.org/}{geoBoundaries}
+\item
+  \href{https://geodata.state.gov/geonetwork/srv/spa/catalog.search\#/home}{geodata.state.gov}
+\item
+  \href{https://www.gebco.net/}{GEBCO (General Bathymetric Chart of the
+  Oceans)} - Bathymetric DEM for ocean floors
+\item
+  \href{https://documentation-resources.opendatasoft.com/explore/dataset/doc-geonames-cities-5000/table/}{Geonames
+  Cities with population \textgreater{} 5000}
+\item
+  \href{https://geoportal.registradores.org/}{Geoportal Registradores}
+\item
+  \href{https://github.com/opengeos/geospatial-data-catalogs}{Geospatial
+  Data Catalogs}
+\item
+  \href{https://gdal.org/en/stable/}{Geospatial Data Abstraction Library
+  (GDAL) links} - Provides links to raster datasets from various
+  organizations.
+\item
+  \href{https://human-settlement.emergency.copernicus.eu/download.php?ds=bu}{GHSL
+  - Global Human Settlement Layer}
+\item
+  \href{https://storage.googleapis.com/earthenginepartners-hansen/GFC-2023-v1.11/download.html}{Global
+  Forest Change 2000-2023}
+\item
+  \href{https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1}{Global
+  Flood Database v1 (2000-2018)}
+\item
+  \href{https://www.who.int/data/gho/info/gho-odata-api}{Global Health
+  Observatory (GHO) API}
+\item
+  GLOPOP-S. A global dataset of 7 billion individuals with
+  socio-economic characteristics (sintetic)
+  \href{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KJC3RH}{Data}
+  \href{https://github.com/VU-IVM/GLOPOP-S}{Github}
+  \href{https://www.nature.com/articles/s41597-024-03864-2}{Paper}
+\item
+  \href{https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily}{Global
+  Historical Climatology Network (GHCN)} - Weather station data for
+  precipitation, temperature, and more.
+\item
+  \href{https://www.un-spider.org/links-and-resources/data-sources/global-land-cover-facility-university-maryland-nasa-gofc-gold}{Global
+  Land Cover Facility} - Land cover and vegetation datasets.
+\item
+  \href{https://gwis.jrc.ec.europa.eu/}{Global Wildfire Information
+  System (GWIS)}
+\item
+  \href{http://www.data.gov/}{Gobierno Estados Unidos}
+\item
+  \href{http://storage.googleapis.com/books/ngrams/books/datasetsv2.html}{Google
+  Books Ngram Viewe}
+\item
+  \href{https://cloud.google.com/vision/}{Google Cloud Vision API}
+\item
+  \href{https://datasetsearch.research.google.com/}{Google Datset
+  Search}
+\item
+  \href{https://github.com/opengeos/Earth-Engine-Catalog}{Google Earth
+  Engine Catalog}
+\item
+  \href{http://www.google.com/finance/}{Google finanzas}
+\item
+  \href{https://sites.research.google/gr/open-buildings/}{Google Open
+  Buildings}
+\item
+  \href{https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/google-patents-public-data}{Google
+  Patents Public Data}
+\item
+  \href{https://www.google.com/publicdata/directory}{Google Public Data}
+\item
+  \href{https://beta.source.coop/repositories/vida/google-microsoft-osm-open-buildings/description/}{Google-Microsoft-OSM
+  Open Buildings - combined by VIDA}
+\item
+  \href{http://www.hri.fi/en/}{Helsinki Open Data}
+\item
+  \href{https://huggingface.co/datasets}{Hugging Face Datasets}
+\item
+  \href{https://www.hydrosheds.org/products/hydrorivers}{HydroRIVERS}
+\item
+  \href{https://www.idealista.com/labs/blog/}{Idealista ux\&tech}
+\item
+  \href{https://github.com/paezha/idealista18}{idealista18 - 2018 real
+  estate listings in Spain. 3 cities}
+\item
+  \href{http://www.image-net.org/}{ImageNet database}
+\item
+  \href{https://idee.es/web/idee/inicio}{Infraestructura de Datos
+  Espaciales de España}
+\item
+  \href{http://www.madrid.org/cartografia/idem/html/web/index.htm}{Infraestructura
+  de Datos Espaciales de la Comunidad de Madrid}
+\item
+  \href{https://international.ipums.org/international/gis.shtml}{IPUMS
+  GIS Boundary Files}
+\item
+  \href{https://globalmaps.github.io/}{ISCGM Global Map}
+\item
+  \href{https://data.isimip.org/datasets/24cb1007-3c96-4b59-a0dc-42d94a8cff8c/}{ISIMIP3b
+  bias-adjusted atmospheric climate input data}
+\item
+  \href{https://www.eorc.jaxa.jp/ALOS/en/dataset/aw3d30/aw3d30_e.htm}{JAXA's
+  Global ALOS 3D World (AW3D30)} - ALOS Global Digital Surface Model
+  ``ALOS World 3D - 30m (AW3D30)''
+\item
+  \href{https://www.kaggle.com/datasets}{Kaggle datasets}
+\item
+  \href{https://www.kaggle.com/general/37924\#post354114}{Kaggle Weekly
+  Kernels Award Winner Announcements}
+\item
+  \href{https://data.linz.govt.nz/}{Land Information New Zealand (LINZ)
+  Data Service}
+\item
+  \href{https://www.easa.europa.eu/en/domains/environment/policy-support-and-research/aircraft-noise-and-performance-anp-data/anp-legacy-data}{Legacy
+  Aircraft Noise and Performance (ANP) data}
+\item
+  \href{https://economicgraph.linkedin.com/data-for-impact}{LinkedIn -
+  Data for Impact}
+\item
+  \href{https://vincentarelbundock.github.io/Rdatasets/datasets.html}{Lista
+  de algunos datatsets dentro de paquetes de R}
+\item
+  \href{https://huggingface.co/M3LEO}{M3LEO: A Multi-Modal Multi-Label
+  Earth Observation Dataset}
+\item
+  \href{http://download.geofabrik.de/}{Mapas de Open Street Maps}
+\item
+  \href{https://marineregions.org/downloads.php}{Marine Regions}
+\item
+  \href{https://hub.marinecadastre.gov/}{Marine Cadastre (AIS)}
+\item
+  \href{https://data.mendeley.com/}{Mendeley Data}
+\item
+  \href{https://planetarycomputer.microsoft.com/}{Microsoft - A
+  Planetary Computer for a Sustainable Future}
+\item
+  \href{https://www.microsoft.com/cognitive-services/}{Microsoft
+  Cognitive Services}
+\item
+  \href{https://msropendata.com/}{Microsoft Research Open Data}
+\item
+  \href{https://simplystatistics.org/posts/2019-07-19-more-datasets-for-teaching-data-science-the-expanded-dslabs-package/}{More
+  datasets for teaching data science: The expanded dslabs package}
+\item
+  \href{https://beta.source.coop/repositories/clarkcga/multi-temporal-crop-classification/description/}{Multi-Temporal
+  Crop Classification with HLS Imagery across CONUS}
+\item
+  \href{https://github.com/danfenghong/ISPRS_S2FL}{Multimodal Remote
+  Sensing Benchmark Datasets for Land Cover Classification}
+\item
+  \href{https://comtradeplus.un.org/}{Naciones Unidas. Datos detallados
+  de comercio global}
+\item
+  \href{https://developers.google.com/earth-engine/datasets/catalog/USDA_NAIP_DOQQ}{NAIP:
+  National Agriculture Imagery Program}
+\item
+  \href{https://github.com/opengeos/aws-open-data-stac}{NASA Common
+  Metadata Repository (CMR) SpatioTemporal Asset Catalog (STAC)}
+\item
+  \href{https://neo.gsfc.nasa.gov/}{NASA Earth Observations (NEO)}
+\item
+  \href{https://nssdc.gsfc.nasa.gov/}{NASA}
+\item
+  NASA Fire Information for Resource Management System (FIRMS)
+  \href{https://firms.modaps.eosdis.nasa.gov/}{Link1}
+  \href{https://www.earthdata.nasa.gov/data/tools/firms}{Link2} - Near
+  real-time data on wildfires from MODIS and VIIRS satellites.
+\item
+  \href{https://earthdata.nasa.gov/}{NASA Earthdata} - Shuttle Radar
+  Topography Mission (SRTM)
+\item
+  \href{https://power.larc.nasa.gov/}{NASA POWER (Prediction of
+  Worldwide Energy Resources)} - Provides global weather and solar
+  radiation data for energy, agriculture, and environmental sectors.
+\item
+  \href{https://indexes.nasdaqomx.com/Index/History/NQASPA8600AUD}{NASDAQ}
+\item
+  \href{https://www.nhgis.org/}{National Historical Geographic
+  Information System (NHGIS)}
+\item
+  \href{https://www.usgs.gov/programs/national-geospatial-program/national-map}{National
+  Map (USGS)} - National Elevation Dataset (NED), LiDAR, and more
+\item
+  \href{https://www.naturalearthdata.com/downloads/}{Natural Earth Data}
+  - Raster data for relief and shaded relief imagery.
+\item
+  \href{http://www.naturalearthdata.com/}{Natural Earth}
+\item
+  \href{https://www.nature.com/sdata/}{Nature Scientific Data}
+\item
+  \href{digital.nhs.uk/data-and-information/statistical-publications-open-data-and-data-products}{NHS
+  Digital}
+\item
+  \href{https://github.com/nhs-r-community/NHSRdatasets}{NHSR datasets}
+\item
+  \href{https://github.com/niderhoff/nlp-datasets/blob/master/README.md}{NLP
+  Datasets}
+\item
+  \href{https://www.kaggle.com/noaa/ghcn-d}{NOAA Daily Global Historical
+  Climatology Network - Kaggle dataset}
+\item
+  \href{http://www.nesdis.noaa.gov/index.html}{NOAA. Agencia de meteo.
+  USA.}
+\item
+  \href{https://www.ncei.noaa.gov/}{NOAA Global Forecast System (GFS)} -
+  Weather forecasts for temperature, precipitation, and wind.
+\item
+  \href{https://www.oecd.org/en/data.html}{OCDE Data}
+\item
+  \href{https://one-versus-one.com/en}{One versus One - European
+  football statistics}
+\item
+  \href{https://openaerialmap.org/}{Openaerialmap} - Aerial imagery
+  collected by individuals and organizations.
+\item
+  \href{https://open.africa/dataset}{Open Africa dataset}
+\item
+  \href{https://opendatabarometer.org/?_year=2017&indicator=ODB}{Open
+  Data Barometer}
+\item
+  \href{http://opendata.emtmadrid.es/}{Open data EMT}
+\item
+  \href{http://wwwhatsnew.com/2016/03/19/open-data-inception-recopilacion-de-1600-portales-de-datos-abiertos/?utm_content=buffer4e4d4&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer}{Open
+  Data Inception. 1.600 portales abiertos}
+\item
+  \href{http://data.renfe.com/}{Open Data Renfe}
+\item
+  \href{https://anthonyhuntley.com/data-science-databases/\#DataSourceDatabase}{Open
+  Data Sources Database}
+\item
+  \href{https://arxiv.org/abs/2207.06418}{Open High-Resolution Satellite
+  Imagery: The WorldStrat Dataset -- With Application to
+  Super-Resolution}
+\item
+  \href{https://opentopography.org/}{Open Topography} - Various
+  high-resolution DEM datasets from LiDAR and other sources
+\item
+  \href{https://tradestatistics.io/}{Open Trade Statistics}
+\item
+  \href{https://openaddresses.io/}{openaddresses}
+\item
+  \href{https://www.opencellid.org/downloads.php}{OpenCelliD - Open
+  Database of Cell Towers}
+\item
+  \href{http://opendata.cern.ch/}{Opendata del CERN} \textbf{Error}
+\item
+  \href{https://documentation-resources.opendatasoft.com/explore/?sort=modified}{Opendatasoft}
+\item
+  \href{https://openflights.org/}{openflights.org/}
+\item
+  \href{https://github.com/opengeos/data}{OpenGEOS data}
+\item
+  \href{https://openweathermap.org/api}{OpenWeatherMap}
+\item
+  \href{https://osmlanduse.org/}{OSM Landuse}
+\item
+  OSM-Building-Classification \href{https://osf.io/utgae/}{Data}
+  \href{https://github.com/gmuggs/OSM-Building-Classification}{Code}
+  \href{https://www.nature.com/articles/s41597-024-04046-w}{Paper} -
+  Classification of 67,705,475 buildings across the United States into
+  residential and non-residential
+\item
+  \href{https://beta.source.coop/repositories/fused/overture/description/}{Overture
+  - Fused-partitioned}
+\item
+  \href{https://github.com/OvertureMaps/data}{Overture Maps}
+\item
+  \href{http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/00Index.html}{Paquete
+  de R `datasets'}
+\item
+  \href{https://github.com/rOpenSpain/istacbaser}{Paquete pasra acceder
+  al API del Instituto de Canario de Estadística}
+\item
+  \href{https://www.pewresearch.org/download-datasets/}{Pew Research
+  Center}
+\item
+  \href{https://developers.google.com/earth-engine/datasets/catalog/SKYSAT_GEN-A_PUBLIC_ORTHO_MULTISPECTRAL}{Planet
+  SkySat Public Ortho Imagery, Multispectral}
+\item
+  \href{https://www.propublica.org/data/}{Propublica}
+\item
+  \href{https://beta.source.coop/repositories/planet/rapidai4eo/description/}{RapidAI4EO:
+  A Corpus of Dense Time Series Satellite Imagery}
+\item
+  \href{https://vincentarelbundock.github.io/Rdatasets/articles/data.html}{Rdatasets}
+\item
+  \href{https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/}{Recopilación
+  de datasets de BigML}
+\item
+  \href{https://www.ree.es/es/apidatos}{Red Eléctrica Española (REE) -
+  API}
+\item
+  \href{https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/rednatura2000_descargas.html}{Red
+  Natura 2000}
+\item
+  \href{https://www.reddit.com/r/datasets/}{Reddit datasets}
+\item
+  \href{https://rspatialdata.github.io/}{rspatialdata is a collection of
+  data sources and tutorials on visualising spatial data using R}
+\item
+  \href{https://eod-grss-ieee.com/dataset-detail/U1dJZE1BY1RwclAvOFFJQmlKR1Btdz09}{SARDet-100K:
+  large-scale multi-class SAR object detection dataset}
+\item
+  \href{https://aws.amazon.com/public-data-sets/landsat/}{Satélite
+  Landsat}
+\item
+  \href{https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL?hl=es-419\#description}{Satellite
+  Embedding (Google)}
+\item
+  \href{https://github.com/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships}{Satellite
+  imagery datasets containing ships}
+\item
+  \href{https://mediatum.ub.tum.de/1554803}{SEN12MS-CR. 22,218 patch
+  triplets of corresponding Sentinel-1 dual-pol SAR data, Sentinel-2
+  multi-spectral images, and cloud-covered Sentinel-2 multi-spectral
+  images}
+\item
+  \href{https://docs.openeo.cloud/usecases/ard/sen2like/\#_1-sen2like-for-rgb}{Sen2Like}
+\item
+  \href{https://huggingface.co/datasets/isp-uv-es/SEN2NAIP}{SEN2NAIP -
+  Remote sensing dataset designed to support conventional and
+  reference-based SR model training}
+\item
+  \href{https://www.sentinel-hub.com/Network-of-Resources/}{Sentinel Hub
+  NoR Sponsored Accounts and Data Collections}
+\item
+  \href{https://browser.dataspace.copernicus.eu}{Sentinel Satellite
+  Data}
+\item
+  \href{https://developers.google.com/earth-engine/datasets/catalog/sentinel-5p}{Sentinel-5P}
+\item
+  \href{https://phys-techsciences.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/dans-x8d-p6zm}{Sentinel-2
+  data set for the delineation of agricultural field boundaries in
+  Flevoland, The Netherlands}
+\item
+  \href{https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx}{Síntesis
+  de Indicadores e Informes Macroeconómicos}
+\item
+  \href{https://skyfi.com/}{SkyFi Geospatial Hub}
+\item
+  \href{https://earth.esa.int/eogateway/missions/skysat}{SkySat
+  missions}
+\item
+  \href{https://github.com/SocialScienceDataLab/}{Social Science Data
+  Lab}
+\item
+  Socioeconomic Data and Applications Center
+  (SEDAC)\href{https://sedac.ciesin.columbia.edu/data/collection/gpw-v4/sets/browse}{Link1}
+  y \href{https://earthdata.nasa.gov/centers/sedac-daac}{Link2}
+\item
+  \href{https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/faounesco-soil-map-of-the-world/en/}{Soil
+  Map of the World FAO/UNESCO}
+\item
+  \href{https://simplystatistics.org/posts/2018-01-22-the-dslabs-package-provides-datasets-for-teaching-data-science/}{Some
+  datasets for teaching data science}
+\item
+  \href{https://beta.source.coop/}{Source Cooperative Featured
+  Repositories}
+\item
+  \href{https://github.com/opengeos/stac-index-catalogs}{STAC Index
+  SpatioTemporal Asset Catalog (STAC)}
+\item
+  \href{https://statsbomb.com/what-we-do/hub/free-data/}{StatsBomb
+  sports data}
+\item
+  \href{https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json?.language=es}{Tanager
+  Core Imagery}
+\item
+  \href{https://download.geoservice.dlr.de/TDM90/}{TanDEM-X 90m DEM
+  (DLR)} - Global DEM generated from radar data
+\item
+  \href{https://causeweb.org/tshs/}{Teaching of Statistics in the Health
+  Sciences}
+\item
+  \href{https://tematicas.org/}{Tematicas.org Recopilación de series e
+  índices}
+\item
+  \href{https://terra.ipums.org/}{Terra Populus}
+\item
+  \href{https://www.climatologylab.org/terraclimate.html}{Terraclimate}
+  - Monthly climate and hydrology data at a global scale.
+\item
+  \href{https://quantumstat.com/nlp-dataset-library/}{The Big Bad NLP
+  Database}
+\item
+  \href{https://willamette.edu/mba/research-impact/public-datasets/index.html}{The
+  Government Finance Database}
+\item
+  \href{https://spacenet.ai/datasets/}{The SpaceNet Datasets}
+\item
+  \href{https://openknowledge.worldbank.org}{The World Bank Open
+  Knowledge Repository}
+\item
+  \href{https://db.nomics.world/}{The world's economic database}
+\item
+  \href{https://github.com/r-lgbtq/tidyrainbow}{TidyRainbow}
+\item
+  \href{https://github.com/rfordatascience/tidytuesday}{TidyTuesday}
+\item
+  \href{https://webarchive.nationalarchives.gov.uk/ukgwa/*/http://www.dft.gov.uk/traffic-counts/}{Tráfico
+  en el Reino Unido}
+\item
+  \href{https://archive.ics.uci.edu/datasets}{UC Irvine Machine Learning
+  Repository}
+\item
+  \href{http://weegee.vision.ucmerced.edu/datasets/landuse.html}{UC
+  Merced Land Use Dataset}
+\item
+  \href{http://archive.ics.uci.edu/ml/}{UCI Machine Learning Repository}
+\item
+  \href{https://ukdataservice.ac.uk/}{UK Data Service}
+\item
+  \href{https://www.ons.gov.uk/}{UK Office for National Statistics}
+\item
+  \href{https://data.gov.uk/search}{UK Open Data}
+\item
+  \href{https://geoportal.statistics.gov.uk/}{UK Open Geography Portal}
+\item
+  \href{https://download.geofabrik.de/europe/spain.html}{Ultimos datos
+  de Open Street Map. Spain}
+\item
+  \href{https://github.com/toddmotto/public-apis}{Una recopilación de
+  APIs públicas}
+\item
+  \href{https://github.com/caesar0301/awesome-public-datasets}{Una
+  recopilación de datasets públicos}
+\item
+  \href{https://understat.com/}{Understat}
+\item
+  \href{https://www.unep.org/publications-data}{UNEP Environmental Data
+  Explorer}
+\item
+  \href{https://un-spider.org/links-and-resources/data-sources}{United
+  Nations Platform for Space-based Information for Disaster Management
+  and Emergency Response (un-spider.org) data sources}
+\item
+  \href{https://population.un.org/wup/}{United Nations World
+  Urbanization Prospects}
+\item
+  \href{https://dataverse.harvard.edu/}{Universidad de Harvard}
+\item
+  \href{https://hifld-geoplatform.hub.arcgis.com/}{US Homeland
+  Infrastructure Foundation-Level Data}
+\item
+  \href{https://registry.opendata.aws/usgs-lidar/}{USGS 3DEP LiDAR Point
+  Clouds}
+\item
+  \href{https://earthexplorer.usgs.gov/}{USGS Earth Explorer} - SRTM,
+  ASTER GDEM, ALOS, and more
+\item
+  \href{https://viewfinderpanoramas.org/}{Viewfinder Panoramas} -
+  High-quality DEM for remote regions
+\item
+  \href{https://paperswithcode.com/dataset/whu-rs19}{WHU-RS19 is a set
+  of satellite images exported from Google Earth}
+\item
+  \href{https://wyvern.space/open-data/}{Wyvern Open Data Program}
+\item
+  \href{https://www.weforum.org/publications/}{World Economic Forum}
+\item
+  WorldCereal open global harmonized reference data repository
+  {[}Data{]}{]}(https://zenodo.org/records/7609500)
+  \href{https://github.com/WorldCereal/worldcereal-classification}{Github}
+\item
+  \href{https://www.worldpop.org/}{Worldpop - Open Spatial Demographic
+  Data} y \href{https://hub.worldpop.org/}{Worldpop Hub}
+\item
+  \href{https://business.yelp.com/data/resources/open-dataset/}{Yelp
+  Dataset}
+\item
+  \href{https://github.com/zhu-xlab}{Zhu Lab - Data Science in Earth
+  Observation}
+\item
+  Amazon AWS: \href{http://aws.amazon.com/es/datasets/}{este} y
+  \href{https://aws.amazon.com/es/public-data-sets/}{este}
+\item
+  EarthNets for Earth Observation
+  \href{https://earthnets.nicepage.io/}{Page}
+  \href{https://github.com/EarthNets}{Github}
+\item
+  Facebook Neural-Code-Search-Evaluation-Dataset
+  {[}dataset{]}{]}(https://github.com/facebookresearch/Neural-Code-Search-Evaluation-Dataset)
+  y
+  \href{https://venturebeat.com/2019/10/03/facebook-open-sources-data-set-for-code-search-ai-benchmark/}{noticia}
+\item
+  HREA: High Resolution Electricity Access.
+  \href{https://hrea.isr.umich.edu/index.html}{Universidad de Michigan}
+  y
+  \href{https://planetarycomputer.microsoft.com/dataset/hrea\#overview}{Microsoft}
+\item
+  IPUMS provides census and survey data from around the world
+  \href{https://www.ipums.org/}{Web} y
+  \href{https://tech.popdata.org/ipumsr/}{paquete ipumsr}
+\item
+  Maxar Open Data:
+  \href{https://github.com/opengeos/maxar-open-data}{Aquí} y
+  \href{https://radiantearth.github.io/stac-browser/\#/external/maxar-opendata.s3.amazonaws.com/events/catalog.json?.language=es}{aquí}
+\item
+  MIT \href{http://web.mit.edu/towtank/www/vivdr/datasets.html}{1} y
+  \href{https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/datasets/}{2}
+\item
+  Natural Earth Vector.
+  \href{https://github.com/nvkelso/natural-earth-vector}{Github} y
+  \href{https://www.naturalearthdata.com/}{Web}
+\item
+  Open Charge Map. Global Open Data registry of electric vehicle
+  charging locations.
+  \href{https://github.com/openchargemap/ocm-export}{Export} y
+  \href{https://tech.marksblogg.com/open-charge-map-global-ev-charging-point-dataset.html}{Ejemplo}
+\item
+  SSL4EO-S12 dataset. Large-scale multimodal multitemporal dataset for
+  unsupervised/self-supervised pre-training in Earth observation
+  \href{https://arxiv.org/abs/2211.07044}{Paper}
+  \href{https://github.com/zhu-xlab/SSL4EO-S12}{Github}
+\item
+  World Bank Open Data \href{https://data.worldbank.org/}{1} y
+  \href{https://datacatalog.worldbank.org/}{2}
+\end{itemize}
+
+\section{Otras referencias
+interesantes}\label{otras-referencias-interesantes}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.kdnuggets.com/2016/03/100-active-blogs-analytics-big-data-science-machine-learning.html\#.VvqjkSV5Tio.linkedin}{100
+  Active Blogs on Analytics, Big Data, Data Mining, Data Science,
+  Machine Learning}
+\item
+  \href{https://www.listendata.com/p/r-programming-tutorials.html}{100
+  Free Tutorials for Learning R}
+\item
+  \href{https://www.analyticsvidhya.com/blog/2016/10/16-new-must-watch-tutorials-courses-on-machine-learning/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed\%3A+AnalyticsVidhya+\%28Analytics+Vidhya\%29}{16
+  Cursos}
+\item
+  \href{http://cfss.uchicago.edu/program_rmarkdown.html}{A dive into R
+  Markdown}
+\item
+  \href{https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/}{A
+  ggplot2 Tutorial for Beautiful Plotting in R}
+\item
+  \href{https://github.com/biasvariancelabs/aitlas-arena}{AiTLAS:
+  Benchmark Arena -- Open-source benchmark suite for evaluating deep
+  learning approaches for image classification in Earth Observation
+  (EO)}
+\item
+  \href{https://www.statlearning.com/}{An Introduction to Statistical
+  Learning - Web R \& Python}
+\item
+  \href{http://www.seascapemodels.org/data/ArcGIS_to_R_Spatial_CheatSheet.pdf}{ArcGIS
+  to R spatial cheat sheet}
+\item
+  \href{https://github.com/academic/awesome-datascience}{Awesome Data
+  Science}
+\item
+  \href{https://github.com/qinwf/awesome-R}{Awesome R}
+\item
+  \href{https://bigearth.net/}{BigEarthNet A Large-Scale Sentinel
+  Benchmark Archive}
+\item
+  \href{https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/}{Bivariate
+  Choropleth Maps: A How-to Guide}
+\item
+  \href{https://bookdown.org/yihui/blogdown/}{blogdown: Creating
+  Websites with R Markdown}
+\item
+  \href{http://jmcglone.com/guides/github-pages/}{Blogs con github} y
+  \href{http://andysouth.github.io/blog-setup/}{Blogs con github y
+  RStudio}
+\item
+  \href{https://psiaims.github.io/CAMIS/}{CAMIS - A PHUSE DVOST Working
+  Group}. The repository below provides examples of statistical
+  methodology in different software and languages, along with a
+  comparison of the results obtained and description of any
+  discrepancies.
+\item
+  \href{https://github.com/rstudio/cheatsheets/blob/main/regex.pdf}{Chuleta
+  de expresiones regulares}
+\item
+  \href{https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf}{Chuleta
+  general de R}
+\item
+  \href{https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/}{Codificación
+  de caracteres}
+\item
+  \href{https://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/?utm_content=buffer49e9f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer}{Common
+  Probability Distributions: The Data Scientist's Crib Sheet}
+\item
+  \href{https://anderfernandez.com/blog/como-crear-api-en-python/}{Cómo
+  crear una API en Python}
+\item
+  \href{https://github.com/kjw0612/awesome-deep-vision}{Computer vision}
+\item
+  \href{https://www.computerworld.com/article/1375862/great-r-packages-for-data-import-wrangling-visualization.html}{Computerworld
+  - Paquetes de R interesantes}
+\item
+  \href{https://work.caltech.edu/telecourse.html}{Curso Caltech.
+  Learning from data}
+\item
+  \href{https://datos.gob.es/es/noticia/cursos-para-aprender-mas-sobre-r}{Cursos
+  para aprender más sobre R}
+\item
+  \href{https://github.com/rushter/data-science-blogs}{Data Science
+  Blogs}
+\item
+  \href{https://github.com/FavioVazquez/ds-cheatsheets}{Data Science
+  Cheatsheets}
+\item
+  \href{https://github.com/tirthajyoti/Data-science-best-resources}{Data
+  Science Collected Resources}
+\item
+  \href{https://github.com/jonathan-bower/DataScienceResources}{Data
+  Science Resources}
+\item
+  \href{https://github.com/MrMimic/data-scientist-roadmap}{Data
+  Scientist Roadmap}
+\item
+  \href{https://graphica.app/catalogue}{Data Viz Catalogue}
+\item
+  \href{https://datavizproject.com/}{Dataviz Project}
+\item
+  \href{http://uc-r.github.io/regex}{Dealing with Regular Expressions}
+\item
+  \href{http://zevross.com/blog/2016/04/19/r-powered-web-applications-with-shiny-a-tutorial-and-cheat-sheet-with-40-example-apps/}{Ejemplos
+  de Shiny}
+\item
+  \href{https://www.cienciadedatos.net/estadistica-con-r.html}{Estadística
+  con R}
+\item
+  \href{https://www.eumetsat.int/science-studies}{EUMETSAT science
+  studies}
+\item
+  \href{https://trainindata.medium.com/feature-engineering-for-machine-learning-a-comprehensive-overview-a7ad04c896f8}{Feature
+  Engineering for Machine Learning}
+\item
+  \href{https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary}{Financial-Times
+  / chart-doctor}
+\item
+  \href{http://www.r-bloggers.com/r-markdown-custom-formats/}{Formatos a
+  medida para R Markdown}
+\item
+  \href{https://committedtotape.shinyapps.io/freeR/}{Free R Reading
+  Material}
+\item
+  \href{https://www.data-to-viz.com/}{From Data to Viz}
+\item
+  \href{http://www.r-graph-gallery.com/}{Galerias de graficos}
+\item
+  \href{http://socviz.co/}{Ggplot}
+\item
+  \href{https://nowosad.github.io/SIGR2021/workshop1/workshop1_jn.html\#1}{GIS
+  and mapping}
+\item
+  \href{https://atlas.co/formats/}{GIS formats}
+\item
+  \href{https://developers.google.com/machine-learning/glossary/}{Glosario
+  de Machine Learning de Google}
+\item
+  \href{datasetsearch.research.google.com}{Google Dataset Search}
+\item
+  \href{http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf}{Google
+  Rules of Machine Learning: Best Practices for ML Engineering}
+\item
+  \href{https://developers.google.com/machine-learning/guides/rules-of-ml/}{Google's
+  best practices in machine learning}
+\item
+  \href{https://polyhaven.com/hdris}{HDRIs Images (HDRIs)})
+\item
+  \href{https://github.com/hotosm/Drone-TM}{HOT - Drone Tasking Manager}
+\item
+  \href{http://gallery.htmlwidgets.org/}{htmlwidgets for R - gallery}
+\item
+  \href{https://ideatlas.eu/}{IDEAtlas. Developing AI-based methods to
+  map and characterize informal settlements from Earth Observation data}
+\item
+  \href{http://rmarkdown.rstudio.com/}{Información de Rmarkdown en R
+  Studio}
+\item
+  \href{https://www.informationisbeautifulawards.com/}{Information is
+  Beautiful Awards}
+\item
+  \href{https://informationisbeautiful.net/}{Information is beautiful}
+\item
+  \href{informationisbeautiful.net/data}{Information is Beautiful}
+\item
+  \href{https://ilya-fradlin.github.io/Interactive4D/}{Interactive 4D
+  LiDAR Segmentation}
+\item
+  \href{https://bourgoing.com/en/linvestigation-par-satellite/}{Investigative
+  Journalism with Satellite Images}
+\item
+  \href{http://kagglesolutions.com/}{Kaggle Winning Solutions}
+\item
+  \href{https://microsoft.github.io/presidio/}{Microsoft Presidio - Data
+  Protection and De-identification SDK}
+\item
+  \href{https://speakerd.s3.amazonaws.com/presentations/5e4b07f0d9a94f8e9a29b902bad6ed0b/naming-slides.pdf}{Naming
+  files}
+\item
+  \href{https://github.com/Shujian2015/FreeML}{Otra lista de recursos
+  variados en Github}
+\item
+  \href{https://overpass-turbo.eu/}{overpass turbo - Herremaienta de
+  filtrado para OSM}
+\item
+  \href{http://pandoc.org/MANUAL.html\#templates}{Pandoc User's Guide}
+\item
+  \href{https://www.visual-literacy.org/periodic_table/periodic_table.html}{Periodic
+  Table Of Visualization Methods}
+\item
+  \href{https://github.com/h2oai}{Plataforma H2O}
+\item
+  \href{https://blog.rsquaredacademy.com/web-scraping/}{Practical
+  Introduction to Web Scraping in R}
+\item
+  \href{https://www.r-bloggers.com/r-code-best-practices/}{R Code --
+  Best practices}
+\item
+  \href{https://irudnyts.github.io//r-coding-style-guide/}{R Coding
+  Style Guide}
+\item
+  \href{https://github.com/ujjwalkarn/DataScienceR}{R Data Science
+  Tutorials}
+\item
+  \href{https://www.r4wrds.com/}{R for Water Resources Data Science}
+\item
+  \href{https://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html}{R
+  Learning Path: From beginner to expert in R in 7 steps}
+\item
+  \href{https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf}{R
+  Markdown cheatsheet}
+\item
+  \href{https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf}{R
+  Markdown referencia}
+\item
+  \href{https://kbroman.org/pkg_primer/}{R package primer}
+\item
+  \href{https://r-universe.dev/search}{R Universe search}
+\item
+  \href{https://www.rdocumentation.org/}{RDocumentation}
+\item
+  \href{https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference}{Regular
+  Expression Language - Quick Reference}
+\item
+  \href{https://www.r-bloggers.com/regular-expressions-every-r-programmer-should-know/}{Regular
+  Expressions Every R programmer Should Know}
+\item
+  \href{https://bellingcat.github.io/RS4OSINT/}{Remote Sensing for
+  OSINT}
+\item
+  \href{https://github.com/IBM/remote-sensing-image-retrieval}{Remote
+  sensing image retrieval}
+\item
+  \href{https://emilyriederer.netlify.app/post/rmarkdown-driven-development/}{RMarkdown
+  Driven Development (RmdDD)}
+\item
+  \href{https://rseek.org/}{rseek.org - rstats search engine}
+\item
+  \href{https://www.rstudio.com/resources/cheatsheets/?utm_content=buffer1b56a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer}{Rstudio
+  cheatsheets}
+\item
+  \href{https://towardsdatascience.com/understanding-the-roc-and-auc-curves-a05b68550b69}{Simplifying
+  the ROC and AUC metrics}
+\item
+  \href{https://support.posit.co/hc/en-us}{Soporte técnico de RStudio}
+\item
+  \href{https://phys.org/news/2024-08-business-spreadsheets-critical-errors.html}{Study
+  finds 94\% of business spreadsheets have critical errors}
+\item
+  \href{http://www.petrkeil.com/?p=2401}{Template para documentos
+  científicos con Rmarkdown}
+\item
+  \href{chartmaker.visualisingdata.com}{The Chartmaker Directory}
+\item
+  \href{https://datavizcatalogue.com/}{The Data Visualisation Catalogue}
+\item
+  \href{https://r-graph-gallery.com/}{The R Graph Gallery}
+\item
+  \href{https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Baaaath.pdf}{The
+  State of Naming Conventions in R}
+\item
+  \href{https://browser.timeviz.net/}{The TimeViz Browser 2.0}
+\item
+  \href{https://choosealicense.com/licenses/}{Tipos de licencias de
+  software}
+\item
+  \href{https://data.europa.eu/en/academy/open-data-licensing}{Tipos de
+  licencias open data (minicurso de data.europa.edu)}
+\item
+  \href{https://www.r-bloggers.com/how-to-learn-r-2/}{Tutorials for
+  learning R}
+\item
+  \href{https://www.r-bloggers.com/uk-government-using-r-to-modernize-reporting-of-official-statistics/}{UK
+  government using R to modernize reporting of official statistics}
+\item
+  \href{https://try.github.io/levels/1/challenges/1}{Usar git}
+\item
+  \href{https://github.com/ledell/useR-machine-learning-tutorial}{useR!
+  Machine Learning Tutorial}
+\item
+  Using Geospatial Data in R
+  \href{https://www.r-bloggers.com/2021/06/using-geospatial-data-in-r/}{Post}
+  \&
+  \href{https://github.com/SocialScienceDataLab/MZES_SSDL_Georeferenced_Survey_Data}{Github}
+\item
+  \href{https://support.posit.co/hc/en-us/articles/200552056-Using-Sweave-and-knitr}{Utilizando
+  Sweave y Knitr}
+\item
+  \href{https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/}{Writing
+  an R package from scratch}
+\item
+  Global Fishing Watch. AI and satellite imagery to reveal the expanding
+  footprint of human activity at sea.
+  \href{https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/?utm_source=GFW+subscribers&utm_campaign=9363c93195-EMAIL_CAMPAIGN_JAN_2024_CURRENT_ENGLISH&utm_medium=email&utm_term=0_-9363c93195-\%5BLIST_EMAIL_ID\%5D}{Post}.
+  \href{https://github.com/GlobalFishingWatch/paper-industrial-activity/tree/main}{Github}.
+  \href{https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_training_data/24309469}{Train
+  data}.
+  \href{https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_analysis_data/24309475}{Analysis
+  data} and
+  \href{https://globalfishingwatch.org/data-download/datasets/public-sar-vessel-detections:v20231026}{Vessel
+  detection from Sentinel-1 SAR}
+\item
+  Legalidad Web sraping:
+  \href{https://prowebscraper.com/blog/is-web-scraping-legal/}{Is Web
+  Scraping Legal? : The Definitive Guide (2024 update)} y
+  \href{https://ecija.com/web-scraping-legal-ilegal/}{Web Scraping:
+  ¿legal o ilegal?}
+\item
+  Pautas para dar formato al código programando en R:
+  \href{https://google.github.io/styleguide/Rguide.xml}{Google},
+  \href{http://adv-r.had.co.nz/Style.html}{Hadley Wickham (RStudio)} y
+  \href{https://ourcodingclub.github.io/2017/04/25/etiquette.html\#syntax}{Coding
+  Club}
+\item
+  Sistemas de Coordenadas.
+  \href{https://rspatial.org/spatial/rst/6-crs.html}{Aqui} y
+  \href{https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf}{aqui}
+\item
+  Statistical Learning de Stanford with R
+  \href{https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning-r}{Curso},
+  \href{https://hastie.su.domains/ElemStatLearn/}{Libro},
+  \href{https://github.com/khanhnamle1994/statistical-learning}{Código}
+  y
+  \href{https://github.com/khanhnamle1994/statistical-learning/tree/master/Lecture-Slides}{Transparencias}
+\end{itemize}
+
+\section{Libros}\label{libros}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.kdnuggets.com/2017/04/10-free-must-read-books-machine-learning-data-science.html?utm_content=bufferc386f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer}{10
+  Free Must-Read Books for Machine Learning and Data Science}
+\item
+  \href{https://adv-r.hadley.nz/index.html}{Advanced R}
+\item
+  \href{https://zia207.quarto.pub/advanced-statistical-modeling-in-r/02-00-00-advance-modeling-r.html}{Advanced
+  Statistical Modeling in R}
+\item
+  \href{https://becarioprecario.bitbucket.io/spde-gitbook/}{Advanced
+  Spatial Modeling with Stochastic Partial Differential Equations Using
+  R and INLA}
+\item
+  \href{https://air.albert-rapp.de/}{AI With R}
+\item
+  \href{https://intro2r.com/}{An Introduction to R}
+\item
+  \href{https://www.spatialanalysisonline.com/An\%20Introduction\%20to\%20Spatial\%20Data\%20Analysis\%20in\%20R.pdf}{An
+  Introduction to Spatial Data Analysis and Visualisation in R}
+\item
+  \href{https://mspeekenbrink.github.io/sdam-r-companion/index.html}{An
+  R companion to Statistics: data analysis and modelling}
+\item
+  \href{http://rafalab.dfci.harvard.edu/dslibro/}{Análisis de datos y
+  algoritmos de predicción con R}
+\item
+  \href{https://github.com/andrija-djurovic/adsfcr}{Applied Data Science
+  for Credit Risk}
+\item
+  \href{https://aprendiendo-r-intro.netlify.app/}{Aprendiendo R sin
+  morir en el intento}
+\item
+  \href{https://rubenfcasal.github.io/aprendizaje_estadistico/index.html}{Aprendizaje
+  Estadístico con R}
+\item
+  \href{https://becarioprecario.bitbucket.io/inla-gitbook/index.html}{Bayesian
+  inference with INLA}
+\item
+  \href{https://bbc.github.io/rcookbook/}{BBC Visual and Data Journalism
+  cookbook for R graphics}
+\item
+  \href{https://www.bigbookofr.com/index.html}{Big Book of R}
+\item
+  \href{https://www.uv.es/ayala/docencia/tami/tami13.pdf}{Bioinformática
+  Estadística. Análisis estadístico de datos Ómicos}
+\item
+  \href{https://bdsr.stephenturner.us/}{Biological Data Science with R}
+\item
+  \href{https://raps-with-r.dev/}{Building reproducible analytical
+  pipelines with R}
+\item
+  \href{https://bash-intro.rsquaredacademy.com/}{Command Line Basics for
+  R Users}
+\item
+  \href{https://www.rplumber.io/docs/index.html}{Creating APIs in R with
+  Plumber}
+\item
+  \href{http://rafalab.dfci.harvard.edu/dsbook/}{Data Analysis and
+  Prediction Algorithms with R}
+\item
+  \href{https://datamgmtinedresearch.com/}{Data Management in
+  Large-Scale Education Research}
+\item
+  \href{https://datascienceineducation.com/}{Data Science in Education
+  Using R}
+\item
+  \href{https://psyteachr.github.io/msc-data-skills/}{Data Skills for
+  Reproducible Science}
+\item
+  \href{https://rkabacoff.github.io/datavis/}{Data Visualization with R}
+\item
+  \href{https://db.rstudio.com/getting-started/}{Databases using R by
+  RStudio}
+\item
+  \href{https://gitlab.com/Puletti/dendrometria_libro}{Dendrometria}
+\item
+  \href{https://skeydan.github.io/Deep-Learning-and-Scientific-Computing-with-R-torch/}{Deep
+  Learning and Scientific Computing with R torch}
+\item
+  \href{https://srdas.github.io/DLBook/}{Deep Learning}
+\item
+  \href{https://colleen.quarto.pub/the-tidy-econometrics-workbook/}{Econometrics
+  with the Tidyverse}
+\item
+  \href{https://csgillespie.github.io/efficientR/}{Efficient R
+  programming}
+\item
+  \href{https://emlwr.org/}{Efficient Machine Learning with R}
+\item
+  \href{https://r-tmap.github.io/tmap-book/}{Elegant and informative
+  maps with tmap}
+\item
+  \href{https://engineering-shiny.org/}{Engineering Production-Grade
+  Shiny Apps}
+\item
+  \href{https://www.uv.es/ayala/docencia/nmr/nmr13.pdf}{Estadística
+  básica}
+\item
+  \href{http://www.aic.uva.es/cuentapalabras/presentacion.html}{Estilometría,
+  análisis de textos en R para filólogos}
+\item
+  \href{https://tidy-survey-r.github.io/tidy-survey-book/}{Exploring
+  Complex Survey Data Analysis Using R}
+\item
+  \href{https://bookdown.org/rdpeng/exdata/}{Exploratory Data Analysis
+  with R - Roger D. Peng}
+\item
+  \href{https://otexts.com/fpp3/}{Forecasting: Principles and Practice}
+\item
+  \href{https://otexts.com/fpppy/}{Forecasting: Principles and Practice,
+  the Pythonic Way}
+\item
+  \href{https://openforecast.org/adam/}{Forecasting and Analytics with
+  the Augmented Dynamic Adaptive Model (ADAM)}
+\item
+  \href{https://feaz-book.com/}{Feature Engineering A-Z}
+\item
+  \href{http://www.paulamoraga.com/book-geospatial/}{Geospatial Health
+  Data: Modeling and Visualization with R-INLA and Shiny}
+\item
+  \href{https://ona-book.org/}{Handbook of Graphs and Networks in People
+  Analytics With Examples in R and Python}
+\item
+  \href{https://peopleanalytics-regression-book.org/}{Handbook of
+  Regression Modeling in People Analytics}
+\item
+  \href{http://www.gastonsanchez.com/r4strings/}{Handling Strings with
+  R}
+\item
+  \href{https://handsondataviz.org/}{Hands-On Data Visualization}
+\item
+  \href{https://bradleyboehmke.github.io/HOML/}{Hands-On Machine
+  Learning with R}
+\item
+  \href{https://rstudio-education.github.io/hopr/}{Hands-On Programming
+  with R}
+\item
+  \href{https://happygitwithr.com/}{Happy Git and GitHub for the useR}
+\item
+  \href{https://christophm.github.io/interpretable-ml-book/}{Interpretable
+  Machine Learning}
+\item
+  \href{https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf}{Introducción
+  a R}
+\item
+  \href{https://www.econometrics-with-r.org/}{Introduction to
+  Econometrics with R}
+\item
+  \href{https://probability4datascience.com/index.html}{Introduction to
+  Probability for Data Science}
+\item
+  \href{https://github.com/ipeaGIT/intro_access_book}{Introduction to
+  urban accessibility: a practical guide in R}
+\item
+  \href{https://book.javascript-for-r.com/}{JavaScript for R}
+\item
+  \href{https://luisdva.github.io/llmsr-book/}{Large Language Model
+  tools for R}
+\item
+  \href{https://learningstatisticswithr.com/}{Learning Statistics with
+  R}
+\item
+  \href{https://librovivodecienciadedatos.ai/}{Libro Vivo de Ciencia de
+  Datos}
+\item
+  \href{https://shainarace.github.io/LinearAlgebra/index.html}{Linear
+  Algebra for Data Science}
+\item
+  \href{https://marginaleffects.com/}{Model to Meaning}
+\item
+  \href{https://b-rodrigues.github.io/modern_R/}{Modern R with the
+  tidyverse}
+\item
+  \href{https://nasa-openscapes.github.io/earthdata-cloud-cookbook/}{NASA
+  Earthdata Cloud Cookbook}
+\item
+  \href{https://ardata-fr.github.io/officeverse/index.html}{Officeverse
+  R \& Office}
+\item
+  \href{https://phuse-org.github.io/OSTCDA/}{Open Source Technology in
+  Clinical Data Analysis}
+\item
+  \href{https://unleash-shiny.rinterface.com/}{Outstanding User
+  Interfaces with Shiny}
+\item
+  \href{https://soilmapper.org/}{Predictive Soil Mapping with R}
+\item
+  \href{https://www.uv.es/ayala/docencia/probabilidad/prob.pdf}{Probabilidad
+  básica}
+\item
+  \href{http://qpolr.com/}{Quantitative Politics with R}
+\item
+  \href{https://bbest.github.io/R-adv-spatial-lessons/}{R Advanced
+  Spatial Lessons}
+\item
+  \href{https://trevorfrench.github.io/R-for-Data-Analysis/}{R for Data
+  Analysis}
+\item
+  \href{https://bookdown.org/Maxine/r4ds/}{R for data science: tidyverse
+  and beyond}
+\item
+  \href{https://www.jaredlander.com/r-for-everyone/}{R for everyone}
+\item
+  \href{https://argoshare.is.ed.ac.uk/healthyr_book/}{R for Health Data
+  Science}
+\item
+  \href{https://r-graphics.org/index.html}{R Graphics Cookbook}
+\item
+  \href{https://www.manning.com/books/r-in-action-second-edition}{R in
+  action}
+\item
+  \href{https://cran.r-project.org/doc/manuals/R-intro.pdf}{R intro}
+\item
+  \href{https://bookdown.org/yihui/rmarkdown-cookbook/}{R Markdown
+  Cookbook}
+\item
+  \href{https://bookdown.org/yihui/rmarkdown/}{R Markdown: The
+  Definitive Guide}
+\item
+  \href{https://books.goalkicker.com/RBook/}{R Notes for Professionals}
+\item
+  \href{https://r-pkgs.org/}{R Packages}
+\item
+  \href{https://cran.r-project.org/doc/contrib/rdebuts_es.pdf}{R para
+  principiantes}
+\item
+  \href{https://datanalytics.com/libro_r/}{R para profesionales de los
+  datos: una introducción}
+\item
+  \href{https://leanpub.com/rprogramming}{R Programming for Data
+  Science. Roger D. Peng.}
+\item
+  \href{https://www.cs.upc.edu/~robert/teaching/estadistica/rprogramming.pdf}{R
+  Programming for Data Science}
+\item
+  \href{https://smach.github.io/R4JournalismBook/}{R4JournalismBook}
+\item
+  \href{https://rstudio4edu.github.io/rstudio4edu-book/}{rstudio4edu}
+\item
+  \href{https://rubenfcasal.github.io/simbook/}{Simulación Estadística
+  con R}
+\item
+  \href{http://gis.humboldt.edu/OLM/r/Spatial\%20Analysis\%20With\%20R.pdf}{Spatial
+  Analysis With R}
+\item
+  \href{https://r-spatial.org/book/}{Spatial Data Science with
+  applications in R}
+\item
+  \href{https://keen-swartz-3146c4.netlify.app/}{Spatial Data Science}
+\item
+  \href{https://spatial-microsim-book.robinlovelace.net/index.html}{Spatial
+  Microsimulation with R}
+\item
+  \href{https://gdsl-ul.github.io/san/}{Spatial Modelling for Data
+  Scientists}
+\item
+  \href{https://moderndive.com/index.html}{Statistical Inference via
+  Data Science}
+\item
+  \href{https://smltar.com/}{Supervised Machine Learning for Text
+  Analysis in R}
+\item
+  \href{https://info201.github.io/}{Technical Foundations of
+  Informatics}
+\item
+  \href{https://www.tidytextmining.com/}{Text Mining with R}
+\item
+  \href{https://www.ubuntupit.com/best-data-science-books-available-online/}{The
+  20 Best Data Science Books Available online in 2020}
+\item
+  \href{https://bookdown.org/rdpeng/artofdatascience/}{The Art of Data
+  Science}
+\item
+  \href{http://topepo.github.io/caret/index.html}{The caret Package}
+\item
+  \href{https://epirhandbook.com/en/}{The Epidemiologist R Handbook}
+\item
+  \href{https://www.cs.upc.edu/~robert/teaching/estadistica/TheRBook.pdf}{The
+  R Book}
+\item
+  \href{https://business-science.github.io/shiny-production-with-aws-book/}{The
+  Shiny AWS Book}
+\item
+  \href{https://github.com/AllenDowney/ThinkBayes2}{Think Bayes 2e}
+\item
+  \href{https://tidy-finance.org/}{Tidy Finance with R}
+\item
+  \href{https://www.tidy-finance.org/}{Tidy Finance}
+\item
+  \href{https://bookdown.org/home/archive/}{Todos los libros en
+  bookdown}
+\item
+  \href{https://t4scientists.com/}{Twitter for Scientists}
+\item
+  \href{https://whattheyforgot.org/}{What They Forgot to Teach You About
+  R}
+\item
+  \href{https://bookdown.org/ndphillips/YaRrr/}{YaRrr! The Pirate's
+  Guide to R}
+\item
+  Applied Statistics with R
+  \href{https://daviddalpiaz.github.io/appliedstats/}{Libro} y
+  \href{https://github.com/daviddalpiaz/appliedstats}{Código}
+\item
+  Data Science Live Book
+  \href{https://livebook.datascienceheroes.com/}{Libro} y
+  \href{https://github.com/pablo14/data-science-live-book}{Código}
+\item
+  Fundamentals of Data Visualization
+  \href{https://clauswilke.com/dataviz/}{Libro} y
+  \href{https://github.com/clauswilke/dataviz}{Código}
+\item
+  Geocomputation with R
+  \href{https://geocompr.robinlovelace.net/}{Libro} y
+  \href{https://github.com/Robinlovelace/geocompr/}{Código}
+\item
+  Introduction to Data Science
+  \href{https://rafalab.github.io/dsbook/}{Libro} y
+  \href{https://github.com/rafalab/dsbook}{Código}
+\item
+  Mastering Apache Spark with R
+  \href{https://therinspark.com/intro.html}{Libro} y
+  \href{https://github.com/r-spark/the-r-in-spark}{Código}
+\item
+  R for Data Science. \href{https://r4ds.hadley.nz/}{Inglés} y
+  \href{https://es.r4ds.hadley.nz/}{Castellano}
+\item
+  R for Statistical Learning
+  \href{https://daviddalpiaz.github.io/r4sl/}{Libro} y
+  \href{https://github.com/daviddalpiaz/r4sl}{Código}
+\item
+  sits: Satellite Image Time Series Analysis on Earth Observation Data
+  Cubes \href{https://e-sensing.github.io/sitsbook/index.html}{Libro} y
+  \href{https://www.kaggle.com/esensing/code}{Kaggle}
+\end{itemize}
+
+\section{Generar códigos QR}\label{generar-cuxf3digos-qr}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(qrcode)}
+
+\NormalTok{qrcode\_open\_data }\OtherTok{\textless{}{-}}\NormalTok{ qrcode}\SpecialCharTok{::}\FunctionTok{qr\_code}\NormalTok{(}\StringTok{"https://github.com/santiagomota/Open\_Data"}\NormalTok{)}
+
+\FunctionTok{plot}\NormalTok{(qrcode\_open\_data)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{center}
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-pdf/generar-QR-Github-1.pdf}}
+\end{center}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{generate\_svg}\NormalTok{(qrcode\_open\_data, }\AttributeTok{file =} \StringTok{"./figs/Open\_Data\_Github.svg"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(qrcode)}
+
+\NormalTok{qrcode\_open\_data }\OtherTok{\textless{}{-}}\NormalTok{ qrcode}\SpecialCharTok{::}\FunctionTok{qr\_code}\NormalTok{(}\StringTok{"https://santiagomota.github.io/Open\_Data/"}\NormalTok{)}
+
+\FunctionTok{plot}\NormalTok{(qrcode\_open\_data)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{center}
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-pdf/generar-QR-Github-Pages-1.pdf}}
+\end{center}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{generate\_svg}\NormalTok{(qrcode\_open\_data, }\AttributeTok{file =} \StringTok{"./figs/Open\_Data\_Web\_Github.svg"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(qrcode)}
+
+\NormalTok{qrcode\_open\_data }\OtherTok{\textless{}{-}}\NormalTok{ qrcode}\SpecialCharTok{::}\FunctionTok{qr\_code}\NormalTok{(}\StringTok{"https://open{-}data{-}pages.netlify.app/"}\NormalTok{)}
+
+\FunctionTok{plot}\NormalTok{(qrcode\_open\_data)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{center}
+\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-pdf/generar-QR-Netlify-1.pdf}}
+\end{center}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{generate\_svg}\NormalTok{(qrcode\_open\_data, }\AttributeTok{file =} \StringTok{"./figs/Open\_Data\_Web\_Netlify.svg"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\section{Revisar los links}\label{revisar-los-links}
+
+Dentro del repositorio, se ha creado un archivo
+\href{../revisar_links.R}{\texttt{revisar\_links.R}} para revisar si los
+links son válidos. Para que sea mas fácil su uso, recopila los links del
+repositorio público de
+\href{https://github.com/santiagomota/Open_Data}{Open Data} en el
+fichero
+\href{https://raw.githubusercontent.com/santiagomota/Open_Data/master/README.md}{README},
+pero el código se puede modificar con la variable \texttt{repo\_url}.
+
+
+
+
+\end{document}
