@@ -47,6 +47,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Amazon product data 2014](http://jmcauley.ucsd.edu/data/amazon/)
 - [Amazon product data 2018](https://nijianmo.github.io/amazon/index.html)
 - [Análisis de 1.100 millones de trayectos de taxis y uber en NYC](https://github.com/toddwschneider/nyc-taxi-data)
+- [Android Earthquake Alerts: A global system for early warning](https://research.google/blog/android-earthquake-alerts-a-global-system-for-early-warning/)
 - [API de Facebook](https://developers.facebook.com/docs/graph-api)
 - [API de GitHub](https://developer.github.com/v3/)
 - [Argo Floats](https://argo.ucsd.edu/) - Global ocean observations of temperature, salinity, and pressure.
@@ -171,6 +172,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Helsinki Open Data](http://www.hri.fi/en/)
 - [Hugging Face Datasets](https://huggingface.co/datasets)
 - [HydroRIVERS](https://www.hydrosheds.org/products/hydrorivers)
+- [Hyperspectral: Over 50 Tanager Radiance Datasets](https://www.planet.com/pulse/unleash-the-power-of-hyperspectral-over-50-tanager-radiance-datasets-now-available-on-planet-s/)
 - [Idealista ux&tech](https://www.idealista.com/labs/blog/)
 - [idealista18 - 2018 real estate listings in Spain. 3 cities](https://github.com/paezha/idealista18)
 - [ImageNet database](http://www.image-net.org/)
@@ -271,6 +273,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Soil Map of the World FAO/UNESCO](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/faounesco-soil-map-of-the-world/en/)
 - [Some datasets for teaching data science](https://simplystatistics.org/posts/2018-01-22-the-dslabs-package-provides-datasets-for-teaching-data-science/)
 - [Source Cooperative Featured Repositories](https://beta.source.coop/)
+- [Spatial H3 Hub](https://spatial-h3-hub.foursquare.com/)
 - [STAC Index SpatioTemporal Asset Catalog (STAC)](https://github.com/opengeos/stac-index-catalogs)
 - [StatsBomb sports data](https://statsbomb.com/what-we-do/hub/free-data/)
 - [Tanager Core Imagery](https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json?.language=es)
@@ -295,6 +298,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [UK Open Data](https://data.gov.uk/search)
 - [UK Open Geography Portal](https://geoportal.statistics.gov.uk/)
 - [Ultimos datos de Open Street Map. Spain](https://download.geofabrik.de/europe/spain.html)
+- [Umbra Open Data Tracker](https://github.com/bellingcat/umbra-open-data-tracker)
 - [Una recopilación de APIs públicas](https://github.com/toddmotto/public-apis)
 - [Una recopilación de datasets públicos](https://github.com/caesar0301/awesome-public-datasets)
 - [Understat](https://understat.com/)
@@ -489,6 +493,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/)
 - [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
 - [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+- [Herramientas para usar modelos de lenguaje de gran escala (LLM) en R](https://luisdva.github.io/llmsr-book/es/index.es.html)
 - [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
 - [Introducción a R](https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf)
 - [Introduction to Econometrics with R](https://www.econometrics-with-r.org/)
@@ -532,6 +537,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Spatial Data Science](https://keen-swartz-3146c4.netlify.app/)
 - [Spatial Microsimulation with R](https://spatial-microsim-book.robinlovelace.net/index.html)
 - [Spatial Modelling for Data Scientists](https://gdsl-ul.github.io/san/)
+- [Spatial Statistics for Data Science: Theory and Practice with R](https://www.paulamoraga.com/book-spatial/index.html)
 - [Statistical Inference via Data Science](https://moderndive.com/index.html)
 - [Supervised Machine Learning for Text Analysis in R](https://smltar.com/)
 - [Technical Foundations of Informatics](https://info201.github.io/)
@@ -541,6 +547,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [The caret Package](http://topepo.github.io/caret/index.html)
 - [The Epidemiologist R Handbook](https://epirhandbook.com/en/)
 - [The R Book](https://www.cs.upc.edu/~robert/teaching/estadistica/TheRBook.pdf)
+- [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 - [The Shiny AWS Book](https://business-science.github.io/shiny-production-with-aws-book/)
 - [Think Bayes 2e](https://github.com/AllenDowney/ThinkBayes2)
 - [Tidy Finance with R](https://tidy-finance.org/)
@@ -558,7 +565,6 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 - sits: Satellite Image Time Series Analysis on Earth Observation Data Cubes [Libro](https://e-sensing.github.io/sitsbook/index.html) y [Kaggle](https://www.kaggle.com/esensing/code)
-
 
 ## Revisar los links
 
