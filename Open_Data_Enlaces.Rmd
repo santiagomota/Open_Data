@@ -14,6 +14,8 @@ license:
 urlcolor: blue
 always_allow_html: true
 output:
+  word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -23,8 +25,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
-  word_document:  default
-  pdf_document:   default
 ---
 
 ```{r}
@@ -499,6 +499,7 @@ usethis::use_course(
 - [An Introduction to Spatial Data Analysis and Visualisation in R](https://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)
 - [An R companion to Statistics: data analysis and modelling](https://mspeekenbrink.github.io/sdam-r-companion/index.html)
 - [Análisis de datos y algoritmos de predicción con R](http://rafalab.dfci.harvard.edu/dslibro/)
+- [Análisis espacial con R](https://publicaciones.ciga.unam.mx/index.php/ec/catalog/book/306)
 - [Applied Data Science for Credit Risk](https://github.com/andrija-djurovic/adsfcr)
 - [Aprendiendo R sin morir en el intento](https://aprendiendo-r-intro.netlify.app/)
 - [Aprendizaje Estadístico con R](https://rubenfcasal.github.io/aprendizaje_estadistico/index.html)
