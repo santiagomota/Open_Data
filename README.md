@@ -534,6 +534,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [rstudio4edu](https://rstudio4edu.github.io/rstudio4edu-book/)
 - [Simulación Estadística con R](https://rubenfcasal.github.io/simbook/)
 - [Spatial Analysis With R](http://gis.humboldt.edu/OLM/r/Spatial%20Analysis%20With%20R.pdf)
+- [Spatial Data Management with DuckDB](https://duckdb.gishub.org/)
 - [Spatial Data Science with applications in R](https://r-spatial.org/book/)
 - [Spatial Data Science](https://keen-swartz-3146c4.netlify.app/)
 - [Spatial Microsimulation with R](https://spatial-microsim-book.robinlovelace.net/index.html)
@@ -566,7 +567,6 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 - sits: Satellite Image Time Series Analysis on Earth Observation Data Cubes [Libro](https://e-sensing.github.io/sitsbook/index.html) y [Kaggle](https://www.kaggle.com/esensing/code)
-
 
 ## Revisar los links
 
