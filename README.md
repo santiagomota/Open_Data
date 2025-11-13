@@ -72,6 +72,8 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [CaixaBank Research](https://www.caixabankresearch.com/es)
 - [CGIAR-CSI SRTM](https://csidotinfo.wordpress.com/data/srtm-90m-digital-elevation-database-v4-1/) - SRTM 90m Digital Elevation Database v4.1
 - [Canada Open Government Portal](https://open.canada.ca/data/en/dataset?q=education)
+- [CEMS-Flood flood inundation maps](https://confluence.ecmwf.int/display/CEMS/CEMS-Flood+flood+inundation+maps)
+- [CEMS Early Warning Data Store](https://ewds.climate.copernicus.eu/)
 - [Center for Applied Internet Data Analysis](https://www.caida.org/data/overview/)
 - [Center for Disease Control](https://wonder.cdc.gov/)
 - [CHIRPS: Rainfall Estimates from Rain Gauge and Satellite Observations](https://www.chc.ucsb.edu/data/chirps) - High-resolution precipitation data.
@@ -84,6 +86,8 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home)
 - [Copernicus DEM](https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model) - European Digital Elevation Model (EU-DEM)
 - [Copernicus Marine Environment Monitoring Service (CMEMS)](https://marine.copernicus.eu/) - Ocean monitoring for sea surface temperature, sea level, and salinity.
+- [Copernicus Emergency Management Service - CEMS](https://confluence.ecmwf.int/display/CEMS/Copernicus+Emergency+Management+Service+-+CEMS+Home)
+- [Copernicus Emergency Management Service](https://emergency.copernicus.eu/)
 - [CRAN Task View OpenData](https://github.com/ropensci/opendata)
 - [Crimen en UK](https://data.police.uk/)
 - [DANS Data Station Physical and Technical Sciences](https://phys-techsciences.datastations.nl/)
