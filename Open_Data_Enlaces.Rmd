@@ -14,6 +14,8 @@ license:
 urlcolor: blue
 always_allow_html: true
 output:
+  word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -23,8 +25,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
-  word_document:  default
-  pdf_document:   default
 ---
 
 ```{r}
@@ -189,6 +189,7 @@ usethis::use_course(
 - [Freshwater Ecoregions of the World](https://www.worldwildlife.org/pages/freshwater-ecoregions-of-the-world--2)
 - [Fuentes de datos espaciales (Diva-GIS)](https://diva-gis.org/)
 - [Functional Map of the World (fMoW) Dataset](https://github.com/fMoW/dataset)
+- [Future Population Projections](https://hub.worldpop.org/doi/10.5258/SOTON/WP00849)
 - [Gapminder](https://www.gapminder.org/data/)
 - [gee-community-catalog](https://gee-community-catalog.org/)
 - [geoBoundaries](https://www.geoboundaries.org/)
@@ -279,6 +280,7 @@ usethis::use_course(
 - [Open Topography](https://opentopography.org/) - Various high-resolution DEM datasets from LiDAR and other sources
 - [Open Trade Statistics](https://tradestatistics.io/)
 - [openaddresses](https://openaddresses.io/)
+- [OpenBuildingMap](https://git.gfz-potsdam.de/globaldynamicexposure/openbuildingmap)
 - [OpenCelliD - Open Database of Cell Towers](https://www.opencellid.org/downloads.php)
 - [Opendata del CERN](http://opendata.cern.ch/)  **Error**
 - [Opendatasoft](https://documentation-resources.opendatasoft.com/explore/?sort=modified)
@@ -533,6 +535,7 @@ usethis::use_course(
 - [Forecasting: Principles and Practice, the Pythonic Way](https://otexts.com/fpppy/)
 - [Forecasting and Analytics with the Augmented Dynamic Adaptive Model (ADAM)](https://openforecast.org/adam/)
 - [Feature Engineering A-Z](https://feaz-book.com/)
+- [Geospatial Data Carpentry for Urbanism](https://carpentries-incubator.github.io/r-geospatial-urban/)
 - [Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](http://www.paulamoraga.com/book-geospatial/)
 - [Handbook of Graphs and Networks in People Analytics With Examples in R and Python](https://ona-book.org/)
 - [Handbook of Regression Modeling in People Analytics](https://peopleanalytics-regression-book.org/)

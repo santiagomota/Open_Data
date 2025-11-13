@@ -142,6 +142,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Freshwater Ecoregions of the World](https://www.worldwildlife.org/pages/freshwater-ecoregions-of-the-world--2)
 - [Fuentes de datos espaciales (Diva-GIS)](https://diva-gis.org/)
 - [Functional Map of the World (fMoW) Dataset](https://github.com/fMoW/dataset)
+- [Future Population Projections](https://hub.worldpop.org/doi/10.5258/SOTON/WP00849)
 - [Gapminder](https://www.gapminder.org/data/)
 - [gee-community-catalog](https://gee-community-catalog.org/)
 - [geoBoundaries](https://www.geoboundaries.org/)
@@ -232,6 +233,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Open Topography](https://opentopography.org/) - Various high-resolution DEM datasets from LiDAR and other sources
 - [Open Trade Statistics](https://tradestatistics.io/)
 - [openaddresses](https://openaddresses.io/)
+- [OpenBuildingMap](https://git.gfz-potsdam.de/globaldynamicexposure/openbuildingmap)
 - [OpenCelliD - Open Database of Cell Towers](https://www.opencellid.org/downloads.php)
 - [Opendata del CERN](http://opendata.cern.ch/)  **Error**
 - [Opendatasoft](https://documentation-resources.opendatasoft.com/explore/?sort=modified)
@@ -486,6 +488,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Forecasting: Principles and Practice, the Pythonic Way](https://otexts.com/fpppy/)
 - [Forecasting and Analytics with the Augmented Dynamic Adaptive Model (ADAM)](https://openforecast.org/adam/)
 - [Feature Engineering A-Z](https://feaz-book.com/)
+- [Geospatial Data Carpentry for Urbanism](https://carpentries-incubator.github.io/r-geospatial-urban/)
 - [Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](http://www.paulamoraga.com/book-geospatial/)
 - [Handbook of Graphs and Networks in People Analytics With Examples in R and Python](https://ona-book.org/)
 - [Handbook of Regression Modeling in People Analytics](https://peopleanalytics-regression-book.org/)
@@ -567,6 +570,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 - sits: Satellite Image Time Series Analysis on Earth Observation Data Cubes [Libro](https://e-sensing.github.io/sitsbook/index.html) y [Kaggle](https://www.kaggle.com/esensing/code)
+
 
 ## Revisar los links
 
