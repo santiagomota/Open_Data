@@ -463,6 +463,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Aprendiendo R sin morir en el intento](https://aprendiendo-r-intro.netlify.app/)
 - [Aprendizaje Estadístico con R](https://rubenfcasal.github.io/aprendizaje_estadistico/index.html)
 - [Bayesian inference with INLA](https://becarioprecario.bitbucket.io/inla-gitbook/index.html)
+- [Bayesian analysis of capture-recapture data with hidden Markov models](https://oliviergimenez.github.io/banana-book/)
 - [BBC Visual and Data Journalism cookbook for R graphics](https://bbc.github.io/rcookbook/)
 - [Big Book of R](https://www.bigbookofr.com/index.html)
 - [Bioinformática Estadística. Análisis estadístico de datos Ómicos](https://www.uv.es/ayala/docencia/tami/tami13.pdf)
