@@ -163,6 +163,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - GLOPOP-S. A global dataset of 7 billion individuals with socio-economic characteristics (sintetic) [Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KJC3RH) [Github](https://github.com/VU-IVM/GLOPOP-S) [Paper](https://www.nature.com/articles/s41597-024-03864-2)
 - [Global Historical Climatology Network (GHCN)](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily) - Weather station data for precipitation, temperature, and more.
 - [Global Land Cover Facility](https://www.un-spider.org/links-and-resources/data-sources/global-land-cover-facility-university-maryland-nasa-gofc-gold) - Land cover and vegetation datasets.
+- [Global Fields of The World (FTW)](https://source.coop/ftw/global-data)
 - [Global Wildfire Information System (GWIS)](https://gwis.jrc.ec.europa.eu/)
 - [Gobierno Estados Unidos](http://www.data.gov/)
 - [Google Books Ngram Viewe](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
