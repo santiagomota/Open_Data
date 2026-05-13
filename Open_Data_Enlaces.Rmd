@@ -119,6 +119,7 @@ usethis::use_course(
 - [CaixaBank Research](https://www.caixabankresearch.com/es)
 - [CGIAR-CSI SRTM](https://csidotinfo.wordpress.com/data/srtm-90m-digital-elevation-database-v4-1/) - SRTM 90m Digital Elevation Database v4.1
 - [Canada Open Government Portal](https://open.canada.ca/data/en/dataset?q=education)
+- [Catálogo de datos abiertos de la Comunidad de Madrid](https://datos.comunidad.madrid/catalogos/#/search?page=0&limit=20&order=date)
 - [CEMS-Flood flood inundation maps](https://confluence.ecmwf.int/display/CEMS/CEMS-Flood+flood+inundation+maps)
 - [CEMS Early Warning Data Store](https://ewds.climate.copernicus.eu/)
 - [Center for Applied Internet Data Analysis](https://www.caida.org/data/overview/)
@@ -129,6 +130,7 @@ usethis::use_course(
 - [Climate Change Knowledge Porta](https://climateknowledgeportal.worldbank.org/) - Country-specific climate risks, data, and projections.
 - [Climate TRACE](https://climatetrace.org/data)
 - [Cómo los datos abiertos pueden ayudar en la crisis de los refugiados](https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes)
+- [Contratos Registrados por municipios (SEPE)](https://datos.gob.es/es/catalogo/ea0041513-contratos-por-municipios)
 - [Copernicus Atmosphere Monitoring Service (CAMS) Global Near-Real-Time](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT)
 - [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home)
 - [Copernicus DEM](https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model) - European Digital Elevation Model (EU-DEM)
@@ -159,6 +161,7 @@ usethis::use_course(
 - [Datos de todos los vuelos en USA entre 1987 y 2008 (otra fuente y ejemplos de uso en H2O). 120G](https://github.com/h2oai/h2o-2/wiki/Hacking-Airline-DataSet-with-H2O)
 - [Datos estadísticos DGT](https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/)
 - [Datosclima. Base de datos meteo](http://datosclima.es/Aemet2013/DescargaDatos.html)
+- [Demandantes de Empleo por municipios (SEPE)](https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-municipios)
 - [DH Network](http://opendhn.dhnetwork.opendata.arcgis.com/)
 - [Digital Earth Africa (DE Africa) Map](https://www.digitalearthafrica.org/platform-resources/platform)
 - [Dirección General de Tráfico (DGT)](https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/inicio.faces)
@@ -168,6 +171,7 @@ usethis::use_course(
 - [ECMWF ERA5](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5) - Hourly reanalysis climate data (temperature, precipitation, wind, etc.).
 - [EM-DAT - The international disaster database](https://www.emdat.be/)
 - [EDGAR - Emissions Database for Global Atmospheric Research](https://edgar.jrc.ec.europa.eu/emissions_data_and_maps)
+- [Encuesta de Infraestructura y Equipamientos Locales (EIEL)](https://mptmd.gob.es/portal/politica-territorial/local/coop_econom_local_estado_fondos_europeos/eiel)
 - [EnMAP. The German Spaceborne Imaging Spectrometer Mission](https://www.enmap.org/)
 - [El planeta Tierra en AWS](https://aws.amazon.com/es/earth/)
 - [ERA DATASET. Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos](https://lcmou.github.io/ERA_Dataset/)
@@ -307,6 +311,7 @@ usethis::use_course(
 - [Red Eléctrica Española (REE) - API](https://www.ree.es/es/apidatos)
 - [Red Natura 2000](https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/rednatura2000_descargas.html)
 - [Reddit datasets](https://www.reddit.com/r/datasets/)
+- [RENFE - Trenes tiempo real largo recorrido](https://tiempo-real.largorecorrido.renfe.com/)
 - [rspatialdata is a collection of data sources and tutorials on visualising spatial data using R](https://rspatialdata.github.io/)
 - [SARDet-100K: large-scale multi-class SAR object detection dataset](https://eod-grss-ieee.com/dataset-detail/U1dJZE1BY1RwclAvOFFJQmlKR1Btdz09)
 - [Satélite Landsat](https://aws.amazon.com/public-data-sets/landsat/)
