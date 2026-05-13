@@ -92,7 +92,6 @@ usethis::use_course(
 
 ## Fuentes de datos abiertos y APIs
 
-- [20 Awesome Websites For Collecting Big Data](https://datafloq.com/read/20-awesome-websites-for-collecting-big-data/2737?utm_source=Datafloq%20newsletter&utm_campaign=979b1fada5-EMAIL_CAMPAIGN_2017_03_13&utm_medium=email&utm_term=0_655692fdfd-979b1fada5-90449429)
 - [25 Open Datasets for Deep Learning Every Data Scientist Must Work With](https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/)
 - [25 Satellite Maps To See Earth in New Ways](https://gisgeography.com/satellite-maps/)
 - [30 Amazing (And Free) Big Data And AI Public Data Sources For 2018](https://www.linkedin.com/pulse/30-amazing-free-big-data-ai-public-sources-2018-bernard-marr/?trackingId=nkTXcNLieYPDBqZuB3KIsw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B9KuSD9KfQ6ie%2BALso3gwvw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-object)
@@ -110,7 +109,7 @@ usethis::use_course(
 - [API de Facebook](https://developers.facebook.com/docs/graph-api)
 - [API de GitHub](https://developer.github.com/v3/)
 - [Argo Floats](https://argo.ucsd.edu/) - Global ocean observations of temperature, salinity, and pressure.
-- [API TomTom. Tráfico en ciudades](http://developer.tomtom.com/products/onlinenavigation/onlinetraffic/onlinetrafficflow)
+- [APIs TomTom](https://developer.tomtom.com/api-explorer-index/documentation/product-information/introduction)
 - [Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/)
 - [ASTER Global DEM (GDEM)](https://lpdaac.usgs.gov/products/astgtmv003/) - ASTER Global Digital Elevation Model 1 arc second
 - [ArcticDEM](https://www.pgc.umn.edu/data/arcticdem/) - High-resolution DEM for the Arctic region
@@ -123,7 +122,7 @@ usethis::use_course(
 - [AWS Datasets](https://registry.opendata.aws/)
 - [AWS Open Data Geo](https://github.com/opengeos/aws-open-data-geo)
 - [AWS Open Data](https://github.com/opengeos/aws-open-data)
-- [Ayuntamiento de Madrid. Censo de locales, sus actividades y terrazas de hostelería y restauración](https://datos.gob.es/es/catalogo/l01280796-censo-de-locales-sus-actividades-y-terrazas-de-hosteleria-y-restauracion-historico1)
+- [Ayuntamiento de Madrid. Censo de locales, sus actividades y terrazas de hostelería y restauración](https://datos.gob.es/es/catalogo/l01280796-censo-de-locales-sus-actividades-y-terrazas-de-hosteleria-y-restauracion)
 - [Berkeley Earth](https://berkeleyearth.org/data/) - Global land temperature and air pollution datasets.
 - [Blog. 100 recursos sobre Big Data y Data Science](https://www.todobi.com/mas-de-100-recursos-sobre-big-data-y/)
 - [British Ordnance Survey Data Hub](https://osdatahub.os.uk/)
@@ -131,6 +130,7 @@ usethis::use_course(
 - [CaixaBank Research](https://www.caixabankresearch.com/es)
 - [CGIAR-CSI SRTM](https://csidotinfo.wordpress.com/data/srtm-90m-digital-elevation-database-v4-1/) - SRTM 90m Digital Elevation Database v4.1
 - [Canada Open Government Portal](https://open.canada.ca/data/en/dataset?q=education)
+- [Catálogo de datos abiertos de la Comunidad de Madrid](https://datos.comunidad.madrid/catalogos/#/search?page=0&limit=20&order=date)
 - [CEMS-Flood flood inundation maps](https://confluence.ecmwf.int/display/CEMS/CEMS-Flood+flood+inundation+maps)
 - [CEMS Early Warning Data Store](https://ewds.climate.copernicus.eu/)
 - [Center for Applied Internet Data Analysis](https://www.caida.org/data/overview/)
@@ -141,6 +141,7 @@ usethis::use_course(
 - [Climate Change Knowledge Porta](https://climateknowledgeportal.worldbank.org/) - Country-specific climate risks, data, and projections.
 - [Climate TRACE](https://climatetrace.org/data)
 - [Cómo los datos abiertos pueden ayudar en la crisis de los refugiados](https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes)
+- [Contratos Registrados por municipios (SEPE)](https://datos.gob.es/es/catalogo/ea0041513-contratos-por-municipios)
 - [Copernicus Atmosphere Monitoring Service (CAMS) Global Near-Real-Time](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT)
 - [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home)
 - [Copernicus DEM](https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model) - European Digital Elevation Model (EU-DEM)
@@ -171,6 +172,7 @@ usethis::use_course(
 - [Datos de todos los vuelos en USA entre 1987 y 2008 (otra fuente y ejemplos de uso en H2O). 120G](https://github.com/h2oai/h2o-2/wiki/Hacking-Airline-DataSet-with-H2O)
 - [Datos estadísticos DGT](https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/)
 - [Datosclima. Base de datos meteo](http://datosclima.es/Aemet2013/DescargaDatos.html)
+- [Demandantes de Empleo por municipios (SEPE)](https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-municipios)
 - [DH Network](http://opendhn.dhnetwork.opendata.arcgis.com/)
 - [Digital Earth Africa (DE Africa) Map](https://www.digitalearthafrica.org/platform-resources/platform)
 - [Dirección General de Tráfico (DGT)](https://sedeapl.dgt.gob.es/WEB_IEST_CONSULTA/inicio.faces)
@@ -180,6 +182,7 @@ usethis::use_course(
 - [ECMWF ERA5](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5) - Hourly reanalysis climate data (temperature, precipitation, wind, etc.).
 - [EM-DAT - The international disaster database](https://www.emdat.be/)
 - [EDGAR - Emissions Database for Global Atmospheric Research](https://edgar.jrc.ec.europa.eu/emissions_data_and_maps)
+- [Encuesta de Infraestructura y Equipamientos Locales (EIEL)](https://mptmd.gob.es/portal/politica-territorial/local/coop_econom_local_estado_fondos_europeos/eiel)
 - [EnMAP. The German Spaceborne Imaging Spectrometer Mission](https://www.enmap.org/)
 - [El planeta Tierra en AWS](https://aws.amazon.com/es/earth/)
 - [ERA DATASET. Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos](https://lcmou.github.io/ERA_Dataset/)
@@ -192,7 +195,6 @@ usethis::use_course(
 - [España. Seguridad Social. Estadísticas](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas)
 - [Esri Open Data Hub](https://hub.arcgis.com/search)
 - [European Banking Authority (EBA)](https://www.eba.europa.eu/risk-and-data-analysis)
-- [European Data Portal](https://www.europeandataportal.eu/)
 - [European Forest Fire Information System (EFFIS)](https://forest-fire.emergency.copernicus.eu/)
 - [FAO Map Catalog](https://data.apps.fao.org/catalog/)
 - [FAO's Global Information System on Water and Agriculture](https://www.fao.org/aquastat/en/geospatial-information/wapor)
@@ -202,7 +204,7 @@ usethis::use_course(
 - [FLUXNET](https://fluxnet.org/) - Data from flux towers for carbon, water, and energy exchange monitoring.
 - [Fondo Monetario Internacional](http://www.imf.org/en/data)
 - [Free GIS Data](http://freegisdata.rtwilson.com/)
-- [Freshwater Ecoregions of the World](https://www.worldwildlife.org/pages/freshwater-ecoregions-of-the-world--2)
+- [Freshwater Ecoregions of the World](https://www.worldwildlife.org/our-work/science/freshwater-ecoregions-of-the-world/)
 - [Fuentes de datos espaciales (Diva-GIS)](https://diva-gis.org/)
 - [Functional Map of the World (fMoW) Dataset](https://github.com/fMoW/dataset)
 - [Future Population Projections](https://hub.worldpop.org/doi/10.5258/SOTON/WP00849)
@@ -225,7 +227,6 @@ usethis::use_course(
 - [Global Fields of The World (FTW)](https://source.coop/ftw/global-data)
 - [Global Wildfire Information System (GWIS)](https://gwis.jrc.ec.europa.eu/)
 - [Gobierno Estados Unidos](http://www.data.gov/)
-- [Google Books Ngram Viewe](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
 - [Google Cloud Vision API](https://cloud.google.com/vision/)
 - [Google Datset Search](https://datasetsearch.research.google.com/)
 - [Google Earth Engine Catalog](https://github.com/opengeos/Earth-Engine-Catalog)
@@ -319,6 +320,7 @@ usethis::use_course(
 - [Red Eléctrica Española (REE) - API](https://www.ree.es/es/apidatos)
 - [Red Natura 2000](https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/rednatura2000_descargas.html)
 - [Reddit datasets](https://www.reddit.com/r/datasets/)
+- [RENFE - Trenes tiempo real largo recorrido](https://tiempo-real.largorecorrido.renfe.com/)
 - [rspatialdata is a collection of data sources and tutorials on visualising spatial data using R](https://rspatialdata.github.io/)
 - [SARDet-100K: large-scale multi-class SAR object detection dataset](https://eod-grss-ieee.com/dataset-detail/U1dJZE1BY1RwclAvOFFJQmlKR1Btdz09)
 - [Satélite Landsat](https://aws.amazon.com/public-data-sets/landsat/)
@@ -385,7 +387,7 @@ usethis::use_course(
 - [Zhu Lab - Data Science in Earth Observation](https://github.com/zhu-xlab)
 - Amazon AWS: [este](http://aws.amazon.com/es/datasets/) y [este](https://aws.amazon.com/es/public-data-sets/)
 - EarthNets for Earth Observation [Page](https://earthnets.nicepage.io/) [Github](https://github.com/EarthNets)
-- Facebook Neural-Code-Search-Evaluation-Dataset [dataset]](https://github.com/facebookresearch/Neural-Code-Search-Evaluation-Dataset) y [noticia](https://venturebeat.com/2019/10/03/facebook-open-sources-data-set-for-code-search-ai-benchmark/)
+- Facebook Neural-Code-Search-Evaluation-Dataset [dataset]](https://github.com/facebookresearch/Neural-Code-Search-Evaluation-Dataset) y [noticia](https://venturebeat.com/technology/facebook-open-sources-data-set-for-code-search-ai-benchmark)
 - HREA: High Resolution Electricity Access. [Universidad de Michigan](https://hrea.isr.umich.edu/index.html) y [Microsoft](https://planetarycomputer.microsoft.com/dataset/hrea#overview)
 - IPUMS provides census and survey data from around the world [Web](https://www.ipums.org/) y [paquete ipumsr](https://tech.popdata.org/ipumsr/)
 - Maxar Open Data: [Aquí](https://github.com/opengeos/maxar-open-data) y [aquí](https://radiantearth.github.io/stac-browser/#/external/maxar-opendata.s3.amazonaws.com/events/catalog.json?.language=es)
@@ -405,7 +407,6 @@ usethis::use_course(
 - [A ggplot2 Tutorial for Beautiful Plotting in R](https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
 - [AiTLAS: Benchmark Arena -- Open-source benchmark suite for evaluating deep learning approaches for image classification in Earth Observation (EO)](https://github.com/biasvariancelabs/aitlas-arena)
 - [An Introduction to Statistical Learning - Web R & Python](https://www.statlearning.com/)
-- [ArcGIS to R spatial cheat sheet](http://www.seascapemodels.org/data/ArcGIS_to_R_Spatial_CheatSheet.pdf)
 - [Awesome Data Science](https://github.com/academic/awesome-datascience)
 - [Awesome R](https://github.com/qinwf/awesome-R)
 - [BigEarthNet A Large-Scale Sentinel Benchmark Archive](https://bigearth.net/)
@@ -489,7 +490,6 @@ usethis::use_course(
 - [The Chartmaker Directory](chartmaker.visualisingdata.com)
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
 - [The R Graph Gallery](https://r-graph-gallery.com/)
-- [The State of Naming Conventions in R](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Baaaath.pdf)
 - [The TimeViz Browser 2.0](https://browser.timeviz.net/)
 - [Tipos de licencias de software](https://choosealicense.com/licenses/)
 - [Tipos de licencias open data (minicurso de data.europa.edu)](https://data.europa.eu/en/academy/open-data-licensing)
@@ -501,7 +501,7 @@ usethis::use_course(
 - [Utilizando Sweave y Knitr](https://support.posit.co/hc/en-us/articles/200552056-Using-Sweave-and-knitr)
 - [Writing an R package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
 - Global Fishing Watch. AI and satellite imagery to reveal the expanding footprint of human activity at sea. [Post](https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/?utm_source=GFW+subscribers&utm_campaign=9363c93195-EMAIL_CAMPAIGN_JAN_2024_CURRENT_ENGLISH&utm_medium=email&utm_term=0_-9363c93195-%5BLIST_EMAIL_ID%5D). [Github](https://github.com/GlobalFishingWatch/paper-industrial-activity/tree/main). [Train data](https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_training_data/24309469). [Analysis data](https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_analysis_data/24309475) and [Vessel detection from Sentinel-1 SAR](https://globalfishingwatch.org/data-download/datasets/public-sar-vessel-detections:v20231026)
-- Legalidad Web sraping: [Is Web Scraping Legal? : The Definitive Guide (2024 update)](https://prowebscraper.com/blog/is-web-scraping-legal/) y [Web Scraping: ¿legal o ilegal?](https://ecija.com/web-scraping-legal-ilegal/)
+- Legalidad Web sraping: [Is Web Scraping Legal? : The Definitive Guide (2024 update)](https://prowebscraper.com/blog/is-web-scraping-legal/)
 - Pautas para dar formato al código programando en R: [Google](https://google.github.io/styleguide/Rguide.xml), [Hadley Wickham (RStudio)](http://adv-r.had.co.nz/Style.html) y [Coding Club](https://ourcodingclub.github.io/2017/04/25/etiquette.html#syntax)
 - Sistemas de Coordenadas. [Aqui](https://rspatial.org/spatial/rst/6-crs.html) y [aqui](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf)
 - Statistical Learning de Stanford with R [Curso](https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning-r), [Libro](https://hastie.su.domains/ElemStatLearn/), [Código](https://github.com/khanhnamle1994/statistical-learning) y [Transparencias](https://github.com/khanhnamle1994/statistical-learning/tree/master/Lecture-Slides)
@@ -511,7 +511,6 @@ usethis::use_course(
 
 - [10 Free Must-Read Books for Machine Learning and Data Science](https://www.kdnuggets.com/2017/04/10-free-must-read-books-machine-learning-data-science.html?utm_content=bufferc386f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 - [Advanced R](https://adv-r.hadley.nz/index.html)
-- [Advanced Statistical Modeling in R](https://zia207.quarto.pub/advanced-statistical-modeling-in-r/02-00-00-advance-modeling-r.html)
 - [Advanced Spatial Modeling with Stochastic Partial Differential Equations Using R and INLA](https://becarioprecario.bitbucket.io/spde-gitbook/)
 - [AI With R](https://air.albert-rapp.de/)
 - [An Introduction to R](https://intro2r.com/)
@@ -540,6 +539,7 @@ usethis::use_course(
 - [Dendrometria](https://gitlab.com/Puletti/dendrometria_libro)
 - [Deep Learning and Scientific Computing with R torch](https://skeydan.github.io/Deep-Learning-and-Scientific-Computing-with-R-torch/)
 - [Deep Learning](https://srdas.github.io/DLBook/)
+- [Digital Soil Mapping with R](https://zia207.quarto.pub/)
 - [Econometrics with the Tidyverse](https://colleen.quarto.pub/the-tidy-econometrics-workbook/)
 - [Efficient R programming](https://csgillespie.github.io/efficientR/)
 - [Efficient Machine Learning with R](https://emlwr.org/)
