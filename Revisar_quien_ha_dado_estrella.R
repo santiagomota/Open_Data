@@ -6,7 +6,7 @@ repositorio <- "Open_Data"
 
 # Si tienes un token de GitHub, inclúyelo aquí (opcional pero recomendable)
 # Puedes crearlo en: https://github.com/settings/tokens
-github_token <- Sys.getenv("GITHUB_PAT")
+github_token <- Sys.getenv("GITHUB_TOKEN")
 
 headers <- add_headers(
     Authorization = paste("token", github_token),
