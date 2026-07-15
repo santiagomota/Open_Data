@@ -182,6 +182,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Hyperspectral: Over 50 Tanager Radiance Datasets](https://www.planet.com/pulse/unleash-the-power-of-hyperspectral-over-50-tanager-radiance-datasets-now-available-on-planet-s/)
 - [Idealista ux&tech](https://www.idealista.com/labs/blog/)
 - [idealista18 - 2018 real estate listings in Spain. 3 cities](https://github.com/paezha/idealista18)
+- [IFRC - Emergencies in the last 30 days](https://go.ifrc.org/emergencies)
 - [ImageNet database](http://www.image-net.org/)
 - [Infraestructura de Datos Espaciales de España](https://idee.es/web/idee/inicio)
 - [Infraestructura de Datos Espaciales de la Comunidad de Madrid](http://www.madrid.org/cartografia/idem/html/web/index.htm)

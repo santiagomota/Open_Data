@@ -241,6 +241,7 @@ usethis::use_course(
 - [Hyperspectral: Over 50 Tanager Radiance Datasets](https://www.planet.com/pulse/unleash-the-power-of-hyperspectral-over-50-tanager-radiance-datasets-now-available-on-planet-s/)
 - [Idealista ux&tech](https://www.idealista.com/labs/blog/)
 - [idealista18 - 2018 real estate listings in Spain. 3 cities](https://github.com/paezha/idealista18)
+- [IFRC - Emergencies in the last 30 days](https://go.ifrc.org/emergencies)
 - [ImageNet database](http://www.image-net.org/)
 - [Infraestructura de Datos Espaciales de España](https://idee.es/web/idee/inicio)
 - [Infraestructura de Datos Espaciales de la Comunidad de Madrid](http://www.madrid.org/cartografia/idem/html/web/index.htm)
@@ -635,6 +636,7 @@ usethis::use_course(
 - R for Data Science. [Inglés](https://r4ds.hadley.nz/) y [Castellano](https://es.r4ds.hadley.nz/)
 - R for Statistical Learning [Libro](https://daviddalpiaz.github.io/r4sl/) y [Código](https://github.com/daviddalpiaz/r4sl)
 - sits: Satellite Image Time Series Analysis on Earth Observation Data Cubes [Libro](https://e-sensing.github.io/sitsbook/index.html) y [Kaggle](https://www.kaggle.com/esensing/code)
+
 
 
 ## Generar códigos QR
