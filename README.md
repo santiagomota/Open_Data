@@ -84,7 +84,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Cómo los datos abiertos pueden ayudar en la crisis de los refugiados](https://datos.gob.es/es/blog/como-los-datos-abiertos-pueden-ayudar-en-la-crisis-de-los-refugiados?utm_source=newsletter&utm_medium=email&utm_campaign=Datos-en-tiempo-real-open-access-y-mucho-ms-en-datosgobes)
 - [Contratos Registrados por municipios (SEPE)](https://datos.gob.es/es/catalogo/ea0041513-contratos-registrados-por-municipio)
 - [Copernicus Atmosphere Monitoring Service (CAMS) Global Near-Real-Time](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT)
-- [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home)
+- [Copernicus Data Space Ecosystem](https://dataspace.copernicus.eu/) - Sucesor del antiguo Copernicus Open Access Hub (scihub), retirado.
 - [Copernicus DEM](https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model) - European Digital Elevation Model (EU-DEM)
 - [Copernicus Marine Environment Monitoring Service (CMEMS)](https://marine.copernicus.eu/) - Ocean monitoring for sea surface temperature, sea level, and salinity.
 - [Copernicus Emergency Management Service - CEMS](https://confluence.ecmwf.int/display/CEMS/Copernicus+Emergency+Management+Service+-+CEMS+Home)
@@ -97,6 +97,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Data Kicks](https://data-kicks.com/index.php/blog/)
 - [Data on CO2 and Greenhouse Gas Emissions by Our World in Data](https://github.com/owid/co2-data/tree/master)
 - [Data World](https://data.world/)
+- [Databook](https://databook.dataint.net/es/paises/espana/) - Indicadores públicos consolidados por país: 244 países, 108 conjuntos de datos con licencia abierta (Banco Mundial WDI, OMS, UNESCO, ONU DESA, CIA World Factbook). Cada cifra con su fuente y año. En 25 idiomas.
 - [Datasets de ejemplo de IBM Watson Analytics](https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/)
 - [Datasets de Quandl](https://www.quandl.com/search?query=)
 - [Dataset4EO](https://github.com/EarthNets/Dataset4EO)
@@ -130,7 +131,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [ERA5 Daily Aggregates - Latest Climate Reanalysis Produced by ECMWF / Copernicus Climate Change Service](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY)
 - [ESA OpenSR - Robust, accountable super-resolution for Sentinel-2 and beyond](https://isp.uv.es/opensr/)
 - [ESA Third Party Missions (TPM)](https://earth.esa.int/eogateway/missions/third-party-missions)
-- [ESA WorldCover 2021. Global land cover product at 10 m for 2021 based on Sentinel-1 and 2 data](https://worldcover2021.esa.int/)
+- [ESA WorldCover. Global land cover product at 10 m based on Sentinel-1 and 2 data](https://esa-worldcover.org/en)
 - [España. Estadísticas de mercado de trabajo](https://www.mites.gob.es/es/estadisticas/mercado_trabajo/index.htm)
 - [España. Inmigración. Estadísticas](https://www.inclusion.gob.es/web/opi/estadisticas)
 - [España. Seguridad Social. Estadísticas](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas)
@@ -195,6 +196,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Land Information New Zealand (LINZ) Data Service](https://data.linz.govt.nz/)
 - [Legacy Aircraft Noise and Performance (ANP) data](https://www.easa.europa.eu/en/domains/environment/policy-support-and-research/aircraft-noise-and-performance-anp-data/anp-legacy-data)
 - [LinkedIn - Data for Impact](https://economicgraph.linkedin.com/data-for-impact)
+- [Logibook](https://logibook.dataint.net/es/paises/espana) - Datos de referencia de comercio y logística por país: 250 países, 98 conjuntos de datos con licencia abierta (NGA World Port Index, OurAirports, UN/LOCODE, listas SMDG, UNCTAD, Banco Mundial LPI, CEPII BACI). Para España: 49 puertos, 60 aeropuertos, 1.218 ubicaciones y 23 zonas de comercio.
 - [Lista de algunos datatsets dentro de paquetes de R](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
 - [M3LEO: A Multi-Modal Multi-Label Earth Observation Dataset](https://huggingface.co/M3LEO)
 - [Mapas de Open Street Maps](http://download.geofabrik.de/)
@@ -234,7 +236,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Open Data Barometer](https://opendatabarometer.org/?_year=2017&indicator=ODB)
 - [Open data EMT](http://opendata.emtmadrid.es/)
 - [Open Data Inception. 1.600 portales abiertos](http://wwwhatsnew.com/2016/03/19/open-data-inception-recopilacion-de-1600-portales-de-datos-abiertos/?utm_content=buffer4e4d4&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
-- [Open Data Renfe](http://data.renfe.com/)
+- [Open Data Renfe](https://data.renfe.com/)
 - [Open Data Sources Database](https://anthonyhuntley.com/data-science-databases/#DataSourceDatabase)
 - [Open High-Resolution Satellite Imagery: The WorldStrat Dataset -- With Application to Super-Resolution](https://arxiv.org/abs/2207.06418)
 - [Open Topography](https://opentopography.org/) - Various high-resolution DEM datasets from LiDAR and other sources
