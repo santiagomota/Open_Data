@@ -14,6 +14,8 @@ license:
 urlcolor: blue
 always_allow_html: true
 output:
+  word_document:  default
+  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -23,8 +25,6 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
-  word_document:  default
-  pdf_document:   default
 ---
 
 ```{r}
@@ -320,7 +320,7 @@ usethis::use_course(
 - [SEN12MS-CR. 22,218 patch triplets of corresponding Sentinel-1 dual-pol SAR data, Sentinel-2 multi-spectral images, and cloud-covered Sentinel-2 multi-spectral images](https://mediatum.ub.tum.de/1554803)
 - [Sen2Like](https://docs.openeo.cloud/usecases/ard/sen2like/#_1-sen2like-for-rgb)
 - [SEN2NAIP - Remote sensing dataset designed to support conventional and reference-based SR model training](https://huggingface.co/datasets/isp-uv-es/SEN2NAIP)
-- [Sentinel Hub NoR Sponsored Accounts and Data Collections](https://www.sentinel-hub.com/Network-of-Resources/)
+- [Sentinel Hub](https://www.sentinel-hub.com/) — Plataforma de acceso y procesamiento de imágenes de satélite. [NoR Sponsored Accounts and Data Collections](https://www.sentinel-hub.com/Network-of-Resources/).
 - [Sentinel Satellite Data](https://browser.dataspace.copernicus.eu)
 - [Sentinel-5P](https://developers.google.com/earth-engine/datasets/catalog/sentinel-5p)
 - [Sentinel-2 data set for the delineation of agricultural field boundaries in Flevoland, The Netherlands](https://phys-techsciences.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/dans-x8d-p6zm)
@@ -387,6 +387,75 @@ usethis::use_course(
 - Open Charge Map. Global Open Data registry of electric vehicle charging locations. [Export](https://github.com/openchargemap/ocm-export) y [Ejemplo](https://tech.marksblogg.com/open-charge-map-global-ev-charging-point-dataset.html)
 - SSL4EO-S12 dataset. Large-scale multimodal multitemporal dataset for unsupervised/self-supervised pre-training in Earth observation [Paper](https://arxiv.org/abs/2211.07044) [Github](https://github.com/zhu-xlab/SSL4EO-S12)
 - World Bank Open Data [1](https://data.worldbank.org/) y [2](https://datacatalog.worldbank.org/)
+
+
+## Visores, seguimiento y portales temáticos
+
+Recursos revisados a partir de la [recopilación de Arquivo Curioso](https://x.com/arquivocurioso/status/2099780475883553120) (16 de septiembre de 2026). Incluyen observaciones, previsiones, simulaciones y catálogos con distintas frecuencias de actualización. El acceso público a un visor no implica que sus datos tengan una licencia abierta ni que se actualicen en tiempo real. Antes de descargar o reutilizar información, consultar la licencia, las condiciones de acceso y la fecha de los datos.
+
+
+### Meteorología, clima y observación de la Tierra
+
+- [Ventusky](https://ventusky.com/) — Mapas de previsión meteorológica, precipitación y oleaje.
+- [Earth Nullschool](https://earth.nullschool.net/) — Visualización de viento, condiciones atmosféricas y corrientes oceánicas a partir de modelos.
+- [NASA Worldview](https://worldview.earthdata.nasa.gov/) — Exploración de imágenes de satélite por fecha y variable.
+- [Climate Reanalyzer](https://climatereanalyzer.org/) — Mapas y series de variables climáticas y anomalías.
+- [NOAA National Hurricane Center](https://nhc.noaa.gov/) — Boletines, previsiones y seguimiento de ciclones tropicales.
+- [Tropical Tidbits](https://tropicaltidbits.com/) — Visualización de modelos meteorológicos y análisis de ciclones tropicales.
+- [AirNow Fire and Smoke Map](https://fire.airnow.gov/) — Mapa de calidad del aire, humo e incendios, centrado en Estados Unidos.
+- [World Air Quality Index (AQICN / WAQI)](https://aqicn.org/) · [Mapa WAQI](https://waqi.info/) — Mapas de calidad del aire; comprobar las condiciones de uso y redistribución.
+- [NSIDC](https://nsidc.org/) — Datos e información sobre nieve, hielo marino, glaciares y criosfera.
+- [NASA Sea Level Change](https://sealevel.nasa.gov/) — Información, indicadores y recursos sobre cambios del nivel del mar.
+- [NOAA Tides and Currents](https://tidesandcurrents.noaa.gov/) — Observaciones y predicciones de mareas, niveles del agua y corrientes.
+- [USGS Water Data](https://waterdata.usgs.gov/) — Observaciones hidrológicas, caudales y niveles de agua en Estados Unidos.
+- [U.S. Drought Monitor](https://droughtmonitor.unl.edu/) — Mapas y series semanales de sequía en Estados Unidos.
+
+### Sismicidad y volcanes
+
+- [VolcanoDiscovery](https://volcanodiscovery.com/) — Información y seguimiento de volcanes y terremotos.
+- [EMSC](https://emsc-csem.org/) — Información y seguimiento de terremotos.
+- [SeismicPortal](https://seismicportal.eu/) — Servicios y acceso a información sísmica.
+- [Raspberry Shake](https://raspberryshake.org/) — Red de sensores sísmicos y herramientas de visualización; revisar las condiciones de acceso a datos.
+- [Smithsonian Global Volcanism Program](https://volcano.si.edu/) — Catálogo de volcanes, erupciones e informes de actividad.
+- [U.S. Tsunami Warning Centers](https://tsunami.gov/) — Boletines y alertas oficiales de tsunami.
+
+
+### Astronomía y meteorología espacial
+
+- [Heavens-Above](https://heavens-above.com/) — Predicciones de pasos de satélites y de la Estación Espacial Internacional.
+- [TheSkyLive](https://theskylive.com/) — Efemérides y posiciones de objetos del sistema solar.
+- [SpaceWeather.com](https://spaceweather.com/) — Noticias y observaciones sobre actividad solar y meteorología espacial.
+- [NOAA Space Weather Prediction Center](https://www.spaceweather.gov/) — Observaciones, predicciones y alertas de meteorología espacial.
+- [NASA Spot the Station](https://www.nasa.gov/spot-the-station/) — Información para observar los pasos de la Estación Espacial Internacional.
+- [N2YO](https://n2yo.com/) — Seguimiento y predicciones orbitales de satélites.
+- [Solar System Scope](https://solarsystemscope.com/) — Simulación y exploración del sistema solar; las posiciones representadas no son observaciones en directo.
+- [NASA CNEOS](https://cneos.jpl.nasa.gov/) — Datos y análisis de objetos cercanos a la Tierra y aproximaciones orbitales.
+- [American Meteor Society Fireball Reports](https://fireball.amsmeteors.org/) — Informes ciudadanos y eventos de bólidos observados.
+- [Light Pollution Map](https://lightpollutionmap.info/) — Visualización de capas de contaminación lumínica; comprobar la fecha y procedencia de cada capa.
+- [SunCalc](https://suncalc.org/) — Cálculo de trayectoria solar, salida y puesta del Sol para una fecha y ubicación.
+
+
+### Transporte, energía e Internet
+
+- [ADS-B Exchange](https://adsbexchange.com/) — Visualización del tráfico aéreo mediante observaciones ADS-B; comprobar las condiciones de acceso a datos.
+- [OpenSky Network](https://opensky-network.org/) — Observaciones de tráfico aéreo y servicios de acceso a datos; revisar requisitos y condiciones.
+- [OpenRailwayMap](https://openrailwaymap.org/) — Mapa de infraestructura ferroviaria basado en OpenStreetMap; no representa posiciones de trenes en directo.
+- [Electricity Maps](https://electricitymaps.com/) — Visualización del sistema eléctrico y de su intensidad de carbono; acceso a datos sujeto a modalidad y condiciones.
+- [Energy-Charts](https://energy-charts.info/) — Gráficos y datos de generación eléctrica y mercados energéticos.
+- [Gridwatch](https://gridwatch.co.uk/) — Indicadores de demanda y generación de la red eléctrica británica.
+- [NetBlocks](https://netblocks.org/) — Análisis e informes sobre conectividad e interrupciones de Internet.
+- [Cloudflare Radar](https://radar.cloudflare.com/) — Indicadores agregados sobre tráfico, conectividad y seguridad de Internet.
+- [WebSDR](https://websdr.org/) — Directorio de receptores de radio que pueden escucharse desde el navegador.
+
+
+### Biodiversidad y seguimiento de fauna
+
+- [OCEARCH](https://ocearch.org/) — Seguimiento de animales marinos etiquetados.
+- [BirdCast](https://birdcast.info/) — Información y mapas sobre migración de aves a partir de radar, centrados en Estados Unidos.
+- [eBird](https://ebird.org/) — Observaciones de aves, mapas y recursos de datos ornitológicos; revisar condiciones de descarga.
+- [Movebank](https://movebank.org/) — Repositorio de seguimiento de animales; la disponibilidad depende de cada estudio y sus permisos.
+- [iNaturalist](https://inaturalist.org/) — Observaciones de biodiversidad; las licencias dependen del registro y del material asociado.
+- [GBIF](https://gbif.org/) — Portal de registros de biodiversidad y descargas; revisar la licencia de cada conjunto.
 
 
 ## Otras referencias interesantes
@@ -491,7 +560,7 @@ usethis::use_course(
 - Using Geospatial Data in R [Post](https://www.r-bloggers.com/2021/06/using-geospatial-data-in-r/) & [Github](https://github.com/SocialScienceDataLab/MZES_SSDL_Georeferenced_Survey_Data)
 - [Utilizando Sweave y Knitr](https://support.posit.co/hc/en-us/articles/200552056-Using-Sweave-and-knitr)
 - [Writing an R package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
-- Global Fishing Watch. AI and satellite imagery to reveal the expanding footprint of human activity at sea. [Post](https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/?utm_source=GFW+subscribers&utm_campaign=9363c93195-EMAIL_CAMPAIGN_JAN_2024_CURRENT_ENGLISH&utm_medium=email&utm_term=0_-9363c93195-%5BLIST_EMAIL_ID%5D). [Github](https://github.com/GlobalFishingWatch/paper-industrial-activity/tree/main). [Train data](https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_training_data/24309469). [Analysis data](https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_analysis_data/24309475) and [Vessel detection from Sentinel-1 SAR](https://globalfishingwatch.org/data-download/datasets/public-sar-vessel-detections:v20231026)
+- [Global Fishing Watch](https://globalfishingwatch.org/). AI and satellite imagery to reveal the expanding footprint of human activity at sea. [Post](https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/?utm_source=GFW+subscribers&utm_campaign=9363c93195-EMAIL_CAMPAIGN_JAN_2024_CURRENT_ENGLISH&utm_medium=email&utm_term=0_-9363c93195-%5BLIST_EMAIL_ID%5D). [Github](https://github.com/GlobalFishingWatch/paper-industrial-activity/tree/main). [Train data](https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_training_data/24309469). [Analysis data](https://figshare.com/articles/journal_contribution/Satellite_mapping_reveals_extensive_industrial_activity_at_sea_-_analysis_data/24309475) and [Vessel detection from Sentinel-1 SAR](https://globalfishingwatch.org/data-download/datasets/public-sar-vessel-detections:v20231026)
 - Legalidad Web sraping: [Is Web Scraping Legal? : The Definitive Guide (2024 update)](https://prowebscraper.com/blog/is-web-scraping-legal/)
 - Pautas para dar formato al código programando en R: [Google](https://google.github.io/styleguide/Rguide.xml), [Hadley Wickham (RStudio)](http://adv-r.had.co.nz/Style.html) y [Coding Club](https://ourcodingclub.github.io/2017/04/25/etiquette.html#syntax)
 - Sistemas de Coordenadas. [Aqui](https://rspatial.org/spatial/rst/6-crs.html) y [aqui](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf)
