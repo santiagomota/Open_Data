@@ -188,6 +188,7 @@ usethis::use_course(
 - [FAO Map Catalog](https://data.apps.fao.org/catalog/)
 - [FAO's Global Information System on Water and Agriculture](https://www.fao.org/aquastat/en/geospatial-information/wapor)
 - [FBREF - Estadísticas e Historia del Fútbol](https://fbref.com/es/)
+- [Football Charts - Datos abiertos de fútbol, probabilidades Dixon-Coles y simulaciones (93 ligas, CC-BY-4.0)](https://www.football-charts.com/data)
 - [Fields of The World (FTW)](https://beta.source.coop/repositories/kerner-lab/fields-of-the-world/description/)
 - [Fivethirtyeight](https://data.fivethirtyeight.com/)
 - [FLUXNET](https://fluxnet.org/) - Data from flux towers for carbon, water, and energy exchange monitoring.
