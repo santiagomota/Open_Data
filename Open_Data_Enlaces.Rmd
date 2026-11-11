@@ -15,7 +15,6 @@ urlcolor: blue
 always_allow_html: true
 output:
   word_document:  default
-  pdf_document:   default
   html_document: 
     theme:        cosmo # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
     highlight:    tango # "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", "textmate"
@@ -25,6 +24,7 @@ output:
     always_allow_html: true
     includes:
       after_body: footer_V2.html
+  pdf_document:   default
 ---
 
 ```{r}
@@ -111,6 +111,7 @@ usethis::use_course(
 - [AWS Open Data Geo](https://github.com/opengeos/aws-open-data-geo)
 - [AWS Open Data](https://github.com/opengeos/aws-open-data)
 - [Ayuntamiento de Madrid. Censo de locales, sus actividades y terrazas de hostelería y restauración](https://datos.gob.es/es/catalogo/l01280796-censo-de-locales-sus-actividades-y-terrazas-de-hosteleria-y-restauracion)
+- [La vivienda en Barcelona, en datos (bcndades)](https://bcndades.cat/vivienda-en-barcelona/)
 - [Berkeley Earth](https://berkeleyearth.org/data/) - Global land temperature and air pollution datasets.
 - [Blog. 100 recursos sobre Big Data y Data Science](https://www.todobi.com/mas-de-100-recursos-sobre-big-data-y/)
 - [British Ordnance Survey Data Hub](https://osdatahub.os.uk/)
@@ -156,6 +157,7 @@ usethis::use_course(
 - [Datos Abiertos del Consorcio Regional de Transportes de Madrid](https://datos.crtm.es/)
 - [Datos abiertos del gobierno de España](http://datos.gob.es/)
 - [Datos abiertos Junta de Andalucía](http://www.juntadeandalucia.es/datosabiertos/portal.html)
+- [DatosClaros](https://www.datosclaros.es/)
 - [Datos de la Eurocopa 2024](https://github.com/Jelagmil/Euro2024_data)
 - [Datos de todos los vuelos en USA entre 1987 y 2008 (datos originales)](http://stat-computing.org/dataexpo/2009/the-data.html)
 - [Datos de todos los vuelos en USA entre 1987 y 2008 (otra fuente y ejemplos de uso en H2O). 120G](https://github.com/h2oai/h2o-2/wiki/Hacking-Airline-DataSet-with-H2O)

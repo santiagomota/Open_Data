@@ -123,6 +123,7 @@ usethis::use_course(
 - [AWS Open Data Geo](https://github.com/opengeos/aws-open-data-geo)
 - [AWS Open Data](https://github.com/opengeos/aws-open-data)
 - [Ayuntamiento de Madrid. Censo de locales, sus actividades y terrazas de hostelería y restauración](https://datos.gob.es/es/catalogo/l01280796-censo-de-locales-sus-actividades-y-terrazas-de-hosteleria-y-restauracion)
+- [La vivienda en Barcelona, en datos (bcndades)](https://bcndades.cat/vivienda-en-barcelona/)
 - [Berkeley Earth](https://berkeleyearth.org/data/) - Global land temperature and air pollution datasets.
 - [Blog. 100 recursos sobre Big Data y Data Science](https://www.todobi.com/mas-de-100-recursos-sobre-big-data-y/)
 - [British Ordnance Survey Data Hub](https://osdatahub.os.uk/)

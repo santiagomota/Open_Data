@@ -194,6 +194,7 @@ Y se aloja en las webs [Github](https://santiagomota.github.io/Open_Data/) y [Ne
 - [Kaggle datasets](https://www.kaggle.com/datasets)
 - [Kaggle Weekly Kernels Award Winner Announcements](https://www.kaggle.com/general/37924#post354114)
 - [Land Information New Zealand (LINZ) Data Service](https://data.linz.govt.nz/)
+- [La vivienda en Barcelona, en datos (bcndades)](https://bcndades.cat/vivienda-en-barcelona/)
 - [Legacy Aircraft Noise and Performance (ANP) data](https://www.easa.europa.eu/en/domains/environment/policy-support-and-research/aircraft-noise-and-performance-anp-data/anp-legacy-data)
 - [LinkedIn - Data for Impact](https://economicgraph.linkedin.com/data-for-impact)
 - [Logibook](https://logibook.dataint.net/es/paises/espana) - Datos de referencia de comercio y logística por país: 250 países, 98 conjuntos de datos con licencia abierta (NGA World Port Index, OurAirports, UN/LOCODE, listas SMDG, UNCTAD, Banco Mundial LPI, CEPII BACI). Para España: 49 puertos, 60 aeropuertos, 1.218 ubicaciones y 23 zonas de comercio.
@@ -568,6 +569,7 @@ Recursos revisados a partir de la [recopilación de Arquivo Curioso](https://x.c
 - [Forecasting: Principles and Practice, the Pythonic Way](https://otexts.com/fpppy/)
 - [Forecasting and Analytics with the Augmented Dynamic Adaptive Model (ADAM)](https://openforecast.org/adam/)
 - [Feature Engineering A-Z](https://feaz-book.com/)
+- [Football Charts Open Data](https://www.football-charts.com/data)
 - [Geospatial Data Carpentry for Urbanism](https://carpentries-incubator.github.io/r-geospatial-urban/)
 - [Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](http://www.paulamoraga.com/book-geospatial/)
 - [Handbook of Graphs and Networks in People Analytics With Examples in R and Python](https://ona-book.org/)

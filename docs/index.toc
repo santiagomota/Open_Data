@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Fuentes de datos abiertos y APIs}{4}{section.1}%
+\contentsline {section}{\numberline {2}Visores, seguimiento y portales temáticos}{13}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Meteorología, clima y observación de la Tierra}{13}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Sismicidad y volcanes}{13}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Astronomía y meteorología espacial}{14}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Transporte, energía e Internet}{14}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Biodiversidad y seguimiento de fauna}{15}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Otras referencias interesantes}{15}{section.3}%
+\contentsline {section}{\numberline {4}Libros}{18}{section.4}%
+\contentsline {section}{\numberline {5}Generar códigos QR}{21}{section.5}%
+\contentsline {section}{\numberline {6}Revisar los links}{23}{section.6}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

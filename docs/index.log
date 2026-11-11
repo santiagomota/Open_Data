@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.10.24)  16 SEP 2026 07:24
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.10.24)  11 NOV 2026 14:49
  restricted system commands enabled.
 **index.tex
 (./index.tex
@@ -722,9 +722,9 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count345
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 207.
-No file index.aux.
-
+(./index.aux)
 \openout1 = index.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 214.
 LaTeX Font Info:    ... okay on input line 214.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 214.
@@ -918,4 +918,4 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.3075->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"<6.57-9.3075>s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;+ssty=0;"<-6.57>s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;languag
+(fontspec)             <9.3075->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"<6.57-9.3075>s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;+ssty=0;"<-6.57>s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dfl
