@@ -422,6 +422,7 @@ Recursos revisados a partir de la [recopilación de Arquivo Curioso](https://x.c
 - [An Introduction to Statistical Learning - Web R & Python](https://www.statlearning.com/)
 - [Awesome Data Science](https://github.com/academic/awesome-datascience)
 - [Awesome R](https://github.com/qinwf/awesome-R)
+- [BCN Dades](https://bcndades.cat/) — Datos abiertos de Barcelona explicados barrio a barrio (en catalán): población, renta, vivienda, pisos turísticos, arbolado y presupuesto, con la fuente de Open Data BCN enlazada.
 - [BigEarthNet A Large-Scale Sentinel Benchmark Archive](https://bigearth.net/)
 - [Bivariate Choropleth Maps: A How-to Guide](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/)
 - [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/)
@@ -443,6 +444,7 @@ Recursos revisados a partir de la [recopilación de Arquivo Curioso](https://x.c
 - [Data Scientist Roadmap](https://github.com/MrMimic/data-scientist-roadmap)
 - [Data Viz Catalogue](https://graphica.app/catalogue)
 - [Dataviz Project](https://datavizproject.com/)
+- [DatosClaros](https://www.datosclaros.es/) — Datos públicos de España explicados con claridad: encuestas y programas electorales, ley D'Hondt, economía, empleo y vivienda, con la fuente oficial (INE, CIS, Ministerio del Interior, BOE) enlazada en cada cifra.
 - [Dealing with Regular Expressions](http://uc-r.github.io/regex)
 - [Ejemplos de Shiny](http://zevross.com/blog/2016/04/19/r-powered-web-applications-with-shiny-a-tutorial-and-cheat-sheet-with-40-example-apps/)
 - [Estadística con R](https://www.cienciadedatos.net/estadistica-con-r.html)
